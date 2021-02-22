@@ -1,0 +1,101 @@
+{
+  "resourceType": "Observation",
+  "id": "1e7076db-ac4c-45dc-9e66-973ad7c99fdf",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Examination|1.0.0"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://test.test/testsystem/test01",
+      "value": "1234567890"
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+        "code": "363787002:246093002=120737006,704318007=118590008,370134009=123029007,370132008=30766002,704319004=50863008,704327008=119364003",
+        "display": "Observable entity (observable entity) : Component (attribute) = Rubella virus antibody (substance) , Property type (attribute) = Dilution factor expressed as titer (property) (qualifier value) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Quantitative (qualifier value) , Inheres in (attribute) = Blood group antibody (substance) , Direct site (attribute) = Serum specimen (specimen)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Röteln Virus Antikörper im Serum, Titer"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.68",
+        "code": "22497-2",
+        "display": "Rubella virus Ab [Titer] in Serum",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Röteln Virus Antikörper im Serum, Titer"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:eed581f6-6830-4ca2-9e17-8b3aba3b82fb"
+  },
+  "encounter": {
+    "reference": "urn:uuid:b7a1460a-b530-4c77-9369-1c4886d74759"
+  },
+  "effectiveDateTime": "2021-06-29",
+  "performer": [
+    {
+      "reference": "urn:uuid:b9cfa843-3b07-4b02-80f9-3370e3f9563e"
+    }
+  ],
+  "valueQuantity": {
+    "value": 32,
+    "unit": "{titer}",
+    "system": "http://unitsofmeasure.org",
+    "code": "{titer}"
+  },
+  "interpretation": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+          "code": "278968001",
+          "display": "Rubella immune (finding)",
+          "_display": {
+            "extension": [
+              {
+                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                "extension": [
+                  {
+                    "url": "content",
+                    "valueString": "Immunität erreicht"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

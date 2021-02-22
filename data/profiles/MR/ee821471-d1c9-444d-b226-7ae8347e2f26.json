@@ -1,0 +1,51 @@
+{
+  "resourceType": "Observation",
+  "id": "ee821471-d1c9-444d-b226-7ae8347e2f26",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Age|1.0.0"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+        "code": "424144002",
+        "display": "Current chronological age (observable entity)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Alter"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:eed581f6-6830-4ca2-9e17-8b3aba3b82fb"
+  },
+  "encounter": {
+    "reference": "urn:uuid:b7a1460a-b530-4c77-9369-1c4886d74759"
+  },
+  "effectiveDateTime": "2021-06-29",
+  "performer": [
+    {
+      "reference": "urn:uuid:b9cfa843-3b07-4b02-80f9-3370e3f9563e"
+    }
+  ],
+  "valueQuantity": {
+    "value": 31,
+    "unit": "Jahre",
+    "system": "http://unitsofmeasure.org",
+    "code": "a"
+  }
+}

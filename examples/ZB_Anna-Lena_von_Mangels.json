@@ -1,0 +1,260 @@
+{
+    "resourceType": "Bundle",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Bundle|1.00.000"
+        ]
+    },
+    "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "0edd23bb-anna-41e1-a66a-b6fa02375ef0"
+    },
+    "type": "document",
+    "timestamp": "2019-12-23T12:30:02Z",
+    "entry": [
+        {
+            "fullUrl": "http://pvs.praxis-topp-gluecklich.local/fhir/Composition/2c3a4aa6-cbea-4ac1-a6e5-865b93424e0a",
+            "resource": {
+                "resourceType": "Composition",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Composition|1.00.000"
+                    ]
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "28618-7",
+                            "display": "Dentistry Note"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200309",
+                            "code": "371525003",
+                            "display": "Clinical procedure report (record artifact)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679d00000000"
+                },
+                "date": "2020-01-01T12:30:02Z",
+                "author": [
+                    {
+                        "reference": "d6259485-ec02-43a9-a476-dc1b7baa05bf"
+                    }
+                ],
+                "title": "Bonushefteintrag",
+                "section": [
+                    {
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:321c66be-ea2e-4559-9e3d-b6f2326f2dcf"
+                            },
+                            {
+                                "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679d00000000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://pvs.praxis-topp-gluecklich.local/fhir/Patient/9774f67f-a238-4daf-b4e6-679d00000000",
+            "resource": {
+                "resourceType": "Patient",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Patient|1.00.000"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                                    "code": "GKV"
+                                }
+                            ]
+                        },
+                        "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
+                        "value": "A025071892"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Anna-Lena Gräfin von Mangels, geb. Schrell",
+                        "family": "Gräfin von Mangels",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Mangels"
+                                },
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix",
+                                    "valueString": "von"
+                                },
+                                {
+                                    "url": "http://fhir.de/StructureDefinition/humanname-namenszusatz",
+                                    "valueString": "Gräfin"
+                                }
+                            ]
+                        },
+                        "given": ["Anna-Lena"]
+                    }
+                ],
+                "birthDate": "2004-02-06",
+                "address": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct",
+                                "valueString": "Mitte"
+                            }
+                        ],
+                        "type": "both",
+                        "line": ["Musterweg 42", "Mitte"],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Musterweg"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "42"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator",
+                                        "valueString": "Hinterhof"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Berlin",
+                        "postalCode": "10787",
+                        "country": "D"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://pvs.praxis-topp-gluecklich.local/fhir/Organization/d6259485-ec02-43a9-a476-dc1b7baa05bf",
+            "resource": {
+                "resourceType": "Organization",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Organization|1.00.000"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                                    "code": "ZANR"
+                                }
+                            ]
+                        },
+                        "system": "http://fhir.de/NamingSystem/kzbv/zahnarztnummer",
+                        "value": "12345678"
+                    }
+                ],
+                "name": "Dr. med. Hans Topp-Glücklich",
+                "address": [
+                    {
+                        "type": "both",
+                        "text": "Musterweg 1, 10787 Berlin, Deutschland",
+                        "line": ["Musterweg 1"],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Musterweg"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "1"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Berlin",
+                        "postalCode": "10787",
+                        "country": "D"
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "email",
+                        "value": "hans@topp-gluecklich.de"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://pvs.praxis-topp-gluecklich.local/fhir/Observation/321c66be-ea2e-3000-9e3d-b6f2326f2dcf",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Observation|1.00.000"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200309",
+                            "code": "2115003",
+                            "display": "Dental prophylaxis, children (procedure)"
+                        }
+                    ],
+                    "text": "Individualprophylaxe"
+                },
+                "subject": {
+                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679d00000000"
+                },
+                "effectiveDateTime": "2019-09-02",
+                "valueBoolean": true
+            }
+        },
+        {
+            "fullUrl": "http://pvs.praxis-topp-gluecklich.local/fhir/Observation/321c66be-ea2e-4559-9e3d-b6f2326f2dcf",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Observation|1.00.000"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200309",
+                            "code": "63963009",
+                            "display": "Dental prophylaxis, adult (procedure)"
+                        }
+                    ],
+                    "text": "Zahnärztliche Untersuchung"
+                },
+                "subject": {
+                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679d00000000"
+                },
+                "effectiveDateTime": "2020-03-17",
+                "valueBoolean": true
+            }
+        }
+    ]
+}

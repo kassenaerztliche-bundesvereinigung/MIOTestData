@@ -1,0 +1,33 @@
+{
+    "resourceType": "Organization",
+    "id": "cf042e44-086a-4d51-9c77-172f9a972e3b",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Organization|1.00.000"
+        ]
+    },
+    "name": "Dr. med. Hans Topp-Glücklich",
+    "address": [
+        {
+            "type": "both",
+            "line": ["Musterstr. 1"],
+            "_line": [
+                {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                            "valueString": "1"
+                        },
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                            "valueString": "Musterstr."
+                        }
+                    ]
+                }
+            ],
+            "city": "Darmstadt",
+            "postalCode": "64283",
+            "country": "D"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="d6259485-ec02-43a9-a476-dc1b7baa05bf" />
+  <meta>
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Organization|1.00.000" />
+  </meta>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
+        <code value="ZANR" />
+      </coding>
+    </type>
+    <system value="http://fhir.de/NamingSystem/kzbv/zahnarztnummer" />
+    <value value="12345678" />
+  </identifier>
+  <name value="Dr. med. Hans Topp-Glücklich" />
+  <address>
+    <type value="both" />
+    <text value="Musterweg 1, 10787 Berlin, Deutschland" />
+    <line value="Musterweg 1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
+        <valueString value="Musterweg" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
+        <valueString value="1" />
+      </extension>
+    </line>
+    <city value="Berlin" />
+    <postalCode value="10787" />
+    <country value="D" />
+  </address>
+</Organization>

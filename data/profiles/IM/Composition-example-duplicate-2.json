@@ -1,0 +1,85 @@
+{
+    "resourceType": "Composition",
+    "id": "dcdeee3f-63b2-4df7-ad27-7d8b7f68981a",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Composition_Prime|1.00.000"
+        ]
+    },
+    "status": "final",
+    "type": {
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "code": "11369-6",
+                "display": "HISTORY OF IMMUNIZATIONS"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+    },
+    "date": "2018-07-01T12:30:02Z",
+    "author": [
+        {
+            "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+        }
+    ],
+    "title": "Impfeintrag-/einträge",
+    "section": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                        "code": "IMMUNIZ"
+                    }
+                ]
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:2d2a0ad2-1d60-44fa-82a4-28c55635857a"
+                }
+            ]
+        },
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                        "code": "COBSCAT"
+                    }
+                ]
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:006f0ae8-bc5c-46b0-8042-e06a4b5185db"
+                }
+            ]
+        },
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org",
+                        "code": "11348-0"
+                    }
+                ]
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d"
+                }
+            ],
+            "section": [
+                {
+                    "entry": [
+                        {
+                            "reference": "urn:uuid:a2108e08-32ca-4f22-985c-6f0279f5c89c"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

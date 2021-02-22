@@ -1,0 +1,33 @@
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="6d92d417-8a0d-42b9-959f-567ab2f4650f" />
+  <meta>
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Composition_Addendum|1.00.000" />
+  </meta>
+  <status value="final" />
+  <type>
+    <coding>
+      <system value="http://loinc.org" />
+      <code value="11369-6" />
+      <display value="HISTORY OF IMMUNIZATIONS" />
+    </coding>
+  </type>
+  <subject>
+    <reference value="urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811" />
+  </subject>
+  <date value="2018-07-01T12:30:02Z" />
+  <author>
+    <reference value="urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1" />
+  </author>
+  <title value="Impfeintrag-/einträge Nach-/Übertrag" />
+  <section>
+    <code>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
+        <code value="IMMUCAT" />
+      </coding>
+    </code>
+    <entry>
+      <reference value="urn:uuid:ff258b30-915f-4561-b356-7b30e7a9393a" />
+    </entry>
+  </section>
+</Composition>

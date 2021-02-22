@@ -1,0 +1,47 @@
+{
+    "resourceType": "Composition",
+    "id": "2c3a4aa6-cbea-4ac1-a6e5-865b93424e0a",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Composition|1.00.000"
+        ]
+    },
+    "status": "final",
+    "type": {
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "code": "28618-7",
+                "display": "Dentistry Note"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200309",
+                "code": "371525003",
+                "display": "Clinical procedure report (record artifact)"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:ba5f36ef-84e9-4a83-852b-e74dac4014ed"
+    },
+    "date": "2018-07-01T12:30:02Z",
+    "author": [
+        {
+            "reference": "d6259485-ec02-43a9-a476-dc1b7baa05bf"
+        }
+    ],
+    "title": "Bonushefteintrag",
+    "section": [
+        {
+            "entry": [
+                {
+                    "reference": "urn:uuid:321c66be-ea2e-4559-9e3d-b6f2326f2dcf"
+                },
+                {
+                    "reference": "urn:uuid:ba5f36ef-84e9-4a83-852b-e74dac4014ed"
+                }
+            ]
+        }
+    ]
+}

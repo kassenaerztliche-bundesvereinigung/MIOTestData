@@ -1,0 +1,37 @@
+{
+    "resourceType": "Patient",
+    "id": "minf36ef-84e9-4a83-852b-e74dac4014ed",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Patient|1.00.000"
+        ]
+    },
+    "identifier": [
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                        "code": "GKV"
+                    }
+                ]
+            },
+            "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
+            "value": "1234567890"
+        }
+    ],
+    "name": [
+        {
+            "use": "official",
+            "family": "Mindestens",
+            "given": ["Maik"]
+        }
+    ],
+    "birthDate": "1990-01-01",
+    "address": [
+        {
+            "type": "both",
+            "line": []
+        }
+    ]
+}

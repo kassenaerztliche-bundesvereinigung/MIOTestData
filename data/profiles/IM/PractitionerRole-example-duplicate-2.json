@@ -1,0 +1,15 @@
+{
+    "resourceType": "PractitionerRole",
+    "id": "a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole|1.00.000"
+        ]
+    },
+    "practitioner": {
+        "reference": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
+    },
+    "organization": {
+        "reference": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b"
+    }
+}

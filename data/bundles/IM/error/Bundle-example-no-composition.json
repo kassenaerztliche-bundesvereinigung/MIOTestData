@@ -1,0 +1,178 @@
+{
+    "resourceType": "Bundle",
+    "id": "001578f8-0min-4add-afd9-d83227516e47",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Bundle_Entry|1.00.000"
+        ],
+        "lastUpdated": "2019-12-24T12:30:02Z"
+    },
+    "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "001578f8-0min-4add-afd9-d83227516e47"
+    },
+    "type": "document",
+    "timestamp": "2019-12-23T12:30:02Z",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:ff258b30-915f-4561-b356-7b30e7a9393a",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "ff258b30-915f-4561-b356-7b30e7a9393a",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Addendum|1.00.000"
+                    ]
+                },
+                "text": {
+                    "status": "extensions",
+                    "div": "TBD"
+                },
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200131",
+                            "code": "33234009",
+                            "display": "Smallpox vaccine"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                },
+                "occurrenceDateTime": "2019-12-23",
+                "primarySource": false,
+                "reportOrigin": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/ValueSet/immunization-origin",
+                            "code": "recall"
+                        }
+                    ],
+                    "text": "Eltern/Patienten Erinnerung"
+                },
+                "protocolApplied": [
+                    {
+                        "targetDisease": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "version": "http://snomed.info/sct/900000000000207008/version/20200131",
+                                        "code": "67924001",
+                                        "display": "Smallpox (disorder)"
+                                    }
+                                ],
+                                "text": "Pocken"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "9774f67f-a238-4daf-b4e6-679deeef3811",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Patient|1.00.000"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Patient: Maik Mindestens</p></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
+                        "value": "1234567890"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Mindestens",
+                        "given": ["Maik"]
+                    }
+                ],
+                "birthDate": "1972-06-22"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:0eecc686-434d-4b8a-9009-4242377e0db6",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "0eecc686-434d-4b8a-9009-4242377e0db6",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner_Addendum|1.00.000"
+                    ]
+                },
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Bester",
+                        "given": ["Hartmut"],
+                        "prefix": ["Dr. med."]
+                    }
+                ],
+                "qualification": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BAR2_WBO",
+                                    "code": "010"
+                                }
+                            ],
+                            "text": "FA Allgemeinmedizin"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2",
+            "resource": {
+                "resourceType": "PractitionerRole",
+                "id": "2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole_Addendum|1.00.000"
+                    ]
+                },
+                "practitioner": {
+                    "reference": "urn:uuid:0eecc686-434d-4b8a-9009-4242377e0db6"
+                },
+                "organization": {
+                    "reference": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "cf042e44-086a-4d51-9c77-172f9a972e3b",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Organization|1.00.000"
+                    ]
+                },
+                "name": "Praxis Mindestens",
+                "address": [
+                    {
+                        "type": "both",
+                        "city": "Darmstadt",
+                        "postalCode": "64283",
+                        "country": "D"
+                    }
+                ]
+            }
+        }
+    ]
+}

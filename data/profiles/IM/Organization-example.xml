@@ -1,0 +1,21 @@
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="cf042e44-086a-4d51-9c77-172f9a972e3b" />
+  <meta>
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Organization|1.00.000" />
+  </meta>
+  <name value="Dr. med. Hans Topp-Glücklich" />
+  <address>
+    <type value="both" />
+    <line value="Musterstr. 1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
+        <valueString value="1" />
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
+        <valueString value="Musterstr." />
+      </extension>
+    </line>
+    <city value="Darmstadt" />
+    <postalCode value="64283" />
+    <country value="D" />
+  </address>
+</Organization>

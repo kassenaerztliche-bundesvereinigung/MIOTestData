@@ -1,0 +1,46 @@
+{
+  "resourceType": "Observation",
+  "id": "671148e4-a8b8-4e75-bf8b-35c248c16965",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Urine|1.0.0"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+        "code": "364687002",
+        "display": "Urine observable (observable entity)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Urin"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
+  },
+  "encounter": {
+    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+  },
+  "effectiveDateTime": "2020-01-02",
+  "performer": [
+    {
+      "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+    }
+  ],
+  "valueString": "Ergänzende Angaben"
+}

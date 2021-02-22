@@ -1,0 +1,285 @@
+{
+    "resourceType": "Bundle",
+    "id": "001578f8-0min-4197-afd9-prime75unbes",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Bundle_Entry|1.00.000"
+        ],
+        "lastUpdated": "2019-12-24T12:30:02Z"
+    },
+    "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "001578f8-0min-4197-afd9-prime75unbes"
+    },
+    "type": "document",
+    "timestamp": "2019-12-23T12:30:02Z",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:6d92d417-8a0d-42b9-959f-567ab2f4650f",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "6d92d417-ko31-42a9-959f-567ab2f4650f",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Composition_Prime|1.00.000"
+                    ]
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "11369-6",
+                            "display": "HISTORY OF IMMUNIZATIONS"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                },
+                "date": "2020-07-01T12:30:02Z",
+                "author": [
+                    {
+                        "reference": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
+                    }
+                ],
+                "title": "Impfeintrag-/einträge",
+                "section": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                                    "code": "IMMUNIZ"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:ff258b30-915f-4561-b356-7b30e7a9393a"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:ff258b30-915f-4561-b356-7b30e7a9393a",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "ff258b30-915f-4561-b356-7b30e7a9393a",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
+                    ]
+                },
+                "text": {
+                    "status": "extensions",
+                    "div": "TBD"
+                },
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200131",
+                            "code": "33234009",
+                            "display": "Smallpox vaccine"
+                        }
+                    ],
+                    "text": "Pockenimpfstoff"
+                },
+                "patient": {
+                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                },
+                "occurrenceDateTime": "2020-05-23",
+                "primarySource": true,
+                "lotNumber": "0123456789",
+                "note": [
+                    {
+                        "text": "Bei einer ungewöhnlichen Impfreaktion sollte die impfende ärztliche Person benachrichtigt werden. Die ärztlich tätige Person hat, wenn der Verdacht einer gesundheitlichen Schädigung besteht, die über das übliche Ausmaß einer Impfreaktion hinaus geht verpflichtet, den Verdacht dem zuständigen Gesundheitsamt namentlich zu melden (§ 6 Absatz 1 Nr 3 des lnfektionsschutzgesetzes • lfSG) Im Falle eines Impfschadens besteht unter den Voraussetzungen des § 60 Absatz 1 lfSG ein Anspruch auf Entschädigung in entsprechender Anwendung der Vorschriften des Bundesversorgungsgesetzes. Der Antrag ist bei der für die Durchführung des Bundesversorgungsgesetzes zuständigen Behörde (§ 64 Absatz 1 lfSG, i.d.R. 'Versorgungsamt') zu stellen. Weitere Auskünfte erteilt das zuständige Gesundheitsamt."
+                    }
+                ],
+                "protocolApplied": [
+                    {
+                        "targetDisease": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "version": "http://snomed.info/sct/900000000000207008/version/20200131",
+                                        "code": "67924001",
+                                        "display": "Smallpox (disorder)"
+                                    }
+                                ],
+                                "text": "Pocken"
+                            }
+                        ],
+                        "_doseNumberString": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                    "valueCode": "unknown"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "9774f67f-a238-4daf-b4e6-679deeef3811",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Patient|1.00.000"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Patient: Maik Mindestens</p></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
+                        "value": "1234567890"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Maik Mustermann",
+                        "family": "Mustermann",
+                        "given": ["Maik"]
+                    }
+                ],
+                "_gender": {
+                    "extension": [
+                        {
+                            "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
+                            "valueCoding": [
+                                {
+                                    "code": "X"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "birthDate": "1972-06-22"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner|1.00.000"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "LANR"
+                                }
+                            ]
+                        },
+                        "system": "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR",
+                        "value": "838382202"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Topp-Glücklich",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Topp-Glücklich"
+                                }
+                            ]
+                        },
+                        "given": ["Hans"],
+                        "prefix": ["Dr. med."],
+                        "_prefix": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "AC"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "06151/1111111"
+                    }
+                ],
+                "qualification": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BAR2_WBO",
+                                    "code": "010",
+                                    "display": "FA Allgemeinmedizin"
+                                }
+                            ],
+                            "text": "FA Allgemeinmedizin"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
+            "resource": {
+                "resourceType": "PractitionerRole",
+                "id": "a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole|1.00.000"
+                    ]
+                },
+                "practitioner": {
+                    "reference": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
+                },
+                "organization": {
+                    "reference": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "cf042e44-086a-4d51-9c77-172f9a972e3b",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Organization|1.00.000"
+                    ]
+                },
+                "name": "Praxis Dr. med. Hans Topp-Glücklich",
+                "address": [
+                    {
+                        "type": "postal",
+                        "city": "Darmstadt",
+                        "postalCode": "64283",
+                        "country": "D"
+                    }
+                ]
+            }
+        }
+    ]
+}

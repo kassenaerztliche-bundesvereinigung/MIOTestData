@@ -1,0 +1,26 @@
+{
+    "resourceType": "Observation",
+    "id": "321c66be-ea2e-4559-9e3d-b6f2326f2dcf",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Observation|1.00.000"
+        ]
+    },
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200309",
+                "code": "63963009",
+                "display": "Dental prophylaxis, adult (procedure)"
+            }
+        ],
+        "text": "Individualprophylaxe"
+    },
+    "subject": {
+        "reference": "urn:uuid:ba5f36ef-84e9-4a83-852b-e74dac4014ed"
+    },
+    "effectiveDateTime": "2020-01-02",
+    "valueBoolean": true
+}

@@ -1,0 +1,44 @@
+{
+    "resourceType": "Patient",
+    "id": "9774f67f-a238-4daf-b4e6-679deeef3811",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Patient|1.00.000"
+        ]
+    },
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Patient: Ludger Königsstein</p></div>"
+    },
+    "identifier": [
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                        "code": "GKV"
+                    }
+                ]
+            },
+            "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
+            "value": "1234567890"
+        }
+    ],
+    "name": [
+        {
+            "use": "official",
+            "text": "Ludger Königsstein",
+            "family": "Ludger Königsstein",
+            "_family": {
+                "extension": [
+                    {
+                        "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                        "valueString": "Königsstein"
+                    }
+                ]
+            },
+            "given": ["Ludger"]
+        }
+    ],
+    "birthDate": "1935-06-22"
+}

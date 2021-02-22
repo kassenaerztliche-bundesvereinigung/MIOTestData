@@ -1,0 +1,36 @@
+<Composition>
+  <id value="2c3a4aa6-cbea-4ac1-a6e5-865b93424e0a" />
+  <meta>
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Composition|1.00.000" />
+  </meta>
+  <status value="final" />
+  <type>
+    <coding>
+      <system value="http://loinc.org" />
+      <code value="28618-7" />
+      <display value="Dentistry Note" />
+    </coding>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <version value="http://snomed.info/sct/900000000000207008/version/20200309" />
+      <code value="371525003" />
+      <display value="Clinical procedure report (record artifact)" />
+    </coding>
+  </type>
+  <subject>
+    <reference value="urn:uuid:ba5f36ef-84e9-4a83-852b-e74dac4014ed" />
+  </subject>
+  <date value="2018-07-01T12:30:02Z" />
+  <author>
+    <reference value="d6259485-ec02-43a9-a476-dc1b7baa05bf" />
+  </author>
+  <title value="Bonushefteintrag" />
+  <section>
+    <entry>
+      <reference value="urn:uuid:321c66be-ea2e-4559-9e3d-b6f2326f2dcf" />
+    </entry>
+    <entry>
+      <reference value="urn:uuid:ba5f36ef-84e9-4a83-852b-e74dac4014ed" />
+    </entry>
+  </section>
+</Composition>

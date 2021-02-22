@@ -1,0 +1,202 @@
+{
+  "resourceType": "Observation",
+  "id": "a6181ffb-b21a-403a-bb4f-3be13ad13f58",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Blood_Group_Serology|1.0.0"
+    ]
+  },
+  "extension": [
+    {
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
+      "valueString": "Diese Eintragungen entbinden den behandelnden Arzt nicht von seiner Sorgfaltspflicht (z.B. Kreuzprobe)."
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://testsystem.de/NamingSystem/test/test-10",
+      "value": "1234567890"
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+        "code": "365636006",
+        "display": "Finding of blood group (finding)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Blutgruppenzugehörigkeit"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
+  },
+  "encounter": {
+    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+  },
+  "effectiveDateTime": "2020-01-02",
+  "performer": [
+    {
+      "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+    }
+  ],
+  "note": [
+    {
+      "text": "Blutgruppenzugehörigkeit"
+    }
+  ],
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+            "code": "363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,704318007=410656007,246093002=106202009",
+            "display": "Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property type (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in ABO blood group system (substance)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                  "extension": [
+                    {
+                      "url": "content",
+                      "valueString": "AB0-System"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://loinc.org",
+            "version": "2.68",
+            "code": "883-9",
+            "display": "ABO group [Type] in Blood",
+            "_display": {
+              "extension": [
+                {
+                  "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                  "extension": [
+                    {
+                      "url": "content",
+                      "valueString": "AB0-System"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "text": "AB0"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+            "code": "112144000",
+            "display": "Blood group A (finding)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                  "extension": [
+                    {
+                      "url": "content",
+                      "valueString": "A"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "text": "Blutgruppe A"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+            "code": "363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,704318007=410656007,246093002=16951006",
+            "display": "Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property type (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in Rh blood group system (substance)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                  "extension": [
+                    {
+                      "url": "content",
+                      "valueString": "Rhesus-System"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://loinc.org",
+            "version": "2.68",
+            "code": "10331-7",
+            "display": "Rh [Type] in Blood",
+            "_display": {
+              "extension": [
+                {
+                  "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                  "extension": [
+                    {
+                      "url": "content",
+                      "valueString": "Rhesus-System"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "text": "Rhesus"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+            "code": "165747007",
+            "display": "RhD positive (finding)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                  "extension": [
+                    {
+                      "url": "content",
+                      "valueString": "RhD positiv"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "text": "Blutgruppe A"
+      }
+    }
+  ]
+}

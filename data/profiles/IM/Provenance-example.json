@@ -1,0 +1,40 @@
+{
+    "resourceType": "Provenance",
+    "id": "a2108e08-32ca-4f22-985c-6f0279f5c89c",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Provenance|1.00.000"
+        ]
+    },
+    "target": [
+        {
+            "reference": "urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d"
+        }
+    ],
+    "recorded": "2019-12-23T08:39:24+10:00",
+    "agent": [
+        {
+            "role": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200131",
+                            "code": "125677006",
+                            "display": "Relative (person)"
+                        }
+                    ],
+                    "text": "Angeh�riger"
+                }
+            ],
+            "who": {
+                "extension": [
+                    {
+                        "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                        "valueCode": "unknown"
+                    }
+                ]
+            }
+        }
+    ]
+}

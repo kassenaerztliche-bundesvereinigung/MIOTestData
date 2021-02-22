@@ -1,0 +1,81 @@
+{
+    "resourceType": "Patient",
+    "id": "ba5f36ef-84e9-4a83-852b-e74dac4014ed",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Patient|1.00.000"
+        ]
+    },
+    "identifier": [
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                        "code": "GKV"
+                    }
+                ]
+            },
+            "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
+            "value": "1234567890"
+        }
+    ],
+    "name": [
+        {
+            "use": "official",
+            "text": "Dr. Graf Ludger von Königsstein",
+            "family": "Graf Ludger von Königsstein",
+            "_family": {
+                "extension": [
+                    {
+                        "url": "http://fhir.de/StructureDefinition/humanname-namenszusatz",
+                        "valueString": "Graf"
+                    },
+                    {
+                        "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                        "valueString": "Königsstein"
+                    },
+                    {
+                        "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix",
+                        "valueString": "von"
+                    }
+                ]
+            },
+            "given": ["Ludger"]
+        }
+    ],
+    "birthDate": "1935-06-22",
+    "address": [
+        {
+            "type": "both",
+            "line": ["Musterweg 42", "Mitte"],
+            "_line": [
+                {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                            "valueString": "Musterweg"
+                        },
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                            "valueString": "42"
+                        },
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator",
+                            "valueString": "Hinterhof"
+                        }
+                    ]
+                }
+            ],
+            "city": "Berlin",
+            "postalCode": "10787",
+            "country": "D",
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct",
+                    "valueString": "Mitte"
+                }
+            ]
+        }
+    ]
+}

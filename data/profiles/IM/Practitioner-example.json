@@ -1,0 +1,49 @@
+{
+    "resourceType": "Practitioner",
+    "id": "0eecc686-434d-4b8a-9009-4242377e0db6",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner_Addendum|1.00.000"
+        ]
+    },
+    "name": [
+        {
+            "use": "official",
+            "family": "Bester",
+            "_family": {
+                "extension": [
+                    {
+                        "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                        "valueString": "Bester"
+                    }
+                ]
+            },
+            "given": ["Hartmut"],
+            "prefix": ["Dr. med."],
+            "_prefix": [
+                {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                            "valueCode": "AC"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "qualification": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BAR2_WBO",
+                        "code": "010",
+                        "display": "FA Allgemeinmedizin"
+                    }
+                ],
+                "text": "FA Allgemeinmedizin"
+            }
+        }
+    ]
+}

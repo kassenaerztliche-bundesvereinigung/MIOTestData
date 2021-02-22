@@ -1,0 +1,12 @@
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="a24c9cd2-c55e-4859-8d41-db419fc9f6b1" />
+  <meta>
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole|1.00.000" />
+  </meta>
+  <practitioner>
+    <reference value="urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3" />
+  </practitioner>
+  <organization>
+    <reference value="urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b" />
+  </organization>
+</PractitionerRole>

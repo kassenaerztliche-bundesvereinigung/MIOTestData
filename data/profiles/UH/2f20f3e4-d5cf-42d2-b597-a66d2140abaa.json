@@ -1,0 +1,35 @@
+{
+  "resourceType": "Organization",
+  "id": "2f20f3e4-d5cf-42d2-b597-a66d2140abaa",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Organization_Screening_Laboratory|1.0.0"
+    ]
+  },
+  "name": "Screeninglabor",
+  "address": [
+    {
+      "type": "both",
+      "line": [
+        "Musterstr. 1"
+      ],
+      "_line": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "valueString": "1"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "valueString": "Musterstr."
+            }
+          ]
+        }
+      ],
+      "city": "Darmstadt",
+      "postalCode": "64283",
+      "country": "D"
+    }
+  ]
+}

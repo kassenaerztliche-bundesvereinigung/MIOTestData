@@ -1,0 +1,58 @@
+{
+  "resourceType": "Composition",
+  "id": "01bcd41a-2011-4a2d-a090-57201c20eeed",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_Percentile_Curve|1.0.0"
+    ]
+  },
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+        "code": "129822005",
+        "display": "Childhood growth AND/OR development finding (finding)"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+          "code": "243788004",
+          "display": "Child examination (procedure)"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+  },
+  "encounter": {
+    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+  },
+  "date": "2020-01-02",
+  "author": [
+    {
+      "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+    }
+  ],
+  "title": "Perzentilkurven",
+  "section": [
+    {
+      "title": "Körpermaße",
+      "entry": [
+        {
+          "reference": "urn:uuid:1c630464-6cc9-4e42-a247-6eefdf35019c"
+        },
+        {
+          "reference": "urn:uuid:bf1fde75-7c71-4bdc-a643-364ae842bc5b"
+        }
+      ]
+    }
+  ]
+}

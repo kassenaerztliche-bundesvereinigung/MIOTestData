@@ -1,0 +1,46 @@
+{
+  "resourceType": "Observation",
+  "id": "5760da17-0e01-4e37-b887-6819f1029e87",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U8_Development_Assessment|1.0.0"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+        "code": "364832000",
+        "display": "Finding related to ability to perform gross motor function (finding)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Grobmotorik: Kopf wird in schwebender Bauchlage für wenigstens 3 Sekunden gehalten. Kopf wird in Rumpfebene und in Rückenlage für 10 Sekunden in Mittelstellung gehalten."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+  },
+  "encounter": {
+    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+  },
+  "effectiveDateTime": "2020-01-02",
+  "performer": [
+    {
+      "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+    }
+  ],
+  "valueBoolean": true
+}

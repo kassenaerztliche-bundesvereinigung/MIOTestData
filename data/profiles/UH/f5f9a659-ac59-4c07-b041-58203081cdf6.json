@@ -1,0 +1,255 @@
+{
+  "resourceType": "Composition",
+  "id": "f5f9a659-ac59-4c07-b041-58203081cdf6",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_U9|1.0.0"
+    ]
+  },
+  "extension": [
+    {
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
+      "valueString": "U9 Elterninformation zur Untersuchung vom 60. bis zum 64. Lebensmonat Ihr Kind ist jetzt etwa fünf Jahre alt. Viele Kinder haben in diesem Alter einen großen Bewegungsdrang, klettern gern und stellen viele Fragen. In der Regel entwickeln die Kinder in Rollenspielen mit anderen viel Fantasie und haben Freude am Malen mit Buntstiften oder am Schneiden mit einer Schere. Sollte Ihr Kind noch nicht alle Laute fehlerfrei aussprechen, bitten Sie Ihre Ärztin oder Ihren Arzt, darauf besonders zu achten und Sie dazu zu beraten. Die Ärztin oder der Arzt achtet bei der U9 wieder besonders auf Entwicklungsauffälligkeiten. Ihr Kind wird körperlich untersucht. Zum Erkennen von Sehstörungen werden wieder Sehtests durchgeführt. Die Ärztin oder der Arzt testet, wie beweglich und wie geschickt Ihr Kind ist und wie gut es spricht. Außerdem möchte die Ärztin oder der Arzt wissen, woran Ihr Kind Interesse und Freude hat oder wovor es sich möglicherweise ängstigt. Ihr Kind kommt bald in die Schule. Damit die Ärztin oder der Arzt Sie gegebenenfalls rechtzeitig unterstützen kann, sind diese Informationen wichtig. Außerdem interessiert sich Ihre Ärztin oder Ihr Arzt für den Kontakt zwischen Ihnen und Ihrem Kind. Ihre Ärztin oder Ihr Arzt berät Sie zu den laut Impfkalender empfohlenen Schutzimpfungen. Zudem spricht die Ärztin oder der Arzt mit Ihnen über Themen wie die Ernährung und Bewegung Ihres Kindes, Maßnahmen zur Unfallverhütung, die Förderung der Sprachentwicklung und den verantwortungsbewussten Gebrauch von Medien (z. B. TV, Spielekonsolen, Internet und Ähnlichem) im Alltag Ihres Kindes. Sie werden nochmals auf eine Kariesprophylaxe mittels Fluorid aufmerksam gemacht. Ihre Ärztin oder Ihr Arzt verweist Sie zur zahnärztlichen Früherkennungsuntersuchung."
+    }
+  ],
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+        "code": "243788004:370131001=410602000",
+        "display": "Child examination (procedure) : Recipient category (attribute) = Preschool child (person)"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+          "code": "243788004",
+          "display": "Child examination (procedure)"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651"
+  },
+  "encounter": {
+    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+  },
+  "date": "2020-07-07",
+  "author": [
+    {
+      "reference": "urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1"
+    }
+  ],
+  "title": "U9",
+  "section": [
+    {
+      "extension": [
+        {
+          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+          "valueString": "Zutreffendes bitte ankreuzen!"
+        }
+      ],
+      "title": "Aktuelle Anamnese des Kindes",
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+            "code": "423374008",
+            "display": "Review of systems section (record artifact)"
+          }
+        ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Aktuelle Anamnese des Kindes</p></div>"
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+          "valueString": "Zutreffendes bitte ankreuzen!"
+        }
+      ],
+      "title": "Sozialanamnese",
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+            "code": "281575007",
+            "display": "Family social history (situation)"
+          }
+        ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Sozialanamnese</p></div>"
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+          "valueString": "Nur Auffälligkeiten ankreuzen!"
+        }
+      ],
+      "title": "Körperliche Untersuchung",
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+            "code": "425044008",
+            "display": "Physical exam section (record artifact)"
+          }
+        ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Körperliche Untersuchung</p></div>"
+      },
+      "entry": [
+        {
+          "reference": "urn:uuid:ecc113b6-b496-4011-a811-38976523be38"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+          "valueString": "Bei erweitertem Beratungsbedarf bitte ankreuzen!"
+        },
+        {
+          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
+          "valueString": "Beratung vor allem zu folgenden Themen:"
+        }
+      ],
+      "title": "Beratung",
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+            "code": "409066002",
+            "display": "Education, guidance and counseling (procedure)"
+          }
+        ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Beratung</p></div>"
+      },
+      "entry": [
+        {
+          "reference": "urn:uuid:0d7c59cc-f618-4665-a6e6-c6d43892481b"
+        },
+        {
+          "reference": "urn:uuid:83db1a03-dc34-46de-a095-ab8751029842"
+        },
+        {
+          "reference": "urn:uuid:3d22dd12-37b9-4852-a4cd-f11392429be1"
+        },
+        {
+          "reference": "urn:uuid:92122018-fbf2-4106-a71b-11a9b22c7719"
+        }
+      ]
+    },
+    {
+      "title": "Ergebnisse",
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+            "code": "423100009",
+            "display": "Results section (record artifact)"
+          }
+        ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Ergebnisse</p></div>"
+      },
+      "entry": [
+        {
+          "reference": "urn:uuid:b0e9ca94-2eda-42ac-bf63-c6a5c5adc5d2"
+        },
+        {
+          "reference": "urn:uuid:1623a07b-69ce-4128-8314-3756cbeb9b18"
+        },
+        {
+          "reference": "urn:uuid:c6355471-8fc8-4505-a540-840cd0ad5237"
+        },
+        {
+          "reference": "urn:uuid:4fdec8d5-f064-4f07-84a6-fb1fe782add5"
+        },
+        {
+          "reference": "urn:uuid:337e75a4-f32c-4730-8839-ac3f79a3ffff"
+        },
+        {
+          "reference": "urn:uuid:18865878-8b13-4f06-8a31-ee55f5ce36de"
+        },
+        {
+          "reference": "urn:uuid:5e888a54-c7df-4e76-8cc4-e1c3eecb15a2"
+        }
+      ],
+      "section": [
+        {
+          "title": "Prüfung und Aufklärung",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "722448004",
+                "display": "Treatment plan report (record artifact)"
+              }
+            ]
+          },
+          "entry": [
+            {
+              "reference": "urn:uuid:60548512-c957-4a47-b832-578ea8938975"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+          "valueString": "Nur ankreuzen, wenn die Items NICHT erfüllt werden!"
+        },
+        {
+          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
+          "valueString": "Beobachtung der Interaktion: Insbersondere die folgenden Reaktionen des Kindes können der Ärztin oder dem Arzt als Hinweis zur Einschätzung von Stimmung, Kommunikations- Regulationsmöglichkeiten des Kindes im Kontak mit seiner primären Bezugsperson und als weitere Grundlage für das Ärztin oder Arzt-Elterngespräch dienen:"
+        }
+      ],
+      "title": "Orientierende Beurteilung der Entwicklung",
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+            "code": "406207000",
+            "display": "Child development by age (observable entity)"
+          }
+        ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Orientierende Beurteilung der Entwicklung</p></div>"
+      }
+    }
+  ]
+}

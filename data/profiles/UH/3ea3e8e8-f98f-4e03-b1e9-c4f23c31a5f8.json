@@ -1,0 +1,76 @@
+{
+  "resourceType": "Observation",
+  "id": "3ea3e8e8-f98f-4e03-b1e9-c4f23c31a5f8",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_Pulse_Oxymetry_Measurement|1.0.0"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+        "code": "250554003:363703001=399455000",
+        "display": "Measurement of oxygen saturation at periphery (procedure) : Has intent (attribute) = Primary procedure (qualifier value)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Erstmessung"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+  },
+  "encounter": {
+    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+  },
+  "effectiveDateTime": "2020-01-02",
+  "performer": [
+    {
+      "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+    }
+  ],
+  "valueQuantity": {
+    "value": 5,
+    "unit": "%",
+    "system": "http://unitsofmeasure.org",
+    "code": "%"
+  },
+  "interpretation": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+          "code": "449171008",
+          "display": "Oxygen saturation below reference range (finding)",
+          "_display": {
+            "extension": [
+              {
+                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                "extension": [
+                  {
+                    "url": "content",
+                    "valueString": "periphere Sauerstoffsättigung auffällig"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

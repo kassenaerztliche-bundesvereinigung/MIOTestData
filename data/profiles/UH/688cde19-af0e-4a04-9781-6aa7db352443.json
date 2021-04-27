@@ -1,0 +1,43 @@
+{
+  "resourceType": "Procedure",
+  "id": "688cde19-af0e-4a04-9781-6aa7db352443",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_U4_Consultation|1.0.0"
+    ]
+  },
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+        "code": "438650006",
+        "display": "Dietary education for breast feeding (procedure)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Stillen/Ernährung/Mundhygiene"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+  },
+  "encounter": {
+    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+  },
+  "performedDateTime": "2020-01-02",
+  "asserter": {
+    "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+  }
+}

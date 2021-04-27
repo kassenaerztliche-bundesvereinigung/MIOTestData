@@ -1,0 +1,93 @@
+{
+  "resourceType": "Practitioner",
+  "id": "685e18e6-be98-4ed4-84ed-fcec6064a25c",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.0"
+    ]
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "DN"
+          }
+        ]
+      },
+      "system": "http://fhir.de/NamingSystem/bundesaerztekammer/efn",
+      "value": "123456789123456"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "text": "Rainer Gold",
+      "family": "Gold",
+      "_family": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+            "valueString": "Gold"
+          }
+        ]
+      },
+      "given": [
+        "Rainer"
+      ]
+    }
+  ],
+  "address": [
+    {
+      "type": "both",
+      "line": [
+        "Musterstr. 1"
+      ],
+      "_line": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "valueString": "1"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "valueString": "Musterstr."
+            }
+          ]
+        }
+      ],
+      "city": "Darmstadt",
+      "postalCode": "64283",
+      "country": "D"
+    }
+  ],
+  "qualification": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+            "code": "309343006",
+            "display": "Physician (occupation)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                  "extension": [
+                    {
+                      "url": "content",
+                      "valueString": "Arzt/ Ärztin"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

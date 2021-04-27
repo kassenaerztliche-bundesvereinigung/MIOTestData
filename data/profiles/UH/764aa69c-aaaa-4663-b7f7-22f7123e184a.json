@@ -1,0 +1,67 @@
+{
+  "resourceType": "Composition",
+  "id": "764aa69c-aaaa-4663-b7f7-22f7123e184a",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_Neonatal_Hearscreening|1.0.0"
+    ]
+  },
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+        "code": "417491009",
+        "display": "Neonatal hearing test (procedure)"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.68",
+        "code": "54111-0",
+        "display": "Newborn hearing screening panel"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+          "code": "243788004",
+          "display": "Child examination (procedure)"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+  },
+  "encounter": {
+    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+  },
+  "date": "2020-01-02",
+  "author": [
+    {
+      "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+    }
+  ],
+  "title": "Spezielle Früherkennungsuntersuchungen",
+  "section": [
+    {
+      "title": "Neugeborenen-Hörscreening",
+      "entry": [
+        {
+          "reference": "urn:uuid:bc2430d7-396c-4bf7-a3ae-56abf71d26a2"
+        },
+        {
+          "reference": "urn:uuid:04772266-c279-4d88-912c-240586efdb39"
+        },
+        {
+          "reference": "urn:uuid:769a406d-962f-423c-91c2-343f2863b577"
+        }
+      ]
+    }
+  ]
+}

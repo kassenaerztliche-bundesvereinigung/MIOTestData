@@ -1,50 +1,50 @@
 {
-  "resourceType": "DiagnosticReport",
-  "id": "db99ab96-c876-4dcd-a8cf-48d7098c2748",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U3_U4_Physical_Exam_Mouth_Nose|1.0.0"
-    ]
-  },
-  "status": "final",
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "271914002+364111005",
-        "display": "Ear, nose and throat examination finding (observable entity) + Oral cavity observable (observable entity)",
-        "_display": {
-          "extension": [
+    "resourceType": "DiagnosticReport",
+    "id": "db99ab96-c876-4dcd-a8cf-48d7098c2748",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U3_U4_Physical_Exam_Mouth_Nose|1.0.0"
+        ]
+    },
+    "status": "final",
+    "code": {
+        "coding": [
             {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Mundhöhle, Kiefer, Nase"
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "271914002+364111005",
+                "display": "Ear, nose and throat examination finding (observable entity) + Oral cavity observable (observable entity)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Mundhöhle, Kiefer, Nase"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
             }
-          ]
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+    },
+    "encounter": {
+        "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+    },
+    "effectiveDateTime": "2020-01-02",
+    "performer": [
+        {
+            "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
         }
-      }
+    ],
+    "result": [
+        {
+            "reference": "urn:uuid:04a285d6-e9f7-4356-ae41-4e1af02621b7"
+        }
     ]
-  },
-  "subject": {
-    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
-  },
-  "encounter": {
-    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
-  },
-  "effectiveDateTime": "2020-01-02",
-  "performer": [
-    {
-      "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
-    }
-  ],
-  "result": [
-    {
-      "reference": "urn:uuid:04a285d6-e9f7-4356-ae41-4e1af02621b7"
-    }
-  ]
 }

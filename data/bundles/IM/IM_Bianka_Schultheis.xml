@@ -44,6 +44,26 @@
                     <entry>
                         <reference value="urn:uuid:ff258b30-915f-8905-b356-7b30e7a9393a" />
                     </entry>
+                    <entry>
+                        <reference value="urn:uuid:ff258b30-915f-4561-b356-7b30e7a9393a" />
+                    </entry>
+                    <entry>
+                        <reference value="urn:uuid:ff258b30-915f-3450-b356-7b30e7a9393a" />
+                    </entry>
+                </section>
+                <section>
+                    <code>
+                        <coding>
+                            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
+                            <code value="COBSCAT" />
+                        </coding>
+                    </code>
+                    <entry>
+                        <reference value="urn:uuid:006f0ae8-bc5c-46b0-8042-e06a4b5185cc" />
+                    </entry>
+                    <entry>
+                        <reference value="urn:uuid:156c96ec-02ca-4770-94e9-b11d2237512c" />
+                    </entry>
                 </section>
                 <section>
                     <code>
@@ -160,7 +180,7 @@
                     <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole|1.00.000" />
                 </meta>
                 <practitioner>
-                    <reference value="urn:uuid:20597e0e-cb2a-45b3-95-dc3dbdb617c3" />
+                    <reference value="urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3" />
                 </practitioner>
                 <organization>
                     <reference value="urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b" />

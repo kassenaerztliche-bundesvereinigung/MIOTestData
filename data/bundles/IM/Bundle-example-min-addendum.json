@@ -40,7 +40,7 @@
                 "date": "2018-07-01T12:30:02Z",
                 "author": [
                     {
-                        "reference": "urn:uuid:0eecc686-434d-4b8a-9009-4242377e0db6"
+                        "reference": "urn:uuid:0eecc686-434d-4b8a-9009-4242377e0db7"
                     }
                 ],
                 "title": "Impfeintrag-/einträge Nach-/Übertrag",
@@ -149,6 +149,96 @@
                     }
                 ],
                 "birthDate": "1972-06-22"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner|1.00.000"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "LANR"
+                                }
+                            ]
+                        },
+                        "system": "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR",
+                        "value": "838382202"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Topp-Glücklich",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Topp-Glücklich"
+                                }
+                            ]
+                        },
+                        "given": ["Hans"],
+                        "prefix": ["Dr. med."],
+                        "_prefix": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "AC"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "06151/1111111"
+                    }
+                ],
+                "qualification": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BAR2_WBO",
+                                    "code": "010",
+                                    "display": "FA Allgemeinmedizin"
+                                }
+                            ],
+                            "text": "FA Allgemeinmedizin"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:0eecc686-434d-4b8a-9009-4242377e0db7",
+            "resource": {
+                "resourceType": "PractitionerRole",
+                "id": "0eecc686-434d-4b8a-9009-4242377e0db7",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole|1.00.000"
+                    ]
+                },
+                "practitioner": {
+                    "reference": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
+                },
+                "organization": {
+                    "reference": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b"
+                }
             }
         },
         {

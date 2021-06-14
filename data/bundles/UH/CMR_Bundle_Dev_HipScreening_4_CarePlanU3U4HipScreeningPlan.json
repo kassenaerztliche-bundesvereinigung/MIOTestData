@@ -1,0 +1,362 @@
+{
+    "resourceType": "Bundle",
+    "id": "771578f8-0b76-4197-hip4-d83227516e47",
+    "meta": {
+        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Bundle|1.0.0"]
+    },
+    "identifier": {
+        "system": "urn:ietf:rfc:3936",
+        "value": "771578f8-0b76-4197-hip4-d83227516e47"
+    },
+    "type": "document",
+    "timestamp": "2019-12-23T12:30:02Z",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:337108da-d038-48a5-a40f-7ddcdd7780c2",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "337108da-d038-48a5-a40f-7ddcdd7780c2",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_Hip_Screening|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "171241003",
+                            "display": "Congenital dislocation of the hip screening (procedure)"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "243788004",
+                                "display": "Child examination (procedure)"
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+                },
+                "date": "2020-01-02",
+                "author": [
+                    {
+                        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                    }
+                ],
+                "title": "Spezielle Früherkennungsuntersuchungen",
+                "section": [
+                    {
+                        "title": "Screening auf Hüftgelenksdysplasie und -luxation",
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:5f224fdc-5b2r-4d4e-9a90-389b9ba89843"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Encounter|1.0.0"
+                    ]
+                },
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "version": "2.0.0",
+                    "code": "AMB",
+                    "display": "ambulatory"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "243788004:370131001=133931009",
+                                "display": "Child examination (procedure) : Recipient category =  Infant (person)",
+                                "_display": {
+                                    "extension": [
+                                        {
+                                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                            "extension": [
+                                                {
+                                                    "url": "content",
+                                                    "valueString": "U3 4.-5. Lebenswoche"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                                        "version": "2.0.0",
+                                        "code": "PPRF",
+                                        "display": "primary performer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "individual": {
+                            "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2020-07-07"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5f224fdc-5b2r-4d4e-9a90-389b9ba89843",
+            "resource": {
+                "resourceType": "CarePlan",
+                "id": "5f224fdc-5b2r-4d4e-9a90-389b9ba89843",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Care_Plan_U3_U4_Hip_Screening_Plan|1.0.0"
+                    ]
+                },
+                "status": "unknown",
+                "intent": "plan",
+                "title": "Weiteres Vorgehen:",
+                "created": "2020-01-02",
+                "author": {
+                    "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                },
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+                },
+                "activity": [
+                    {
+                        "detail": {
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                        "code": "440378000:704321009=241502008",
+                                        "display": "Referral for (observable entity) : Characterizes (attribute) = Ultrasound scan of hip (procedure)",
+                                        "_display": {
+                                            "extension": [
+                                                {
+                                                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                    "extension": [
+                                                        {
+                                                            "url": "content",
+                                                            "valueString": "Kontrollsonographie"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "status": "scheduled"
+                        }
+                    },
+                    {
+                        "detail": {
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                        "code": "306228005",
+                                        "display": "Referral for diagnostic investigation (procedure)"
+                                    }
+                                ]
+                            },
+                            "status": "scheduled"
+                        }
+                    },
+                    {
+                        "detail": {
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                        "code": "243796009:{363589002=112731004,408731000=410511007,408730004=410535002,408732007=410604004}",
+                                        "display": "Situation with explicit context (situation) : { Associated procedure (attribute) = Reduction of congenital hip dislocation by splint (procedure), Temporal context (attribute) = Current or past (actual) (qualifier value), Procedure context (attribute) = Indicated (qualifier value), Subject relationship context (attribute) = Subject of record (person) }"
+                                    }
+                                ]
+                            },
+                            "status": "scheduled"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "c946bef-6e3a-4aaf-a8cc-5764ed624ac1",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.0"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
+                                    "code": "kvk"
+                                }
+                            ]
+                        },
+                        "system": "http://fhir.de/NamingSystem/gkv/kvk-versichertennummer",
+                        "value": "F123456784"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Heike Hipp",
+                        "family": "Hipp",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Hipp"
+                                }
+                            ]
+                        },
+                        "given": ["Heike"]
+                    }
+                ],
+                "birthDate": "2020-06-22"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "685e18e6-be98-4ed4-84ed-fcec6064a25c",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.0"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "DN"
+                                }
+                            ]
+                        },
+                        "system": "http://fhir.de/NamingSystem/bundesaerztekammer/efn",
+                        "value": "123456789123456"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Rainer Gold",
+                        "family": "Gold",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Gold"
+                                }
+                            ]
+                        },
+                        "given": ["Rainer"]
+                    }
+                ],
+                "address": [
+                    {
+                        "type": "both",
+                        "line": ["Musterstr. 1"],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "1"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Musterstr."
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Darmstadt",
+                        "postalCode": "64283",
+                        "country": "D"
+                    }
+                ],
+                "qualification": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "code": "309343006",
+                                    "display": "Physician (occupation)",
+                                    "_display": {
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                "extension": [
+                                                    {
+                                                        "url": "content",
+                                                        "valueString": "Arzt/ Ärztin"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

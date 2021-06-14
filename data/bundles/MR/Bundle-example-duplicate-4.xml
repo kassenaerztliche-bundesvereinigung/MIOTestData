@@ -466,14 +466,14 @@
       <end value="2020-04-04T10:00:00Z" />
       <participant>
         <actor>
-          <reference value="urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777" />
+          <reference value="urn:uuid:b9cfa843-3b07-4b02-80f9-3370e3f9563e" />
         </actor>
         <required value="required" />
         <status value="accepted" />
       </participant>
       <participant>
         <actor>
-          <reference value="urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916" />
+          <reference value="urn:uuid:b9cfa843-3b07-4b02-80f9-3370e3f9563e" />
         </actor>
         <required value="required" />
         <status value="accepted" />

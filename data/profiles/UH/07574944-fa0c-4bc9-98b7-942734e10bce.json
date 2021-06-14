@@ -1,70 +1,70 @@
 {
-  "resourceType": "Observation",
-  "id": "07574944-fa0c-4bc9-98b7-942734e10bce",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_pH_Value|1.0.0"
-    ]
-  },
-  "status": "final",
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "363787002:370134009=123029007,704319004=12499000,246093002=89177007,704318007=702700007,370132008=30766002,704327008=703430008",
-        "display": "Observable entity (observable entity) : Time aspect (attribute) = Single point in time (qualifier value) , Inheres in (attribute) = Cord blood (substance) , Component (attribute) = Proton (substance) , Property type (attribute) = Logarithmic substance concentration (property) (qualifier value) , Scale type (attribute) = Quantitative (qualifier value) , Direct site (attribute) = Arterial cord blood specimen (specimen)",
-        "_display": {
-          "extension": [
+    "resourceType": "Observation",
+    "id": "07574944-fa0c-4bc9-98b7-942734e10bce",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_pH_Value|1.0.0"
+        ]
+    },
+    "status": "final",
+    "code": {
+        "coding": [
             {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "pH-Wert (Nabelarterie)"
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "363787002:370134009=123029007,704319004=12499000,246093002=89177007,704318007=702700007,370132008=30766002,704327008=703430008",
+                "display": "Observable entity (observable entity) : Time aspect (attribute) = Single point in time (qualifier value) , Inheres in (attribute) = Cord blood (substance) , Component (attribute) = Proton (substance) , Property type (attribute) = Logarithmic substance concentration (property) (qualifier value) , Scale type (attribute) = Quantitative (qualifier value) , Direct site (attribute) = Arterial cord blood specimen (specimen)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "pH-Wert (Nabelarterie)"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "system": "http://loinc.org",
-        "version": "2.68",
-        "code": "28646-8",
-        "display": "pH of Arterial cord blood",
-        "_display": {
-          "extension": [
+            },
             {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "pH-Wert (Nabelarterie)"
+                "system": "http://loinc.org",
+                "version": "2.68",
+                "code": "28646-8",
+                "display": "pH of Arterial cord blood",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "pH-Wert (Nabelarterie)"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
             }
-          ]
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+    },
+    "encounter": {
+        "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+    },
+    "effectiveDateTime": "2020-01-02",
+    "performer": [
+        {
+            "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
         }
-      }
-    ]
-  },
-  "subject": {
-    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
-  },
-  "encounter": {
-    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
-  },
-  "effectiveDateTime": "2020-01-02",
-  "performer": [
-    {
-      "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+    ],
+    "valueQuantity": {
+        "value": 7.0,
+        "unit": "(pH)",
+        "system": "http://unitsofmeasure.org",
+        "code": "[pH]"
     }
-  ],
-  "valueQuantity": {
-    "value": 7.0,
-    "unit": "(pH)",
-    "system": "http://unitsofmeasure.org",
-    "code": "[pH]"
-  }
 }

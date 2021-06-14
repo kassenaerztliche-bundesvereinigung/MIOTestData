@@ -1,46 +1,46 @@
 {
-  "resourceType": "Observation",
-  "id": "9b8768bc-981a-49dc-b847-6e59b246ba81",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U7a_and_U9_Physical_Exam_Chest_Lung_Respiratory_Tract|1.0.0"
-    ]
-  },
-  "status": "final",
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "301272007",
-        "display": "Chest auscultation finding (finding)",
-        "_display": {
-          "extension": [
+    "resourceType": "Observation",
+    "id": "9b8768bc-981a-49dc-b847-6e59b246ba81",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U7a_and_U9_Physical_Exam_Chest_Lung_Respiratory_Tract|1.0.0"
+        ]
+    },
+    "status": "final",
+    "code": {
+        "coding": [
             {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Auskultation"
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "301272007",
+                "display": "Chest auscultation finding (finding)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Auskultation"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
             }
-          ]
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+    },
+    "encounter": {
+        "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+    },
+    "effectiveDateTime": "2020-01-02",
+    "performer": [
+        {
+            "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
         }
-      }
-    ]
-  },
-  "subject": {
-    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
-  },
-  "encounter": {
-    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
-  },
-  "effectiveDateTime": "2020-01-02",
-  "performer": [
-    {
-      "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
-    }
-  ],
-  "valueBoolean": true
+    ],
+    "valueBoolean": true
 }

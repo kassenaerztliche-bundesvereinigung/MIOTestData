@@ -1,92 +1,92 @@
 {
-  "resourceType": "Composition",
-  "id": "9eaaee52-7a60-481e-a7f4-81f4bf026e96",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Composition|1.0.0"
-    ]
-  },
-  "extension": [
-    {
-      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Comments",
-      "extension": [
+    "resourceType": "Composition",
+    "id": "9eaaee52-7a60-481e-a7f4-81f4bf026e96",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Composition|1.0.0"
+        ]
+    },
+    "extension": [
         {
-          "url": "hinweiseSchwangere",
-          "valueString": "Schwangerschaft und Geburt sind natürliche Vorgänge und stellen keine Krankheit dar. Manchmal können sie allerdings mit einem erhöhten Risiko für Mutter und Kind belastet sein. Eine sorgfältige Schwangerschaftsbetreuung hilft, einen großen Teil dieser Risiken zu vermeiden oder rechtzeitig zu erkennen, um Gefahren abzuwenden. Voraussetzung dafür ist jedoch Ihre regelmäßige Teilnahme an den Vorsorgeuntersuchungen!Die in Ihrem Mutterpass aufgeführten Untersuchungen dienen der Gesunderhaltung von Mutter und Kind und entsprechen langjähriger geburtshilflicher Erfahrung und modernen medizinischen Erkenntnissen. Dieser Mutterpass enthält die während der Schwangerschaft erhobenen wichtigen Befunde. Er wird Ihnen nach jeder Vorsorgeuntersuchung wieder mitgegeben. Die Angaben im Mutterpass dienen der Information von Arzt und Hebamme sowie Ihrer und Ihres Kindes Sicherheit. Der Mutterpass ist Ihr persönliches Dokument. Sie allein entscheiden darüber, wem er zugänglich gemacht werden soll. Andere (z. B. Arbeitgeber, Behörden) dürfen eine Einsichtnahme nicht verlangen.Bitte: ● Nutzen Sie die Ihnen gebotenen Möglichkeiten, um sich und Ihrem Kind Sicherheit zu verschaffen! ● Vergessen Sie nicht, dieses Heft zu jeder ärztlichen Untersuchung während der Schwangerschaft, zur Entbindung und zur Untersuchung des Kindes mitzubringen! ● Lassen Sie sich helfen, wenn Sie Sorgen haben! ● Beraten Sie sich mit Ihrem Arzt und befolgen Sie seine Ratschläge!"
-        },
-        {
-          "url": "hinweiseMutter",
-          "valueString": "Nach Schwangerschaft und Geburt beginnt für Sie zwar wieder der Alltag mit neuen Aufgaben, beachten Sie aber bitte Folgendes: ● Gehen Sie etwa 6–8 Wochen nach der Entbindung zur Nachuntersuchung ● Nutzen Sie alle Kinder-Früherkennungsuntersuchungen (U2 – U9) beim Kinder- oder Hausarzt"
-        },
-        {
-          "url": "aufbewahrungshinweis",
-          "valueString": "Während der Schwangerschaft sollten Sie Ihren Mutterpass immer bei sich haben und zu jeder ärztlichen Untersuchung mitbringen,insbesondere auch zur Entbindung. Ihr Mutterpass gehört zu den Dokumenten, die Sie immer sorgfältig aufbewahren sollten."
-        }
-      ]
-    }
-  ],
-  "status": "final",
-  "type": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "736377005",
-        "display": "Maternity care plan (record artifact)",
-        "_display": {
-          "extension": [
-            {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
+            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Comments",
+            "extension": [
                 {
-                  "url": "content",
-                  "valueString": "Mutterpasseintrag"
+                    "url": "hinweiseSchwangere",
+                    "valueString": "Schwangerschaft und Geburt sind natürliche Vorgänge und stellen keine Krankheit dar. Manchmal können sie allerdings mit einem erhöhten Risiko für Mutter und Kind belastet sein. Eine sorgfältige Schwangerschaftsbetreuung hilft, einen großen Teil dieser Risiken zu vermeiden oder rechtzeitig zu erkennen, um Gefahren abzuwenden. Voraussetzung dafür ist jedoch Ihre regelmäßige Teilnahme an den Vorsorgeuntersuchungen!Die in Ihrem Mutterpass aufgeführten Untersuchungen dienen der Gesunderhaltung von Mutter und Kind und entsprechen langjähriger geburtshilflicher Erfahrung und modernen medizinischen Erkenntnissen. Dieser Mutterpass enthält die während der Schwangerschaft erhobenen wichtigen Befunde. Er wird Ihnen nach jeder Vorsorgeuntersuchung wieder mitgegeben. Die Angaben im Mutterpass dienen der Information von Arzt und Hebamme sowie Ihrer und Ihres Kindes Sicherheit. Der Mutterpass ist Ihr persönliches Dokument. Sie allein entscheiden darüber, wem er zugänglich gemacht werden soll. Andere (z. B. Arbeitgeber, Behörden) dürfen eine Einsichtnahme nicht verlangen.Bitte: ● Nutzen Sie die Ihnen gebotenen Möglichkeiten, um sich und Ihrem Kind Sicherheit zu verschaffen! ● Vergessen Sie nicht, dieses Heft zu jeder ärztlichen Untersuchung während der Schwangerschaft, zur Entbindung und zur Untersuchung des Kindes mitzubringen! ● Lassen Sie sich helfen, wenn Sie Sorgen haben! ● Beraten Sie sich mit Ihrem Arzt und befolgen Sie seine Ratschläge!"
+                },
+                {
+                    "url": "hinweiseMutter",
+                    "valueString": "Nach Schwangerschaft und Geburt beginnt für Sie zwar wieder der Alltag mit neuen Aufgaben, beachten Sie aber bitte Folgendes: ● Gehen Sie etwa 6–8 Wochen nach der Entbindung zur Nachuntersuchung ● Nutzen Sie alle Kinder-Früherkennungsuntersuchungen (U2 – U9) beim Kinder- oder Hausarzt"
+                },
+                {
+                    "url": "aufbewahrungshinweis",
+                    "valueString": "Während der Schwangerschaft sollten Sie Ihren Mutterpass immer bei sich haben und zu jeder ärztlichen Untersuchung mitbringen,insbesondere auch zur Entbindung. Ihr Mutterpass gehört zu den Dokumenten, die Sie immer sorgfältig aufbewahren sollten."
                 }
-              ]
-            }
-          ]
+            ]
         }
-      }
-    ]
-  },
-  "subject": {
-    "reference": "urn:uuid:b77d9c1d-75e9-4413-8261-56b6b8e8e108"
-  },
-  "encounter": {
-    "reference": "urn:uuid:496fe932-4902-44b1-8a3a-616e998853de"
-  },
-  "date": "2021-02-02T12:30:02Z",
-  "author": [
-    {
-      "reference": "urn:uuid:2fa35655-b46e-4baf-8cea-e795eef7e22f"
-    }
-  ],
-  "title": "Mutterpasseintrag",
-  "section": [
-    {
-      "title": "Untersuchungen",
-      "section": [
+    ],
+    "status": "final",
+    "type": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "736377005",
+                "display": "Maternity care plan (record artifact)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Mutterpasseintrag"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:b77d9c1d-75e9-4413-8261-56b6b8e8e108"
+    },
+    "encounter": {
+        "reference": "urn:uuid:496fe932-4902-44b1-8a3a-616e998853de"
+    },
+    "date": "2021-02-02T12:30:02Z",
+    "author": [
         {
-          "title": "Gravidogramm",
-          "entry": [
-            {
-              "reference": "urn:uuid:a67909a1-7fa7-4a47-9d57-41c9da56acb1"
-            },
-            {
-              "reference": "urn:uuid:17989fa3-0351-4add-ba79-41b597375cbb"
-            },
-            {
-              "reference": "urn:uuid:fa3d0e89-b84f-4b2d-8cb0-c1d0c7468ee5"
-            },
-            {
-              "reference": "urn:uuid:849e3eb9-3bcc-48d2-97a5-3ecee9750ddf"
-            },
-            {
-              "reference": "urn:uuid:0ee4bfe2-fcfb-436c-82ae-9615368b0498"
-            }
-          ]
+            "reference": "urn:uuid:2fa35655-b46e-4baf-8cea-e795eef7e22f"
         }
-      ]
-    }
-  ]
+    ],
+    "title": "Mutterpasseintrag",
+    "section": [
+        {
+            "title": "Untersuchungen",
+            "section": [
+                {
+                    "title": "Gravidogramm",
+                    "entry": [
+                        {
+                            "reference": "urn:uuid:a67909a1-7fa7-4a47-9d57-41c9da56acb1"
+                        },
+                        {
+                            "reference": "urn:uuid:17989fa3-0351-4add-ba79-41b597375cbb"
+                        },
+                        {
+                            "reference": "urn:uuid:fa3d0e89-b84f-4b2d-8cb0-c1d0c7468ee5"
+                        },
+                        {
+                            "reference": "urn:uuid:849e3eb9-3bcc-48d2-97a5-3ecee9750ddf"
+                        },
+                        {
+                            "reference": "urn:uuid:0ee4bfe2-fcfb-436c-82ae-9615368b0498"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

@@ -1,87 +1,87 @@
 {
-  "resourceType": "Observation",
-  "id": "c80598a6-5bd2-4949-8c64-73822d5f3aaa",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Apgar_Score|1.0.0"
-    ]
-  },
-  "status": "final",
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "169909004",
-        "display": "Apgar score at 5 minutes (observable entity)",
-        "_display": {
-          "extension": [
+    "resourceType": "Observation",
+    "id": "c80598a6-5bd2-4949-8c64-73822d5f3aaa",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Apgar_Score|1.0.0"
+        ]
+    },
+    "status": "final",
+    "code": {
+        "coding": [
             {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Apgar zum Zeitpunkt 5 Min. nach Geburt"
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "169909004",
+                "display": "Apgar score at 5 minutes (observable entity)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Apgar zum Zeitpunkt 5 Min. nach Geburt"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "system": "http://loinc.org",
-        "version": "2.68",
-        "code": "9274-2",
-        "display": "5 minute Apgar Score",
-        "_display": {
-          "extension": [
+            },
             {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Apgar zum Zeitpunkt 5 Min. nach Geburt"
+                "system": "http://loinc.org",
+                "version": "2.68",
+                "code": "9274-2",
+                "display": "5 minute Apgar Score",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Apgar zum Zeitpunkt 5 Min. nach Geburt"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
             }
-          ]
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+    },
+    "encounter": {
+        "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+    },
+    "effectiveDateTime": "2020-01-02",
+    "performer": [
+        {
+            "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
         }
-      }
-    ]
-  },
-  "subject": {
-    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
-  },
-  "encounter": {
-    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
-  },
-  "effectiveDateTime": "2020-01-02",
-  "performer": [
-    {
-      "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+    ],
+    "valueCodeableConcept": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "77714001",
+                "display": "Apgar score 0 (finding)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Apgar 0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
     }
-  ],
-  "valueCodeableConcept": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "77714001",
-        "display": "Apgar score 0 (finding)",
-        "_display": {
-          "extension": [
-            {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Apgar 0"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    ]
-  }
 }

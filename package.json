@@ -1,9 +1,8 @@
 {
     "name": "miotestdata",
-    "version": "1.1.1",
+    "version": "1.3.0",
     "description": "Testdata Package for KBV MIOParser and MIOViewer",
     "author": "KBV",
-    "license": "Apache-2.0",
     "keywords": [
         "mio",
         "fhir",
@@ -15,7 +14,7 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "prettier": "prettier --write ./**/*.json ./**/*.js ./**/*.ts",
-        "lint": "eslint ./**/*.json ./**/*.js ./**/*.ts",
+        "lint": "eslint ./**/*.json ./**/*.ts",
         "clean": "rimraf ./dist/data",
         "build": "npm run clean && npm run copy && tsc && npm link",
         "copy": "mkdirp ./dist/data && ncp ./data ./dist/data"

@@ -1,81 +1,81 @@
 {
-  "resourceType": "CarePlan",
-  "id": "1da10702-f193-4eb8-8948-d596c5e9163e",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Care_Plan_U2_U9_Result|1.0.0"
-    ]
-  },
-  "status": "completed",
-  "intent": "proposal",
-  "subject": {
-    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
-  },
-  "encounter": {
-    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
-  },
-  "created": "2020-01-02",
-  "author": {
-    "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
-  },
-  "activity": [
-    {
-      "detail": {
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-              "code": "722448004",
-              "display": "Treatment plan report (record artifact)",
-              "_display": {
-                "extension": [
-                  {
-                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-                    "extension": [
-                      {
-                        "url": "content",
-                        "valueString": "weitere Maßnahmen vereinbart:"
-                      }
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        "status": "scheduled",
-        "description": "Test"
-      }
+    "resourceType": "CarePlan",
+    "id": "1da10702-f193-4eb8-8948-d596c5e9163e",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Care_Plan_U2_U9_Result|1.0.0"
+        ]
     },
-    {
-      "detail": {
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-              "code": "271906008",
-              "display": "Examination finding (observable entity)",
-              "_display": {
-                "extension": [
-                  {
-                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-                    "extension": [
-                      {
-                        "url": "content",
-                        "valueString": "Auffälligkeiten zur Beobachtung:"
-                      }
+    "status": "completed",
+    "intent": "proposal",
+    "subject": {
+        "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+    },
+    "encounter": {
+        "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+    },
+    "created": "2020-01-02",
+    "author": {
+        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+    },
+    "activity": [
+        {
+            "detail": {
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "722448004",
+                            "display": "Treatment plan report (record artifact)",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "weitere Maßnahmen vereinbart:"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
                     ]
-                  }
-                ]
-              }
+                },
+                "status": "scheduled",
+                "description": "Test"
             }
-          ]
         },
-        "status": "scheduled",
-        "description": "Test"
-      }
-    }
-  ]
+        {
+            "detail": {
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "271906008",
+                            "display": "Examination finding (observable entity)",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Auffälligkeiten zur Beobachtung:"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "status": "scheduled",
+                "description": "Test"
+            }
+        }
+    ]
 }

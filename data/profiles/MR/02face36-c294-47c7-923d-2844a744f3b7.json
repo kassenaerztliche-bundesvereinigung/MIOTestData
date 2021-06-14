@@ -1,49 +1,49 @@
 {
-  "resourceType": "Encounter",
-  "id": "02face36-c294-47c7-923d-2844a744f3b7",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_Arrival_Maternity_Hospital|1.0.0"
-    ]
-  },
-  "status": "arrived",
-  "class": {
-    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-    "version": "2.0.0",
-    "code": "AMB"
-  },
-  "type": [
-    {
-      "coding": [
+    "resourceType": "Encounter",
+    "id": "02face36-c294-47c7-923d-2844a744f3b7",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_Arrival_Maternity_Hospital|1.0.0"
+        ]
+    },
+    "status": "arrived",
+    "class": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "version": "2.0.0",
+        "code": "AMB"
+    },
+    "type": [
         {
-          "system": "http://snomed.info/sct",
-          "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-          "code": "406543005:704321009=18114009",
-          "display": "Date of visit (observable entity):Characterizes (attribute)=Prenatal examination and care of mother (procedure)",
-          "_display": {
-            "extension": [
-              {
-                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-                "extension": [
-                  {
-                    "url": "content",
-                    "valueString": "In der Entbindungsklinik vorgestellt am"
-                  }
-                ]
-              }
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                    "code": "406543005:704321009=18114009",
+                    "display": "Date of visit (observable entity):Characterizes (attribute)=Prenatal examination and care of mother (procedure)",
+                    "_display": {
+                        "extension": [
+                            {
+                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                "extension": [
+                                    {
+                                        "url": "content",
+                                        "valueString": "In der Entbindungsklinik vorgestellt am"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
             ]
-          }
         }
-      ]
+    ],
+    "subject": {
+        "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
+    },
+    "period": {
+        "start": "2020-01-17T16:00:00+10:00"
+    },
+    "serviceProvider": {
+        "reference": "urn:uuid:f6b2a209-c7b6-4735-80a7-9b8c85aa5fd1"
     }
-  ],
-  "subject": {
-    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
-  },
-  "period": {
-    "start": "2020-01-17T16:00:00+10:00"
-  },
-  "serviceProvider": {
-    "reference": "urn:uuid:f6b2a209-c7b6-4735-80a7-9b8c85aa5fd1"
-  }
 }

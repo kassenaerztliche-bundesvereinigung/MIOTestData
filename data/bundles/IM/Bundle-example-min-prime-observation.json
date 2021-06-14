@@ -40,7 +40,7 @@
                 "date": "2020-07-01T12:30:02Z",
                 "author": [
                     {
-                        "reference": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
+                        "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                     }
                 ],
                 "title": "Impfeintrag-/einträge",
@@ -66,7 +66,7 @@
         {
             "fullUrl": "urn:uuid:ff258b30-915f-4561-b356-7b30e7a9393a",
             "resource": {
-                "resourceType": "Immunization",
+                "resourceType": "Observation",
                 "id": "ff258b30-915f-4561-b356-7b30e7a9393a",
                 "meta": {
                     "profile": [

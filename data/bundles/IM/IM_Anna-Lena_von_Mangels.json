@@ -40,7 +40,7 @@
                 "date": "2018-07-01T12:30:02Z",
                 "author": [
                     {
-                        "reference": "urn:uuid:20597e0e-cb2a-45b3-1220-dc3dbdb617c3"
+                        "reference": "urn:uuid:2f66c2df-1df9-1220-bf2a-6da2a1a9c9e2"
                     }
                 ],
                 "title": "Impfeintrag-/einträge Nach-/Übertrag",
@@ -57,6 +57,27 @@
                         "entry": [
                             {
                                 "reference": "urn:uuid:ff258b30-915f-4561-b356-7b30e7a9393a"
+                            },
+                            {
+                                "reference": "urn:uuid:2d2a0ad2-0000-44fa-82a4-28c55635857a"
+                            },
+                            {
+                                "reference": "urn:uuid:2d2a0ad2-1111-44fa-82a4-28c55635857a"
+                            }
+                        ]
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                                    "code": "COBSCAT"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:006f0ae8-bc5c-46b0-8042-e06a4b5185db"
                             }
                         ]
                     }
@@ -477,6 +498,11 @@
                             "version": "http://snomed.info/sct/900000000000207008/version/20200131",
                             "code": "333606008",
                             "display": "Rabies vaccine"
+                        },
+                        {
+                            "system": "http://fhir.de/CodeSystem/dimdi/atc",
+                            "code": "J07BG",
+                            "display": "Tollwut-Impfstoffe"
                         }
                     ],
                     "text": "Tollwut-Impfstoff"
@@ -593,6 +619,11 @@
                             "version": "http://snomed.info/sct/900000000000207008/version/20200131",
                             "code": "414005006",
                             "display": "Diphtheria + tetanus + pertussis + poliomyelitis vaccine (product)"
+                        },
+                        {
+                            "system": "http://fhir.de/CodeSystem/dimdi/atc",
+                            "code": "J07CA02",
+                            "display": "Diphtherie-Pertussis-Poliomyelitis-Tetanus"
                         }
                     ],
                     "text": "Diphtherie, Pertussis, Poliomyelitis, Tetanus- Impfstoff"
@@ -754,6 +785,11 @@
                             "version": "http://snomed.info/sct/900000000000207008/version/20200131",
                             "code": "350327004",
                             "display": "Diphtheria + tetanus vaccine (product)"
+                        },
+                        {
+                            "system": "http://fhir.de/CodeSystem/dimdi/atc",
+                            "code": "J07AM51",
+                            "display": "Tetanus-Toxoid, Kombinationen mit Diphtherie-Toxoid"
                         }
                     ],
                     "text": "Tetanus, Diphtherie-Impfstoff"

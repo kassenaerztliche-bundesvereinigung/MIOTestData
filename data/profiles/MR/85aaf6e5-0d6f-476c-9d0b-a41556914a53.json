@@ -1,84 +1,84 @@
 {
-  "resourceType": "ClinicalImpression",
-  "id": "85aaf6e5-0d6f-476c-9d0b-a41556914a53",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_Second_Examination_After_Childbirth|1.0.0"
-    ]
-  },
-  "status": "completed",
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "717810008",
-        "display": "Routine postpartum follow-up (regime/therapy)",
-        "_display": {
-          "extension": [
+    "resourceType": "ClinicalImpression",
+    "id": "85aaf6e5-0d6f-476c-9d0b-a41556914a53",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_Second_Examination_After_Childbirth|1.0.0"
+        ]
+    },
+    "status": "completed",
+    "code": {
+        "coding": [
             {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Zweite Untersuchung nach Entbindung"
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "717810008",
+                "display": "Routine postpartum follow-up (regime/therapy)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Zweite Untersuchung nach Entbindung"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
             }
-          ]
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
+    },
+    "encounter": {
+        "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+    },
+    "effectiveDateTime": "2020-01-02",
+    "assessor": {
+        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+    },
+    "investigation": [
+        {
+            "code": {
+                "text": "Untersuchungen zur zweiten Untersuchung nach Entbindung"
+            },
+            "item": [
+                {
+                    "reference": "urn:uuid:71b92f24-78f5-456c-84f8-8af5230ea955"
+                },
+                {
+                    "reference": "urn:uuid:264f2608-d42c-4357-b6de-a31630ef2129"
+                },
+                {
+                    "reference": "urn:uuid:16758331-a967-4536-9ac2-e7f4ee10f81e"
+                },
+                {
+                    "reference": "urn:uuid:780c72e9-21cb-456f-b130-93618962fa87"
+                },
+                {
+                    "reference": "urn:uuid:d4d0014f-01bf-4bfb-b3b0-d48424106ef5"
+                },
+                {
+                    "reference": "urn:uuid:941a7f18-aa75-4e95-bafb-99eff9a75cfd"
+                },
+                {
+                    "reference": "urn:uuid:4a5b14c0-63a2-48a3-9d05-26dca22b4a04"
+                },
+                {
+                    "reference": "urn:uuid:56935c36-b0e9-4e1d-ad97-fbd51efd4ade"
+                },
+                {
+                    "reference": "urn:uuid:03117f96-6fdc-4d12-b0f7-3c29f235e670"
+                }
+            ]
         }
-      }
+    ],
+    "note": [
+        {
+            "text": "Erste Schwangerschaft"
+        }
     ]
-  },
-  "subject": {
-    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
-  },
-  "encounter": {
-    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
-  },
-  "effectiveDateTime": "2020-01-02",
-  "assessor": {
-    "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
-  },
-  "investigation": [
-    {
-      "code": {
-        "text": "Untersuchungen zur zweiten Untersuchung nach Entbindung"
-      },
-      "item": [
-        {
-          "reference": "urn:uuid:71b92f24-78f5-456c-84f8-8af5230ea955"
-        },
-        {
-          "reference": "urn:uuid:264f2608-d42c-4357-b6de-a31630ef2129"
-        },
-        {
-          "reference": "urn:uuid:16758331-a967-4536-9ac2-e7f4ee10f81e"
-        },
-        {
-          "reference": "urn:uuid:780c72e9-21cb-456f-b130-93618962fa87"
-        },
-        {
-          "reference": "urn:uuid:d4d0014f-01bf-4bfb-b3b0-d48424106ef5"
-        },
-        {
-          "reference": "urn:uuid:941a7f18-aa75-4e95-bafb-99eff9a75cfd"
-        },
-        {
-          "reference": "urn:uuid:4a5b14c0-63a2-48a3-9d05-26dca22b4a04"
-        },
-        {
-          "reference": "urn:uuid:56935c36-b0e9-4e1d-ad97-fbd51efd4ade"
-        },
-        {
-          "reference": "urn:uuid:03117f96-6fdc-4d12-b0f7-3c29f235e670"
-        }
-      ]
-    }
-  ],
-  "note": [
-    {
-      "text": "Erste Schwangerschaft"
-    }
-  ]
 }

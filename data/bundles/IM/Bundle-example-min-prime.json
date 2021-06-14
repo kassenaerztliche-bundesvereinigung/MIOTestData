@@ -40,7 +40,7 @@
                 "date": "2020-07-01T12:30:02Z",
                 "author": [
                     {
-                        "reference": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
+                        "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                     }
                 ],
                 "title": "Impfeintrag-/einträge",
@@ -85,6 +85,11 @@
                             "version": "http://snomed.info/sct/900000000000207008/version/20200131",
                             "code": "33234009",
                             "display": "Smallpox vaccine"
+                        },
+                        {
+                            "system": "http://fhir.de/CodeSystem/dimdi/atc",
+                            "code": "J07BX01",
+                            "display": "Pocken-Impfstoff, lebend, modifiziert"
                         }
                     ],
                     "text": "Pockenimpfstoff"

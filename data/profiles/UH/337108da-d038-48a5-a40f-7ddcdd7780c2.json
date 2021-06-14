@@ -1,537 +1,537 @@
 {
-  "resourceType": "Composition",
-  "id": "337108da-d038-48a5-a40f-7ddcdd7780c2",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_U1|1.0.0"
+    "resourceType": "Composition",
+    "id": "337108da-d038-48a5-a40f-7ddcdd7780c2",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_U1|1.0.0"
+        ]
+    },
+    "extension": [
+        {
+            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
+            "valueString": "Liebe Eltern, herzlichen Glückwunsch zur Geburt Ihres Babys! Gerade in den ersten Lebensjahren macht Ihr Kind sehr viele Entwicklungsschritte. Um eventuell vorliegende Erkrankungen und Entwicklungsverzögerungen frühzeitig erkennen und entsprechend handeln zu können, gibt es regelmäßige Untersuchungen. Diese sind ein wichtiger Teil der Gesundheitsvorsorge für Ihr Kind. Die Kosten werden von der gesetzlichen Krankenversicherung übernommen. Innerhalb der ersten sechs Lebensjahre untersucht die Ärztin oder der Arzt, ob sich Ihr Kind gesund und altersgemäß entwickelt. Die Ergebnisse jeder Untersuchung werden Ihnen erläutert. Darüber hinaus werden Sie über Schutzimpfungen informiert, die zugleich mit den Untersuchungen erfolgen können. Sie haben bei sämtlichen Untersuchungen die Gelegenheit, die Entwicklung Ihres Kindes mit der Ärztin oder dem Arzt zu besprechen und Fragen zu stellen, etwa zu Themen wie Ernährung oder Unfallvermeidung. Zudem erhalten Sie im Rahmen der einzelnen Untersuchungen von der Ärztin oder dem Arzt Informationen zu regionalen Unterstützungsangeboten (wie z. B. Eltern-Kind-Angebote, Frühe Hilfen, Familienhebammen, -paten, öffentlicher Gesundheitsdienst). Für alle Untersuchungen sind bestimmte Zeiträume vorgegeben. Dass Sie diese kennen und einhalten, ist besonders wichtig, da manche Liebe Eltern, herzlichen Glückwunsch zur Geburt Ihres Babys! Bitte beachten Sie, dass es sich bei dem Gelben Heft um eine vertrauliche Information handelt. Keine Institution (z. B. Kita, Schule, Jugendamt) darf eine Einsichtnahme verlangen. Sie entscheiden, wem Sie den Einblick gewähren. Die herausnehmbare Teilnahmekarte ist als Beleg für die Wahrnehmung der Untersuchungen ausreichend. Erkrankungen nur in einer bestimmten Altersspanne rechtzeitig erkannt und behandelt werden können (z. B. Stoffwechselstörungen oder Fehlstellungen der Hüfte). Auch bei Frühgeborenen, also Kindern, die vor der 37+0 Schwangerschaftswoche geboren werden, sollen die Untersuchungszeiträume dringend eingehalten werden. In solchen Fällen wird der frühe Geburtstermin bei der Interpretation der Ergebnisse berücksichtigt. Bitte nutzen Sie das Angebot der Untersuchungen! Sie geben sich und Ihrem Kind die Chance, dass gesundheitliche Probleme oder Auffälligkeiten rechtzeitig erkannt und behandelt werden können. Wir wünschen Ihrem Kind und Ihnen alles Gute! Gemeinsamer Bundesausschuss, Berlin* | Der Gemeinsame Bundesausschuss (G-BA) wird gebildet von der Kassenärztlichen und der Kassenzahnärztlichen Bundesvereinigung, der Deutschen Krankenhausgesellschaft e.V. und dem Spitzenverband der gesetzlichen Krankenversicherung. Der G-BA legt in Richtlinien fest, welche Leistungen der medizinischen Versorgung von der gesetzlichen Krankenversicherung übernommen werden. Das Gelbe Heft ist eine Anlage der Kinder-Richtlinie des G-BA. Weitere Informationen finden Sie auf den Internetseiten des G-BA unter www.g-ba.de."
+        },
+        {
+            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
+            "valueString": "U1 Elterninformation zur Neugeborenen-Erstuntersuchung Unmittelbar nach der Geburt findet die erste Untersuchung Ihres Babys statt. Die Ärztin oder der Arzt oder die Hebamme oder der Entbindungspfleger vergewissern sich, dass Ihr Baby die Geburt gut überstanden hat. Es geht bei der U1 vor allem darum, sofort behandlungsbedürftige Zustände und äußerliche Fehlbildungen zu erkennen. So können notwendige Sofortmaßnahmen eingeleitet und Komplikationen vermieden werden. Das wird untersucht: • Mit dem sogenannten Apgar-Wert werden die Hautfarbe des Babys, der Herzschlag, die Reflexe, die Muskelspannung und die Atmung geprüft. Dieser Wert wird nach fünf und nochmals nach zehn Minuten ermittelt. • Um sicher zu sein, dass Ihr Neugeborenes während der Geburt ausreichend mit Sauerstoff versorgt worden ist, wird der Nabelschnur Blut entnommen und dessen pH-Wert (Säuregrad) bestimmt. • Es wird nach äußerlich erkennbaren Fehlbildungen geschaut. Ihr Baby wird gemessen und gewogen und es erhält nach Rücksprache mit Ihnen Vitamin K, um inneren Blutungen vorzubeugen. Zur Ernährung Ihres Kindes (Stillen oder andere Ernährungsformen) werden Sie fachkundig beraten und können während der gesamten Stillzeit und bei Ernährungsproblemen auf Hilfe zurückgreifen. In den kommenden drei Tagen werden Ihnen für Ihr Baby weitere wichtige Untersuchungen empfohlen. Diese sollen eine rechtzeitige Behandlung der jeweiligen Erkrankungen ermöglichen. Der Test auf kritische angeborene Herzfehler sollte nach der 24. bis zur 48. Lebensstunde Ihres Babys durchgeführt werden. Die Tests auf angeborene Stoffwechselstörungen und Mukoviszidose aus einigen Tropfen Blut Ihres Babys sollten zwischen der 36. und 72. Lebensstunde erfolgen. Der Hörtest für Neugeborene sollte bis zur 72. Lebensstunde vorgenommen werden. Zu diesen Untersuchungen erhalten Sie jeweils ein ausführliches Informationsblatt. Die nächste Untersuchung soll vom 3. bis zum 10. Lebenstag (U2) vorgenommen werden."
+        }
+    ],
+    "status": "final",
+    "type": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "170099002",
+                "display": "Child examination - birth (procedure)"
+            }
+        ]
+    },
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                    "code": "243788004",
+                    "display": "Child examination (procedure)"
+                }
+            ]
+        }
+    ],
+    "subject": {
+        "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+    },
+    "encounter": {
+        "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+    },
+    "date": "2020-01-02",
+    "author": [
+        {
+            "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+        }
+    ],
+    "title": "U1",
+    "section": [
+        {
+            "title": "Bitte bringen Sie Ihr Kind zur Untersuchung:",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "185353001",
+                        "display": "Appointment date (finding)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Bitte bringen Sie Ihr Kind zur Untersuchung:</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:5f224fdc-5a1c-4d4e-9a90-389b9ba89843"
+                },
+                {
+                    "reference": "urn:uuid:2ebae392-b4c7-4b21-80c2-e7e701803194"
+                },
+                {
+                    "reference": "urn:uuid:5a06d0b7-2e04-499d-9c13-62243de88ebb"
+                },
+                {
+                    "reference": "urn:uuid:b69f371f-a84d-42ed-a14a-3a5a48dff81a"
+                },
+                {
+                    "reference": "urn:uuid:6ed19bd4-c817-48fd-9932-76c6779c5186"
+                },
+                {
+                    "reference": "urn:uuid:ecf6f794-2d41-4b0b-bdff-615b8d7b83c1"
+                },
+                {
+                    "reference": "urn:uuid:fa8ed14c-fced-4505-ac7b-d42f18212233"
+                },
+                {
+                    "reference": "urn:uuid:49769def-1471-4bbb-96b8-465c8a3c6e90"
+                },
+                {
+                    "reference": "urn:uuid:e1cb3cc8-4880-4de3-a0ea-b5dd12d92652"
+                }
+            ]
+        },
+        {
+            "extension": [
+                {
+                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                    "valueString": "Zutreffendes bitte ankreuzen!"
+                }
+            ],
+            "title": "Schwangerschaftsanamnese",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "160427003",
+                        "display": "Family history with explicit context pertaining to mother (situation)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Schwangerschaftsanamnese</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:4d195b50-1710-44a6-84a9-dee9c05dd90c"
+                }
+            ]
+        },
+        {
+            "extension": [
+                {
+                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                    "valueString": "Zutreffendes bitte ankreuzen!"
+                }
+            ],
+            "title": "Geburtsanamnese",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "364319003",
+                        "display": "Pregnancy, childbirth / puerperium observable (observable entity)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Geburtsanamnese</p></div>"
+            },
+            "section": [
+                {
+                    "title": "Geschlecht",
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "263495000",
+                                "display": "Gender (observable entity)"
+                            }
+                        ]
+                    },
+                    "entry": [
+                        {
+                            "reference": "urn:uuid:8d7367fa-be62-4e6a-b605-4fefe6db443d"
+                        }
+                    ]
+                },
+                {
+                    "title": "Soweit vorhanden, Befunde einer pränatalen Diagnostik:",
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "313199003",
+                                "display": "Antenatal screening finding (observable entity)"
+                            },
+                            {
+                                "system": "http://loinc.org",
+                                "version": "2.68",
+                                "code": "57078-8",
+                                "display": "Antenatal testing and surveillance Narrative"
+                            }
+                        ]
+                    },
+                    "entry": [
+                        {
+                            "reference": "urn:uuid:593c7b90-0f15-483f-82e0-ec5bcd325f13"
+                        }
+                    ]
+                },
+                {
+                    "title": "Base excess",
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "363787002:370134009=123029007,704319004=12499000,704318007=118556004,370132008=30766002,704327008=703430008,246093002=68615006,246501002=723208001",
+                                "display": "Observable entity (observable entity) : Time aspect (attribute) = Single point in time (qualifier value) , Inheres in (attribute) = Cord blood (substance) , Property type (attribute) = Substance concentration (property) (qualifier value) , Scale type (attribute) = Quantitative (qualifier value) , Direct site (attribute) = Arterial cord blood specimen (specimen) , Component (attribute) = Bicarbonate (substance) , Technique (attribute) = Base excess calculation technique (qualifier value)"
+                            },
+                            {
+                                "system": "http://loinc.org",
+                                "version": "2.68",
+                                "code": "28638-5",
+                                "display": "Base excess in Arterial cord blood by calculation"
+                            }
+                        ]
+                    },
+                    "entry": [
+                        {
+                            "reference": "urn:uuid:593c7b90-0f15-483f-82e0-ec5bcd325f13"
+                        }
+                    ]
+                },
+                {
+                    "title": "pH-Wert (Nabelarterie)",
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "363787002:370134009=123029007,704319004=12499000,246093002=89177007,704318007=702700007,370132008=30766002,704327008=703430008",
+                                "display": "Observable entity (observable entity) : Time aspect (attribute) = Single point in time (qualifier value) , Inheres in (attribute) = Cord blood (substance) , Component (attribute) = Proton (substance) , Property type (attribute) = Logarithmic substance concentration (property) (qualifier value) , Scale type (attribute) = Quantitative (qualifier value) , Direct site (attribute) = Arterial cord blood specimen (specimen)"
+                            },
+                            {
+                                "system": "http://loinc.org",
+                                "version": "2.68",
+                                "code": "28646-8",
+                                "display": "pH of Arterial cord blood"
+                            }
+                        ]
+                    },
+                    "entry": [
+                        {
+                            "reference": "urn:uuid:07574944-fa0c-4bc9-98b7-942734e10bce"
+                        }
+                    ]
+                },
+                {
+                    "title": "Kindslage",
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "364607000",
+                                "display": "Position of fetus (observable entity)"
+                            }
+                        ]
+                    },
+                    "entry": [
+                        {
+                            "reference": "urn:uuid:779bdb25-5e49-4bec-9bdd-9410bbddc22e"
+                        }
+                    ]
+                },
+                {
+                    "title": "Geburtsmodus",
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "394698008",
+                                "display": "Birth history (situation)"
+                            }
+                        ]
+                    },
+                    "entry": [
+                        {
+                            "reference": "urn:uuid:0aa24913-8562-4543-9868-20a436379bee"
+                        }
+                    ]
+                },
+                {
+                    "title": "Geburtsdatum",
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "184099003+397836004",
+                                "display": "Date of birth (observable entity) + Time of delivery (observable entity)"
+                            }
+                        ]
+                    },
+                    "entry": [
+                        {
+                            "reference": "urn:uuid:4a2610cc-5245-40ce-8b60-0b2a4f8764e8"
+                        }
+                    ]
+                },
+                {
+                    "title": "SSW (Wochen+Tage)",
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "412726003",
+                                "display": "Length of gestation at birth (observable entity)"
+                            }
+                        ]
+                    },
+                    "entry": [
+                        {
+                            "reference": "urn:uuid:bab54e53-0f54-4245-b145-e889db0072a7"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "extension": [
+                {
+                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                    "valueString": "Zutreffendes bitte ankreuzen!"
+                },
+                {
+                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
+                    "valueString": "(u.a. behandlungsbedürftige Hyperbilirubinämie bei einem vorausgegangenen Kind)"
+                }
+            ],
+            "title": "Familienanamnese",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "422432008",
+                        "display": "Family history section (record artifact)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Familienanamnese</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:80c926a7-d460-4dae-8aac-e196d4ebced8"
+                }
+            ]
+        },
+        {
+            "title": "Körperliche Untersuchung",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "425044008",
+                        "display": "Physical exam section (record artifact)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Körperliche Untersuchung</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:9e4d83dd-0d61-4477-9b90-0a3fe8ad83c5"
+                },
+                {
+                    "reference": "urn:uuid:57ab3191-e013-4b62-a8b1-af6951cfd1f8"
+                },
+                {
+                    "reference": "urn:uuid:adc38833-9d8e-4c50-b2ed-6bddbc8bd9db"
+                },
+                {
+                    "reference": "urn:uuid:f05e68ef-60e5-4e9b-96c2-71b18f411341"
+                },
+                {
+                    "reference": "urn:uuid:7a091d7d-20ab-4f91-9f20-1eeca8183d7d"
+                },
+                {
+                    "reference": "urn:uuid:d2d61ea5-8161-4a0a-bfab-a87776cfa440"
+                },
+                {
+                    "reference": "urn:uuid:e6d4505e-87b8-40fc-94d1-8b38a74666bf"
+                },
+                {
+                    "reference": "8edbb536-0e53-4dc8-9687-c226960368bf"
+                }
+            ]
+        },
+        {
+            "title": "Sonstiges",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "129125009:363589002=386359008",
+                        "display": "Procedure with explicit context (situation) : Associated procedure (attribute) =  Administration of drug or medicament via oral route (procedure)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Sonstiges</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:55e27456-0474-4b61-a438-229c93cedd5f"
+                }
+            ]
+        },
+        {
+            "title": "Pulsoxymetrie-Screening (Messung am Fuß)",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "252465000:405813007=56459004",
+                        "display": "Pulse oximetry (procedure) : Procedure site - Direct (attribute) = Foot structure (body structure)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Pulsoxymetrie-Screening (Messung am Fuß)</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:9df13428-9d96-4766-9790-c4dcd70064e2"
+                }
+            ]
+        },
+        {
+            "title": "Neugeborenen-Hörscreening",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "252957005",
+                        "display": "Children's hearing test (procedure)"
+                    },
+                    {
+                        "system": "http://loinc.org",
+                        "version": "2.68",
+                        "code": "54111-0",
+                        "display": "Newborn hearing screening panel"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Neugeborenen-Hörscreening</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:bc2430d7-396c-4bf7-a3ae-56abf71d26a2"
+                },
+                {
+                    "reference": "urn:uuid:04772266-c279-4d88-912c-240586efdb39"
+                },
+                {
+                    "reference": "urn:uuid:769a406d-962f-423c-91c2-343f2863b577"
+                }
+            ]
+        },
+        {
+            "title": "Erweitertes Neugeborenen-Screening",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "738796001:363702006=428447008",
+                        "display": "Collection of dried blood spot specimen (procedure) : Has focus (attribute) = Newborn blood spot screening (procedure)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Erweitertes Neugeborenen-Screening</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:83c936e6-642a-4364-b648-9f4ab73e20c6"
+                }
+            ]
+        },
+        {
+            "title": "Screening auf Mukoviszidose",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "738796001:363702006=171191008",
+                        "display": "Collection of dried blood spot specimen (procedure) : Has focus (attribute) = Cystic fibrosis screening (procedure)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Screening auf Mukoviszidose</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:92ee40b0-0918-402f-9e6a-92196f12059c"
+                }
+            ]
+        },
+        {
+            "title": "Perzentilkurven",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "129822005",
+                        "display": "Childhood growth AND/OR development finding (finding)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Perzentilkurven</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:bf1fde75-7c71-4bdc-a643-364ae842bc5b"
+                }
+            ]
+        }
     ]
-  },
-  "extension": [
-    {
-      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
-      "valueString": "Liebe Eltern, herzlichen Glückwunsch zur Geburt Ihres Babys! Gerade in den ersten Lebensjahren macht Ihr Kind sehr viele Entwicklungsschritte. Um eventuell vorliegende Erkrankungen und Entwicklungsverzögerungen frühzeitig erkennen und entsprechend handeln zu können, gibt es regelmäßige Untersuchungen. Diese sind ein wichtiger Teil der Gesundheitsvorsorge für Ihr Kind. Die Kosten werden von der gesetzlichen Krankenversicherung übernommen. Innerhalb der ersten sechs Lebensjahre untersucht die Ärztin oder der Arzt, ob sich Ihr Kind gesund und altersgemäß entwickelt. Die Ergebnisse jeder Untersuchung werden Ihnen erläutert. Darüber hinaus werden Sie über Schutzimpfungen informiert, die zugleich mit den Untersuchungen erfolgen können. Sie haben bei sämtlichen Untersuchungen die Gelegenheit, die Entwicklung Ihres Kindes mit der Ärztin oder dem Arzt zu besprechen und Fragen zu stellen, etwa zu Themen wie Ernährung oder Unfallvermeidung. Zudem erhalten Sie im Rahmen der einzelnen Untersuchungen von der Ärztin oder dem Arzt Informationen zu regionalen Unterstützungsangeboten (wie z. B. Eltern-Kind-Angebote, Frühe Hilfen, Familienhebammen, -paten, öffentlicher Gesundheitsdienst). Für alle Untersuchungen sind bestimmte Zeiträume vorgegeben. Dass Sie diese kennen und einhalten, ist besonders wichtig, da manche Liebe Eltern, herzlichen Glückwunsch zur Geburt Ihres Babys! Bitte beachten Sie, dass es sich bei dem Gelben Heft um eine vertrauliche Information handelt. Keine Institution (z. B. Kita, Schule, Jugendamt) darf eine Einsichtnahme verlangen. Sie entscheiden, wem Sie den Einblick gewähren. Die herausnehmbare Teilnahmekarte ist als Beleg für die Wahrnehmung der Untersuchungen ausreichend. Erkrankungen nur in einer bestimmten Altersspanne rechtzeitig erkannt und behandelt werden können (z. B. Stoffwechselstörungen oder Fehlstellungen der Hüfte). Auch bei Frühgeborenen, also Kindern, die vor der 37+0 Schwangerschaftswoche geboren werden, sollen die Untersuchungszeiträume dringend eingehalten werden. In solchen Fällen wird der frühe Geburtstermin bei der Interpretation der Ergebnisse berücksichtigt. Bitte nutzen Sie das Angebot der Untersuchungen! Sie geben sich und Ihrem Kind die Chance, dass gesundheitliche Probleme oder Auffälligkeiten rechtzeitig erkannt und behandelt werden können. Wir wünschen Ihrem Kind und Ihnen alles Gute! Gemeinsamer Bundesausschuss, Berlin* | Der Gemeinsame Bundesausschuss (G-BA) wird gebildet von der Kassenärztlichen und der Kassenzahnärztlichen Bundesvereinigung, der Deutschen Krankenhausgesellschaft e.V. und dem Spitzenverband der gesetzlichen Krankenversicherung. Der G-BA legt in Richtlinien fest, welche Leistungen der medizinischen Versorgung von der gesetzlichen Krankenversicherung übernommen werden. Das Gelbe Heft ist eine Anlage der Kinder-Richtlinie des G-BA. Weitere Informationen finden Sie auf den Internetseiten des G-BA unter www.g-ba.de."
-    },
-    {
-      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
-      "valueString": "U1 Elterninformation zur Neugeborenen-Erstuntersuchung Unmittelbar nach der Geburt findet die erste Untersuchung Ihres Babys statt. Die Ärztin oder der Arzt oder die Hebamme oder der Entbindungspfleger vergewissern sich, dass Ihr Baby die Geburt gut überstanden hat. Es geht bei der U1 vor allem darum, sofort behandlungsbedürftige Zustände und äußerliche Fehlbildungen zu erkennen. So können notwendige Sofortmaßnahmen eingeleitet und Komplikationen vermieden werden. Das wird untersucht: • Mit dem sogenannten Apgar-Wert werden die Hautfarbe des Babys, der Herzschlag, die Reflexe, die Muskelspannung und die Atmung geprüft. Dieser Wert wird nach fünf und nochmals nach zehn Minuten ermittelt. • Um sicher zu sein, dass Ihr Neugeborenes während der Geburt ausreichend mit Sauerstoff versorgt worden ist, wird der Nabelschnur Blut entnommen und dessen pH-Wert (Säuregrad) bestimmt. • Es wird nach äußerlich erkennbaren Fehlbildungen geschaut. Ihr Baby wird gemessen und gewogen und es erhält nach Rücksprache mit Ihnen Vitamin K, um inneren Blutungen vorzubeugen. Zur Ernährung Ihres Kindes (Stillen oder andere Ernährungsformen) werden Sie fachkundig beraten und können während der gesamten Stillzeit und bei Ernährungsproblemen auf Hilfe zurückgreifen. In den kommenden drei Tagen werden Ihnen für Ihr Baby weitere wichtige Untersuchungen empfohlen. Diese sollen eine rechtzeitige Behandlung der jeweiligen Erkrankungen ermöglichen. Der Test auf kritische angeborene Herzfehler sollte nach der 24. bis zur 48. Lebensstunde Ihres Babys durchgeführt werden. Die Tests auf angeborene Stoffwechselstörungen und Mukoviszidose aus einigen Tropfen Blut Ihres Babys sollten zwischen der 36. und 72. Lebensstunde erfolgen. Der Hörtest für Neugeborene sollte bis zur 72. Lebensstunde vorgenommen werden. Zu diesen Untersuchungen erhalten Sie jeweils ein ausführliches Informationsblatt. Die nächste Untersuchung soll vom 3. bis zum 10. Lebenstag (U2) vorgenommen werden."
-    }
-  ],
-  "status": "final",
-  "type": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "170099002",
-        "display": "Child examination - birth (procedure)"
-      }
-    ]
-  },
-  "category": [
-    {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-          "code": "243788004",
-          "display": "Child examination (procedure)"
-        }
-      ]
-    }
-  ],
-  "subject": {
-    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
-  },
-  "encounter": {
-    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
-  },
-  "date": "2020-01-02",
-  "author": [
-    {
-      "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
-    }
-  ],
-  "title": "U1",
-  "section": [
-    {
-      "title": "Bitte bringen Sie Ihr Kind zur Untersuchung:",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "185353001",
-            "display": "Appointment date (finding)"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Bitte bringen Sie Ihr Kind zur Untersuchung:</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:5f224fdc-5a1c-4d4e-9a90-389b9ba89843"
-        },
-        {
-          "reference": "urn:uuid:2ebae392-b4c7-4b21-80c2-e7e701803194"
-        },
-        {
-          "reference": "urn:uuid:5a06d0b7-2e04-499d-9c13-62243de88ebb"
-        },
-        {
-          "reference": "urn:uuid:b69f371f-a84d-42ed-a14a-3a5a48dff81a"
-        },
-        {
-          "reference": "urn:uuid:6ed19bd4-c817-48fd-9932-76c6779c5186"
-        },
-        {
-          "reference": "urn:uuid:ecf6f794-2d41-4b0b-bdff-615b8d7b83c1"
-        },
-        {
-          "reference": "urn:uuid:fa8ed14c-fced-4505-ac7b-d42f18212233"
-        },
-        {
-          "reference": "urn:uuid:49769def-1471-4bbb-96b8-465c8a3c6e90"
-        },
-        {
-          "reference": "urn:uuid:e1cb3cc8-4880-4de3-a0ea-b5dd12d92652"
-        }
-      ]
-    },
-    {
-      "extension": [
-        {
-          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
-          "valueString": "Zutreffendes bitte ankreuzen!"
-        }
-      ],
-      "title": "Schwangerschaftsanamnese",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "160427003",
-            "display": "Family history with explicit context pertaining to mother (situation)"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Schwangerschaftsanamnese</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:4d195b50-1710-44a6-84a9-dee9c05dd90c"
-        }
-      ]
-    },
-    {
-      "extension": [
-        {
-          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
-          "valueString": "Zutreffendes bitte ankreuzen!"
-        }
-      ],
-      "title": "Geburtsanamnese",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "364319003",
-            "display": "Pregnancy, childbirth / puerperium observable (observable entity)"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Geburtsanamnese</p></div>"
-      },
-      "section": [
-        {
-          "title": "Geschlecht",
-          "code": {
-            "coding": [
-              {
-                "system": "http://snomed.info/sct",
-                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                "code": "263495000",
-                "display": "Gender (observable entity)"
-              }
-            ]
-          },
-          "entry": [
-            {
-              "reference": "urn:uuid:8d7367fa-be62-4e6a-b605-4fefe6db443d"
-            }
-          ]
-        },
-        {
-          "title": "Soweit vorhanden, Befunde einer pränatalen Diagnostik:",
-          "code": {
-            "coding": [
-              {
-                "system": "http://snomed.info/sct",
-                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                "code": "313199003",
-                "display": "Antenatal screening finding (observable entity)"
-              },
-              {
-                "system": "http://loinc.org",
-                "version": "2.68",
-                "code": "57078-8",
-                "display": "Antenatal testing and surveillance Narrative"
-              }
-            ]
-          },
-          "entry": [
-            {
-              "reference": "urn:uuid:593c7b90-0f15-483f-82e0-ec5bcd325f13"
-            }
-          ]
-        },
-        {
-          "title": "Base excess",
-          "code": {
-            "coding": [
-              {
-                "system": "http://snomed.info/sct",
-                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                "code": "363787002:370134009=123029007,704319004=12499000,704318007=118556004,370132008=30766002,704327008=703430008,246093002=68615006,246501002=723208001",
-                "display": "Observable entity (observable entity) : Time aspect (attribute) = Single point in time (qualifier value) , Inheres in (attribute) = Cord blood (substance) , Property type (attribute) = Substance concentration (property) (qualifier value) , Scale type (attribute) = Quantitative (qualifier value) , Direct site (attribute) = Arterial cord blood specimen (specimen) , Component (attribute) = Bicarbonate (substance) , Technique (attribute) = Base excess calculation technique (qualifier value)"
-              },
-              {
-                "system": "http://loinc.org",
-                "version": "2.68",
-                "code": "28638-5",
-                "display": "Base excess in Arterial cord blood by calculation"
-              }
-            ]
-          },
-          "entry": [
-            {
-              "reference": "urn:uuid:593c7b90-0f15-483f-82e0-ec5bcd325f13"
-            }
-          ]
-        },
-        {
-          "title": "pH-Wert (Nabelarterie)",
-          "code": {
-            "coding": [
-              {
-                "system": "http://snomed.info/sct",
-                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                "code": "363787002:370134009=123029007,704319004=12499000,246093002=89177007,704318007=702700007,370132008=30766002,704327008=703430008",
-                "display": "Observable entity (observable entity) : Time aspect (attribute) = Single point in time (qualifier value) , Inheres in (attribute) = Cord blood (substance) , Component (attribute) = Proton (substance) , Property type (attribute) = Logarithmic substance concentration (property) (qualifier value) , Scale type (attribute) = Quantitative (qualifier value) , Direct site (attribute) = Arterial cord blood specimen (specimen)"
-              },
-              {
-                "system": "http://loinc.org",
-                "version": "2.68",
-                "code": "28646-8",
-                "display": "pH of Arterial cord blood"
-              }
-            ]
-          },
-          "entry": [
-            {
-              "reference": "urn:uuid:07574944-fa0c-4bc9-98b7-942734e10bce"
-            }
-          ]
-        },
-        {
-          "title": "Kindslage",
-          "code": {
-            "coding": [
-              {
-                "system": "http://snomed.info/sct",
-                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                "code": "364607000",
-                "display": "Position of fetus (observable entity)"
-              }
-            ]
-          },
-          "entry": [
-            {
-              "reference": "urn:uuid:779bdb25-5e49-4bec-9bdd-9410bbddc22e"
-            }
-          ]
-        },
-        {
-          "title": "Geburtsmodus",
-          "code": {
-            "coding": [
-              {
-                "system": "http://snomed.info/sct",
-                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                "code": "394698008",
-                "display": "Birth history (situation)"
-              }
-            ]
-          },
-          "entry": [
-            {
-              "reference": "urn:uuid:0aa24913-8562-4543-9868-20a436379bee"
-            }
-          ]
-        },
-        {
-          "title": "Geburtsdatum",
-          "code": {
-            "coding": [
-              {
-                "system": "http://snomed.info/sct",
-                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                "code": "184099003+397836004",
-                "display": "Date of birth (observable entity) + Time of delivery (observable entity)"
-              }
-            ]
-          },
-          "entry": [
-            {
-              "reference": "urn:uuid:4a2610cc-5245-40ce-8b60-0b2a4f8764e8"
-            }
-          ]
-        },
-        {
-          "title": "SSW (Wochen+Tage)",
-          "code": {
-            "coding": [
-              {
-                "system": "http://snomed.info/sct",
-                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                "code": "412726003",
-                "display": "Length of gestation at birth (observable entity)"
-              }
-            ]
-          },
-          "entry": [
-            {
-              "reference": "urn:uuid:bab54e53-0f54-4245-b145-e889db0072a7"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "extension": [
-        {
-          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
-          "valueString": "Zutreffendes bitte ankreuzen!"
-        },
-        {
-          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
-          "valueString": "(u.a. behandlungsbedürftige Hyperbilirubinämie bei einem vorausgegangenen Kind)"
-        }
-      ],
-      "title": "Familienanamnese",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "422432008",
-            "display": "Family history section (record artifact)"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Familienanamnese</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:80c926a7-d460-4dae-8aac-e196d4ebced8"
-        }
-      ]
-    },
-    {
-      "title": "Körperliche Untersuchung",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "425044008",
-            "display": "Physical exam section (record artifact)"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Körperliche Untersuchung</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:9e4d83dd-0d61-4477-9b90-0a3fe8ad83c5"
-        },
-        {
-          "reference": "urn:uuid:57ab3191-e013-4b62-a8b1-af6951cfd1f8"
-        },
-        {
-          "reference": "urn:uuid:adc38833-9d8e-4c50-b2ed-6bddbc8bd9db"
-        },
-        {
-          "reference": "urn:uuid:f05e68ef-60e5-4e9b-96c2-71b18f411341"
-        },
-        {
-          "reference": "urn:uuid:7a091d7d-20ab-4f91-9f20-1eeca8183d7d"
-        },
-        {
-          "reference": "urn:uuid:d2d61ea5-8161-4a0a-bfab-a87776cfa440"
-        },
-        {
-          "reference": "urn:uuid:e6d4505e-87b8-40fc-94d1-8b38a74666bf"
-        },
-        {
-          "reference": "8edbb536-0e53-4dc8-9687-c226960368bf"
-        }
-      ]
-    },
-    {
-      "title": "Sonstiges",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "129125009:363589002=386359008",
-            "display": "Procedure with explicit context (situation) : Associated procedure (attribute) =  Administration of drug or medicament via oral route (procedure)"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Sonstiges</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:55e27456-0474-4b61-a438-229c93cedd5f"
-        }
-      ]
-    },
-    {
-      "title": "Pulsoxymetrie-Screening (Messung am Fuß)",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "252465000:405813007=56459004",
-            "display": "Pulse oximetry (procedure) : Procedure site - Direct (attribute) = Foot structure (body structure)"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Pulsoxymetrie-Screening (Messung am Fuß)</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:9df13428-9d96-4766-9790-c4dcd70064e2"
-        }
-      ]
-    },
-    {
-      "title": "Neugeborenen-Hörscreening",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "252957005",
-            "display": "Children's hearing test (procedure)"
-          },
-          {
-            "system": "http://loinc.org",
-            "version": "2.68",
-            "code": "54111-0",
-            "display": "Newborn hearing screening panel"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Neugeborenen-Hörscreening</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:bc2430d7-396c-4bf7-a3ae-56abf71d26a2"
-        },
-        {
-          "reference": "urn:uuid:04772266-c279-4d88-912c-240586efdb39"
-        },
-        {
-          "reference": "urn:uuid:769a406d-962f-423c-91c2-343f2863b577"
-        }
-      ]
-    },
-    {
-      "title": "Erweitertes Neugeborenen-Screening",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "738796001:363702006=428447008",
-            "display": "Collection of dried blood spot specimen (procedure) : Has focus (attribute) = Newborn blood spot screening (procedure)"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Erweitertes Neugeborenen-Screening</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:83c936e6-642a-4364-b648-9f4ab73e20c6"
-        }
-      ]
-    },
-    {
-      "title": "Screening auf Mukoviszidose",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "738796001:363702006=171191008",
-            "display": "Collection of dried blood spot specimen (procedure) : Has focus (attribute) = Cystic fibrosis screening (procedure)"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Screening auf Mukoviszidose</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:92ee40b0-0918-402f-9e6a-92196f12059c"
-        }
-      ]
-    },
-    {
-      "title": "Perzentilkurven",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "129822005",
-            "display": "Childhood growth AND/OR development finding (finding)"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Perzentilkurven</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:bf1fde75-7c71-4bdc-a643-364ae842bc5b"
-        }
-      ]
-    }
-  ]
 }

@@ -1,0 +1,479 @@
+{
+    "resourceType": "Bundle",
+    "id": "771578f8-0b76-4197-hip3-d83227516e47",
+    "meta": {
+        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Bundle|1.0.0"]
+    },
+    "identifier": {
+        "system": "urn:ietf:rfc:3936",
+        "value": "771578f8-0b76-4197-hip3-d83227516e47"
+    },
+    "type": "document",
+    "timestamp": "2019-12-23T12:30:02Z",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:337108da-d038-48a5-a40f-7ddcdd7780c2",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "337108da-d038-48a5-a40f-7ddcdd7780c2",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_Hip_Screening|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "171241003",
+                            "display": "Congenital dislocation of the hip screening (procedure)"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "243788004",
+                                "display": "Child examination (procedure)"
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+                },
+                "date": "2020-01-02",
+                "author": [
+                    {
+                        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                    }
+                ],
+                "title": "Spezielle Früherkennungsuntersuchungen",
+                "section": [
+                    {
+                        "title": "Screening auf Hüftgelenksdysplasie und -luxation",
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:5fdi4fdc-5b2r-4d4e-9a90-389b9ba89843"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Encounter|1.0.0"
+                    ]
+                },
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "version": "2.0.0",
+                    "code": "AMB",
+                    "display": "ambulatory"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "243788004:370131001=133931009",
+                                "display": "Child examination (procedure) : Recipient category =  Infant (person)",
+                                "_display": {
+                                    "extension": [
+                                        {
+                                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                            "extension": [
+                                                {
+                                                    "url": "content",
+                                                    "valueString": "U3 4.-5. Lebenswoche"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                                        "version": "2.0.0",
+                                        "code": "PPRF",
+                                        "display": "primary performer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "individual": {
+                            "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2020-07-07"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "c946bef-6e3a-4aaf-a8cc-5764ed624ac1",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.0"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
+                                    "code": "kvk"
+                                }
+                            ]
+                        },
+                        "system": "http://fhir.de/NamingSystem/gkv/kvk-versichertennummer",
+                        "value": "F123456784"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Heike Hipp",
+                        "family": "Hipp",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Hipp"
+                                }
+                            ]
+                        },
+                        "given": ["Heike"]
+                    }
+                ],
+                "birthDate": "2020-06-22"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "685e18e6-be98-4ed4-84ed-fcec6064a25c",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.0"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "DN"
+                                }
+                            ]
+                        },
+                        "system": "http://fhir.de/NamingSystem/bundesaerztekammer/efn",
+                        "value": "123456789123456"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Rainer Gold",
+                        "family": "Gold",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Gold"
+                                }
+                            ]
+                        },
+                        "given": ["Rainer"]
+                    }
+                ],
+                "address": [
+                    {
+                        "type": "both",
+                        "line": ["Musterstr. 1"],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "1"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Musterstr."
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Darmstadt",
+                        "postalCode": "64283",
+                        "country": "D"
+                    }
+                ],
+                "qualification": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "code": "309343006",
+                                    "display": "Physician (occupation)",
+                                    "_display": {
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                "extension": [
+                                                    {
+                                                        "url": "content",
+                                                        "valueString": "Arzt/ Ärztin"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5fdi4fdc-5b2r-4d4e-9a90-389b9ba89843",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "id": "5fdi4fdc-5b2r-4d4e-9a90-389b9ba89843",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U3_U4_Hip_Screening|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.68",
+                            "code": "30711-6",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Hüftsonographie:"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "241503003",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Hüftsonographie:"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+                },
+                "effectiveDateTime": "2020-01-02",
+                "performer": [
+                    {
+                        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                    }
+                ],
+                "result": [
+                    {
+                        "reference": "urn:uuid:4e25ffdc-5b2r-4are-9a90-389b9ba89843"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:4e25ffdc-5b2r-4are-9a90-389b9ba89843",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "4e25ffdc-5b2r-4are-9a90-389b9ba89843",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U3_U4_Hip_Screening_Result|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "129125009:{363589002=241503003,408730004=398166005,408731000=410584005}",
+                            "display": "Procedure with explicit context (situation) : { Associated procedure (attribute) = Ultrasound scan of neonatal hip (procedure) , Procedure context (situation) = Not done (qualifier value) , Temporal context (situation) = Past - time unspecified (qualifier value) }"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+                },
+                "effectiveDateTime": "2020-02-17",
+                "performer": [
+                    {
+                        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                    }
+                ],
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_MIO_CMR_Graf_Hip_Ultrasound_Classification",
+                            "version": "1.0.0",
+                            "code": "1ab",
+                            "display": "Graf Ia/Ib"
+                        }
+                    ]
+                },
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "362906008",
+                            "display": "Entire right hip joint (body structure)",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "rechte Hüfte"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "component": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "code": "364501006:{704321009=241503003,246501002=278395004,246514001=259046004,718497002=91685003}",
+                                    "display": "Hip joint feature (observable entity) : { Characterizes (attribute) = Ultrasound scan of neonatal hip (procedure) , Technique (attribute) = Imaging technique (qualifier value) , Units (attribute) = degrees of arc (qualifier value) , Inherent location (attribute) = Fibrocartilage (body structure) }",
+                                    "_display": {
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                "extension": [
+                                                    {
+                                                        "url": "content",
+                                                        "valueString": "Beta-Winkel (Grad)"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        "valueQuantity": {
+                            "value": 92,
+                            "unit": "DegreesOfArc",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "deg"
+                        }
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "code": "364501006:{704321009=241503003,246501002=278395004,246514001=259046004,718497002=58823008}",
+                                    "display": "Hip joint feature (observable entity) : { Characterizes (attribute) = Ultrasound scan of neonatal hip (procedure) , Technique (attribute) = Imaging technique (qualifier value) , Units (attribute) = degrees of arc (qualifier value) , Inherent location (attribute) = Structure of acetabular fossa (body structure) }",
+                                    "_display": {
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                "extension": [
+                                                    {
+                                                        "url": "content",
+                                                        "valueString": "Alpha-Winkel (Grad)"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        "valueQuantity": {
+                            "value": 90,
+                            "unit": "DegreesOfArc",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "deg"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

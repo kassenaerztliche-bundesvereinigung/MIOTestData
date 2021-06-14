@@ -1,5 +1,8 @@
 import * as fs from "fs";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-function
+const emptyFunction = () => {};
+
 export function readDir(path: string): string[] {
     try {
         return fs.readdirSync(path);
@@ -21,19 +24,19 @@ export function readFile(path: string): string | undefined {
     }
 }
 
-export function readJSONFile(path: string): object | undefined {
+export function readJSONFile(path: string): Record<string, unknown> | undefined {
     const data = readFile(path);
     if (data) {
         try {
-            return JSON.parse(data) as object;
+            return JSON.parse(data) as Record<string, unknown>;
         } catch (err) {
             throw new Error("Error parsing json.. ");
         }
     }
 }
 
-export type mioString = "IM" | "ZB" | "MR";
-const mioStrings: mioString[] = ["IM", "ZB", "MR"];
+export type mioString = "IM" | "ZB" | "MR" | "UH";
+const mioStrings: mioString[] = ["IM", "ZB", "MR", "UH"];
 export { mioStrings };
 
 const basePath: string = __dirname;
@@ -83,7 +86,7 @@ export function runAll<T extends HasMioString>(
     testFunction: (bundles: string[], value: T) => void,
     type: DefinitionType,
     valid = true,
-    setupFn: () => void = () => {}
+    setupFn: () => void = emptyFunction
 ): void {
     setupFn();
     describe(name, () => {
@@ -104,7 +107,7 @@ export function runAllFiles<T extends HasMioString>(
     testFunction: (bundles: string, value: T) => void,
     type: DefinitionType,
     valid = true,
-    setupFn: () => void = () => {}
+    setupFn: () => void = emptyFunction
 ): void {
     runAll<T>(
         name,
@@ -122,7 +125,7 @@ export function runAllBundleFiles(
     name: string,
     testFunction: (file: string, value: HasMioString) => void,
     valid = true,
-    setupFn: () => void = () => {}
+    setupFn: () => void = emptyFunction
 ): void {
     runAllFiles(name, BasicList, testFunction, "Bundles", valid, setupFn);
 }
@@ -131,7 +134,7 @@ export function runAllBundles(
     name: string,
     testFunction: (file: string[], value: HasMioString) => void,
     valid = true,
-    setupFn: () => void = () => {}
+    setupFn: () => void = emptyFunction
 ): void {
     runAll(name, BasicList, testFunction, "Bundles", valid, setupFn);
 }
@@ -140,7 +143,7 @@ export function runAllProfileFiles(
     name: string,
     testFunction: (file: string, value: HasMioString) => void,
     valid = true,
-    setupFn: () => void = () => {}
+    setupFn: () => void = emptyFunction
 ): void {
     runAllFiles(name, BasicList, testFunction, "Profiles", valid, setupFn);
 }
@@ -148,7 +151,7 @@ export function runAllProfileFiles(
 export function runAllProfiles<T extends HasMioString>(
     testFunction: (file: string[], value: HasMioString) => void,
     valid = true,
-    setupFn: () => void = () => {}
+    setupFn: () => void = emptyFunction
 ): void {
     runAll(name, BasicList, testFunction, "Profiles", valid, setupFn);
 }

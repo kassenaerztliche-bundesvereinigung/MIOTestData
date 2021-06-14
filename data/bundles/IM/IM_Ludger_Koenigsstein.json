@@ -1,6 +1,6 @@
 {
     "resourceType": "Bundle",
-    "id": "001578f8-0b76-4197-afd9-ludger7516e47",
+    "id": "001578f8-0b76-4184-afd9-ludger7516e47",
     "meta": {
         "profile": [
             "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Bundle_Entry|1.00.000"
@@ -9,16 +9,16 @@
     },
     "identifier": {
         "system": "urn:ietf:rfc:3986",
-        "value": "001578f8-0b76-4197-afd9-ludger7516e47"
+        "value": "001578f8-0b76-4184-afd9-ludger7516e47"
     },
     "type": "document",
     "timestamp": "2019-12-23T12:30:02Z",
     "entry": [
         {
-            "fullUrl": "urn:uuid:6d92d417-8a0d-42b9-959f-567ab2f4650f",
+            "fullUrl": "urn:uuid:VaccinationCompositionPrime",
             "resource": {
                 "resourceType": "Composition",
-                "id": "6d92d417-8a0d-42b9-959f-567ab2f4650f",
+                "id": "VaccinationCompositionPrime",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Composition_Prime|1.00.000"
@@ -35,12 +35,12 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "urn:uuid:VaccinationPatient"
                 },
                 "date": "2018-07-01T12:30:02Z",
                 "author": [
                     {
-                        "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                        "reference": "urn:uuid:VaccinationPractitionerrole"
                     }
                 ],
                 "title": "Impfeintrag-/einträge Nach-/Übertrag",
@@ -56,137 +56,57 @@
                         },
                         "entry": [
                             {
-                                "reference": "urn:uuid:ff258b30-915f-4561-b356-7b30e7a9393a"
+                                "reference": "urn:uuid:VaccinationRecordPrime_1"
+                            },
+                            {
+                                "reference": "urn:uuid:VaccinationRecordPrime_2"
+                            },
+                            {
+                                "reference": "urn:uuid:VaccinationRecordPrime_3"
                             }
                         ]
-                    }
-                ]
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:ff258b30-915f-4561-b356-7b30e7a9393a",
-            "resource": {
-                "resourceType": "Immunization",
-                "id": "ff258b30-915f-4561-b356-7b30e7a9393a",
-                "meta": {
-                    "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
-                    ]
-                },
-                "text": {
-                    "status": "extensions",
-                    "div": "TBD"
-                },
-                "extension": [
+                    },
                     {
-                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_Vaccination_Entry_Type",
-                        "valueCodeableConcept": {
+                        "code": {
                             "coding": [
                                 {
-                                    "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_MIO_Vaccination_Technical_Entry_Type",
-                                    "code": "End",
-                                    "display": "Eintrag nur digital"
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                                    "code": "COBSCAT"
                                 }
                             ]
-                        }
-                    },
-                    {
-                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_Vaccination_Attester",
-                        "extension": [
+                        },
+                        "entry": [
                             {
-                                "url": "mode",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http://hl7.org/fhir/composition-attestation-mode",
-                                            "code": "legal"
-                                        }
-                                    ]
-                                }
+                                "reference": "urn:uuid:VaccinationObservationImmunizationStatus_1"
                             },
                             {
-                                "url": "party",
-                                "valueReference": {
-                                    "reference": "urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2"
-                                }
+                                "reference": "urn:uuid:VaccinationObservationImmunizationStatus_2"
                             }
                         ]
                     },
                     {
-                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_Vaccination_Enterer",
-                        "extension": [
-                            {
-                                "url": "mode",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
-                                            "code": "ENT"
-                                        }
-                                    ]
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11348-0"
                                 }
-                            },
+                            ]
+                        },
+                        "entry": [
                             {
-                                "url": "party",
-                                "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
-                                }
+                                "reference": "urn:uuid:VaccinationCondition"
                             }
                         ]
-                    }
-                ],
-                "status": "completed",
-                "vaccineCode": {
-                    "coding": [
-                        {
-                            "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200131",
-                            "code": "11866009",
-                            "display": "Plague vaccine (product)"
-                        }
-                    ],
-                    "text": "Pestimpfstoff"
-                },
-                "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
-                },
-                "occurrenceDateTime": "2019-12-23T12:30:02Z",
-                "lotNumber": "J07BX1892",
-                "primarySource": true,
-                "note": [
-                    {
-                        "text": "Bei einer ungewöhnlichen Impfreaktion sollte die impfende ärztliche Person benachrichtigt werden. Die ärztlich tätige Person hat, wenn der Verdacht einer gesundheitlichen Schädigung besteht, die über das übliche Ausmaß einer Impfreaktion hinaus geht verpflichtet, den Verdacht dem zuständigen Gesundheitsamt namentlich zu melden (§ 6 Absatz 1 Nr 3 des lnfektionsschutzgesetzes • lfSG) Im Falle eines Impfschadens besteht unter den Voraussetzungen des § 60 Absatz 1 lfSG ein Anspruch auf Entschädigung in entsprechender Anwendung der Vorschriften des Bundesversorgungsgesetzes. Der Antrag ist bei der für die Durchführung des Bundesversorgungsgesetzes zuständigen Behörde (§ 64 Absatz 1 lfSG, i.d.R. 'Versorgungsamt') zu stellen. Weitere Auskünfte erteilt das zuständige Gesundheitsamt."
-                    },
-                    {
-                        "text": "Eine wichtige Anmerkungen zur durchgeführten Impfung."
-                    }
-                ],
-
-                "protocolApplied": [
-                    {
-                        "targetDisease": [
-                            {
-                                "coding": [
-                                    {
-                                        "system": "http://snomed.info/sct",
-                                        "version": "http://snomed.info/sct/900000000000207008/version/20200131",
-                                        "code": "58750007",
-                                        "display": "Plague (disorder)"
-                                    }
-                                ],
-                                "text": "Pest"
-                            }
-                        ],
-                        "doseNumberString": "unknown"
                     }
                 ]
             }
         },
         {
-            "fullUrl": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811",
+            "fullUrl": "urn:uuid:VaccinationPatient",
             "resource": {
                 "resourceType": "Patient",
-                "id": "9774f67f-a238-4daf-b4e6-679deeef3811",
+                "id": "VaccinationPatient",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Patient|1.00.000"
@@ -255,10 +175,10 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
+            "fullUrl": "urn:uuid:VaccinationPractitioner",
             "resource": {
                 "resourceType": "Practitioner",
-                "id": "20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
+                "id": "VaccinationPractitioner",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner|1.00.000"
@@ -327,98 +247,28 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:0eecc686-434d-4b8a-9009-4242377e0db6",
-            "resource": {
-                "resourceType": "Practitioner",
-                "id": "0eecc686-434d-4b8a-9009-4242377e0db6",
-                "meta": {
-                    "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner_Addendum|1.00.000"
-                    ]
-                },
-                "name": [
-                    {
-                        "use": "official",
-                        "family": "Bester",
-                        "_family": {
-                            "extension": [
-                                {
-                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
-                                    "valueString": "Bester"
-                                }
-                            ]
-                        },
-                        "given": ["Hartmut"],
-                        "prefix": ["Dr. med."],
-                        "_prefix": [
-                            {
-                                "extension": [
-                                    {
-                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
-                                        "valueCode": "AC"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "qualification": [
-                    {
-                        "code": {
-                            "coding": [
-                                {
-                                    "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_BAR2_WBO",
-                                    "code": "010",
-                                    "display": "FA Allgemeinmedizin"
-                                }
-                            ],
-                            "text": "FA Allgemeinmedizin"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
+            "fullUrl": "urn:uuid:VaccinationPractitionerrole",
             "resource": {
                 "resourceType": "PractitionerRole",
-                "id": "a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
+                "id": "VaccinationPractitionerrole",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole|1.00.000"
                     ]
                 },
                 "practitioner": {
-                    "reference": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
+                    "reference": "urn:uuid:VaccinationPractitioner"
                 },
                 "organization": {
-                    "reference": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b"
+                    "reference": "urn:uuid:VaccinationOrganization"
                 }
             }
         },
         {
-            "fullUrl": "urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2",
-            "resource": {
-                "resourceType": "PractitionerRole",
-                "id": "2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2",
-                "meta": {
-                    "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole_Addendum|1.00.000"
-                    ]
-                },
-                "practitioner": {
-                    "reference": "urn:uuid:0eecc686-434d-4b8a-9009-4242377e0db6"
-                },
-                "organization": {
-                    "reference": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b"
-                }
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b",
+            "fullUrl": "urn:uuid:VaccinationOrganization",
             "resource": {
                 "resourceType": "Organization",
-                "id": "cf042e44-086a-4d51-9c77-172f9a972e3b",
+                "id": "VaccinationOrganization",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Organization|1.00.000"
@@ -457,64 +307,134 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d",
+            "fullUrl": "urn:uuid:VaccinationRecordPrime_1",
             "resource": {
-                "resourceType": "Condition",
-                "id": "156c96ec-02ca-4770-94e9-b11d2237513d",
+                "resourceType": "Immunization",
+                "id": "VaccinationRecordPrime_1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Condition|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
                     ]
                 },
                 "text": {
                     "status": "extensions",
-                    "div": "<div></div>"
+                    "div": "TBD"
                 },
-                "clinicalStatus": {
-                    "coding": [
-                        {
-                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-                            "code": "resolved"
+                "extension": [
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_Vaccination_Entry_Type",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_MIO_Vaccination_Technical_Entry_Type",
+                                    "code": "End",
+                                    "display": "Eintrag nur digital"
+                                }
+                            ]
                         }
-                    ]
-                },
-                "verificationStatus": {
-                    "coding": [
-                        {
-                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-                            "code": "confirmed"
-                        }
-                    ]
-                },
-                "code": {
+                    },
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_Vaccination_Attester",
+                        "extension": [
+                            {
+                                "url": "mode",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://hl7.org/fhir/composition-attestation-mode",
+                                            "code": "legal"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "url": "party",
+                                "valueReference": {
+                                    "reference": "urn:uuid:VaccinationPractitionerrole"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_Vaccination_Enterer",
+                        "extension": [
+                            {
+                                "url": "mode",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                                            "code": "ENT"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "url": "party",
+                                "valueReference": {
+                                    "reference": "urn:uuid:VaccinationPractitionerrole"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "completed",
+                "vaccineCode": {
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
                             "version": "http://snomed.info/sct/900000000000207008/version/20200131",
-                            "code": "27836007",
-                            "display": "Pertussis (disorder)"
+                            "code": "11866009",
+                            "display": "Plague vaccine (product)"
                         },
                         {
-                            "system": "http://fhir.de/CodeSystem/dimdi/icd-10-gm",
-                            "version": "icd10gm2020",
-                            "code": "A37.-",
-                            "display": "Keuchhusten"
+                            "system": "http://fhir.de/CodeSystem/dimdi/atc",
+                            "code": "J07AK",
+                            "display": "Pest-Impfstoffe"
                         }
                     ],
-                    "text": "Pertussis/Keuchhusten"
+                    "text": "Pestimpfstoff"
                 },
-                "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                "patient": {
+                    "reference": "urn:uuid:VaccinationPatient"
                 },
-                "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
-                "recordedDate": "2001-10-02T06:47:12Z"
+                "occurrenceDateTime": "2019-12-23T12:30:02Z",
+                "lotNumber": "J07BX1892",
+                "primarySource": true,
+                "note": [
+                    {
+                        "text": "Bei einer ungewöhnlichen Impfreaktion sollte die impfende ärztliche Person benachrichtigt werden. Die ärztlich tätige Person hat, wenn der Verdacht einer gesundheitlichen Schädigung besteht, die über das übliche Ausmaß einer Impfreaktion hinaus geht verpflichtet, den Verdacht dem zuständigen Gesundheitsamt namentlich zu melden (§ 6 Absatz 1 Nr 3 des lnfektionsschutzgesetzes • lfSG) Im Falle eines Impfschadens besteht unter den Voraussetzungen des § 60 Absatz 1 lfSG ein Anspruch auf Entschädigung in entsprechender Anwendung der Vorschriften des Bundesversorgungsgesetzes. Der Antrag ist bei der für die Durchführung des Bundesversorgungsgesetzes zuständigen Behörde (§ 64 Absatz 1 lfSG, i.d.R. 'Versorgungsamt') zu stellen. Weitere Auskünfte erteilt das zuständige Gesundheitsamt."
+                    },
+                    {
+                        "text": "Eine wichtige Anmerkungen zur durchgeführten Impfung."
+                    }
+                ],
+
+                "protocolApplied": [
+                    {
+                        "targetDisease": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "version": "http://snomed.info/sct/900000000000207008/version/20200131",
+                                        "code": "58750007",
+                                        "display": "Plague (disorder)"
+                                    }
+                                ],
+                                "text": "Pest"
+                            }
+                        ],
+                        "doseNumberString": "unknown"
+                    }
+                ]
             }
         },
         {
-            "fullUrl": "urn:uuid:2d2a0ad2-1d69-44fa-82a4-28c55635857b",
+            "fullUrl": "urn:uuid:VaccinationRecordPrime_2",
             "resource": {
                 "resourceType": "Immunization",
-                "id": "2d2a0ad2-1d69-44fa-82a4-28c55635857b",
+                "id": "VaccinationRecordPrime_2",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
@@ -554,7 +474,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "urn:uuid:VaccinationPractitionerrole"
                                 }
                             }
                         ]
@@ -576,7 +496,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "urn:uuid:VaccinationPractitionerrole"
                                 }
                             }
                         ]
@@ -607,7 +527,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "urn:uuid:VaccinationPatient"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -651,10 +571,10 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:2d2a0ad2-1d60-44fa-82a4-28c55635857a",
+            "fullUrl": "urn:uuid:VaccinationRecordPrime_3",
             "resource": {
                 "resourceType": "Immunization",
-                "id": "2d2a0ad2-1d60-44fa-82a4-28c55635857a",
+                "id": "VaccinationRecordPrime_3",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
@@ -694,7 +614,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "urn:uuid:VaccinationPractitionerrole"
                                 }
                             }
                         ]
@@ -716,7 +636,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "urn:uuid:VaccinationPractitionerrole"
                                 }
                             }
                         ]
@@ -747,7 +667,7 @@
                     "text": "Gelbfieberimpfstoff"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "urn:uuid:VaccinationPatient"
                 },
                 "occurrenceDateTime": "2002-01-19T13:33:33Z",
                 "primarySource": true,
@@ -791,10 +711,10 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2f1f9c222",
+            "fullUrl": "urn:uuid:VaccinationObservationImmunizationStatus_1",
             "resource": {
                 "resourceType": "Observation",
-                "id": "2f66c2df-1df9-43cf-bf2a-6da2f1f9c222",
+                "id": "VaccinationObservationImmunizationStatus_1",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Observation_Immunization_Status|1.00.000"
@@ -823,11 +743,11 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "urn:uuid:VaccinationPatient"
                 },
                 "performer": [
                     {
-                        "reference": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
+                        "reference": "urn:uuid:VaccinationPractitioner",
                         "extension": [
                             {
                                 "url": "http://hl7.org/fhir/StructureDefinition/event-performerFunction",
@@ -868,10 +788,10 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222",
+            "fullUrl": "urn:uuid:VaccinationObservationImmunizationStatus_2",
             "resource": {
                 "resourceType": "Observation",
-                "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222",
+                "id": "VaccinationObservationImmunizationStatus_2",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Observation_Immunization_Status|1.00.000"
@@ -900,11 +820,11 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "urn:uuid:VaccinationPatient"
                 },
                 "performer": [
                     {
-                        "reference": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
+                        "reference": "urn:uuid:VaccinationPractitioner",
                         "extension": [
                             {
                                 "url": "http://hl7.org/fhir/StructureDefinition/event-performerFunction",
@@ -945,10 +865,64 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:a2108e08-32ca-4f22-985c-6f0279f5c89c",
+            "fullUrl": "urn:uuid:VaccinationCondition",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "VaccinationCondition",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Condition|1.00.000"
+                    ]
+                },
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "resolved"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200131",
+                            "code": "27836007",
+                            "display": "Pertussis (disorder)"
+                        },
+                        {
+                            "system": "http://fhir.de/CodeSystem/dimdi/icd-10-gm",
+                            "version": "icd10gm2020",
+                            "code": "A37.-",
+                            "display": "Keuchhusten"
+                        }
+                    ],
+                    "text": "Pertussis/Keuchhusten"
+                },
+                "subject": {
+                    "reference": "urn:uuid:VaccinationPatient"
+                },
+                "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
+                "recordedDate": "2001-10-02T06:47:12Z"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:VaccinationProvenance",
             "resource": {
                 "resourceType": "Provenance",
-                "id": "a2108e08-32ca-4f22-985c-6f0279f5c89c",
+                "id": "VaccinationProvenance",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Provenance|1.00.000"
@@ -956,7 +930,7 @@
                 },
                 "target": [
                     {
-                        "reference": "urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d"
+                        "reference": "urn:uuid:VaccinationCondition"
                     }
                 ],
                 "recorded": "2019-12-23T08:39:24+10:00",

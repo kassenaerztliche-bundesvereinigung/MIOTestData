@@ -1,46 +1,46 @@
 {
-  "resourceType": "Observation",
-  "id": "80c926a7-d460-4dae-8aac-e196d4ebced8",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Family_History|1.0.0"
-    ]
-  },
-  "status": "final",
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "422432008",
-        "display": "Family history section (record artifact)",
-        "_display": {
-          "extension": [
+    "resourceType": "Observation",
+    "id": "80c926a7-d460-4dae-8aac-e196d4ebced8",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Family_History|1.0.0"
+        ]
+    },
+    "status": "final",
+    "code": {
+        "coding": [
             {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Familienanamnese: (u. a. behandlungsbedürftige Hyperbilirubinämie bei einem vorausgegangenen Kind)"
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "422432008",
+                "display": "Family history section (record artifact)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Familienanamnese: (u. a. behandlungsbedürftige Hyperbilirubinämie bei einem vorausgegangenen Kind)"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
             }
-          ]
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+    },
+    "encounter": {
+        "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+    },
+    "effectiveDateTime": "2020-01-02",
+    "performer": [
+        {
+            "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
         }
-      }
-    ]
-  },
-  "subject": {
-    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
-  },
-  "encounter": {
-    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
-  },
-  "effectiveDateTime": "2020-01-02",
-  "performer": [
-    {
-      "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
-    }
-  ],
-  "valueString": "Familie"
+    ],
+    "valueString": "Familie"
 }

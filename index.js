@@ -4,8 +4,7 @@ var fs = require("fs");
 function readDir(path) {
     try {
         return fs.readdirSync(path);
-    }
-    catch (err) {
+    } catch (err) {
         throw new Error(err.toString());
     }
 }
@@ -16,16 +15,13 @@ function readJSONFile(path) {
             var data = fs.readFileSync(path, "utf8");
             try {
                 return JSON.parse(data);
-            }
-            catch (err) {
+            } catch (err) {
                 throw new Error("Error parsing json.. ");
             }
-        }
-        else {
+        } else {
             console.log("file: '" + path + "' not found..");
         }
-    }
-    catch (err) {
+    } catch (err) {
         throw new Error(err.toString());
     }
 }
@@ -33,29 +29,33 @@ exports.readJSONFile = readJSONFile;
 var mioStrings = ["IM", "ZB", "MR"];
 exports.mioStrings = mioStrings;
 function getExamples(mio, type, valid) {
-    if (valid === void 0) { valid = true; }
+    if (valid === void 0) {
+        valid = true;
+    }
     var rootPath = "/data/" + type + "/" + mio + (valid ? "" : "/error");
-    var files = readDir(rootPath).map(function (file) { return rootPath + "/" + file; });
+    var files = readDir(rootPath).map(function (file) {
+        return rootPath + "/" + file;
+    });
     var results = [];
     files.forEach(function (file) {
-        if (fs.lstatSync(file).isFile())
-            results.push(file);
+        if (fs.lstatSync(file).isFile()) results.push(file);
     });
     return results;
 }
 exports.getExamples = getExamples;
 function getExample(fileName, rootPath) {
-    if (rootPath === void 0) { rootPath = "/data"; }
-    var files = readDir(rootPath).map(function (file) { return rootPath + "/" + file; });
+    if (rootPath === void 0) {
+        rootPath = "/data";
+    }
+    var files = readDir(rootPath).map(function (file) {
+        return rootPath + "/" + file;
+    });
     files.forEach(function (file) {
         var stats = fs.lstatSync(file);
         if (stats.isFile()) {
-            if (file === fileName)
-                return file;
-        }
-        else {
-            if (stats.isDirectory())
-                return getExample(rootPath + "/" + file);
+            if (file === fileName) return file;
+        } else {
+            if (stats.isDirectory()) return getExample(rootPath + "/" + file);
         }
     });
     return undefined;

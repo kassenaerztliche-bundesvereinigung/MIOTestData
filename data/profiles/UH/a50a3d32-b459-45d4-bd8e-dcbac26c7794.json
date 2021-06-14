@@ -1,61 +1,61 @@
 {
-  "resourceType": "Composition",
-  "id": "a50a3d32-b459-45d4-bd8e-dcbac26c7794",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_Hip_Screening|1.0.0"
-    ]
-  },
-  "status": "final",
-  "type": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "171241003",
-        "display": "Congenital dislocation of the hip screening (procedure)"
-      }
-    ]
-  },
-  "category": [
-    {
-      "coding": [
+    "resourceType": "Composition",
+    "id": "a50a3d32-b459-45d4-bd8e-dcbac26c7794",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_Hip_Screening|1.0.0"
+        ]
+    },
+    "status": "final",
+    "type": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "171241003",
+                "display": "Congenital dislocation of the hip screening (procedure)"
+            }
+        ]
+    },
+    "category": [
         {
-          "system": "http://snomed.info/sct",
-          "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-          "code": "243788004",
-          "display": "Child examination (procedure)"
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                    "code": "243788004",
+                    "display": "Child examination (procedure)"
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "subject": {
-    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
-  },
-  "encounter": {
-    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
-  },
-  "date": "2020-01-02",
-  "author": [
-    {
-      "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
-    }
-  ],
-  "title": "Spezielle Früherkennungsuntersuchungen",
-  "section": [
-    {
-      "title": "Screening auf Hüftgelenksdysplasie und -luxation",
-      "entry": [
+    ],
+    "subject": {
+        "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+    },
+    "encounter": {
+        "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+    },
+    "date": "2020-01-02",
+    "author": [
         {
-          "reference": "urn:uuid:eef690b9-b4b0-42ab-a716-58e686d5c242"
-        },
-        {
-          "reference": "urn:uuid:3310e64e-b9a0-4b38-83ee-7c4c35c6975d"
-        },
-        {
-          "reference": "urn:uuid:3b3181f1-d4fd-4d1b-9251-73c120baf71b"
+            "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
         }
-      ]
-    }
-  ]
+    ],
+    "title": "Spezielle Früherkennungsuntersuchungen",
+    "section": [
+        {
+            "title": "Screening auf Hüftgelenksdysplasie und -luxation",
+            "entry": [
+                {
+                    "reference": "urn:uuid:eef690b9-b4b0-42ab-a716-58e686d5c242"
+                },
+                {
+                    "reference": "urn:uuid:3310e64e-b9a0-4b38-83ee-7c4c35c6975d"
+                },
+                {
+                    "reference": "urn:uuid:3b3181f1-d4fd-4d1b-9251-73c120baf71b"
+                }
+            ]
+        }
+    ]
 }

@@ -1,0 +1,431 @@
+{
+    "resourceType": "Bundle",
+    "id": "f6d996f8-1b4f-4145-8d33-e488fb82adev",
+    "meta": {
+        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PC_Bundle|1.0.0"]
+    },
+    "identifier": {
+        "system": "urn:ietf:rfc:3937",
+        "value": "f6d996f8-1b4f-4145-8d33-e488fb82adev"
+    },
+    "type": "document",
+    "timestamp": "1987-05-12T12:30:02Z",
+    "entry": [
+        {
+            "fullUrl": "http://test.local/fhir/PCComposition",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "PCComposition",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PC_Composition_Examination_Participation|1.0.0"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
+                        "valueString": "Liebe Eltern! Schützen Sie die Daten Ihres Kindes! Mit dieser herausnehmbaren Karte können Sie bei Behörden, Kindertragesstätten, Schulen und Jugendämtern den Nachweis erbringen, dass Ihr Kind an den Untersuchungen teilgenommen hat."
+                    },
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                        "valueString": "* Die Untersuchung beinhaltet eine ärztliche Beratung in Bezug auf einen vollständigeen altersgemäßen, entsprechend der Schutzimpfungs-Richtlinie des G-BA ausreichenden Impfschutz."
+                    }
+                ],
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "314845004",
+                            "display": "Patient participation status (finding)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:PCPatient"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:PCEncounter"
+                },
+                "date": "1987-05-11",
+                "author": [
+                    {
+                        "reference": "urn:uuid:PCPractitioner"
+                    },
+                    {
+                        "reference": "urn:uuid:PCOrganization"
+                    }
+                ],
+                "title": "Teilnahmekarte"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:PCEncounter",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "PCEncounter",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PC_Encounter|1.0.0"
+                    ]
+                },
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "version": "2.0.0",
+                    "code": "AMB",
+                    "display": "ambulatory"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "170254004",
+                                "display": "Child 1 year examination (procedure)"
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "urn:uuid:CMRPatient"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                                        "version": "2.0.0",
+                                        "code": "PPRF",
+                                        "display": "primary performer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "individual": {
+                            "reference": "urn:uuid:CMRPractitioner"
+                        }
+                    }
+                ],
+                "serviceProvider": {
+                    "reference": "urn:uuid:PCOrganization"
+                },
+                "period": {
+                    "start": "1987-05-11"
+                }
+            }
+        },
+        {
+            "fullUrl": "http://test.local/fhir/PCPatient",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "PCPatient",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PC_Patient|1.0.0"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
+                                    "code": "kvk"
+                                }
+                            ]
+                        },
+                        "system": "http://fhir.de/NamingSystem/gkv/kvk-versichertennummer",
+                        "value": "F123456784"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Ronny Heberson Furtado de Araújo",
+                        "family": "Heberson Furtado de Araújo",
+                        "given": ["Ronny"]
+                    }
+                ],
+                "birthDate": "1986-05-11"
+            }
+        },
+        {
+            "fullUrl": "http://test.local/fhir/CMRPatient",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "CMRPatient",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.0"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
+                                    "code": "kvk"
+                                }
+                            ]
+                        },
+                        "system": "http://fhir.de/NamingSystem/gkv/kvk-versichertennummer",
+                        "value": "F123456784"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Ronny Heberson Furtado de Araújo",
+                        "family": "Heberson Furtado de Araújo",
+                        "given": ["Ronny"]
+                    }
+                ],
+                "birthDate": "1986-05-11"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:PCPractitioner",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "PCPractitioner",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PC_Practitioner|1.0.0"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "DN"
+                                }
+                            ]
+                        },
+                        "system": "http://fhir.de/NamingSystem/bundesaerztekammer/efn",
+                        "value": "123456789123456"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Rainer Gold",
+                        "family": "Gold",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Gold"
+                                }
+                            ]
+                        },
+                        "given": ["Rainer"]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "email",
+                        "value": "rainer@gold.de"
+                    }
+                ],
+                "address": [
+                    {
+                        "type": "both",
+                        "line": ["Musterstr. 1"],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "1"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Musterstr."
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Darmstadt",
+                        "postalCode": "64283",
+                        "country": "D"
+                    }
+                ],
+                "qualification": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "code": "309343006",
+                                    "display": "Physician (occupation)",
+                                    "_display": {
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                "extension": [
+                                                    {
+                                                        "url": "content",
+                                                        "valueString": "Arzt/ Ärztin"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRPractitioner",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "CMRPractitioner",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.0"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "DN"
+                                }
+                            ]
+                        },
+                        "system": "http://fhir.de/NamingSystem/bundesaerztekammer/efn",
+                        "value": "123456789123456"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Rainer Gold",
+                        "family": "Gold",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Gold"
+                                }
+                            ]
+                        },
+                        "given": ["Rainer"]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "email",
+                        "value": "rainer@gold.de"
+                    }
+                ],
+                "address": [
+                    {
+                        "type": "both",
+                        "line": ["Musterstr. 1"],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "1"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Musterstr."
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Darmstadt",
+                        "postalCode": "64283",
+                        "country": "D"
+                    }
+                ],
+                "qualification": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "code": "309343006",
+                                    "display": "Physician (occupation)",
+                                    "_display": {
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                "extension": [
+                                                    {
+                                                        "url": "content",
+                                                        "valueString": "Arzt/ Ärztin"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:PCOrganization",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "PCOrganization",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PC_Organization|1.0.0"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "BSNR"
+                                }
+                            ]
+                        },
+                        "system": "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_BSNR",
+                        "value": "123456789"
+                    }
+                ],
+                "name": "Praxis für Kinderheilkunde",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "01234/56789"
+                    }
+                ],
+                "address": [
+                    {
+                        "type": "both",
+                        "line": ["Kastanienallee", "61"],
+                        "city": "Darmstadt",
+                        "postalCode": "64289",
+                        "country": "D"
+                    }
+                ]
+            }
+        }
+    ]
+}

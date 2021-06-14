@@ -1,69 +1,69 @@
 {
-  "resourceType": "Observation",
-  "id": "0aa0f4d8-82ff-4943-899f-e5269ef6fce0",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_Head_Circumference|1.0.0"
-    ]
-  },
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "363812007",
-        "display": "Head circumference (observable entity)",
-        "_display": {
-          "extension": [
+    "resourceType": "Observation",
+    "id": "0aa0f4d8-82ff-4943-899f-e5269ef6fce0",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_Head_Circumference|1.0.0"
+        ]
+    },
+    "code": {
+        "coding": [
             {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Kopfumfang in cm"
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "363812007",
+                "display": "Head circumference (observable entity)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Kopfumfang in cm"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "system": "http://loinc.org",
-        "version": "2.68",
-        "code": "9843-4",
-        "display": "Head Occipital-frontal circumference",
-        "_display": {
-          "extension": [
+            },
             {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Kopfumfang in cm"
+                "system": "http://loinc.org",
+                "version": "2.68",
+                "code": "9843-4",
+                "display": "Head Occipital-frontal circumference",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Kopfumfang in cm"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
             }
-          ]
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+    },
+    "encounter": {
+        "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+    },
+    "effectiveDateTime": "2020-01-02",
+    "performer": [
+        {
+            "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
         }
-      }
-    ]
-  },
-  "subject": {
-    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
-  },
-  "encounter": {
-    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
-  },
-  "effectiveDateTime": "2020-01-02",
-  "performer": [
-    {
-      "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+    ],
+    "valueQuantity": {
+        "value": 170,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
     }
-  ],
-  "valueQuantity": {
-    "value": 170,
-    "unit": "cm",
-    "system": "http://unitsofmeasure.org",
-    "code": "cm"
-  }
 }

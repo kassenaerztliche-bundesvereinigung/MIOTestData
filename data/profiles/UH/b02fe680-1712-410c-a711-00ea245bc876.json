@@ -1,52 +1,52 @@
 {
-  "resourceType": "CarePlan",
-  "id": "b02fe680-1712-410c-a711-00ea245bc876",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Care_Plan_U3_U4_Hip_Screening_Plan|1.0.0"
-    ]
-  },
-  "status": "unknown",
-  "intent": "plan",
-  "title": "Weiteres Vorgehen:",
-  "subject": {
-    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
-  },
-  "encounter": {
-    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
-  },
-  "created": "2020-01-02",
-  "author": {
-    "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
-  },
-  "activity": [
-    {
-      "detail": {
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-              "code": "440378000:704321009=241502008",
-              "display": "Referral for (observable entity) : Characterizes (attribute) = Ultrasound scan of hip (procedure)",
-              "_display": {
-                "extension": [
-                  {
-                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-                    "extension": [
-                      {
-                        "url": "content",
-                        "valueString": "Kontrollsonographie"
-                      }
+    "resourceType": "CarePlan",
+    "id": "b02fe680-1712-410c-a711-00ea245bc876",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Care_Plan_U3_U4_Hip_Screening_Plan|1.0.0"
+        ]
+    },
+    "status": "unknown",
+    "intent": "plan",
+    "title": "Weiteres Vorgehen:",
+    "subject": {
+        "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+    },
+    "encounter": {
+        "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+    },
+    "created": "2020-01-02",
+    "author": {
+        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+    },
+    "activity": [
+        {
+            "detail": {
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "440378000:704321009=241502008",
+                            "display": "Referral for (observable entity) : Characterizes (attribute) = Ultrasound scan of hip (procedure)",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Kontrollsonographie"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
                     ]
-                  }
-                ]
-              }
+                },
+                "status": "scheduled"
             }
-          ]
-        },
-        "status": "scheduled"
-      }
-    }
-  ]
+        }
+    ]
 }

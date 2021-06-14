@@ -1,6 +1,6 @@
 {
     "resourceType": "Bundle",
-    "id": "001578f8-0b76-4197-afd9-d83227516e47",
+    "id": "001578f8-0b76-1990-afd9-d83227516e47",
     "meta": {
         "profile": [
             "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Bundle_Entry|1.00.000"
@@ -9,7 +9,7 @@
     },
     "identifier": {
         "system": "urn:ietf:rfc:3986",
-        "value": "001578f8-0b76-4197-afd9-d83227516e47"
+        "value": "001578f8-0b76-1990-afd9-d83227516e47"
     },
     "type": "document",
     "timestamp": "2019-12-23T12:30:02Z",

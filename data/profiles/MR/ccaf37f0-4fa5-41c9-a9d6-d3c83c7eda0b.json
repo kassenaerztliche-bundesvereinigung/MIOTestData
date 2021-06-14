@@ -1,127 +1,127 @@
 {
-  "resourceType": "Composition",
-  "id": "ccaf37f0-4fa5-41c9-a9d6-d3c83c7eda0b",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Composition|1.0.0"
-    ]
-  },
-  "extension": [
-    {
-      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Comments",
-      "extension": [
-        {
-          "url": "hinweiseSchwangere",
-          "valueString": "Schwangerschaft und Geburt sind natürliche Vorgänge und stellen keine Krankheit dar. Manchmal können sie allerdings mit einem erhöhten Risiko für Mutter und Kind belastet sein. Eine sorgfältige Schwangerschaftsbetreuung hilft, einen großen Teil dieser Risiken zu vermeiden oder rechtzeitig zu erkennen, um Gefahren abzuwenden. Voraussetzung dafür ist jedoch Ihre regelmäßige Teilnahme an den Vorsorgeuntersuchungen!Die in Ihrem Mutterpass aufgeführten Untersuchungen dienen der Gesunderhaltung von Mutter und Kind und entsprechen langjähriger geburtshilflicher Erfahrung und modernen medizinischen Erkenntnissen. Dieser Mutterpass enthält die während der Schwangerschaft erhobenen wichtigen Befunde. Er wird Ihnen nach jeder Vorsorgeuntersuchung wieder mitgegeben. Die Angaben im Mutterpass dienen der Information von Arzt und Hebamme sowie Ihrer und Ihres Kindes Sicherheit. Der Mutterpass ist Ihr persönliches Dokument. Sie allein entscheiden darüber, wem er zugänglich gemacht werden soll. Andere (z. B. Arbeitgeber, Behörden) dürfen eine Einsichtnahme nicht verlangen.Bitte: ● Nutzen Sie die Ihnen gebotenen Möglichkeiten, um sich und Ihrem Kind Sicherheit zu verschaffen! ● Vergessen Sie nicht, dieses Heft zu jeder ärztlichen Untersuchung während der Schwangerschaft, zur Entbindung und zur Untersuchung des Kindes mitzubringen! ● Lassen Sie sich helfen, wenn Sie Sorgen haben! ● Beraten Sie sich mit Ihrem Arzt und befolgen Sie seine Ratschläge!"
-        },
-        {
-          "url": "hinweiseMutter",
-          "valueString": "Nach Schwangerschaft und Geburt beginnt für Sie zwar wieder der Alltag mit neuen Aufgaben, beachten Sie aber bitte Folgendes: ● Gehen Sie etwa 6–8 Wochen nach der Entbindung zur Nachuntersuchung ● Nutzen Sie alle Kinder-Früherkennungsuntersuchungen (U2 – U9) beim Kinder- oder Hausarzt"
-        },
-        {
-          "url": "aufbewahrungshinweis",
-          "valueString": "Während der Schwangerschaft sollten Sie Ihren Mutterpass immer bei sich haben und zu jeder ärztlichen Untersuchung mitbringen,insbesondere auch zur Entbindung. Ihr Mutterpass gehört zu den Dokumenten, die Sie immer sorgfältig aufbewahren sollten."
-        }
-      ]
-    }
-  ],
-  "status": "final",
-  "type": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "736377005",
-        "display": "Maternity care plan (record artifact)",
-        "_display": {
-          "extension": [
-            {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Mutterpasseintrag"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    ]
-  },
-  "subject": {
-    "reference": "urn:uuid:eed581f6-6830-4ca2-9e17-8b3aba3b82fb"
-  },
-  "encounter": {
-    "reference": "urn:uuid:b7a1460a-b530-4c77-9369-1c4886d74759"
-  },
-  "date": "2021-06-29T12:30:02Z",
-  "author": [
-    {
-      "reference": "urn:uuid:b9cfa843-3b07-4b02-80f9-3370e3f9563e"
-    }
-  ],
-  "title": "Mutterpasseintrag",
-  "section": [
-    {
-      "title": "Anamnese und allgemeine Befunde",
-      "entry": [
-        {
-          "reference": "urn:uuid:ee821471-d1c9-444d-b226-7ae8347e2f26"
-        },
-        {
-          "reference": "urn:uuid:b78ea80f-53d3-45e6-bd3f-22e0ac8a53b0"
-        },
-        {
-          "reference": "urn:uuid:46b7a92c-4385-456f-b230-cff16fda2b2a"
-        }
-      ]
+    "resourceType": "Composition",
+    "id": "ccaf37f0-4fa5-41c9-a9d6-d3c83c7eda0b",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Composition|1.0.0"
+        ]
     },
-    {
-      "title": "Untersuchungen",
-      "section": [
+    "extension": [
         {
-          "title": "Laboruntersuchungen und Rötelnschutz",
-          "entry": [
-            {
-              "reference": "urn:uuid:c5724565-6a5c-417f-940b-5ba1178c54a3"
-            }
-          ],
-          "section": [
-            {
-              "title": "Laboruntersuchung",
-              "code": {
-                "coding": [
-                  {
-                    "system": "http://snomed.info/sct",
-                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                    "code": "404684003:363714003=108252007",
-                    "display": "Clinical finding (finding) : Interprets (attribute) = Laboratory procedure (procedure)",
-                    "_display": {
-                      "extension": [
-                        {
-                          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-                          "extension": [
-                            {
-                              "url": "content",
-                              "valueString": "Laboruntersuchung"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              "entry": [
+            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Comments",
+            "extension": [
                 {
-                  "reference": "urn:uuid:1e7076db-ac4c-45dc-9e66-973ad7c99fdf"
+                    "url": "hinweiseSchwangere",
+                    "valueString": "Schwangerschaft und Geburt sind natürliche Vorgänge und stellen keine Krankheit dar. Manchmal können sie allerdings mit einem erhöhten Risiko für Mutter und Kind belastet sein. Eine sorgfältige Schwangerschaftsbetreuung hilft, einen großen Teil dieser Risiken zu vermeiden oder rechtzeitig zu erkennen, um Gefahren abzuwenden. Voraussetzung dafür ist jedoch Ihre regelmäßige Teilnahme an den Vorsorgeuntersuchungen!Die in Ihrem Mutterpass aufgeführten Untersuchungen dienen der Gesunderhaltung von Mutter und Kind und entsprechen langjähriger geburtshilflicher Erfahrung und modernen medizinischen Erkenntnissen. Dieser Mutterpass enthält die während der Schwangerschaft erhobenen wichtigen Befunde. Er wird Ihnen nach jeder Vorsorgeuntersuchung wieder mitgegeben. Die Angaben im Mutterpass dienen der Information von Arzt und Hebamme sowie Ihrer und Ihres Kindes Sicherheit. Der Mutterpass ist Ihr persönliches Dokument. Sie allein entscheiden darüber, wem er zugänglich gemacht werden soll. Andere (z. B. Arbeitgeber, Behörden) dürfen eine Einsichtnahme nicht verlangen.Bitte: ● Nutzen Sie die Ihnen gebotenen Möglichkeiten, um sich und Ihrem Kind Sicherheit zu verschaffen! ● Vergessen Sie nicht, dieses Heft zu jeder ärztlichen Untersuchung während der Schwangerschaft, zur Entbindung und zur Untersuchung des Kindes mitzubringen! ● Lassen Sie sich helfen, wenn Sie Sorgen haben! ● Beraten Sie sich mit Ihrem Arzt und befolgen Sie seine Ratschläge!"
+                },
+                {
+                    "url": "hinweiseMutter",
+                    "valueString": "Nach Schwangerschaft und Geburt beginnt für Sie zwar wieder der Alltag mit neuen Aufgaben, beachten Sie aber bitte Folgendes: ● Gehen Sie etwa 6–8 Wochen nach der Entbindung zur Nachuntersuchung ● Nutzen Sie alle Kinder-Früherkennungsuntersuchungen (U2 – U9) beim Kinder- oder Hausarzt"
+                },
+                {
+                    "url": "aufbewahrungshinweis",
+                    "valueString": "Während der Schwangerschaft sollten Sie Ihren Mutterpass immer bei sich haben und zu jeder ärztlichen Untersuchung mitbringen,insbesondere auch zur Entbindung. Ihr Mutterpass gehört zu den Dokumenten, die Sie immer sorgfältig aufbewahren sollten."
                 }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ],
+    "status": "final",
+    "type": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "736377005",
+                "display": "Maternity care plan (record artifact)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Mutterpasseintrag"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:eed581f6-6830-4ca2-9e17-8b3aba3b82fb"
+    },
+    "encounter": {
+        "reference": "urn:uuid:b7a1460a-b530-4c77-9369-1c4886d74759"
+    },
+    "date": "2021-06-29T12:30:02Z",
+    "author": [
+        {
+            "reference": "urn:uuid:b9cfa843-3b07-4b02-80f9-3370e3f9563e"
+        }
+    ],
+    "title": "Mutterpasseintrag",
+    "section": [
+        {
+            "title": "Anamnese und allgemeine Befunde",
+            "entry": [
+                {
+                    "reference": "urn:uuid:ee821471-d1c9-444d-b226-7ae8347e2f26"
+                },
+                {
+                    "reference": "urn:uuid:b78ea80f-53d3-45e6-bd3f-22e0ac8a53b0"
+                },
+                {
+                    "reference": "urn:uuid:46b7a92c-4385-456f-b230-cff16fda2b2a"
+                }
+            ]
+        },
+        {
+            "title": "Untersuchungen",
+            "section": [
+                {
+                    "title": "Laboruntersuchungen und Rötelnschutz",
+                    "entry": [
+                        {
+                            "reference": "urn:uuid:c5724565-6a5c-417f-940b-5ba1178c54a3"
+                        }
+                    ],
+                    "section": [
+                        {
+                            "title": "Laboruntersuchung",
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                        "code": "404684003:363714003=108252007",
+                                        "display": "Clinical finding (finding) : Interprets (attribute) = Laboratory procedure (procedure)",
+                                        "_display": {
+                                            "extension": [
+                                                {
+                                                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                    "extension": [
+                                                        {
+                                                            "url": "content",
+                                                            "valueString": "Laboruntersuchung"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "entry": [
+                                {
+                                    "reference": "urn:uuid:1e7076db-ac4c-45dc-9e66-973ad7c99fdf"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

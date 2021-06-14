@@ -1,49 +1,49 @@
 {
-  "resourceType": "ServiceRequest",
-  "id": "10e213e9-b103-4196-9a67-e9fc4208c257",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Service_Request_U1_U3_Pulse_Oxymetry_Clarification|1.0.0"
-    ]
-  },
-  "status": "active",
-  "intent": "order",
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "417311009",
-        "display": "Referral to pediatric cardiology service (procedure)",
-        "_display": {
-          "extension": [
+    "resourceType": "ServiceRequest",
+    "id": "10e213e9-b103-4196-9a67-e9fc4208c257",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Service_Request_U1_U3_Pulse_Oxymetry_Clarification|1.0.0"
+        ]
+    },
+    "status": "active",
+    "intent": "order",
+    "code": {
+        "coding": [
             {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Abklärung veranlasst"
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "417311009",
+                "display": "Referral to pediatric cardiology service (procedure)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Abklärung veranlasst"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
             }
-          ]
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+    },
+    "encounter": {
+        "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+    },
+    "authoredOn": "2020-01-02",
+    "requester": {
+        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+    },
+    "reasonReference": [
+        {
+            "reference": "urn:uuid:3ea3e8e8-f98f-4e03-b1e9-c4f23c31a5f8"
         }
-      }
     ]
-  },
-  "subject": {
-    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
-  },
-  "encounter": {
-    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
-  },
-  "authoredOn": "2020-01-02",
-  "requester": {
-    "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
-  },
-  "reasonReference": [
-    {
-      "reference": "urn:uuid:3ea3e8e8-f98f-4e03-b1e9-c4f23c31a5f8"
-    }
-  ]
 }

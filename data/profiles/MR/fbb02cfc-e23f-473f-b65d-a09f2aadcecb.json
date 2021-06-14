@@ -1,159 +1,159 @@
 {
-  "resourceType": "ClinicalImpression",
-  "id": "fbb02cfc-e23f-473f-b65d-a09f2aadcecb",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_Pregnancy_Examination_Discharge_Summary|1.0.0"
-    ]
-  },
-  "status": "completed",
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "721923008",
-        "display": "Obstetrics and gynecology discharge summary (record artifact)",
-        "_display": {
-          "extension": [
+    "resourceType": "ClinicalImpression",
+    "id": "fbb02cfc-e23f-473f-b65d-a09f2aadcecb",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_Pregnancy_Examination_Discharge_Summary|1.0.0"
+        ]
+    },
+    "status": "completed",
+    "code": {
+        "coding": [
             {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Schwangerschaft"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    ]
-  },
-  "subject": {
-    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
-  },
-  "encounter": {
-    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
-  },
-  "effectiveDateTime": "2020-01-02",
-  "_effectiveDateTime": {
-    "extension": [
-      {
-        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Pregnancy_Week_And_Day",
-        "extension": [
-          {
-            "url": "schwangerschaftszeitpunkt",
-            "extension": [
-              {
-                "url": "schwangerschaftswoche",
-                "valueQuantity": {
-                  "value": 6,
-                  "unit": "Wochen",
-                  "system": "http://unitsofmeasure.org",
-                  "code": "wk"
-                }
-              },
-              {
-                "url": "ergaenzendeTage",
-                "valueQuantity": {
-                  "value": 3,
-                  "unit": "Tage",
-                  "system": "http://unitsofmeasure.org",
-                  "code": "d"
-                }
-              },
-              {
-                "url": "korrektur",
-                "valueBoolean": false
-              },
-              {
-                "url": "kode",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http://snomed.info/sct",
-                      "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                      "code": "424441002",
-                      "display": "Prenatal initial visit (regime/therapy)",
-                      "_display": {
-                        "extension": [
-                          {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "721923008",
+                "display": "Obstetrics and gynecology discharge summary (record artifact)",
+                "_display": {
+                    "extension": [
+                        {
                             "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
                             "extension": [
-                              {
-                                "url": "content",
-                                "valueString": "Erst-Untersuchung in SSW"
-                              }
+                                {
+                                    "url": "content",
+                                    "valueString": "Schwangerschaft"
+                                }
                             ]
-                          }
-                        ]
-                      }
-                    }
-                  ]
+                        }
+                    ]
                 }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "assessor": {
-    "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
-  },
-  "investigation": [
-    {
-      "code": {
-        "text": "Abschlussuntersuchungen zur Schwangerschaft"
-      },
-      "item": [
-        {
-          "reference": "urn:uuid:83ffee16-d624-43e4-9671-de55fa73b250"
-        },
-        {
-          "reference": "urn:uuid:9c401c0b-aef4-4022-8108-d153b27a74f5"
-        },
-        {
-          "reference": "urn:uuid:bbf9924e-4f3f-4b9b-b929-2b1e68174106"
-        },
-        {
-          "reference": "urn:uuid:935a3802-4d90-43cd-a547-913bbcc1e7ab"
-        },
-        {
-          "reference": "urn:uuid:db386acf-b7d2-421c-9ea3-42bd38fea38e"
-        },
-        {
-          "reference": "urn:uuid:81387f34-8b63-4806-a624-0565ebf5797a"
-        }
-      ]
-    }
-  ],
-  "finding": [
-    {
-      "itemCodeableConcept": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "416471007",
-            "display": "Family history of clinical finding (situation)",
-            "_display": {
-              "extension": [
-                {
-                  "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-                  "extension": [
-                    {
-                      "url": "content",
-                      "valueString": "(1) Familiäre Belastung (z.B. Diabetes, Hypertonie, Fehlbildungen, genetische Krankheiten, psychische Krankheiten)"
-                    }
-                  ]
-                }
-              ]
             }
-          }
         ]
-      }
-    }
-  ]
+    },
+    "subject": {
+        "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
+    },
+    "encounter": {
+        "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+    },
+    "effectiveDateTime": "2020-01-02",
+    "_effectiveDateTime": {
+        "extension": [
+            {
+                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Pregnancy_Week_And_Day",
+                "extension": [
+                    {
+                        "url": "schwangerschaftszeitpunkt",
+                        "extension": [
+                            {
+                                "url": "schwangerschaftswoche",
+                                "valueQuantity": {
+                                    "value": 6,
+                                    "unit": "Wochen",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "wk"
+                                }
+                            },
+                            {
+                                "url": "ergaenzendeTage",
+                                "valueQuantity": {
+                                    "value": 3,
+                                    "unit": "Tage",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "d"
+                                }
+                            },
+                            {
+                                "url": "korrektur",
+                                "valueBoolean": false
+                            },
+                            {
+                                "url": "kode",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                            "code": "424441002",
+                                            "display": "Prenatal initial visit (regime/therapy)",
+                                            "_display": {
+                                                "extension": [
+                                                    {
+                                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                        "extension": [
+                                                            {
+                                                                "url": "content",
+                                                                "valueString": "Erst-Untersuchung in SSW"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "assessor": {
+        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+    },
+    "investigation": [
+        {
+            "code": {
+                "text": "Abschlussuntersuchungen zur Schwangerschaft"
+            },
+            "item": [
+                {
+                    "reference": "urn:uuid:83ffee16-d624-43e4-9671-de55fa73b250"
+                },
+                {
+                    "reference": "urn:uuid:9c401c0b-aef4-4022-8108-d153b27a74f5"
+                },
+                {
+                    "reference": "urn:uuid:bbf9924e-4f3f-4b9b-b929-2b1e68174106"
+                },
+                {
+                    "reference": "urn:uuid:935a3802-4d90-43cd-a547-913bbcc1e7ab"
+                },
+                {
+                    "reference": "urn:uuid:db386acf-b7d2-421c-9ea3-42bd38fea38e"
+                },
+                {
+                    "reference": "urn:uuid:81387f34-8b63-4806-a624-0565ebf5797a"
+                }
+            ]
+        }
+    ],
+    "finding": [
+        {
+            "itemCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "416471007",
+                        "display": "Family history of clinical finding (situation)",
+                        "_display": {
+                            "extension": [
+                                {
+                                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                    "extension": [
+                                        {
+                                            "url": "content",
+                                            "valueString": "(1) Familiäre Belastung (z.B. Diabetes, Hypertonie, Fehlbildungen, genetische Krankheiten, psychische Krankheiten)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
 }

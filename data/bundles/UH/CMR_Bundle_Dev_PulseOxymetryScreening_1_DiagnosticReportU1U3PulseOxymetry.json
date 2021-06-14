@@ -1,0 +1,382 @@
+{
+    "resourceType": "Bundle",
+    "id": "661578f8-0b76-4197-pu15-183227516e47",
+    "meta": {
+        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Bundle|1.0.0"]
+    },
+    "identifier": {
+        "system": "urn:ietf:rfc:3936",
+        "value": "661578f8-0b76-4197-pu15-183227516e47"
+    },
+    "type": "document",
+    "timestamp": "2019-12-23T12:30:02Z",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:337108da-d038-48a5-a40f-7ddcdd7780c2",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "337108da-d038-48a5-a40f-7ddcdd7780c2",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_Pulse_Oxymetry_Screening|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "252465000:405813007=56459004",
+                            "display": "Pulse oximetry (procedure) : Procedure site - Direct (attribute) = Foot structure (body structure)"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "243788004",
+                                "display": "Child examination (procedure)"
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+                },
+                "date": "2020-01-02",
+                "author": [
+                    {
+                        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                    }
+                ],
+                "title": "Spezielle Früherkennungsuntersuchungen",
+                "section": [
+                    {
+                        "title": "Pulsoxymetrie-Screening",
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:5f224fdc-5b2r-4d4e-9a90-389b9ba89843"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Encounter|1.0.0"
+                    ]
+                },
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "version": "2.0.0",
+                    "code": "AMB",
+                    "display": "ambulatory"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "170263002",
+                                "display": "Child 6 month examination (procedure)",
+                                "_display": {
+                                    "extension": [
+                                        {
+                                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                            "extension": [
+                                                {
+                                                    "url": "content",
+                                                    "valueString": "U5 6.-7. Lebensmonat"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                                        "version": "2.0.0",
+                                        "code": "PPRF",
+                                        "display": "primary performer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "individual": {
+                            "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2020-07-07"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5f224fdc-5b2r-4d4e-9a90-389b9ba89843",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "id": "5f224fdc-5b2r-4d4e-9a90-389b9ba89843",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_U3_Pulse_Oxymetry|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "252465000",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Pulsoxymetrie-Screening (Messung am Fuß)"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+                },
+                "effectiveDateTime": "2020-01-02",
+                "performer": [
+                    {
+                        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                    }
+                ],
+                "result": [
+                    {
+                        "reference": "urn:uuid:5f25gfdc-5b2r-4a4e-9a90-389b9ba89843"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5f25gfdc-5b2r-4a4e-9a90-389b9ba89843",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "5f25gfdc-5b2r-4a4e-9a90-389b9ba89843",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_Pulse_Oxymetry_Measurement|1.0.0"
+                    ]
+                },
+                "status": "cancelled",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "250554003:363703001=399455000",
+                            "display": "Measurement of oxygen saturation at periphery (procedure) : Has intent (attribute) = Primary procedure (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+                },
+                "effectiveDateTime": "2021-02-12",
+                "performer": [
+                    {
+                        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                    }
+                ],
+                "valueQuantity": {
+                    "value": 99.9,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "448225001",
+                                "display": "Oxygen saturation within reference range (finding)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "c946bef-6e3a-4aaf-a8cc-5764ed624ac1",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.0"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
+                                    "code": "kvk"
+                                }
+                            ]
+                        },
+                        "system": "http://fhir.de/NamingSystem/gkv/kvk-versichertennummer",
+                        "value": "F123456784"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Pulso Xymetrie",
+                        "family": "Xymetrie",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Xymetrie"
+                                }
+                            ]
+                        },
+                        "given": ["Pulso"]
+                    }
+                ],
+                "birthDate": "2020-06-21"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "685e18e6-be98-4ed4-84ed-fcec6064a25c",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.0"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "DN"
+                                }
+                            ]
+                        },
+                        "system": "http://fhir.de/NamingSystem/bundesaerztekammer/efn",
+                        "value": "123456789123456"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Rainer Gold",
+                        "family": "Gold",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Gold"
+                                }
+                            ]
+                        },
+                        "given": ["Rainer"]
+                    }
+                ],
+                "address": [
+                    {
+                        "type": "both",
+                        "line": ["Musterstr. 1"],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "1"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Musterstr."
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Darmstadt",
+                        "postalCode": "64283",
+                        "country": "D"
+                    }
+                ],
+                "qualification": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "code": "309343006",
+                                    "display": "Physician (occupation)",
+                                    "_display": {
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                "extension": [
+                                                    {
+                                                        "url": "content",
+                                                        "valueString": "Arzt/ Ärztin"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,3024 @@
+{
+    "resourceType": "Bundle",
+    "meta": {
+        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Bundle|1.0.0"]
+    },
+    "identifier": {
+        "system": "urn:ietf:rfc:3936",
+        "value": "dceb9029-8228-4d6f-af33-cdf5d5086f98"
+    },
+    "type": "document",
+    "timestamp": "2021-05-07T09:23:33.641Z",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:425c4eca-093c-4999-bd57-109d87559ad7",
+            "resource": {
+                "resourceType": "Composition",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_U7|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "401140000",
+                            "display": "Child 2 year examination (procedure)"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "243788004",
+                                "display": "Child examination (procedure)"
+                            }
+                        ]
+                    }
+                ],
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "date": "4000",
+                "author": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "title": "U7",
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "extension": [
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
+                        "valueString": "U7 Elterninformation zur Untersuchung vom 21. bis zum 24. Lebensmonat Ihr Kind ist jetzt fast zwei Jahre alt. Es kann nun wahrscheinlich schon über längere Zeit frei und sicher laufen und auch schon Treppenstufen hinuntergehen. Bei den meisten Kindern wächst der Wortschatz schnell. Sie sagen gerne „Nein“ und probieren aus, was sie mit ihrem Verhalten bewirken. Die letzte Untersuchung liegt etwa ein Jahr zurück. Die Ärztin oder der Arzt achtet bei der U7 wieder besonders auf Entwicklungsauffälligkeiten. Ihr Kind wird körperlich untersucht. Zum Erkennen von Sehstörungen werden Untersuchungen der Augen durchgeführt. Die Ärztin oder der Arzt prüft, ob Ihr Kind einfache Wörter und Sätze versteht. Sie werden gefragt, wie sich Ihr Kind zum Beispiel beim Spielen, in der Familie oder in einer Gruppe von Kindern verhält. Außerdem interessiert sich Ihre Ärztin oder Ihr Arzt für den Kontakt zwischen Ihnen und Ihrem Kind. Ihre Ärztin oder Ihr Arzt berät Sie zu den laut Impfkalender empfohlenen Schutzimpfungen. Außerdem spricht die Ärztin oder der Arzt mit Ihnen über Themen wie die Ernährung Ihres Kindes, Maßnahmen zur Unfallverhütung, die Förderung der Sprachentwicklung und die Kariesprophylaxe mittels Fluorid. Sie erhalten von der Ärztin oder dem Arzt Hinweise zur kindlichen Mundhygiene. Zur Abklärung von Auffälligkeiten beim Kieferwachstum, an den Zähnen oder der Mundschleimhaut bei Ihrem Kind werden Sie zur Zahnärztin oder zum Zahnarzt verwiesen."
+                    }
+                ],
+                "section": [
+                    {
+                        "title": "Aktuelle Anamnese des Kindes",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "code": "423374008",
+                                    "display": "Review of systems section (record artifact)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "extension": [
+                            {
+                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                                "valueString": "Zutreffendes bitte ankreuzen!"
+                            }
+                        ],
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:CMRObservationU7CurrentChildHistory"
+                            }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Sozialanamnese",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "code": "281575007",
+                                    "display": "Family social history (situation)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "extension": [
+                            {
+                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                                "valueString": "Zutreffendes bitte ankreuzen!"
+                            }
+                        ],
+                        "entry": [
+                            { "reference": "urn:uuid:CMRObservationU3U9SocialHistory" }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Körperliche Untersuchung",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "code": "425044008",
+                                    "display": "Physical exam section (record artifact)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "extension": [
+                            {
+                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                                "valueString": "Nur Auffälligkeiten ankreuzen!"
+                            }
+                        ],
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportU5U9PhysicalExamSkin"
+                            },
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportU6U7PhysicalExamChestLungRespiratoryTract"
+                            },
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportU7U7aPhysicalExamAbdomenGenitals"
+                            },
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportU7U9PhysicalExamHeartBloodCirculation"
+                            },
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportU7PhysicalExamMusculoskeletalSystem"
+                            },
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportU7PhysicalExamMouthNose"
+                            },
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportU7PhysicalExamEyes"
+                            },
+                            {
+                                "reference": "urn:uuid:CMRObservationPhysicalExamParentalAssessment"
+                            }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Beratung",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "code": "409066002",
+                                    "display": "Education, guidance and counseling (procedure)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "extension": [
+                            {
+                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                                "valueString": "Bei erweitertem Beratungsbedarf bitte ankreuzen!"
+                            },
+                            {
+                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
+                                "valueString": "Beratung vor allem zu folgenden Themen:"
+                            }
+                        ],
+                        "entry": [
+                            { "reference": "urn:uuid:CMRProcedureU7Consultation" },
+                            { "reference": "urn:uuid:CMRProcedureConsultationAnnotation" }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Ergebnisse",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "code": "423100009",
+                                    "display": "Results section (record artifact)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "section": [
+                            {
+                                "title": "Prüfung und Aufklärung",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                            "code": "722448004",
+                                            "display": "Treatment plan report (record artifact)"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "urn:uuid:CMRObservationU4U9StatusOfImmunization"
+                                    }
+                                ]
+                            }
+                        ],
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:CMRObservationU2U9RelevantHistoryResults"
+                            },
+                            {
+                                "reference": "urn:uuid:CMRObservationU2U9NoAbnormalityDetected"
+                            },
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportU7U9BodyMeasures"
+                            },
+                            { "reference": "urn:uuid:CMRObservationComments" },
+                            {
+                                "reference": "urn:uuid:CMRObservationU3U9AgeAppropriateDevelopment"
+                            },
+                            { "reference": "urn:uuid:CMRAppointmentNextAppointment" },
+                            {
+                                "reference": "urn:uuid:CMRAppointmentNextImmunizationAppointment"
+                            },
+                            { "reference": "urn:uuid:CMRCarePlanU2U9Result" },
+                            { "reference": "urn:uuid:CMRServiceRequestDentalReferral" }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Orientierende Beurteilung der Entwicklung",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "code": "406207000",
+                                    "display": "Child development by age (observable entity)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "extension": [
+                            {
+                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                                "valueString": "Nur ankreuzen, wenn die Items NICHT erfüllt werden!"
+                            }
+                        ],
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:CMRObservationU7DevelopmentAssessment"
+                            }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Perzentilkurven",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "code": "129822005",
+                                    "display": "Childhood growth AND/OR development finding (finding)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportPercentileValues"
+                            }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRPatient",
+            "resource": {
+                "resourceType": "Patient",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.0"
+                    ]
+                },
+                "name": [
+                    {
+                        "use": "official",
+                        "given": ["Consequat laboris non mollit sint."],
+                        "text": "Et veniam commodo deserunt ex.",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Est veniam sit irure esse mollit."
+                                },
+                                {
+                                    "url": "http://fhir.de/StructureDefinition/humanname-namenszusatz",
+                                    "valueString": "Esse minim et ea."
+                                },
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix",
+                                    "valueString": "Nisi sit."
+                                }
+                            ],
+                            "value": "8002eaaf-ac89-49f5-a67e-bacf304074c0"
+                        },
+                        "family": "Duis qui exercitation veniam."
+                    },
+                    {
+                        "use": "maiden",
+                        "text": "Nisi reprehenderit culpa duis adipisicing cupidatat.",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Ipsum nostrud."
+                                },
+                                {
+                                    "url": "http://fhir.de/StructureDefinition/humanname-namenszusatz",
+                                    "valueString": "Duis ad anim."
+                                },
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix",
+                                    "valueString": "Laboris fugiat excepteur culpa do."
+                                }
+                            ],
+                            "value": "eec46347-7447-4c80-b914-6d885e036ec5"
+                        },
+                        "family": "Aliquip laborum ad incididunt."
+                    }
+                ],
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "MR",
+                                    "version": "Cupidatat incididunt.",
+                                    "display": "In elit qui ullamco labore.",
+                                    "userSelected": true
+                                }
+                            ],
+                            "text": "Consequat nisi excepteur mollit mollit."
+                        },
+                        "system": "5b)m8@.in+A!bu49",
+                        "value": "5db7eed7-3f94-4335-989f-a9a4720c89cc",
+                        "period": {
+                            "resourceType": "Period",
+                            "start": "6131-02",
+                            "end": "8460-07-09"
+                        }
+                    },
+                    {
+                        "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
+                        "value": "48536fbd-4d5e-4cfb-b771-4c45c453bfbd",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                                    "code": "GKV",
+                                    "version": "Qui velit consequat.",
+                                    "display": "Quis voluptate occaecat consequat veniam ullamco.",
+                                    "userSelected": true
+                                }
+                            ],
+                            "text": "Aliquip esse."
+                        },
+                        "period": {
+                            "resourceType": "Period",
+                            "start": "1000-06-26T22:41:11.89004115942818476610085594967686346789373915638601950821402839707009678393+04:29",
+                            "end": "8000-10"
+                        }
+                    },
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                                    "code": "PKV",
+                                    "version": "Nulla eiusmod.",
+                                    "display": "Mollit labore.",
+                                    "userSelected": false
+                                }
+                            ],
+                            "text": "Duis mollit."
+                        },
+                        "value": "3ee1901e-1177-49fb-86e1-971d89c5dac3",
+                        "assigner": {
+                            "display": "Labore deserunt Lorem minim tempor.",
+                            "reference": "urn:uuid:Organization",
+                            "identifier": {
+                                "system": "http://fhir.de/NamingSystem/arge-ik/iknr",
+                                "value": "2f5e2a2a-e476-4791-941b-c0faf7d8507b",
+                                "use": "old",
+                                "period": {
+                                    "resourceType": "Period",
+                                    "start": "7000",
+                                    "end": "4800-11"
+                                }
+                            }
+                        },
+                        "system": "5}y5OgO[Z,}zt{=%8Z\"0qY:H1c!7Z&vwSI._@z#\"?VE7y5i%+?/~)XiIV&b{FmM}KSW0]|pyqWv0t.uEk_LU[",
+                        "period": {
+                            "resourceType": "Period",
+                            "start": "6900",
+                            "end": "8000"
+                        }
+                    },
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
+                                    "code": "kvk",
+                                    "version": "Sunt non esse.",
+                                    "display": "Eiusmod reprehenderit exercitation tempor.",
+                                    "userSelected": true
+                                }
+                            ],
+                            "text": "Exercitation proident dolor proident nisi et."
+                        },
+                        "system": "http://fhir.de/NamingSystem/gkv/kvk-versichertennummer",
+                        "value": "5d06b24c-015f-4d28-a918-7e3562c6675d",
+                        "period": {
+                            "resourceType": "Period",
+                            "start": "7000-12",
+                            "end": "5400-02"
+                        }
+                    }
+                ],
+                "_birthDate": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                            "valueCode": "unknown"
+                        }
+                    ],
+                    "value": "6400-10"
+                },
+                "birthDate": "3300"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:Organization",
+            "resource": {
+                "resourceType": "Organization",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Organization|1.0.0"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
+                        "valueString": "Elit dolor laboris dolor."
+                    }
+                ],
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "XX",
+                                    "version": "Adipisicing ut in ex.",
+                                    "display": "Dolor excepteur ad.",
+                                    "userSelected": true
+                                }
+                            ],
+                            "text": "Incididunt duis irure dolore nulla ad."
+                        },
+                        "system": "http://fhir.de/NamingSystem/arge-ik/iknr",
+                        "value": "5a90ed07-3a89-44e3-b71e-8926a4c2c890",
+                        "use": "official",
+                        "period": {
+                            "resourceType": "Period",
+                            "start": "6000",
+                            "end": "3000"
+                        }
+                    },
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "BSNR",
+                                    "version": "Dolor incididunt do.",
+                                    "display": "Ex in laborum ullamco tempor.",
+                                    "userSelected": false
+                                }
+                            ],
+                            "text": "Laboris velit."
+                        },
+                        "system": "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_BSNR",
+                        "value": "faa5befc-97f0-4cc5-9324-d487c8af08dc",
+                        "use": "official",
+                        "period": {
+                            "resourceType": "Period",
+                            "start": "1000-08",
+                            "end": "7000-01"
+                        }
+                    }
+                ],
+                "name": "Sint eu ut.",
+                "telecom": [
+                    { "system": "url", "value": "2b00981f-60ee-45c8-b14e-96a410a7262e" }
+                ],
+                "address": [
+                    {
+                        "type": "both",
+                        "city": "Do minim consequat.",
+                        "country": "DE",
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct",
+                                "valueString": "Eu nostrud consectetur culpa."
+                            }
+                        ],
+                        "use": "billing",
+                        "text": "Consequat irure aliqua incididunt est.",
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Consequat ad nulla voluptate."
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "Deserunt sunt sunt voluptate."
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator",
+                                        "valueString": "Nulla dolor consequat laborum."
+                                    }
+                                ],
+                                "value": "cdc3eff0-a591-499a-ba8b-6dc5bfb38884"
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Sunt commodo ut."
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "Labore et qui do."
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator",
+                                        "valueString": "In nostrud esse."
+                                    }
+                                ],
+                                "value": "27e49443-58d0-48b6-94fa-c98e22453f47"
+                            }
+                        ],
+                        "line": ["Incididunt enim exercitation duis."],
+                        "state": "Ipsum excepteur tempor reprehenderit et.",
+                        "postalCode": "Eiusmod fugiat incididunt ex."
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMREncounter",
+            "resource": {
+                "resourceType": "Encounter",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Encounter|1.0.0"
+                    ]
+                },
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "version": "2.0.0",
+                    "code": "AMB",
+                    "display": "ambulatory"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "(Jy>EKAzt.luNWs7hRE*_!+x6,'Ws|&`PeReM\\~Q);`)mLQF=ihunY4U19Ke:u,v-M4PN5%D~Sr)B~i}-A",
+                                "version": "Cupidatat pariatur irure esse cupidatat consectetur.",
+                                "code": "252465000:405813007=56459004",
+                                "_display": {
+                                    "extension": [
+                                        {
+                                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                            "extension": [
+                                                {
+                                                    "url": "content",
+                                                    "valueString": "Do sit proident occaecat laboris ut."
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "value": "ba039320-6fb9-4e65-9fcb-f630674dcdd0"
+                                },
+                                "display": "Do duis."
+                            }
+                        ]
+                    }
+                ],
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                                        "version": "2.0.0",
+                                        "code": "PPRF",
+                                        "display": "primary performer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "individual": { "reference": "urn:uuid:CMRPractitioner" }
+                    }
+                ],
+                "period": { "start": "1000" },
+                "serviceProvider": { "reference": "urn:uuid:Organization" }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRPractitioner",
+            "resource": {
+                "resourceType": "Practitioner",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.0"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "system": "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR",
+                        "value": "bd0a2d34-4fcd-4461-9b04-154670a12870",
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "LANR",
+                                    "version": "Nostrud dolor officia anim.",
+                                    "display": "Excepteur irure aliqua.",
+                                    "userSelected": false
+                                }
+                            ],
+                            "text": "Officia non do cupidatat amet enim."
+                        },
+                        "period": {
+                            "resourceType": "Period",
+                            "start": "9293-12",
+                            "end": "3000"
+                        }
+                    },
+                    {
+                        "system": "http://fhir.de/NamingSystem/bundesaerztekammer/efn",
+                        "value": "9c5d81bf-fd21-4801-b698-796811c0326c",
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "DN",
+                                    "version": "Nulla cillum elit ex pariatur.",
+                                    "display": "Tempor adipisicing.",
+                                    "userSelected": false
+                                }
+                            ],
+                            "text": "Excepteur eiusmod dolor minim eu."
+                        },
+                        "period": {
+                            "resourceType": "Period",
+                            "start": "0740",
+                            "end": "1000"
+                        }
+                    },
+                    {
+                        "system": "http://fhir.de/NamingSystem/arge-ik/iknr",
+                        "value": "62c4807e-3294-4c0e-9428-450538e723e3",
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "XX",
+                                    "version": "Voluptate cupidatat ut.",
+                                    "display": "Reprehenderit laborum.",
+                                    "userSelected": true
+                                }
+                            ],
+                            "text": "Ex ex."
+                        },
+                        "period": {
+                            "resourceType": "Period",
+                            "start": "5400-11",
+                            "end": "1470-10-20"
+                        }
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "given": ["Culpa proident."],
+                        "text": "Enim quis consequat qui pariatur.",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Esse sunt."
+                                },
+                                {
+                                    "url": "http://fhir.de/StructureDefinition/humanname-namenszusatz|0.9.11",
+                                    "valueString": "Deserunt magna culpa aute."
+                                },
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix",
+                                    "valueString": "Cupidatat aute dolore cupidatat non culpa."
+                                }
+                            ],
+                            "value": "e4aaacfc-1ddf-458e-8aef-b1579b422d6e"
+                        },
+                        "family": "Magna voluptate enim elit exercitation.",
+                        "_prefix": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "AC"
+                                    }
+                                ],
+                                "value": "e1bb3a6e-d6fa-4ea5-acb4-a4d7bba67264"
+                            }
+                        ],
+                        "prefix": ["Tempor nostrud."]
+                    }
+                ],
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "extension": [
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
+                        "valueString": "Id eiusmod exercitation et."
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "fax",
+                        "value": "87c2212e-7d49-47cf-88f6-afb3a2945f0d",
+                        "use": "home"
+                    }
+                ],
+                "address": [
+                    {
+                        "type": "both",
+                        "city": "Labore cupidatat duis.",
+                        "country": "DE",
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct",
+                                "valueString": "Nulla sint voluptate."
+                            }
+                        ],
+                        "use": "home",
+                        "text": "Cupidatat mollit.",
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Consectetur veniam aliquip."
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "Quis elit."
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator",
+                                        "valueString": "Veniam eiusmod."
+                                    }
+                                ],
+                                "value": "360130e9-85cb-4997-bc58-ff79eb53b267"
+                            }
+                        ],
+                        "line": ["Exercitation ad pariatur cupidatat quis."],
+                        "state": "Consequat enim.",
+                        "postalCode": "Voluptate labore magna deserunt do tempor."
+                    }
+                ],
+                "qualification": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "m:5k\"3h[<4!4{56{p*l'(D&?ab%L^8X_Z\\Ag]o(L4;t#=",
+                                    "version": "Sunt do aliqua.",
+                                    "code": "091",
+                                    "_display": {
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                "extension": [
+                                                    {
+                                                        "url": "content",
+                                                        "valueString": "Exercitation labore aliquip ex."
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "value": "baad0ad8-8972-4968-8a79-e46395da8bd9"
+                                    },
+                                    "display": "In fugiat magna adipisicing."
+                                }
+                            ]
+                        },
+                        "period": {
+                            "resourceType": "Period",
+                            "start": "9599-11",
+                            "end": "7000-08"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU7CurrentChildHistory",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U7_Current_Child_History|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "!?OT.i?2y\\!aNhfAcqh'*Fuef?G$w4Wm{^[|=y}77w\\l-f\"=d.7pf}e\"&)c5-j8MQ6HT=>`>crfY%ld2Hty[v&.FcW%Z5Wx}0v{'",
+                            "version": "Cupidatat dolore amet aliqua qui qui.",
+                            "code": "72863001",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Eiusmod esse duis."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "2684ad57-8f34-49e5-acba-6e8430ccaa12"
+                            },
+                            "display": "Mollit eu sunt anim voluptate dolore."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2400-11",
+                "valueBoolean": true,
+                "text": {
+                    "status": "generated",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU3U9SocialHistory",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U3_U9_Social_History|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": ")vi85/yxVV711&zHpp,:,`8XYa9Vz=*[TQ}mpKP8zR#+,Y2\\SFVoT:w",
+                            "version": "Culpa consectetur eu nostrud.",
+                            "code": "105485001",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Cupidatat aliquip."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "837f52e0-453f-4db1-9ab9-83265cbeaaf1"
+                            },
+                            "display": "Reprehenderit duis id veniam."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "5000-12-23T22:25:60.749979829318156722741369984963068386659792049409295067970Z",
+                "valueBoolean": true,
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU5U9PhysicalExamSkin",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U5_U9_Physical_Exam_Skin|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "364528001",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            { "url": "content", "valueString": "Haut" }
+                                        ]
+                                    }
+                                ],
+                                "value": "28dc1b14-a78e-4b42-89f7-2e61c721179c"
+                            },
+                            "display": "Nostrud excepteur quis elit excepteur occaecat."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "7500",
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [{ "reference": "urn:uuid:CMRObservationU5U9PhysicalExamSkin" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU5U9PhysicalExamSkin",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U5_U9_Physical_Exam_Skin|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "^:>`U04YISymX{~&ji$uNQti:<J\"hLsKLuEs<LJ'K]W<>^p\\b=\"![:`\"\\)Z8$o43Oa;bZp\\cEGF75jFE\"oGGu\"qG1|Av",
+                            "version": "Laboris nostrud.",
+                            "code": "267029006",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "In officia laborum reprehenderit dolor est."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "e4797ef7-fce8-4d26-93ce-34f5f0069c84"
+                            },
+                            "display": "Culpa officia magna irure."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "9900-11",
+                "valueBoolean": true,
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU6U7PhysicalExamChestLungRespiratoryTract",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U6_U7_Physical_Exam_Chest_Lung_Respiratory_Tract|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "364048003",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Thorax, Lunge, Atemwege"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "7f774553-afb1-4d71-b17a-266a7c2baa7c"
+                            },
+                            "display": "Aute duis incididunt."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "0628",
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [
+                    {
+                        "reference": "urn:uuid:CMRObservationU6U7PhysicalExamChestLungRespiratoryTract"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU6U7PhysicalExamChestLungRespiratoryTract",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U6_U7_Physical_Exam_Chest_Lung_Respiratory_Tract|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "r_1nQ}f$ZV89T(q}W@2DY)ewhZ>re[Z$9d>~7*%9tTxDaaXvGt$dAjL_%B{8x5e!/r",
+                            "version": "Do incididunt irure esse.",
+                            "code": "17077006",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Eu aliqua adipisicing."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "75da2b9c-66fe-401a-8145-22391f03ad98"
+                            },
+                            "display": "Aute magna adipisicing culpa excepteur ex."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "0200-06-30T22:18:60.0693401029812640575650327384910323808380872365129829238239930697562543+14:00",
+                "valueBoolean": true,
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU7U7aPhysicalExamAbdomenGenitals",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U7_U7a_Physical_Exam_Abdomen_Genitals|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "364446009",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Abdomen, Genitale (inkl. Analregion)"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "9e379b31-0178-435b-aa8b-abe7de25ee12"
+                            },
+                            "display": "Irure est exercitation dolor veniam."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2000-11-31",
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [
+                    {
+                        "reference": "urn:uuid:CMRObservationU7U7aPhysicalExamAbdomenGenitals"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU7U7aPhysicalExamAbdomenGenitals",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U7_U7a_Physical_Exam_Abdomen_Genitals|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "^Z2AY?OnB\\^`$.clDd*MP1e2AXtrh~)(+6gR?q?B8k(~SJ",
+                            "version": "Nisi cillum ea.",
+                            "code": "204878001",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Dolore laboris irure ut laborum."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "f0d455a3-8e02-4617-ad37-5fd73dbe4bcb"
+                            },
+                            "display": "Amet eiusmod irure ut veniam esse."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "9000-08-01",
+                "valueBoolean": true,
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU7U9PhysicalExamHeartBloodCirculation",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U7_U9_Physical_Exam_Heart_Blood_Circulation|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "364066008",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Herz, Kreislauf"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "d92eef1f-af89-43d0-a4e5-f27ca91b224a"
+                            },
+                            "display": "Occaecat laborum."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "8000-04",
+                "text": {
+                    "status": "generated",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [
+                    {
+                        "reference": "urn:uuid:CMRObservationU7U9PhysicalExamHeartBloodCirculation"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU7U9PhysicalExamHeartBloodCirculation",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U7_U9_Physical_Exam_Heart_Blood_Circulation|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "`k^J_4(w9Gm!{r|bBtI9`WKh5CV<7uYg!ds(}B4H6.mi!MiAeHc:DNV7y",
+                            "version": "Excepteur aliqua mollit deserunt ut.",
+                            "code": "698247007",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Dolore qui fugiat laborum labore ipsum."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "2ac9a48a-7b32-4157-b159-aa38c9c78194"
+                            },
+                            "display": "Eu amet enim exercitation."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "1700-06-21T23:42:30.6997924099142397723840954061176965642534312222556922Z",
+                "valueBoolean": true,
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU7PhysicalExamMusculoskeletalSystem",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U7_Physical_Exam_Musculoskeletal_System|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "106029005",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Bewegungsapparat (Knochen, Muskeln, Nerven)"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "b20cdf7f-9e88-45ed-b757-2925465da76c"
+                            },
+                            "display": "Dolore velit."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "6000-11",
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [
+                    {
+                        "reference": "urn:uuid:CMRObservationU7PhysicalExamMusculoskeletalSystem"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU7PhysicalExamMusculoskeletalSystem",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U7_Physical_Exam_Musculoskeletal_System|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "sJ8w@u&}0vmz('(`}Fo.Qr_)nA6#7p>O-ggA#NkK3CiYR!$GyA)U9/W?0J~V_Oa0pzP?.#xN<s{W1f+.'MC#RpU0V{",
+                            "version": "Incididunt nostrud minim.",
+                            "code": "366420008",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Exercitation proident non."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "1a9023eb-a055-4c4b-a506-c03777ebb974"
+                            },
+                            "display": "Amet elit."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "1350",
+                "valueBoolean": true,
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU7PhysicalExamMouthNose",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U7_Physical_Exam_Mouth_Nose|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "271914002+364111005",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Mundhöhle, Kiefer, Nase"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "c91bef69-64e7-40a5-8421-1cbb926ae26a"
+                            },
+                            "display": "Veniam officia."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "6000",
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [
+                    { "reference": "urn:uuid:CMRObservationU7PhysicalExamMouthNose" }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU7PhysicalExamMouthNose",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U7_Physical_Exam_Mouth_Nose|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "j=cW.T3WUdcQz~-g\\w\\Fha?XSIh+X-q1i6W>+!Vw=GtIy]Q2YC8=6NOw)nJ;M\\}+y.+r:IRgMS(-J6%3_@+x>@v",
+                            "version": "Sint commodo est officia.",
+                            "code": "38160000",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Consequat et laboris ullamco ullamco."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "b3150035-dc75-4b04-af74-f0024affb639"
+                            },
+                            "display": "Labore tempor."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "3000-09",
+                "valueBoolean": true,
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU7PhysicalExamEyes",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U7_Physical_Exam_Eyes|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "414174009",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            { "url": "content", "valueString": "Augen" }
+                                        ]
+                                    }
+                                ],
+                                "value": "f0ce0d3c-3613-47cf-a99e-75c0a951b378"
+                            },
+                            "display": "Culpa ut mollit excepteur anim."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "8900-01-30T20:37:48Z",
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [{ "reference": "urn:uuid:CMRObservationU7PhysicalExamEyes" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU7PhysicalExamEyes",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U7_Physical_Exam_Eyes|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "-ACe+7a?EgYVd}#+L",
+                            "version": "Non proident velit excepteur aliqua est.",
+                            "code": "737269000",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Sint id."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "c110db85-6eb5-430c-9071-4ca6d7d6bef3"
+                            },
+                            "display": "Reprehenderit fugiat laboris voluptate."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "9527",
+                "valueBoolean": true,
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationPhysicalExamParentalAssessment",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_Physical_Exam_Parental_Assessment|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "401141001",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Eltern sind unzufrieden mit der Entwicklung und dem Verhalten des Kindes, weil:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "64925251-11de-407c-9fc2-c0baa3f6aa87"
+                            },
+                            "display": "Aute ex."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "8000",
+                "valueString": "Fugiat voluptate.",
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRProcedureU7Consultation",
+            "resource": {
+                "resourceType": "Procedure",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_U7_Consultation|1.0.0"
+                    ]
+                },
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": ",o/R{:Qrs)YgB:YFE2CVN~B$-WMK,(D/d#cXB]WN];~fuMGTg6f",
+                            "version": "Adipisicing do labore do.",
+                            "code": "274410002",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Proident commodo officia velit exercitation."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "3358f0cc-7794-4db5-bf0a-d513e3be84c1"
+                            },
+                            "display": "Laboris labore."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "performedDateTime": "6200-03-25",
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "asserter": { "reference": "urn:uuid:CMRPractitioner" }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRProcedureConsultationAnnotation",
+            "resource": {
+                "resourceType": "Procedure",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_Consultation_Annotation|1.0.0"
+                    ]
+                },
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "408991007",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Bemerkung"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "cce11a8b-9f99-4e1e-a497-8cfad7957373"
+                            },
+                            "display": "Ex ut veniam non occaecat qui."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "performedDateTime": "9166-11-30T21:37:51.1527075799702141006346761681177469429358669588344209185953Z",
+                "note": [{ "text": "SCALARMarkdownType" }],
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "asserter": { "reference": "urn:uuid:CMRPractitioner" }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU4U9StatusOfImmunization",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U4_U9_Status_Of_Immunization|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "171258008",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Impfstatus beim Verlassen der Praxis vollständig:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "8f19eff5-dcf4-4c2b-93f7-8ea3fbdfbc2e"
+                            },
+                            "display": "Sunt fugiat adipisicing."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2000",
+                "valueBoolean": false,
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "component": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "code": "171279008",
+                                    "_display": {
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                "extension": [
+                                                    {
+                                                        "url": "content",
+                                                        "valueString": "fehlende Impfungen"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "value": "f52b820e-5835-42c7-b100-fc00cd9bf25f"
+                                    },
+                                    "display": "Anim culpa ad amet non."
+                                }
+                            ]
+                        },
+                        "valueString": "Nisi cupidatat labore commodo."
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU2U9RelevantHistoryResults",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U9_Relevant_History_Results|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "365854008",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Relevante anamnestische Ergebnisse:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "332d2b83-6a94-4494-bd17-023529aa121e"
+                            },
+                            "display": "Ad nostrud in."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "8000",
+                "valueString": "Fugiat nostrud elit.",
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU2U9NoAbnormalityDetected",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U9_No_Abnormality_Detected|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "281900007",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "keine Auffälligkeiten"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "5833a98a-49a4-4b53-a323-82e9a58b0baa"
+                            },
+                            "display": "Tempor reprehenderit sunt pariatur dolor Lorem."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "6242-07",
+                "valueBoolean": true,
+                "text": {
+                    "status": "generated",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU7U9BodyMeasures",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U7_U9_Body_Measures|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "248326004",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körpermaße:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "002c54ab-9977-4c80-b1a0-02fe3b3689a2"
+                            },
+                            "display": "Consectetur ut commodo esse."
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.68",
+                            "code": "29275-5",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körpermaße:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "93ce866d-f6bb-4e23-b078-db4d9806b0ff"
+                            },
+                            "display": "Veniam consequat esse amet culpa."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "9200",
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [
+                    { "reference": "urn:uuid:CMRObservationU2U9BodyHeightMeasure" },
+                    { "reference": "urn:uuid:CMRObservationU7U9BMI" },
+                    { "reference": "urn:uuid:CMRObservationU7U9BodyWeight" }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU2U9BodyHeightMeasure",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U9_Body_Height_Measure|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "248334005",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körperlänge in cm"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "28aef3f1-c84e-4ba4-a32f-788cfbc47747"
+                            },
+                            "display": "Minim ea enim ipsum consequat pariatur."
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.68",
+                            "code": "8302-2",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körperlänge in cm"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "52aeb68b-d7f1-400e-9546-e63af514361c"
+                            },
+                            "display": "Occaecat excepteur amet dolore."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "6000",
+                "valueQuantity": {
+                    "value": "55423337648.4218027518069522110409472271316826478271845828282968E-741789960636110",
+                    "unit": "cm",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "cm"
+                },
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU7U9BMI",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U7_U9_BMI|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "60621009",
+
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "BMI in kg/m2"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "49f9420f-748f-43eb-b63d-effef29e67be"
+                            },
+                            "display": "Laborum voluptate magna."
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.68",
+                            "code": "39156-5",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "BMI in kg/m2"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "53a9f527-48b6-437c-b442-ebb5b859caf0"
+                            },
+                            "display": "Laboris labore."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "0100-08-30T10:35:13.52969631717632628722103497054119290595879141801780646223097419927264079923245491764494169034462969-14:00",
+                "valueQuantity": {
+                    "value": "0",
+                    "unit": "kg/m2",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "kg/m2"
+                },
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU7U9BodyWeight",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U7_U9_Body_Weight|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "27113001",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körpergewicht in kg"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "b4f7ad3c-d943-4cc8-95e3-e8f6704bda3b"
+                            },
+                            "display": "Ullamco consequat sint nisi sit."
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.68",
+                            "code": "29463-7",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körpergewicht in kg"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "67ba52bc-95f7-4ff0-ac5d-a7eb67ae59e6"
+                            },
+                            "display": "Duis ullamco aliqua cupidatat veniam."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "7730",
+                "valueQuantity": {
+                    "value": "0E67687868599207262415793883761112780438779413394566661579956635356350905912084978662669229449615",
+                    "unit": "kg",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "kg"
+                },
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationComments",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_Comments|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "703852005",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Bemerkungen:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "ab58d7d1-b0cc-4758-bd40-fce970c75734"
+                            },
+                            "display": "Reprehenderit veniam officia nulla."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "3500-07",
+                "valueString": "Deserunt dolore excepteur mollit.",
+                "text": {
+                    "status": "generated",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU3U9AgeAppropriateDevelopment",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U3_U9_Age_Appropriate_Development|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "406207000",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Orientierende Beurteilung der Entwicklung altersgemäß:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "93db424c-e301-488b-a5c5-7f609ea201a0"
+                            },
+                            "display": "Quis enim culpa amet sunt."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "5000-10",
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "G_rW67[@qv:&S\"W",
+                            "version": "Et anim.",
+                            "code": "23397005",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Laborum ipsum ipsum."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "25fe09f8-173a-4877-8048-2c0373f2ef9e"
+                            },
+                            "display": "Ea non laboris voluptate."
+                        }
+                    ]
+                },
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRAppointmentNextAppointment",
+            "resource": {
+                "resourceType": "Appointment",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Appointment_Next_Appointment|1.0.0"
+                    ]
+                },
+                "status": "proposed",
+                "serviceType": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "390840006:42752001=243788004",
+                                "_display": {
+                                    "extension": [
+                                        {
+                                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                            "extension": [
+                                                {
+                                                    "url": "content",
+                                                    "valueString": "Nächste U-Untersuchung am:"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "value": "bc001f9c-ed6c-44a2-99c4-8e54e1b11ec8"
+                                },
+                                "display": "Qui incididunt ex quis."
+                            }
+                        ]
+                    }
+                ],
+                "participant": [
+                    {
+                        "actor": { "reference": "urn:uuid:CMRPatient" },
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": { "reference": "urn:uuid:CMRPatient" },
+                        "status": "accepted"
+                    }
+                ],
+                "requestedPeriod": [{ "start": "5971-12-20T21:42:60Z" }],
+                "text": {
+                    "status": "generated",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRAppointmentNextImmunizationAppointment",
+            "resource": {
+                "resourceType": "Appointment",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Appointment_Next_Immunization_Appointment|1.0.0"
+                    ]
+                },
+                "status": "proposed",
+                "serviceType": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "390840006:42752001=127785005",
+                                "_display": {
+                                    "extension": [
+                                        {
+                                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                            "extension": [
+                                                {
+                                                    "url": "content",
+                                                    "valueString": "nächster Impftermin am:"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "value": "0f878a25-f69b-4b93-b38b-d54c3bbcb62f"
+                                },
+                                "display": "Cillum magna officia commodo veniam."
+                            }
+                        ]
+                    }
+                ],
+                "participant": [
+                    {
+                        "actor": { "reference": "urn:uuid:CMRPatient" },
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": { "reference": "urn:uuid:CMRPatient" },
+                        "status": "accepted"
+                    }
+                ],
+                "requestedPeriod": [{ "start": "2021-05-07T09:00:00.000Z" }],
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRCarePlanU2U9Result",
+            "resource": {
+                "resourceType": "CarePlan",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Care_Plan_U2_U9_Result|1.0.0"
+                    ]
+                },
+                "status": "completed",
+                "intent": "proposal",
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "created": "7634",
+                "activity": [
+                    {
+                        "detail": {
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                        "code": "722448004",
+                                        "_display": {
+                                            "extension": [
+                                                {
+                                                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                    "extension": [
+                                                        {
+                                                            "url": "content",
+                                                            "valueString": "weitere Maßnahmen vereinbart:"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "value": "239a1dc1-a5d9-482d-9aea-c8cdf4f46953"
+                                        },
+                                        "display": "Nostrud cupidatat occaecat."
+                                    }
+                                ]
+                            },
+                            "status": "in-progress",
+                            "description": "Dolore Lorem dolor exercitation."
+                        }
+                    }
+                ],
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "author": { "reference": "urn:uuid:CMRPractitioner" }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRServiceRequestDentalReferral",
+            "resource": {
+                "resourceType": "ServiceRequest",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Service_Request_Dental_Referral|1.0.0"
+                    ]
+                },
+                "status": "active",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "274410002",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Verweis zur Zahnärztin oder zum Zahnarzt"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "cb0da274-d21b-45f8-b0d5-e56eda7feba9"
+                            },
+                            "display": "Nostrud laboris esse."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "authoredOn": "5000",
+                "requester": { "reference": "urn:uuid:CMRPractitioner" }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU7DevelopmentAssessment",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U7_Development_Assessment|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "5>y\"(Qz3Fs/i3(wsk,ni;8m*W1[XQ#:`[9pD\"g|UPev>5A**[Pc5{d3sH=)J}XB&NkprPh?0~",
+                            "version": "Id mollit dolor.",
+                            "code": "365926000",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Pariatur ipsum occaecat."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "8f9b2eb1-cc68-46d2-b34a-c54c17a4e46a"
+                            },
+                            "display": "Aliqua adipisicing."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2145-12-06T23:54:06-14:00",
+                "valueBoolean": true,
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportPercentileValues",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_Percentile_Values|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "129822005",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Perzentilkurven"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "7e26e50d-b4dd-417a-afce-acef5913881f"
+                            },
+                            "display": "Laboris ea esse commodo aliquip ad."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "9000",
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [{ "reference": "urn:uuid:CMRObservationPercentileValues" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationPercentileValues",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_Percentile_Values|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "Ut sit minim magna.",
+                            "code": "27113001:370130000=415068004",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Ut enim incididunt ex consectetur."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "91ba61de-8ea3-4dcd-996b-db3e7c2c5527"
+                            },
+                            "display": "In et pariatur mollit labore."
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "Occaecat adipisicing commodo labore sint.",
+                            "code": "8289-1",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Ea commodo voluptate adipisicing."
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "e0551210-f31e-4f11-9d5e-7ae4e6c2e618"
+                            },
+                            "display": "Ipsum sit non exercitation sint."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-08-06",
+                "valueQuantity": {
+                    "value": "0.05570107285597184056738198670524470801748177802738325150380361955251952091737224090629E+6140068523209",
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "note": [
+                    {
+                        "text": "SCALARMarkdownType",
+                        "resourceType": "Annotation",
+                        "authorString": "Culpa occaecat.",
+                        "time": "3500"
+                    }
+                ],
+                "derivedFrom": [{ "reference": "urn:uuid:CMRObservationU1BirthWeight" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1BirthWeight",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Birth_Weight|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "364589006",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körpergewicht in g"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "a6b4c81f-15ef-4625-b5d9-526fc903b80b"
+                            },
+                            "display": "Exercitation tempor labore incididunt."
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.68",
+                            "code": "8339-4",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körpergewicht in g"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "168a5986-7453-405c-ad47-128ef68decab"
+                            },
+                            "display": "Labore in duis quis amet."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2000-10",
+                "valueQuantity": {
+                    "value": "-185952240960173575088541289157209729872121019595039810477698943875461280.180618211757942151713698374346782875633618150205943451047455585479422521564E-75353551539682304739889",
+                    "unit": "g",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g"
+                },
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU2U6BodyWeight",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U6_Body_Weight|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "27113001",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körpergewicht in g"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "fc38158b-aa25-450c-8aed-e4caae71cd63"
+                            },
+                            "display": "Non Lorem."
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.68",
+                            "code": "29463-7",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körpergewicht in g"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "389c0362-27d8-4ee7-bd66-9e1067babba8"
+                            },
+                            "display": "Pariatur ut duis incididunt amet."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "4000-10-19",
+                "valueQuantity": {
+                    "value": "-1857440255292512949200791060706394044733126037260964925790990300749319291326724E+95867851333",
+                    "unit": "g",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g"
+                },
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationHeadCircumference",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_Head_Circumference|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "363812007",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Kopfumfang in cm"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "53e7578e-48ae-4aba-ba49-4961bf81830b"
+                            },
+                            "display": "Sint id et id."
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.68",
+                            "code": "9843-4",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Kopfumfang in cm"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "ee9a4c4e-4d0d-42c9-b402-bbe4fa623278"
+                            },
+                            "display": "Incididunt laborum ullamco cupidatat ad reprehenderit."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2455-12-13T06:24:46Z",
+                "valueQuantity": {
+                    "value": "0",
+                    "unit": "cm",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "cm"
+                },
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1BirthLength",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Birth_Length|1.0.0"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "code": "169886007",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körperlänge in cm"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "8e73a4d5-9905-47b0-8d45-2d4896a586ef"
+                            },
+                            "display": "Amet Lorem officia."
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.68",
+                            "code": "89269-5",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körperlänge in cm"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "e2b26521-b37b-49ee-a7c6-f17eff45a118"
+                            },
+                            "display": "Sit eiusmod enim fugiat esse."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "0366",
+                "valueQuantity": {
+                    "value": "35523721830.34599609319841525173508772920410625700979749680817297551595679646E12552831684793977474462599077213",
+                    "unit": "cm",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "cm"
+                },
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>",
+                    "resourceType": "Narrative"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        }
+    ]
+}

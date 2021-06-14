@@ -1,368 +1,368 @@
 {
-  "resourceType": "Composition",
-  "id": "de0d128e-59aa-4844-9f44-700e0bda2ecb",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_U4|1.0.0"
-    ]
-  },
-  "extension": [
-    {
-      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
-      "valueString": "U4 Elterninformation zur Untersuchung vom 3. bis zum 4. Lebensmonat Die meisten Babys werden in diesem Alter immer mobiler und aktiver. Sie beginnen, nach Dingen zu greifen und zu lächeln. Sie reagieren auf ihre Bezugsperson. Außerdem machen sie sich durch bestimmte Laute bemerkbar. Die Ärztin oder der Arzt achtet vor allem darauf, ob sich Ihr Baby körperlich und geistig altersgerecht entwickelt. Unter anderem wird auch beobachtet, wie sich Ihr Baby bewegt. Die Ärztin oder der Arzt prüft, ob Ihr Baby hören und sehen kann. Außerdem interessiert es Ihre Ärztin oder Ihren Arzt, wie Sie und Ihr Baby miteinander im Kontakt sind. Es wird wieder eine körperliche Untersuchung durchgeführt und dabei wird auch kontrolliert, ob die Knochenlücke am Kopf (Fontanelle) ausreichend groß ist, damit der Schädel weiterhin problemlos wachsen kann. Zur U4 werden Wiederholungsimpfungen angeboten. Spätestens jetzt erfolgen die ersten Impfungen. Außerdem spricht die Ärztin oder der Arzt mit Ihnen über Themen wie die Ernährung und Verdauung Ihres Babys, Maßnahmen zur Vermeidung des plötzlichen Kindstodes, Unfallverhütung und wie Sie reagieren sollten, wenn Ihr Baby besonders viel schreit und nicht schlafen kann. Weitere Themen sind die Förderung der Sprachentwicklung durch häufiges Sprechen und Singen mit dem Baby sowie die Rachitisprophylaxe mittels Vitamin D und die Kariesprophylaxe mittels Fluorid. Sie erhalten Informationen zu regionalen Unterstützungsangeboten (z. B. Eltern-Kind-Hilfen, Frühe Hilfen). Falls der Neugeborenen-Hörtest noch nicht stattgefunden hat, sollte er umgehend erfolgen."
-    }
-  ],
-  "status": "final",
-  "type": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "170250008",
-        "display": "Child 3 month examination (procedure)"
-      }
-    ]
-  },
-  "category": [
-    {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-          "code": "243788004",
-          "display": "Child examination (procedure)"
-        }
-      ]
-    }
-  ],
-  "subject": {
-    "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
-  },
-  "encounter": {
-    "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
-  },
-  "date": "2020-01-02",
-  "author": [
-    {
-      "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
-    }
-  ],
-  "title": "U4",
-  "section": [
-    {
-      "extension": [
-        {
-          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
-          "valueString": "Zutreffendes bitte ankreuzen!"
-        }
-      ],
-      "title": "Aktuelle Anamnese des Kindes",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "423374008",
-            "display": "Review of systems section (record artifact)"
-          }
+    "resourceType": "Composition",
+    "id": "de0d128e-59aa-4844-9f44-700e0bda2ecb",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_U4|1.0.0"
         ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Aktuelle Anamnese des Kindes</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:8162b8a5-ef56-448f-8b87-6a7f0ea0fa5b"
-        }
-      ]
     },
-    {
-      "extension": [
+    "extension": [
         {
-          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
-          "valueString": "Zutreffendes bitte ankreuzen!"
+            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
+            "valueString": "U4 Elterninformation zur Untersuchung vom 3. bis zum 4. Lebensmonat Die meisten Babys werden in diesem Alter immer mobiler und aktiver. Sie beginnen, nach Dingen zu greifen und zu lächeln. Sie reagieren auf ihre Bezugsperson. Außerdem machen sie sich durch bestimmte Laute bemerkbar. Die Ärztin oder der Arzt achtet vor allem darauf, ob sich Ihr Baby körperlich und geistig altersgerecht entwickelt. Unter anderem wird auch beobachtet, wie sich Ihr Baby bewegt. Die Ärztin oder der Arzt prüft, ob Ihr Baby hören und sehen kann. Außerdem interessiert es Ihre Ärztin oder Ihren Arzt, wie Sie und Ihr Baby miteinander im Kontakt sind. Es wird wieder eine körperliche Untersuchung durchgeführt und dabei wird auch kontrolliert, ob die Knochenlücke am Kopf (Fontanelle) ausreichend groß ist, damit der Schädel weiterhin problemlos wachsen kann. Zur U4 werden Wiederholungsimpfungen angeboten. Spätestens jetzt erfolgen die ersten Impfungen. Außerdem spricht die Ärztin oder der Arzt mit Ihnen über Themen wie die Ernährung und Verdauung Ihres Babys, Maßnahmen zur Vermeidung des plötzlichen Kindstodes, Unfallverhütung und wie Sie reagieren sollten, wenn Ihr Baby besonders viel schreit und nicht schlafen kann. Weitere Themen sind die Förderung der Sprachentwicklung durch häufiges Sprechen und Singen mit dem Baby sowie die Rachitisprophylaxe mittels Vitamin D und die Kariesprophylaxe mittels Fluorid. Sie erhalten Informationen zu regionalen Unterstützungsangeboten (z. B. Eltern-Kind-Hilfen, Frühe Hilfen). Falls der Neugeborenen-Hörtest noch nicht stattgefunden hat, sollte er umgehend erfolgen."
         }
-      ],
-      "title": "Sozialanamnese",
-      "code": {
+    ],
+    "status": "final",
+    "type": {
         "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "281575007",
-            "display": "Family social history (situation)"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Sozialanamnese</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:cf1b35f1-8ffe-43d0-b9ce-c73097dda0ca"
-        }
-      ]
-    },
-    {
-      "extension": [
-        {
-          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
-          "valueString": "Nur Auffälligkeiten ankreuzen!"
-        }
-      ],
-      "title": "Körperliche Untersuchung",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "425044008",
-            "display": "Physical exam section (record artifact)"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Körperliche Untersuchung</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:ff73617c-db0c-4656-b76f-05b686413c6d"
-        },
-        {
-          "reference": "urn:uuid:5817dbac-9205-4194-a70a-4247feee382f"
-        },
-        {
-          "reference": "urn:uuid:04fb53b3-dc08-4858-8566-5fd78f4fff46"
-        },
-        {
-          "reference": "urn:uuid:ea8800fb-a4e4-4005-b333-2c87c4633fe4"
-        },
-        {
-          "reference": "urn:uuid:8d7d880d-ffba-4bcc-9374-62238cf6ab42"
-        },
-        {
-          "reference": "urn:uuid:c5bbf653-ebef-474f-8ccf-ffba7253df9f"
-        },
-        {
-          "reference": "urn:uuid:db99ab96-c876-4dcd-a8cf-48d7098c2748"
-        },
-        {
-          "reference": "urn:uuid:67347753-71af-4456-a951-da2de6475a63"
-        },
-        {
-          "reference": "urn:uuid:811f01de-3f62-4584-a370-cf717bfe879e"
-        }
-      ]
-    },
-    {
-      "extension": [
-        {
-          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
-          "valueString": "Bei erweitertem Beratungsbedarf bitte ankreuzen!"
-        },
-        {
-          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
-          "valueString": "Beratung vor allem zu folgenden Themen:"
-        }
-      ],
-      "title": "Beratung",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "409066002",
-            "display": "Education, guidance and counseling (procedure)"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Beratung</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:688cde19-af0e-4a04-9781-6aa7db352443"
-        },
-        {
-          "reference": "urn:uuid:40418613-e63c-46a5-81bc-101a4dae85eb"
-        }
-      ]
-    },
-    {
-      "extension": [
-        {
-          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
-          "valueString": "Nur ankreuzen, wenn die Items NICHT erfüllt werden!"
-        },
-        {
-          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
-          "valueString": "Beobachtung der Interaktion: Insbersondere die folgenden Reaktionen des Kindes können der Ärztin oder dem Arzt als Hinweis zur Einschätzung von Stimmung, Kommunikations- Regulationsmöglichkeiten des Kindes im Kontak mit seiner primären Bezugsperson und als weitere Grundlage für das Ärztin oder Arzt-Elterngespräch dienen:"
-        }
-      ],
-      "title": "Orientierende Beurteilung der Entwicklung",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "406207000",
-            "display": "Child development by age (observable entity)"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Orientierende Beurteilung der Entwicklung</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:c222e39c-3e93-4861-916f-c55d1ee1db19"
-        },
-        {
-          "reference": "urn:uuid:57a7f6a0-ff51-4029-9832-bf48f8936d79"
-        }
-      ]
-    },
-    {
-      "extension": [
-        {
-          "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
-          "valueString": "- Neugeborenen-Hörscreening - Screening auf Hüftgelenksdysplasie und -luxation"
-        }
-      ],
-      "title": "Ergebnisse",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "423100009",
-            "display": "Results section (record artifact)"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Ergebnisse</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:20bb7a89-12f7-479d-9867-9616ad60d19c"
-        },
-        {
-          "reference": "urn:uuid:45c6b419-a5f4-4812-9c9c-8f396671912a"
-        },
-        {
-          "reference": "urn:uuid:3fc999c6-74a9-40a8-a0db-b7d1678fd036"
-        },
-        {
-          "reference": "urn:uuid:286b3f77-f584-4eb7-81a1-5318735a312c"
-        },
-        {
-          "reference": "urn:uuid:1da10702-f193-4eb8-8948-d596c5e9163e"
-        },
-        {
-          "reference": "urn:uuid:42b5f0ce-9f5a-476a-92ed-12896a2cc43c"
-        },
-        {
-          "reference": "urn:uuid:1f7b9716-25f3-4657-916e-3860991d3e2f"
-        },
-        {
-          "reference": "urn:uuid:0667fb70-3061-4e32-ac3d-a988b7a4b19e"
-        }
-      ],
-      "section": [
-        {
-          "title": "Prüfung und Aufklärung",
-          "code": {
-            "coding": [
-              {
+            {
                 "system": "http://snomed.info/sct",
                 "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                "code": "722448004",
-                "display": "Treatment plan report (record artifact)"
-              }
-            ]
-          },
-          "entry": [
-            {
-              "reference": "urn:uuid:3db1e754-94a4-4490-aaae-910afaed1f1c"
+                "code": "170250008",
+                "display": "Child 3 month examination (procedure)"
             }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Neugeborenen-Hörscreening",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "252957005",
-            "display": "Children's hearing test (procedure)"
-          },
-          {
-            "system": "http://loinc.org",
-            "version": "2.68",
-            "code": "54111-0",
-            "display": "Newborn hearing screening panel"
-          }
         ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Neugeborenen-Hörscreening</p></div>"
-      },
-      "entry": [
-        {
-          "reference": "urn:uuid:bc2430d7-396c-4bf7-a3ae-56abf71d26a2"
-        },
-        {
-          "reference": "urn:uuid:04772266-c279-4d88-912c-240586efdb39"
-        },
-        {
-          "reference": "urn:uuid:769a406d-962f-423c-91c2-343f2863b577"
-        }
-      ]
     },
-    {
-      "title": "Screening auf Hüftgelenksdysplasie und -luxation",
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-            "code": "171241003",
-            "display": "Congenital dislocation of the hip screening (procedure)"
-          },
-          {
-            "system": "http://loinc.org",
-            "version": "2.68",
-            "code": "30711-6",
-            "display": "US Hip developmental joint assessment"
-          }
-        ]
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Screening auf Hüftgelenksdysplasie und -luxation</p></div>"
-      },
-      "entry": [
+    "category": [
         {
-          "reference": "urn:uuid:eef690b9-b4b0-42ab-a716-58e686d5c242"
-        },
-        {
-          "reference": "urn:uuid:3310e64e-b9a0-4b38-83ee-7c4c35c6975d"
-        },
-        {
-          "reference": "urn:uuid:3b3181f1-d4fd-4d1b-9251-73c120baf71b"
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                    "code": "243788004",
+                    "display": "Child examination (procedure)"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ],
+    "subject": {
+        "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+    },
+    "encounter": {
+        "reference": "urn:uuid:178fc6f4-ff55-4093-b69e-1fb34abb77d0"
+    },
+    "date": "2020-01-02",
+    "author": [
+        {
+            "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+        }
+    ],
+    "title": "U4",
+    "section": [
+        {
+            "extension": [
+                {
+                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                    "valueString": "Zutreffendes bitte ankreuzen!"
+                }
+            ],
+            "title": "Aktuelle Anamnese des Kindes",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "423374008",
+                        "display": "Review of systems section (record artifact)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Aktuelle Anamnese des Kindes</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:8162b8a5-ef56-448f-8b87-6a7f0ea0fa5b"
+                }
+            ]
+        },
+        {
+            "extension": [
+                {
+                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                    "valueString": "Zutreffendes bitte ankreuzen!"
+                }
+            ],
+            "title": "Sozialanamnese",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "281575007",
+                        "display": "Family social history (situation)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Sozialanamnese</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:cf1b35f1-8ffe-43d0-b9ce-c73097dda0ca"
+                }
+            ]
+        },
+        {
+            "extension": [
+                {
+                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                    "valueString": "Nur Auffälligkeiten ankreuzen!"
+                }
+            ],
+            "title": "Körperliche Untersuchung",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "425044008",
+                        "display": "Physical exam section (record artifact)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Körperliche Untersuchung</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:ff73617c-db0c-4656-b76f-05b686413c6d"
+                },
+                {
+                    "reference": "urn:uuid:5817dbac-9205-4194-a70a-4247feee382f"
+                },
+                {
+                    "reference": "urn:uuid:04fb53b3-dc08-4858-8566-5fd78f4fff46"
+                },
+                {
+                    "reference": "urn:uuid:ea8800fb-a4e4-4005-b333-2c87c4633fe4"
+                },
+                {
+                    "reference": "urn:uuid:8d7d880d-ffba-4bcc-9374-62238cf6ab42"
+                },
+                {
+                    "reference": "urn:uuid:c5bbf653-ebef-474f-8ccf-ffba7253df9f"
+                },
+                {
+                    "reference": "urn:uuid:db99ab96-c876-4dcd-a8cf-48d7098c2748"
+                },
+                {
+                    "reference": "urn:uuid:67347753-71af-4456-a951-da2de6475a63"
+                },
+                {
+                    "reference": "urn:uuid:811f01de-3f62-4584-a370-cf717bfe879e"
+                }
+            ]
+        },
+        {
+            "extension": [
+                {
+                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                    "valueString": "Bei erweitertem Beratungsbedarf bitte ankreuzen!"
+                },
+                {
+                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
+                    "valueString": "Beratung vor allem zu folgenden Themen:"
+                }
+            ],
+            "title": "Beratung",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "409066002",
+                        "display": "Education, guidance and counseling (procedure)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Beratung</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:688cde19-af0e-4a04-9781-6aa7db352443"
+                },
+                {
+                    "reference": "urn:uuid:40418613-e63c-46a5-81bc-101a4dae85eb"
+                }
+            ]
+        },
+        {
+            "extension": [
+                {
+                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                    "valueString": "Nur ankreuzen, wenn die Items NICHT erfüllt werden!"
+                },
+                {
+                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
+                    "valueString": "Beobachtung der Interaktion: Insbersondere die folgenden Reaktionen des Kindes können der Ärztin oder dem Arzt als Hinweis zur Einschätzung von Stimmung, Kommunikations- Regulationsmöglichkeiten des Kindes im Kontak mit seiner primären Bezugsperson und als weitere Grundlage für das Ärztin oder Arzt-Elterngespräch dienen:"
+                }
+            ],
+            "title": "Orientierende Beurteilung der Entwicklung",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "406207000",
+                        "display": "Child development by age (observable entity)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Orientierende Beurteilung der Entwicklung</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:c222e39c-3e93-4861-916f-c55d1ee1db19"
+                },
+                {
+                    "reference": "urn:uuid:57a7f6a0-ff51-4029-9832-bf48f8936d79"
+                }
+            ]
+        },
+        {
+            "extension": [
+                {
+                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
+                    "valueString": "- Neugeborenen-Hörscreening - Screening auf Hüftgelenksdysplasie und -luxation"
+                }
+            ],
+            "title": "Ergebnisse",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "423100009",
+                        "display": "Results section (record artifact)"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Ergebnisse</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:20bb7a89-12f7-479d-9867-9616ad60d19c"
+                },
+                {
+                    "reference": "urn:uuid:45c6b419-a5f4-4812-9c9c-8f396671912a"
+                },
+                {
+                    "reference": "urn:uuid:3fc999c6-74a9-40a8-a0db-b7d1678fd036"
+                },
+                {
+                    "reference": "urn:uuid:286b3f77-f584-4eb7-81a1-5318735a312c"
+                },
+                {
+                    "reference": "urn:uuid:1da10702-f193-4eb8-8948-d596c5e9163e"
+                },
+                {
+                    "reference": "urn:uuid:42b5f0ce-9f5a-476a-92ed-12896a2cc43c"
+                },
+                {
+                    "reference": "urn:uuid:1f7b9716-25f3-4657-916e-3860991d3e2f"
+                },
+                {
+                    "reference": "urn:uuid:0667fb70-3061-4e32-ac3d-a988b7a4b19e"
+                }
+            ],
+            "section": [
+                {
+                    "title": "Prüfung und Aufklärung",
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "code": "722448004",
+                                "display": "Treatment plan report (record artifact)"
+                            }
+                        ]
+                    },
+                    "entry": [
+                        {
+                            "reference": "urn:uuid:3db1e754-94a4-4490-aaae-910afaed1f1c"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Neugeborenen-Hörscreening",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "252957005",
+                        "display": "Children's hearing test (procedure)"
+                    },
+                    {
+                        "system": "http://loinc.org",
+                        "version": "2.68",
+                        "code": "54111-0",
+                        "display": "Newborn hearing screening panel"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Neugeborenen-Hörscreening</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:bc2430d7-396c-4bf7-a3ae-56abf71d26a2"
+                },
+                {
+                    "reference": "urn:uuid:04772266-c279-4d88-912c-240586efdb39"
+                },
+                {
+                    "reference": "urn:uuid:769a406d-962f-423c-91c2-343f2863b577"
+                }
+            ]
+        },
+        {
+            "title": "Screening auf Hüftgelenksdysplasie und -luxation",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                        "code": "171241003",
+                        "display": "Congenital dislocation of the hip screening (procedure)"
+                    },
+                    {
+                        "system": "http://loinc.org",
+                        "version": "2.68",
+                        "code": "30711-6",
+                        "display": "US Hip developmental joint assessment"
+                    }
+                ]
+            },
+            "text": {
+                "status": "generated",
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Screening auf Hüftgelenksdysplasie und -luxation</p></div>"
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:eef690b9-b4b0-42ab-a716-58e686d5c242"
+                },
+                {
+                    "reference": "urn:uuid:3310e64e-b9a0-4b38-83ee-7c4c35c6975d"
+                },
+                {
+                    "reference": "urn:uuid:3b3181f1-d4fd-4d1b-9251-73c120baf71b"
+                }
+            ]
+        }
+    ]
 }

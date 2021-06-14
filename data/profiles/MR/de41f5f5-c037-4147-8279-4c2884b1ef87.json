@@ -1,189 +1,189 @@
 {
-  "resourceType": "DiagnosticReport",
-  "id": "de41f5f5-c037-4147-8279-4c2884b1ef87",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_DiagnosticReport_Ultrasound_I|1.0.0"
-    ]
-  },
-  "extension": [
-    {
-      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
-      "valueString": "Ergänzende Informationen"
-    }
-  ],
-  "status": "final",
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "446522006",
-        "display": "Ultrasonography in first trimester (procedure)",
-        "_display": {
-          "extension": [
-            {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "I. Screening"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    ]
-  },
-  "subject": {
-    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
-  },
-  "encounter": {
-    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
-  },
-  "effectiveDateTime": "2020-01-02",
-  "_effectiveDateTime": {
-    "extension": [
-      {
-        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Pregnancy_Week_And_Day",
-        "extension": [
-          {
-            "url": "schwangerschaftszeitpunkt",
-            "extension": [
-              {
-                "url": "schwangerschaftswoche",
-                "valueQuantity": {
-                  "value": 6,
-                  "unit": "Wochen",
-                  "system": "http://unitsofmeasure.org",
-                  "code": "wk"
-                }
-              },
-              {
-                "url": "ergaenzendeTage",
-                "valueQuantity": {
-                  "value": 3,
-                  "unit": "Tage",
-                  "system": "http://unitsofmeasure.org",
-                  "code": "d"
-                }
-              },
-              {
-                "url": "korrektur",
-                "valueBoolean": false
-              },
-              {
-                "url": "kode",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http://snomed.info/sct",
-                      "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                      "code": "57036006",
-                      "display": "Fetal gestational age (observable entity)",
-                      "_display": {
-                        "extension": [
-                          {
-                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-                            "extension": [
-                              {
-                                "url": "content",
-                                "valueString": "Schwangerschaftswoche+Tage"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                }
-              }
-            ]
-          },
-          {
-            "url": "schwangerschaftszeitpunktKorrigiert",
-            "extension": [
-              {
-                "url": "schwangerschaftswocheKorrigiert",
-                "valueQuantity": {
-                  "value": 6,
-                  "unit": "Wochen",
-                  "system": "http://unitsofmeasure.org",
-                  "code": "wk"
-                }
-              },
-              {
-                "url": "ergaenzendeTageKorrigiert",
-                "valueQuantity": {
-                  "value": 3,
-                  "unit": "Tage",
-                  "system": "http://unitsofmeasure.org",
-                  "code": "d"
-                }
-              },
-              {
-                "url": "korrekturKorrigiert",
-                "valueBoolean": true
-              },
-              {
-                "url": "kodeKorrigiert",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "http://snomed.info/sct",
-                      "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                      "code": "57036006:246501002=278395004",
-                      "display": "Fetal gestational age (observable entity):Technique (attribute)= Imaging technique (qualifier value)",
-                      "_display": {
-                        "extension": [
-                          {
-                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-                            "extension": [
-                              {
-                                "url": "content",
-                                "valueString": "Schwangerschaftswoche+Tage (korrigiert)"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                }
-              }
-            ]
-          }
+    "resourceType": "DiagnosticReport",
+    "id": "de41f5f5-c037-4147-8279-4c2884b1ef87",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_DiagnosticReport_Ultrasound_I|1.0.0"
         ]
-      }
+    },
+    "extension": [
+        {
+            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
+            "valueString": "Ergänzende Informationen"
+        }
+    ],
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "446522006",
+                "display": "Ultrasonography in first trimester (procedure)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "I. Screening"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
+    },
+    "encounter": {
+        "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+    },
+    "effectiveDateTime": "2020-01-02",
+    "_effectiveDateTime": {
+        "extension": [
+            {
+                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Pregnancy_Week_And_Day",
+                "extension": [
+                    {
+                        "url": "schwangerschaftszeitpunkt",
+                        "extension": [
+                            {
+                                "url": "schwangerschaftswoche",
+                                "valueQuantity": {
+                                    "value": 6,
+                                    "unit": "Wochen",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "wk"
+                                }
+                            },
+                            {
+                                "url": "ergaenzendeTage",
+                                "valueQuantity": {
+                                    "value": 3,
+                                    "unit": "Tage",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "d"
+                                }
+                            },
+                            {
+                                "url": "korrektur",
+                                "valueBoolean": false
+                            },
+                            {
+                                "url": "kode",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                            "code": "57036006",
+                                            "display": "Fetal gestational age (observable entity)",
+                                            "_display": {
+                                                "extension": [
+                                                    {
+                                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                        "extension": [
+                                                            {
+                                                                "url": "content",
+                                                                "valueString": "Schwangerschaftswoche+Tage"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "url": "schwangerschaftszeitpunktKorrigiert",
+                        "extension": [
+                            {
+                                "url": "schwangerschaftswocheKorrigiert",
+                                "valueQuantity": {
+                                    "value": 6,
+                                    "unit": "Wochen",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "wk"
+                                }
+                            },
+                            {
+                                "url": "ergaenzendeTageKorrigiert",
+                                "valueQuantity": {
+                                    "value": 3,
+                                    "unit": "Tage",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "d"
+                                }
+                            },
+                            {
+                                "url": "korrekturKorrigiert",
+                                "valueBoolean": true
+                            },
+                            {
+                                "url": "kodeKorrigiert",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                            "code": "57036006:246501002=278395004",
+                                            "display": "Fetal gestational age (observable entity):Technique (attribute)= Imaging technique (qualifier value)",
+                                            "_display": {
+                                                "extension": [
+                                                    {
+                                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                        "extension": [
+                                                            {
+                                                                "url": "content",
+                                                                "valueString": "Schwangerschaftswoche+Tage (korrigiert)"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "performer": [
+        {
+            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+        }
+    ],
+    "result": [
+        {
+            "reference": "urn:uuid:ae28091d-d60a-436f-89d2-7d4113a56015"
+        },
+        {
+            "reference": "urn:uuid:ea311ee8-4d56-4e78-8a5d-20504219681b"
+        },
+        {
+            "reference": "urn:uuid:05a07071-3023-4e13-8db6-663d500e9428"
+        },
+        {
+            "reference": "urn:uuid:765d38ee-3a0f-4980-9de6-5ca47570482c"
+        },
+        {
+            "reference": "urn:uuid:0c574820-977e-433f-ba14-8f762cd8bb5c"
+        },
+        {
+            "reference": "urn:uuid:b81a878d-863e-40d2-b75b-dfe76c4743af"
+        },
+        {
+            "reference": "urn:uuid:82174aa3-f3b8-4ac6-827e-c7a21bbc377c"
+        }
     ]
-  },
-  "performer": [
-    {
-      "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
-    }
-  ],
-  "result": [
-    {
-      "reference": "urn:uuid:ae28091d-d60a-436f-89d2-7d4113a56015"
-    },
-    {
-      "reference": "urn:uuid:ea311ee8-4d56-4e78-8a5d-20504219681b"
-    },
-    {
-      "reference": "urn:uuid:05a07071-3023-4e13-8db6-663d500e9428"
-    },
-    {
-      "reference": "urn:uuid:765d38ee-3a0f-4980-9de6-5ca47570482c"
-    },
-    {
-      "reference": "urn:uuid:0c574820-977e-433f-ba14-8f762cd8bb5c"
-    },
-    {
-      "reference": "urn:uuid:b81a878d-863e-40d2-b75b-dfe76c4743af"
-    },
-    {
-      "reference": "urn:uuid:82174aa3-f3b8-4ac6-827e-c7a21bbc377c"
-    }
-  ]
 }

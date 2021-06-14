@@ -1,54 +1,54 @@
 {
-  "resourceType": "Appointment",
-  "id": "42b5f0ce-9f5a-476a-92ed-12896a2cc43c",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Appointment_Next_Appointment|1.0.0"
-    ]
-  },
-  "status": "proposed",
-  "serviceType": [
-    {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-          "code": "390840006:42752001=243788004",
-          "display": "Next appointment (finding): Due to (attribute) = Child examination (procedure)",
-          "_display": {
-            "extension": [
-              {
-                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-                "extension": [
-                  {
-                    "url": "content",
-                    "valueString": "Nächste U-Untersuchung am:"
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      ]
-    }
-  ],
-  "participant": [
-    {
-      "actor": {
-        "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
-      },
-      "status": "accepted"
+    "resourceType": "Appointment",
+    "id": "42b5f0ce-9f5a-476a-92ed-12896a2cc43c",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Appointment_Next_Appointment|1.0.0"
+        ]
     },
-    {
-      "actor": {
-        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
-      },
-      "status": "accepted"
-    }
-  ],
-  "requestedPeriod": [
-    {
-      "start": "2020-01-02T20:30:00+01:00"
-    }
-  ]
+    "status": "proposed",
+    "serviceType": [
+        {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                    "code": "390840006:42752001=243788004",
+                    "display": "Next appointment (finding): Due to (attribute) = Child examination (procedure)",
+                    "_display": {
+                        "extension": [
+                            {
+                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                "extension": [
+                                    {
+                                        "url": "content",
+                                        "valueString": "Nächste U-Untersuchung am:"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "participant": [
+        {
+            "actor": {
+                "reference": "urn:uuid:fc946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+            },
+            "status": "accepted"
+        },
+        {
+            "actor": {
+                "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+            },
+            "status": "accepted"
+        }
+    ],
+    "requestedPeriod": [
+        {
+            "start": "2020-01-02T20:30:00+01:00"
+        }
+    ]
 }

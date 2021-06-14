@@ -1,46 +1,46 @@
 {
-  "resourceType": "Observation",
-  "id": "18865878-8b13-4f06-8a31-ee55f5ce36de",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_Comments|1.0.0"
-    ]
-  },
-  "status": "final",
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-        "code": "703852005",
-        "display": "Narrative comment section (record artifact)",
-        "_display": {
-          "extension": [
+    "resourceType": "Observation",
+    "id": "18865878-8b13-4f06-8a31-ee55f5ce36de",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_Comments|1.0.0"
+        ]
+    },
+    "status": "final",
+    "code": {
+        "coding": [
             {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Bemerkungen:"
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "703852005",
+                "display": "Narrative comment section (record artifact)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Bemerkungen:"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
             }
-          ]
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651"
+    },
+    "encounter": {
+        "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+    },
+    "effectiveDateTime": "2020-07-07",
+    "performer": [
+        {
+            "reference": "urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1"
         }
-      }
-    ]
-  },
-  "subject": {
-    "reference": "urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651"
-  },
-  "encounter": {
-    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
-  },
-  "effectiveDateTime": "2020-07-07",
-  "performer": [
-    {
-      "reference": "urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1"
-    }
-  ],
-  "valueString": "Auffrischung für nächste Woche vereinbart"
+    ],
+    "valueString": "Auffrischung für nächste Woche vereinbart"
 }

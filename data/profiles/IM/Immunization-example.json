@@ -3,7 +3,7 @@
     "id": "2d2a0ad2-1d60-44fa-82a4-28c55635857a",
     "meta": {
         "profile": [
-            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.1.0"
         ]
     },
     "text": {
@@ -52,13 +52,20 @@
             {
                 "system": "http://snomed.info/sct",
                 "version": "http://snomed.info/sct/900000000000207008/version/20200131",
-                "code": "56844000",
-                "display": "Yellow fever vaccine"
+                "code": "836385002",
+                "display": "Vaccine product containing Yellow fever virus antigen (medicinal product)"
             },
             {
                 "system": "http://fhir.de/CodeSystem/dimdi/atc",
+                "version": "atcgm20211",
                 "code": "J07BL",
                 "display": "Gelbfieber-Impfstoffe"
+            },
+            {
+                "system": "http://fhir.de/CodeSystem/ifa/pzn",
+                "code": "2528981",
+                "version": "pzn|1.0.000",
+                "display": "STAMARIL Trockensubstanz mit Lösungsmittel"
             }
         ],
         "text": "Gelbfieberimpfstoff"

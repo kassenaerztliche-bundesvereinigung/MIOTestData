@@ -3,7 +3,7 @@
     "id": "ba5f36ef-84e9-4a83-852b-e74dac4014ed",
     "meta": {
         "profile": [
-            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Patient|1.00.000"
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Patient|1.1.0"
         ]
     },
     "identifier": [

@@ -3,7 +3,7 @@
     "id": "001578f8-0b76-4197-afd9-ludger7516e47",
     "meta": {
         "profile": [
-            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Bundle_Entry|1.00.000"
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Bundle_Entry|1.1.0"
         ],
         "lastUpdated": "2019-12-24T12:30:02Z"
     },
@@ -21,7 +21,7 @@
                 "id": "6d92d417-8a0d-42b9-959f-567ab2f4650f",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Composition_Prime|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Composition_Prime|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -30,7 +30,7 @@
                         {
                             "system": "http://loinc.org",
                             "code": "11369-6",
-                            "display": "HISTORY OF IMMUNIZATIONS"
+                            "display": "History of Immunization Narrative"
                         }
                     ]
                 },
@@ -49,8 +49,10 @@
                         "code": {
                             "coding": [
                                 {
-                                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-                                    "code": "IMMUNIZ"
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "713404003",
+                                    "display": "Vaccination given (situation)"
                                 }
                             ]
                         },
@@ -70,7 +72,7 @@
                 "id": "ff258b30-915f-4561-b356-7b30e7a9393a",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.1.0"
                     ]
                 },
                 "text": {
@@ -189,7 +191,7 @@
                 "id": "9774f67f-a238-4daf-b4e6-679deeef3811",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Patient|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Patient|1.1.0"
                     ]
                 },
                 "text": {
@@ -261,7 +263,7 @@
                 "id": "20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner|1.1.0"
                     ]
                 },
                 "extension": [
@@ -359,7 +361,7 @@
                 "id": "0eecc686-434d-4b8a-9009-4242377e0db6",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner_Addendum|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner_Addendum|1.1.0"
                     ]
                 },
                 "name": [
@@ -411,7 +413,7 @@
                 "id": "a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole|1.1.0"
                     ]
                 },
                 "practitioner": {
@@ -429,7 +431,7 @@
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole_Addendum|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole_Addendum|1.1.0"
                     ]
                 },
                 "practitioner": {
@@ -447,7 +449,7 @@
                 "id": "cf042e44-086a-4d51-9c77-172f9a972e3b",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Organization|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Organization|1.1.0"
                     ]
                 },
                 "name": "Praxis Dr. med. Hans Topp-Glücklich",
@@ -489,7 +491,7 @@
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Condition|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Condition|1.1.0"
                     ]
                 },
                 "text": {
@@ -548,7 +550,7 @@
                 "id": "2d2a0ad2-1d69-44fa-82a4-28c55635857b",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.1.0"
                     ]
                 },
                 "text": {
@@ -688,7 +690,7 @@
                 "id": "2d2a0ad2-1d60-44fa-82a4-28c55635857a",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.1.0"
                     ]
                 },
                 "text": {
@@ -828,7 +830,7 @@
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2f1f9c222",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Observation_Immunization_Status|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Observation_Immunization_Status|1.1.0"
                     ]
                 },
                 "text": {
@@ -905,7 +907,7 @@
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Observation_Immunization_Status|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Observation_Immunization_Status|1.1.0"
                     ]
                 },
                 "text": {
@@ -982,7 +984,7 @@
                 "id": "2d2a0ad2-1x58-33fa-82a4-28c55635857b",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.1.0"
                     ]
                 },
                 "text": {
@@ -1110,7 +1112,7 @@
                 "id": "2d2a0ad2-0y58-33fa-82a4-28c55635857b",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.1.0"
                     ]
                 },
                 "text": {
@@ -1238,7 +1240,7 @@
                 "id": "2d2a1ad2-0k58-33fa-82a4-28c55635857b",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.1.0"
                     ]
                 },
                 "text": {
@@ -1366,7 +1368,7 @@
                 "id": "a2108e08-32ca-4f22-985c-6f0279f5c89c",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Provenance|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Provenance|1.1.0"
                     ]
                 },
                 "target": [

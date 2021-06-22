@@ -1,56 +1,56 @@
 <Condition xmlns="http://hl7.org/fhir">
-  <id value="156c96ec-02ca-4770-94e9-b11d2237513d" />
-  <meta>
-    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Condition|1.00.000" />
-  </meta>
-  <text>
-    <status value="extensions" />
-    <div>
-      <div xmlns="http://www.w3.org/1999/xhtml" />
-    </div>
-  </text>
-  <clinicalStatus>
-    <coding>
-      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical" />
-      <code value="resolved" />
-    </coding>
-  </clinicalStatus>
-  <verificationStatus>
-    <coding>
-      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status" />
-      <code value="confirmed" />
-    </coding>
-  </verificationStatus>
-  <code>
-    <coding>
-      <system value="http://snomed.info/sct" />
-      <version value="http://snomed.info/sct/900000000000207008/version/20200131" />
-      <code value="27836007" />
-      <display value="Pertussis (disorder)" />
-    </coding>
-    <coding>
-      <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm" />
-      <version value="icd10gm2020" />
-      <code value="A37.-" />
-      <display value="Keuchhusten" />
-    </coding>
-    <text value="Pertussis/Keuchhusten" />
-  </code>
-  <subject>
-    <reference value="urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811" />
-  </subject>
-  <onsetString>
-    <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_Vaccination_Age_Groups">
-      <valueCodeableConcept>
+    <id value="156c96ec-02ca-4770-94e9-b11d2237513d"/>
+    <meta>
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Condition|1.1.0"/>
+    </meta>
+    <text>
+        <status value="extensions"/>
+        <div>
+            <div xmlns="http://www.w3.org/1999/xhtml"/>
+        </div>
+    </text>
+    <clinicalStatus>
         <coding>
-          <system value="http://snomed.info/sct" />
-          <version value="http://snomed.info/sct/900000000000207008/version/20200131" />
-          <code value="271872005" />
-          <display value="Old age (qualifier value)" />
+            <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+            <code value="resolved"/>
         </coding>
-        <text value="Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)" />
-      </valueCodeableConcept>
-    </extension>
-  </onsetString>
-  <recordedDate value="2019-12-23" />
+    </clinicalStatus>
+    <verificationStatus>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+            <code value="confirmed"/>
+        </coding>
+    </verificationStatus>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20200131"/>
+            <code value="27836007"/>
+            <display value="Pertussis (disorder)"/>
+        </coding>
+        <coding>
+            <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
+            <version value="icd10gm2020"/>
+            <code value="A37.-"/>
+            <display value="Keuchhusten"/>
+        </coding>
+        <text value="Pertussis/Keuchhusten"/>
+    </code>
+    <subject>
+        <reference value="urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"/>
+    </subject>
+    <onsetString>
+        <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_Vaccination_Age_Groups">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="http://snomed.info/sct"/>
+                    <version value="http://snomed.info/sct/900000000000207008/version/20200131"/>
+                    <code value="271872005"/>
+                    <display value="Old age (qualifier value)"/>
+                </coding>
+                <text value="Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)"/>
+            </valueCodeableConcept>
+        </extension>
+    </onsetString>
+    <recordedDate value="2019-12-23"/>
 </Condition>

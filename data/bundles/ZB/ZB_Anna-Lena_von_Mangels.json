@@ -2,7 +2,7 @@
     "resourceType": "Bundle",
     "meta": {
         "profile": [
-            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Bundle|1.00.000"
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Bundle|1.1.0"
         ]
     },
     "identifier": {
@@ -18,20 +18,19 @@
                 "resourceType": "Composition",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Composition|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Composition|1.1.0"
                     ]
+                },
+                "text": {
+                    "status": "extensions",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>TBD</p></div>"
                 },
                 "status": "final",
                 "type": {
                     "coding": [
                         {
-                            "system": "http://loinc.org",
-                            "code": "28618-7",
-                            "display": "Dentistry Note"
-                        },
-                        {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200309",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "371525003",
                             "display": "Clinical procedure report (record artifact)"
                         }
@@ -51,7 +50,7 @@
                     {
                         "entry": [
                             {
-                                "reference": "urn:uuid:321c66be-ea2e-4559-9e3d-b6f2326f2dcf"
+                                "reference": "urn:uuid:321c66be-ea2e-3000-9e3d-b6f2326f2dcf"
                             }
                         ]
                     }
@@ -64,8 +63,12 @@
                 "resourceType": "Patient",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Patient|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Patient|1.1.0"
                     ]
+                },
+                "text": {
+                    "status": "extensions",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>TBD</p></div>"
                 },
                 "identifier": [
                     {
@@ -145,22 +148,28 @@
             "fullUrl": "http://pvs.praxis-topp-gluecklich.local/fhir/Organization/d6259485-ec02-43a9-a476-dc1b7baa05bf",
             "resource": {
                 "resourceType": "Organization",
+                "id": "d6259485-ec02-43a9-a476-dc1b7baa05bf",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Organization|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Organization|1.1.0"
                     ]
+                },
+                "text": {
+                    "status": "extensions",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>TBD</p></div>"
                 },
                 "identifier": [
                     {
+                        "use": "official",
                         "type": {
                             "coding": [
                                 {
                                     "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
-                                    "code": "ZANR"
+                                    "code": "KZVA"
                                 }
                             ]
                         },
-                        "system": "http://fhir.de/NamingSystem/kzbv/zahnarztnummer",
+                        "system": "http://fhir.de/NamingSystem/kzbv/kzvabrechnungsnummer",
                         "value": "12345678"
                     }
                 ],
@@ -203,15 +212,19 @@
                 "resourceType": "Observation",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Observation|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Observation_Dental_Check_Up|1.1.0"
                     ]
+                },
+                "text": {
+                    "status": "extensions",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>TBD</p></div>"
                 },
                 "status": "final",
                 "code": {
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200309",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "2115003",
                             "display": "Dental prophylaxis, children (procedure)"
                         }
@@ -222,34 +235,6 @@
                     "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679d00000000"
                 },
                 "effectiveDateTime": "2019-09-02",
-                "valueBoolean": true
-            }
-        },
-        {
-            "fullUrl": "http://pvs.praxis-topp-gluecklich.local/fhir/Observation/321c66be-ea2e-4559-9e3d-b6f2326f2dcf",
-            "resource": {
-                "resourceType": "Observation",
-                "meta": {
-                    "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Observation|1.00.000"
-                    ]
-                },
-                "status": "final",
-                "code": {
-                    "coding": [
-                        {
-                            "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200309",
-                            "code": "63963009",
-                            "display": "Dental prophylaxis, adult (procedure)"
-                        }
-                    ],
-                    "text": "Zahnärztliche Untersuchung"
-                },
-                "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679d00000000"
-                },
-                "effectiveDateTime": "2020-03-17",
                 "valueBoolean": true
             }
         }

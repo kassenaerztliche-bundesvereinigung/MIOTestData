@@ -2,7 +2,7 @@
     <id value="6413570d-d8ce-4afa-1892-erwin11a4cb8"/>
     <meta>
         <lastUpdated value="2019-12-24T12:30:02Z"/>
-        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Bundle_Entry|1.00.000"/>
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Bundle_Entry|1.1.0"/>
     </meta>
     <identifier>
         <system value="urn:ietf:rfc:3986"/>
@@ -17,14 +17,14 @@
                 <id value="dcdeee3f-63b2-4df7-ad27-7d8b7f68981a"/>
                 <meta>
                     <profile
-                            value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Composition_Prime|1.00.000"/>
+                            value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Composition_Prime|1.1.0"/>
                 </meta>
                 <status value="final"/>
                 <type>
                     <coding>
                         <system value="http://loinc.org"/>
                         <code value="11369-6"/>
-                        <display value="HISTORY OF IMMUNIZATIONS"/>
+                        <display value="History of Immunization Narrative"/>
                     </coding>
                 </type>
                 <subject>
@@ -38,8 +38,10 @@
                 <section>
                     <code>
                         <coding>
-                            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
-                            <code value="IMMUNIZ"/>
+                            <system value="http://snomed.info/sct"/>
+                            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+                            <code value="713404003"/>
+                            <display value="Vaccination given (situation)"/>
                         </coding>
                     </code>
                     <entry>
@@ -59,7 +61,7 @@
                 <id value="20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"/>
                 <meta>
                     <profile
-                            value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner|1.00.000"/>
+                            value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner|1.1.0"/>
                 </meta>
                 <identifier>
                     <type>
@@ -120,7 +122,7 @@
             <Patient>
                 <id value="9774f67f-a238-4daf-b4e6-679deeef3811"/>
                 <meta>
-                    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Patient|1.00.000"/>
+                    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Patient|1.1.0"/>
                 </meta>
                 <text>
                     <status value="generated"/>
@@ -159,7 +161,7 @@
                 <id value="a24c9cd2-c55e-4859-8d41-db419fc9f6b1"/>
                 <meta>
                     <profile
-                            value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole|1.00.000"/>
+                            value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole|1.1.0"/>
                 </meta>
                 <practitioner>
                     <reference value="urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"/>
@@ -177,7 +179,7 @@
                 <id value="cf042e44-086a-4d51-9c77-172f9a972e3b"/>
                 <meta>
                     <profile
-                            value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Organization|1.00.000"/>
+                            value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Organization|1.1.0"/>
                 </meta>
                 <name value="Praxis Topp-Glücklich"/>
                 <address>
@@ -208,7 +210,7 @@
                 <id value="ff258b30-915f-4561-b356-7b30e7a9393a"/>
                 <meta>
                     <profile
-                            value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"/>
+                            value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.1.0"/>
                 </meta>
                 <text>
                     <status value="extensions"/>
@@ -260,8 +262,8 @@
                     <coding>
                         <system value="http://snomed.info/sct"/>
                         <version value="http://snomed.info/sct/900000000000207008/version/20200131"/>
-                        <code value="333521006"/>
-                        <display value="Anthrax vaccine (product)"/>
+                        <code value="836384003"/>
+                        <display value="Vaccine product containing Bacillus anthracis antigen (medicinal product)"/>
                     </coding>
                     <coding>
                         <system value="http://fhir.de/CodeSystem/dimdi/atc"/>
@@ -302,7 +304,7 @@
                 <id value="2d2a0ad2-1d60-44fa-82a4-28c55635857a"/>
                 <meta>
                     <profile
-                            value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"/>
+                            value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.1.0"/>
                 </meta>
                 <text>
                     <status value="extensions"/>
@@ -339,18 +341,16 @@
                     <coding>
                         <system value="http://snomed.info/sct"/>
                         <version value="http://snomed.info/sct/900000000000207008/version/20200131"/>
-                        <code value="426842004"/>
-                        <display
-                                value="Diphtheria + tetanus + pertussis + poliomyelitis + recombinant hepatitis B virus + recombinant haemophilus influenzae type B vaccine (product)"/>
+                        <code value="7230005"/>
+                        <display value="Brucella vaccine (product)"/>
                     </coding>
                     <coding>
                         <system value="http://fhir.de/CodeSystem/dimdi/atc"/>
                         <version value="09/2019|4.23.124"/>
-                        <code value="J07CA09"/>
-                        <display
-                                value="Diphtherie-Haemophilus influenzae B-Pertussis-Poliomyelitis-Tetanus-Hepatitis B"/>
+                        <code value="J07AD"/>
+                        <display value="Brucellose-Impfstoffe"/>
                     </coding>
-                    <text value="Diphtherie-Haemophilus influenzae B-Pertussis, Poliomyelitis, Tetanus, Hepatitis B-Impfstoff"/>
+                    <text value="Brucellose-Impfstoffe"/>
                 </vaccineCode>
                 <patient>
                     <reference value="urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"/>
@@ -369,37 +369,9 @@
                         <coding>
                             <system value="http://snomed.info/sct"/>
                             <version value="http://snomed.info/sct/900000000000207008/version/20200131"/>
-                            <code value="397430003"/>
-                            <display value="Diphtheria caused by Corynebacterium diphtheriae"/>
+                            <code value="75702008"/>
+                            <display value="Brucellosis (disorder)"/>
                         </coding>
-                        <text value="Diphtherie"/>
-                    </targetDisease>
-                    <targetDisease>
-                        <coding>
-                            <system value="http://snomed.info/sct"/>
-                            <version value="http://snomed.info/sct/900000000000207008/version/20200131"/>
-                            <code value="709410003"/>
-                            <display value="Haemophilus influenzae type b infection"/>
-                        </coding>
-                        <text value="Haemophilus-influenzae-Infektion"/>
-                    </targetDisease>
-                    <targetDisease>
-                        <coding>
-                            <system value="http://snomed.info/sct"/>
-                            <version value="http://snomed.info/sct/900000000000207008/version/20200131"/>
-                            <code value="27836007"/>
-                            <display value="Pertussis"/>
-                        </coding>
-                        <text value="Pertussis"/>
-                    </targetDisease>
-                    <targetDisease>
-                        <coding>
-                            <system value="http://snomed.info/sct"/>
-                            <version value="http://snomed.info/sct/900000000000207008/version/20200131"/>
-                            <code value="76902006"/>
-                            <display value="Tetanus"/>
-                        </coding>
-                        <text value="Tetanus-Infektion"/>
                     </targetDisease>
                     <targetDisease>
                         <coding>

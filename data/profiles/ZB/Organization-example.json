@@ -3,20 +3,21 @@
     "id": "d6259485-ec02-43a9-a476-dc1b7baa05bf",
     "meta": {
         "profile": [
-            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Organization|1.00.000"
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Organization|1.1.0"
         ]
     },
     "identifier": [
         {
+            "use": "official",
             "type": {
                 "coding": [
                     {
                         "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
-                        "code": "ZANR"
+                        "code": "KZVA"
                     }
                 ]
             },
-            "system": "http://fhir.de/NamingSystem/kzbv/zahnarztnummer",
+            "system": "http://fhir.de/NamingSystem/kzbv/kzvabrechnungsnummer",
             "value": "12345678"
         }
     ],

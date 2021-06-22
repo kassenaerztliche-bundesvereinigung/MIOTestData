@@ -1,21 +1,21 @@
 <Observation>
-  <id value="321c66be-ea2e-4559-9e3d-b6f2326f2dcf" />
-  <meta>
-    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Observation|1.00.000" />
-  </meta>
-  <status value="final" />
-  <code>
-    <coding>
-      <system value="http://snomed.info/sct" />
-      <version value="http://snomed.info/sct/900000000000207008/version/20200309" />
-      <code value="63963009" />
-      <display value="Dental prophylaxis, adult (procedure)" />
-    </coding>
-    <text value="Individualprophylaxe" />
-  </code>
-  <subject>
-    <reference value="urn:uuid:ba5f36ef-84e9-4a83-852b-e74dac4014ed" />
-  </subject>
-  <effectiveDateTime value="2020-01-02" />
-  <valueBoolean value="true" />
+    <id value="321c66be-ea2e-4559-9e3d-b6f2326f2dcf"/>
+    <meta>
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Observation_Dental_Check_Up|1.1.0"/>
+    </meta>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20200309"/>
+            <code value="63963009"/>
+            <display value="Dental prophylaxis, adult (procedure)"/>
+        </coding>
+        <text value="Individualprophylaxe"/>
+    </code>
+    <subject>
+        <reference value="urn:uuid:ba5f36ef-84e9-4a83-852b-e74dac4014ed"/>
+    </subject>
+    <effectiveDateTime value="2020-01-02"/>
+    <valueBoolean value="true"/>
 </Observation>

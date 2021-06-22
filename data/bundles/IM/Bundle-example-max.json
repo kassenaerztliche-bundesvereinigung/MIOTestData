@@ -3,7 +3,7 @@
     "id": "001578f8-0b76-4197-afd9-ludger7516e47",
     "meta": {
         "profile": [
-            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Bundle_Entry|1.00.000"
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Bundle_Entry|1.1.0"
         ],
         "lastUpdated": "2019-12-24T12:30:02Z"
     },
@@ -21,7 +21,7 @@
                 "id": "VaccinationCompositionPrime",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Composition_Prime|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Composition_Prime|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -30,7 +30,7 @@
                         {
                             "system": "http://loinc.org",
                             "code": "11369-6",
-                            "display": "HISTORY OF IMMUNIZATIONS"
+                            "display": "History of Immunization Narrative"
                         }
                     ]
                 },
@@ -49,8 +49,10 @@
                         "code": {
                             "coding": [
                                 {
-                                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-                                    "code": "IMMUNIZ"
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "713404003",
+                                    "display": "Vaccination given (situation)"
                                 }
                             ]
                         },
@@ -79,8 +81,10 @@
                         "code": {
                             "coding": [
                                 {
-                                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-                                    "code": "COBSCAT"
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "243796009:363589002=121258006",
+                                    "display": "Situation with explicit context (situation) : Associated procedure (attribute) = Procedure to identify antibody (procedure)"
                                 }
                             ]
                         },
@@ -97,8 +101,10 @@
                         "code": {
                             "coding": [
                                 {
-                                    "system": "http://loinc.org",
-                                    "code": "11348-0"
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "161413004:363589002=35123003",
+                                    "display": "History of infectious disease (situation) : Associated procedure (attribute) = Active immunity, function (observable entity)"
                                 }
                             ]
                         },
@@ -108,6 +114,15 @@
                             },
                             {
                                 "reference": "urn:uuid:VaccinationCondition_2"
+                            }
+                        ],
+                        "section": [
+                            {
+                                "entry": [
+                                    {
+                                        "reference": "urn:uuid:VaccinationProvenance"
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -121,7 +136,7 @@
                 "id": "VaccinationPatient",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Patient|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Patient|1.1.0"
                     ]
                 },
                 "text": {
@@ -193,7 +208,7 @@
                 "id": "VaccinationPractitionerrole_1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole|1.1.0"
                     ]
                 },
                 "practitioner": {
@@ -211,7 +226,7 @@
                 "id": "VaccinationPractitioner_1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner|1.1.0"
                     ]
                 },
                 "extension": [
@@ -309,7 +324,7 @@
                 "id": "VaccinationPractitionerrole_2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole|1.1.0"
                     ]
                 },
                 "practitioner": {
@@ -327,7 +342,7 @@
                 "id": "VaccinationPractitioner_2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitioner|1.1.0"
                     ]
                 },
                 "identifier": [
@@ -393,12 +408,20 @@
                 "id": "VaccinationOrganization",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Organization|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Organization|1.1.0"
                     ]
                 },
                 "name": "Praxis Dr. med. Hans Topp-Glücklich",
                 "identifier": [
                     {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "BSNR"
+                                }
+                            ]
+                        },
                         "system": "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_BSNR",
                         "value": "654321"
                     }
@@ -435,7 +458,7 @@
                 "id": "VaccinationRecordPrime_1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.1.0"
                     ]
                 },
                 "text": {
@@ -506,11 +529,12 @@
                         {
                             "system": "http://snomed.info/sct",
                             "version": "http://snomed.info/sct/900000000000207008/version/20200131",
-                            "code": "11866009",
-                            "display": "Plague vaccine"
+                            "code": "840549009",
+                            "display": "Vaccine product containing Yersinia pestis antigen (medicinal product)"
                         },
                         {
                             "system": "http://fhir.de/CodeSystem/dimdi/atc",
+                            "version": "atcgm20211",
                             "code": "J07AK",
                             "display": "Pest-Impfstoffe"
                         }
@@ -558,7 +582,7 @@
                 "id": "VaccinationRecordPrime_2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.1.0"
                     ]
                 },
                 "text": {
@@ -629,13 +653,13 @@
                         {
                             "system": "http://snomed.info/sct",
                             "version": "http://snomed.info/sct/900000000000207008/version/20200131",
-                            "code": "56844000",
-                            "display": "Yellow fever vaccine"
+                            "code": "836385002",
+                            "display": "Vaccine product containing Yellow fever virus antigen (medicinal product)"
                         },
                         {
                             "system": "http://fhir.de/CodeSystem/dimdi/atc",
+                            "version": "atcgm20211",
                             "code": "J07BL",
-                            "version": "09/2019|4.23.124",
                             "display": "Gelbfieber-Impfstoffe"
                         },
                         {
@@ -698,7 +722,7 @@
                 "id": "VaccinationRecordPrime_3",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.1.0"
                     ]
                 },
                 "text": {
@@ -769,11 +793,12 @@
                         {
                             "system": "http://snomed.info/sct",
                             "version": "http://snomed.info/sct/900000000000207008/version/20200131",
-                            "code": "423912009",
-                            "display": "Haemophilus influenzae type b + Meningococcal group C vaccine (product)"
+                            "code": "836500008",
+                            "display": "Vaccine product containing only Haemophilus influenzae type B and Neisseria meningitidis serogroup C antigens (medicinal product)"
                         },
                         {
                             "system": "http://fhir.de/CodeSystem/dimdi/atc",
+                            "version": "atcgm20211",
                             "code": "J07AG53",
                             "display": "Haemophilus influenzae B, Kombinationen mit  Meningokokken C, konjugiert"
                         }
@@ -831,7 +856,7 @@
                 "id": "VaccinationRecordPrime_4",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.1.0"
                     ]
                 },
                 "text": {
@@ -902,11 +927,12 @@
                         {
                             "system": "http://snomed.info/sct",
                             "version": "http://snomed.info/sct/900000000000207008/version/20200131",
-                            "code": "386012008",
-                            "display": "Measles vaccine"
+                            "code": "871908002",
+                            "display": "Vaccine product containing only Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
                         },
                         {
                             "system": "http://fhir.de/CodeSystem/dimdi/atc",
+                            "version": "atcgm20211",
                             "code": "J07BD",
                             "display": "Masern-Impfstoffe"
                         }
@@ -964,7 +990,7 @@
                 "id": "VaccinationRecordPrime_5",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.1.0"
                     ]
                 },
                 "text": {
@@ -1035,11 +1061,12 @@
                         {
                             "system": "http://snomed.info/sct",
                             "version": "http://snomed.info/sct/900000000000207008/version/20200131",
-                            "code": "427542001",
-                            "display": "Diphtheria + tetanus + pertussis + poliomyelitis + recombinant hepatitis B virus vaccine (product)"
+                            "code": "871891001",
+                            "display": "Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus and inactivated whole Human poliovirus antigens (medicinal product)"
                         },
                         {
                             "system": "http://fhir.de/CodeSystem/dimdi/atc",
+                            "version": "atcgm20211",
                             "code": "J07CA12",
                             "display": "Diphtherie-Pertussis-Poliomyelitis-Tetanus-Hepatitis B"
                         }
@@ -1097,7 +1124,7 @@
                 "id": "VaccinationRecordPrime_6",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Record_Prime|1.1.0"
                     ]
                 },
                 "text": {
@@ -1168,13 +1195,13 @@
                         {
                             "system": "http://snomed.info/sct",
                             "version": "http://snomed.info/sct/900000000000207008/version/20200131",
-                            "code": "56844000",
-                            "display": "Yellow fever vaccine"
+                            "code": "836385002",
+                            "display": "Vaccine product containing Yellow fever virus antigen (medicinal product)"
                         },
                         {
                             "system": "http://fhir.de/CodeSystem/dimdi/atc",
+                            "version": "atcgm20211",
                             "code": "J07BL",
-                            "version": "09/2019|4.23.124",
                             "display": "Gelbfieber-Impfstoffe"
                         },
                         {
@@ -1237,7 +1264,7 @@
                 "id": "VaccinationObservationImmunizationStatus_1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Observation_Immunization_Status|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Observation_Immunization_Status|1.1.0"
                     ]
                 },
                 "text": {
@@ -1249,9 +1276,9 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "1.0",
-                            "code": "363787002:370134009=123029007,246093002=259833005,370132008=117363000,704319004=50863008,704318007=705057003,704327008=119364003",
-                            "display": "Observable entity (observable entity) : Component (attribute) = Varicella-zoster virus antibody (substance) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Ordinal value (qualifier value) , Inheres in (attribute) = Plasma (substance) , Property type (attribute) = Presence (property) (qualifier value) , Direct site (attribute) = Serum specimen (specimen)"
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "363787002:246093002=259858000,370134009=123029007,370132008=117363000,704319004=50863008,370130000=705057003,704327008=119364003",
+                            "display": "Observable entity (observable entity) : Component (attribute) = Varicella-zoster virus antibody (substance) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Ordinal value (qualifier value) , Inheres in (attribute) = Plasma (substance) , Property (attribute) = Presence (property) (qualifier value) , Direct site (attribute) = Serum specimen (specimen)"
                         },
                         {
                             "system": "http://loinc.org",
@@ -1265,27 +1292,6 @@
                 "subject": {
                     "reference": "urn:uuid:VaccinationPatient"
                 },
-                "performer": [
-                    {
-                        "reference": "urn:uuid:VaccinationPractitioner_1",
-                        "extension": [
-                            {
-                                "url": "http://hl7.org/fhir/StructureDefinition/event-performerFunction",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
-                                            "version": "2.67",
-                                            "code": "AUT",
-                                            "display": "Author",
-                                            "userSelected": true
-                                        }
-                                    ]
-                                }
-                            }
-                        ]
-                    }
-                ],
                 "issued": "2019-12-23T08:39:24+10:00",
                 "interpretation": [
                     {
@@ -1314,7 +1320,7 @@
                 "id": "VaccinationObservationImmunizationStatus_2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Observation_Immunization_Status|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Observation_Immunization_Status|1.1.0"
                     ]
                 },
                 "text": {
@@ -1326,9 +1332,9 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "1.0",
-                            "code": "363787002:370134009=123029007,246093002=259833005,370132008=117363000,704319004=50863008,704318007=705057003,704327008=119364003",
-                            "display": "Observable entity (observable entity) : Component (attribute) = Varicella-zoster virus antibody (substance) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Ordinal value (qualifier value) , Inheres in (attribute) = Plasma (substance) , Property type (attribute) = Presence (property) (qualifier value) , Direct site (attribute) = Serum specimen (specimen)"
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "363787002:246093002=259858000,370134009=123029007,370132008=117363000,704319004=50863008,370130000=705057003,704327008=119364003",
+                            "display": "Observable entity (observable entity) : Component (attribute) = Varicella-zoster virus antibody (substance) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Ordinal value (qualifier value) , Inheres in (attribute) = Plasma (substance) , Property (attribute) = Presence (property) (qualifier value) , Direct site (attribute) = Serum specimen (specimen)"
                         },
                         {
                             "system": "http://loinc.org",
@@ -1342,27 +1348,6 @@
                 "subject": {
                     "reference": "urn:uuid:VaccinationPatient"
                 },
-                "performer": [
-                    {
-                        "reference": "urn:uuid:VaccinationPractitioner_2",
-                        "extension": [
-                            {
-                                "url": "http://hl7.org/fhir/StructureDefinition/event-performerFunction",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
-                                            "version": "2.67",
-                                            "code": "AUT",
-                                            "display": "Author",
-                                            "userSelected": true
-                                        }
-                                    ]
-                                }
-                            }
-                        ]
-                    }
-                ],
                 "issued": "1983-10-02T11:32:20+10:00",
                 "interpretation": [
                     {
@@ -1391,7 +1376,7 @@
                 "id": "VaccinationCondition_1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Condition|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Condition|1.1.0"
                     ]
                 },
                 "text": {
@@ -1450,7 +1435,7 @@
                 "id": "VaccinationCondition_2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Condition|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Condition|1.1.0"
                     ]
                 },
                 "text": {
@@ -1503,7 +1488,7 @@
                 "id": "Provenance",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Provenance|1.00.000"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Provenance|1.1.0"
                     ]
                 },
                 "target": [
@@ -1528,6 +1513,51 @@
                             }
                         ],
                         "who": {
+                            "display": "unknown",
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                    "valueCode": "unknown"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:VaccinationProvenance",
+            "resource": {
+                "resourceType": "Provenance",
+                "id": "VaccinationProvenance",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Provenance|1.1.0"
+                    ]
+                },
+                "target": [
+                    {
+                        "reference": "urn:uuid:VaccinationCondition_1"
+                    }
+                ],
+                "recorded": "2019-12-23T08:39:24+10:00",
+                "agent": [
+                    {
+                        "role": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "version": "http://snomed.info/sct/900000000000207008/version/20200131",
+                                        "code": "125677006",
+                                        "display": "Relative (person)"
+                                    }
+                                ],
+                                "text": "Angehöriger"
+                            }
+                        ],
+                        "who": {
+                            "display": "unknown",
                             "extension": [
                                 {
                                     "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",

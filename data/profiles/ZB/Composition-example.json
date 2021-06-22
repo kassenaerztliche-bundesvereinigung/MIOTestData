@@ -3,20 +3,15 @@
     "id": "2c3a4aa6-cbea-4ac1-a6e5-865b93424e0a",
     "meta": {
         "profile": [
-            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Composition|1.00.000"
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Composition|1.1.0"
         ]
     },
     "status": "final",
     "type": {
         "coding": [
             {
-                "system": "http://loinc.org",
-                "code": "28618-7",
-                "display": "Dentistry Note"
-            },
-            {
                 "system": "http://snomed.info/sct",
-                "version": "http://snomed.info/sct/900000000000207008/version/20200309",
+                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                 "code": "371525003",
                 "display": "Clinical procedure report (record artifact)"
             }

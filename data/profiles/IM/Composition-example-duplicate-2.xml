@@ -1,60 +1,68 @@
 <Composition xmlns="http://hl7.org/fhir">
-  <id value="dcdeee3f-63b2-4df7-ad27-7d8b7f68981a" />
-  <meta>
-    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Composition_Prime|1.00.000" />
-  </meta>
-  <status value="final" />
-  <type>
-    <coding>
-      <system value="http://loinc.org" />
-      <code value="11369-6" />
-      <display value="HISTORY OF IMMUNIZATIONS" />
-    </coding>
-  </type>
-  <subject>
-    <reference value="urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811" />
-  </subject>
-  <date value="2018-07-01T12:30:02Z" />
-  <author>
-    <reference value="urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1" />
-  </author>
-  <title value="Impfeintrag-/einträge" />
-  <section>
-    <code>
-      <coding>
-        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
-        <code value="IMMUNIZ" />
-      </coding>
-    </code>
-    <entry>
-      <reference value="urn:uuid:2d2a0ad2-1d60-44fa-82a4-28c55635857a" />
-    </entry>
-  </section>
-  <section>
-    <code>
-      <coding>
-        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
-        <code value="COBSCAT" />
-      </coding>
-    </code>
-    <entry>
-      <reference value="urn:uuid:006f0ae8-bc5c-46b0-8042-e06a4b5185db" />
-    </entry>
-  </section>
-  <section>
-    <code>
-      <coding>
-        <system value="http://loinc.org" />
-        <code value="11348-0" />
-      </coding>
-    </code>
-    <entry>
-      <reference value="urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d" />
-    </entry>
+    <id value="dcdeee3f-63b2-4df7-ad27-7d8b7f68981a"/>
+    <meta>
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Composition_Prime|1.1.0"/>
+    </meta>
+    <status value="final"/>
+    <type>
+        <coding>
+            <system value="http://loinc.org"/>
+            <code value="11369-6"/>
+            <display value="History of Immunization Narrative"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"/>
+    </subject>
+    <date value="2018-07-01T12:30:02Z"/>
+    <author>
+        <reference value="urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"/>
+    </author>
+    <title value="Impfeintrag-/einträge"/>
     <section>
-      <entry>
-        <reference value="urn:uuid:a2108e08-32ca-4f22-985c-6f0279f5c89c" />
-      </entry>
+        <code>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+                <code value="713404003"/>
+                <display value="Vaccination given (situation)"/>
+            </coding>
+        </code>
+        <entry>
+            <reference value="urn:uuid:2d2a0ad2-1d60-44fa-82a4-28c55635857a"/>
+        </entry>
     </section>
-  </section>
+    <section>
+        <code>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+                <code value="243796009:363589002=121258006"/>
+                <display
+                        value="Situation with explicit context (situation) : Associated procedure (attribute) = Procedure to identify antibody (procedure)"/>
+            </coding>
+        </code>
+        <entry>
+            <reference value="urn:uuid:006f0ae8-bc5c-46b0-8042-e06a4b5185db"/>
+        </entry>
+    </section>
+    <section>
+        <code>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+                <code value="161413004:363589002=35123003"/>
+                <display
+                        value="History of infectious disease (situation) : Associated procedure (attribute) = Active immunity, function (observable entity)"/>
+            </coding>
+        </code>
+        <entry>
+            <reference value="urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d"/>
+        </entry>
+        <section>
+            <entry>
+                <reference value="urn:uuid:a2108e08-32ca-4f22-985c-6f0279f5c89c"/>
+            </entry>
+        </section>
+    </section>
 </Composition>

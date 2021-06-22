@@ -3,7 +3,7 @@
     "id": "2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2",
     "meta": {
         "profile": [
-            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole_Addendum|1.00.000"
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Practitionerrole_Addendum|1.1.0"
         ]
     },
     "practitioner": {

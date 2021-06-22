@@ -3,7 +3,7 @@
     "id": "a2108e08-32ca-4f22-985c-6f0279f5c89c",
     "meta": {
         "profile": [
-            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Provenance|1.00.000"
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Provenance|1.1.0"
         ]
     },
     "target": [
@@ -24,10 +24,11 @@
                             "display": "Relative (person)"
                         }
                     ],
-                    "text": "Angeh�riger"
+                    "text": "Angehöriger"
                 }
             ],
             "who": {
+                "display": "unknown",
                 "extension": [
                     {
                         "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",

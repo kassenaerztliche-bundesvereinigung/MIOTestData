@@ -3,7 +3,7 @@
     "id": "156c96ec-02ca-4770-94e9-b11d2237513d",
     "meta": {
         "profile": [
-            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Condition|1.00.000"
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Condition|1.1.0"
         ]
     },
     "text": {

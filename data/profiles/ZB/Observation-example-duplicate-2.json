@@ -3,7 +3,7 @@
     "id": "2071b7f6-6574-46c1-b3a9-e4ef8a93500e",
     "meta": {
         "profile": [
-            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Gapless_Documentation|1.00.000"
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Observation_Gapless_Documentation|1.1.0"
         ]
     },
     "extension": [

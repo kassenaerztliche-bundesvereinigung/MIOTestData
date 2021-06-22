@@ -1,54 +1,54 @@
 <Patient xmlns="http://hl7.org/fhir">
-  <id value="ba5f36ef-84e9-4a83-852b-e74dac4014ed" />
-  <meta>
-    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Patient|1.00.000" />
-  </meta>
-  <identifier>
-    <type>
-      <coding>
-        <system value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
-        <code value="GKV" />
-      </coding>
-    </type>
-    <system value="http://fhir.de/NamingSystem/gkv/kvid-10" />
-    <value value="1234567890" />
-  </identifier>
-  <name>
-    <use value="official" />
-    <text value="Dr. Graf Ludger von Königsstein" />
-    <family value="Graf Ludger von Königsstein">
-      <extension url="http://fhir.de/StructureDefinition/humanname-namenszusatz">
-        <valueString value="Graf" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-name">
-        <valueString value="Königsstein" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-prefix">
-        <valueString value="von" />
-      </extension>
-    </family>
-    <given value="Ludger" />
-  </name>
-  <birthDate value="1935-06-22" />
-  <address>
-    <type value="both" />
-    <line value="Musterweg 42">
-      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
-        <valueString value="Musterweg" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
-        <valueString value="42" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator">
-        <valueString value="Hinterhof" />
-      </extension>
-    </line>
-    <line value="Mitte" />
-    <city value="Berlin" />
-    <postalCode value="10787" />
-    <country value="D" />
-    <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct">
-      <valueString value="Mitte" />
-    </extension>
-  </address>
+    <id value="ba5f36ef-84e9-4a83-852b-e74dac4014ed"/>
+    <meta>
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Patient|1.1.0"/>
+    </meta>
+    <identifier>
+        <type>
+            <coding>
+                <system value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
+                <code value="GKV"/>
+            </coding>
+        </type>
+        <system value="http://fhir.de/NamingSystem/gkv/kvid-10"/>
+        <value value="1234567890"/>
+    </identifier>
+    <name>
+        <use value="official"/>
+        <text value="Dr. Graf Ludger von Königsstein"/>
+        <family value="Graf Ludger von Königsstein">
+            <extension url="http://fhir.de/StructureDefinition/humanname-namenszusatz">
+                <valueString value="Graf"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-name">
+                <valueString value="Königsstein"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-prefix">
+                <valueString value="von"/>
+            </extension>
+        </family>
+        <given value="Ludger"/>
+    </name>
+    <birthDate value="1935-06-22"/>
+    <address>
+        <type value="both"/>
+        <line value="Musterweg 42">
+            <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
+                <valueString value="Musterweg"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
+                <valueString value="42"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator">
+                <valueString value="Hinterhof"/>
+            </extension>
+        </line>
+        <line value="Mitte"/>
+        <city value="Berlin"/>
+        <postalCode value="10787"/>
+        <country value="D"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct">
+            <valueString value="Mitte"/>
+        </extension>
+    </address>
 </Patient>

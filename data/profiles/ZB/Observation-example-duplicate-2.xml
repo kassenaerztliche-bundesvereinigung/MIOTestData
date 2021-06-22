@@ -1,7 +1,7 @@
 <Observation>
   <id value="2071b7f6-6574-46c1-b3a9-e4ef8a93500e" />
   <meta>
-    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Gapless_Documentation|1.00.000" />
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Observation_Gapless_Documentation|1.1.0" />
   </meta>
   <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_ZAEB_Disclaimer">
     <valueString value="Die Vertragsparteien sind sich einig, dass der Zahnarzt im Nachhinein für eine falsche Jahresangabe nicht haftbar gemacht werden kann, wenn die Krankenkasse bei der Prüfung eines Heil- und Kostenplanes keinen Bonus oder eine andere Bonusstufe feststellt." />

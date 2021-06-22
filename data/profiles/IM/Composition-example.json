@@ -3,7 +3,7 @@
     "id": "6d92d417-8a0d-42b9-959f-567ab2f4650f",
     "meta": {
         "profile": [
-            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Composition_Addendum|1.00.000"
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Composition_Addendum|1.1.0"
         ]
     },
     "status": "final",
@@ -12,7 +12,7 @@
             {
                 "system": "http://loinc.org",
                 "code": "11369-6",
-                "display": "HISTORY OF IMMUNIZATIONS"
+                "display": "History of Immunization Narrative"
             }
         ]
     },
@@ -31,8 +31,10 @@
             "code": {
                 "coding": [
                     {
-                        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-                        "code": "IMMUCAT"
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                        "code": "713404003",
+                        "display": "Vaccination given (situation)"
                     }
                 ]
             },

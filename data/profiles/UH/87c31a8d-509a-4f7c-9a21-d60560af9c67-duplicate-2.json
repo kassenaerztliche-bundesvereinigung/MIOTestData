@@ -1,43 +1,41 @@
 {
-  "resourceType": "Patient",
-  "id": "87c31a8d-509a-4f7c-9a21-d60560af9c67",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.1"
-    ]
-  },
-  "identifier": [
-    {
-      "type": {
-        "coding": [
-          {
-            "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
-            "code": "GKV",
-            "display": "Gesetzliche Krankenversicherung"
-          }
+    "resourceType": "Patient",
+    "id": "87c31a8d-509a-4f7c-9a21-d60560af9c67",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.1"
         ]
-      },
-      "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
-      "value": "E987654321"
-    }
-  ],
-  "name": [
-    {
-      "use": "official",
-      "text": "Emilia Glücklich",
-      "family": "Glücklich",
-      "_family": {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
-            "valueString": "Glücklich"
-          }
-        ]
-      },
-      "given": [
-        "Emilia"
-      ]
-    }
-  ],
-  "birthDate": "2015-10-05"
+    },
+    "identifier": [
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                        "code": "GKV",
+                        "display": "Gesetzliche Krankenversicherung"
+                    }
+                ]
+            },
+            "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
+            "value": "E987654321"
+        }
+    ],
+    "name": [
+        {
+            "use": "official",
+            "text": "Emilia Glücklich",
+            "family": "Glücklich",
+            "_family": {
+                "extension": [
+                    {
+                        "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                        "valueString": "Glücklich"
+                    }
+                ]
+            },
+            "given": ["Emilia"]
+        }
+    ],
+    "birthDate": "2015-10-05"
 }

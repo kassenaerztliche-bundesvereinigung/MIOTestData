@@ -1,53 +1,53 @@
 {
-  "resourceType": "Appointment",
-  "id": "1bd779f9-a135-40be-bdd4-3e9dce1fb8c8",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Appointment_Next_Immunization_Appointment|1.0.1"
-    ]
-  },
-  "status": "proposed",
-  "serviceType": [
-    {
-      "coding": [
-        {
-          "system": "http://snomed.info/sct",
-          "version": "http://snomed.info/sct/900000000000207008/version/20210131",
-          "display": "Next appointment (finding) : Due to (attribute) = Administration of substance to produce immunity, either active or passive (procedure)",
-          "_display": {
-            "extension": [
-              {
-                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-                "extension": [
-                  {
-                    "url": "content",
-                    "valueString": "nächster Impftermin am:"
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      ]
-    }
-  ],
-  "participant": [
-    {
-      "actor": {
-        "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
-      },
-      "status": "accepted"
+    "resourceType": "Appointment",
+    "id": "1bd779f9-a135-40be-bdd4-3e9dce1fb8c8",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Appointment_Next_Immunization_Appointment|1.0.1"
+        ]
     },
-    {
-      "actor": {
-        "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
-      },
-      "status": "accepted"
-    }
-  ],
-  "requestedPeriod": [
-    {
-      "start": "2021-04-16"
-    }
-  ]
+    "status": "proposed",
+    "serviceType": [
+        {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                    "display": "Next appointment (finding) : Due to (attribute) = Administration of substance to produce immunity, either active or passive (procedure)",
+                    "_display": {
+                        "extension": [
+                            {
+                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                "extension": [
+                                    {
+                                        "url": "content",
+                                        "valueString": "nächster Impftermin am:"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "participant": [
+        {
+            "actor": {
+                "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
+            },
+            "status": "accepted"
+        },
+        {
+            "actor": {
+                "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
+            },
+            "status": "accepted"
+        }
+    ],
+    "requestedPeriod": [
+        {
+            "start": "2021-04-16"
+        }
+    ]
 }

@@ -579,7 +579,7 @@
                 "valueQuantity": {
                     "value": "8.2",
                     "unit": "mmol/L",
-                    "system":  "http://unitsofmeasure.org",
+                    "system": "http://unitsofmeasure.org",
                     "code": "mmol/L"
                 },
                 "note": [

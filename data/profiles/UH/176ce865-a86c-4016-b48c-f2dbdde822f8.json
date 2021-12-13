@@ -1,75 +1,75 @@
 {
-  "resourceType": "DiagnosticReport",
-  "id": "176ce865-a86c-4016-b48c-f2dbdde822f8",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U2_U6_Body_Measures|1.0.1"
-    ]
-  },
-  "status": "final",
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
-        "code": "248326004",
-        "display": "Body measure (observable entity)",
-        "_display": {
-          "extension": [
-            {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Körpermaße:"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "system": "http://loinc.org",
-        "version": "2.69",
-        "code": "29275-5",
-        "display": "Body measurements",
-        "_display": {
-          "extension": [
-            {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Körpermaße:"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    ]
-  },
-  "subject": {
-    "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
-  },
-  "encounter": {
-    "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
-  },
-  "effectiveDateTime": "2021-03-09",
-  "performer": [
-    {
-      "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
-    }
-  ],
-  "result": [
-    {
-      "reference": "urn:uuid:2e19e968-2d31-4034-956c-3b819a50658e"
+    "resourceType": "DiagnosticReport",
+    "id": "176ce865-a86c-4016-b48c-f2dbdde822f8",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U2_U6_Body_Measures|1.0.1"
+        ]
     },
-    {
-      "reference": "urn:uuid:759a4b1d-83c9-4f6e-adb5-4d1f1898c33b"
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                "code": "248326004",
+                "display": "Body measure (observable entity)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Körpermaße:"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "system": "http://loinc.org",
+                "version": "2.69",
+                "code": "29275-5",
+                "display": "Body measurements",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Körpermaße:"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
     },
-    {
-      "reference": "urn:uuid:735c0cec-276e-4bf3-80b6-d966b7297738"
-    }
-  ]
+    "subject": {
+        "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
+    },
+    "encounter": {
+        "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
+    },
+    "effectiveDateTime": "2021-03-09",
+    "performer": [
+        {
+            "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
+        }
+    ],
+    "result": [
+        {
+            "reference": "urn:uuid:2e19e968-2d31-4034-956c-3b819a50658e"
+        },
+        {
+            "reference": "urn:uuid:759a4b1d-83c9-4f6e-adb5-4d1f1898c33b"
+        },
+        {
+            "reference": "urn:uuid:735c0cec-276e-4bf3-80b6-d966b7297738"
+        }
+    ]
 }

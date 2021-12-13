@@ -862,8 +862,6 @@
             }
         },
 
-
-
         {
             "fullUrl": "urn:uuid:Birth-Examination-Delivery-Information",
             "resource": {
@@ -3412,8 +3410,6 @@
                 }
             }
         },
-
-
 
         {
             "fullUrl": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17",

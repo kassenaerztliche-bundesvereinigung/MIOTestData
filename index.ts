@@ -1,4 +1,5 @@
 import * as fs from "fs";
+import path from "path";
 
 // eslint-disable-next-line @typescript-eslint/no-empty-function
 const emptyFunction = () => {};
@@ -45,7 +46,7 @@ export type mioString = "IM" | "ZB" | "MR" | "UH";
 const mioStrings: mioString[] = ["IM", "ZB", "MR", "UH"];
 export { mioStrings };
 
-const basePath: string = __dirname;
+const basePath: string = path.resolve("./node_modules/@kbv/miotestdata");
 process.stdout.write("Base path: " + basePath);
 
 export type DefinitionType = "Bundles" | "Profiles";

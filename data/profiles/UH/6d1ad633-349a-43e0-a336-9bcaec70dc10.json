@@ -1,76 +1,76 @@
 {
-  "resourceType": "Observation",
-  "id": "6d1ad633-349a-43e0-a336-9bcaec70dc10",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_Pulse_Oxymetry_Measurement|1.0.1"
-    ]
-  },
-  "status": "final",
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
-        "code": "250554003:363703001=399455000",
-        "display": "Measurement of oxygen saturation at periphery (procedure) : Has intent (attribute) = Primary procedure (qualifier value)",
-        "_display": {
-          "extension": [
+    "resourceType": "Observation",
+    "id": "6d1ad633-349a-43e0-a336-9bcaec70dc10",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_Pulse_Oxymetry_Measurement|1.0.1"
+        ]
+    },
+    "status": "final",
+    "code": {
+        "coding": [
             {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Erstmessung"
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                "code": "250554003:363703001=399455000",
+                "display": "Measurement of oxygen saturation at periphery (procedure) : Has intent (attribute) = Primary procedure (qualifier value)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Erstmessung"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
             }
-          ]
-        }
-      }
-    ]
-  },
-  "subject": {
-    "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
-  },
-  "encounter": {
-    "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
-  },
-  "effectiveDateTime": "2021-03-02",
-  "performer": [
-    {
-      "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
-    }
-  ],
-  "valueQuantity": {
-    "value": 99,
-    "unit": "%",
-    "system": "http://unitsofmeasure.org",
-    "code": "%"
-  },
-  "interpretation": [
-    {
-      "coding": [
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
+    },
+    "encounter": {
+        "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
+    },
+    "effectiveDateTime": "2021-03-02",
+    "performer": [
         {
-          "system": "http://snomed.info/sct",
-          "version": "http://snomed.info/sct/900000000000207008/version/20210131",
-          "code": "448225001",
-          "display": "Oxygen saturation within reference range (finding)",
-          "_display": {
-            "extension": [
-              {
-                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-                "extension": [
-                  {
-                    "url": "content",
-                    "valueString": "unauffällig"
-                  }
-                ]
-              }
-            ]
-          }
+            "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
         }
-      ]
-    }
-  ]
+    ],
+    "valueQuantity": {
+        "value": 99,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+    },
+    "interpretation": [
+        {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                    "code": "448225001",
+                    "display": "Oxygen saturation within reference range (finding)",
+                    "_display": {
+                        "extension": [
+                            {
+                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                "extension": [
+                                    {
+                                        "url": "content",
+                                        "valueString": "unauffällig"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
 }

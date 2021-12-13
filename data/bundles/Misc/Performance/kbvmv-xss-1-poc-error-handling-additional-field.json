@@ -210,7 +210,7 @@
                         "value": "1234567890"
                     }
                 ],
-				"telecom": [
+                "telecom": [
                     {
                         "system": "sms",
                         "value": "<![CDATA[<tag><img src=\"notexisting\" onerror='alert(1);'>tag]]>"

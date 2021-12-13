@@ -1,83 +1,83 @@
 {
-  "resourceType": "MedicationStatement",
-  "id": "c2e37de8-bfd7-4086-af57-f507e32b39ba",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Medication_Statement_Vitamine_K_Prophylaxis|1.0.1"
-    ]
-  },
-  "extension": [
-    {
-      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
-      "valueString": "Vitamin-K-Prophylaxe gegeben:"
-    }
-  ],
-  "status": "completed",
-  "medicationCodeableConcept": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
-        "code": "66656000",
-        "display": "Phytomenadione (substance)",
-        "_display": {
-          "extension": [
-            {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Vitamin-K"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    ]
-  },
-  "subject": {
-    "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
-  },
-  "context": {
-    "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
-  },
-  "effectiveDateTime": "2021-03-09",
-  "dosage": [
-    {
-      "route": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
-            "code": "26643006",
-            "display": "Oral route (qualifier value)",
-            "_display": {
-              "extension": [
-                {
-                  "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-                  "extension": [
-                    {
-                      "url": "content",
-                      "valueString": "oral"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
+    "resourceType": "MedicationStatement",
+    "id": "c2e37de8-bfd7-4086-af57-f507e32b39ba",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Medication_Statement_Vitamine_K_Prophylaxis|1.0.1"
         ]
-      },
-      "doseAndRate": [
+    },
+    "extension": [
         {
-          "doseQuantity": {
-            "value": 2,
-            "unit": "mg",
-            "system": "http://unitsofmeasure.org",
-            "code": "mg"
-          }
+            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
+            "valueString": "Vitamin-K-Prophylaxe gegeben:"
         }
-      ]
-    }
-  ]
+    ],
+    "status": "completed",
+    "medicationCodeableConcept": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                "code": "66656000",
+                "display": "Phytomenadione (substance)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Vitamin-K"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
+    },
+    "context": {
+        "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
+    },
+    "effectiveDateTime": "2021-03-09",
+    "dosage": [
+        {
+            "route": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                        "code": "26643006",
+                        "display": "Oral route (qualifier value)",
+                        "_display": {
+                            "extension": [
+                                {
+                                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                    "extension": [
+                                        {
+                                            "url": "content",
+                                            "valueString": "oral"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "doseAndRate": [
+                {
+                    "doseQuantity": {
+                        "value": 2,
+                        "unit": "mg",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "mg"
+                    }
+                }
+            ]
+        }
+    ]
 }

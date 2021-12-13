@@ -359,9 +359,7 @@
                 "address": [
                     {
                         "type": "both",
-                        "line": [
-                            "Musterweg 42"
-                        ],
+                        "line": ["Musterweg 42"],
                         "_line": [
                             {
                                 "extension": [

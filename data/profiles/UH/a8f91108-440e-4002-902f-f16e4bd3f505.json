@@ -1,155 +1,155 @@
 {
-  "resourceType": "Observation",
-  "id": "a8f91108-440e-4002-902f-f16e4bd3f505",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U3_U4_Hip_Screening_Result|1.0.1"
-    ]
-  },
-  "status": "final",
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
-        "code": "129125009:{363589002=241503003,408730004=398166005,408731000=410584005}",
-        "display": "Procedure with explicit context (situation) : { Associated procedure (attribute) = Ultrasound scan of neonatal hip (procedure) , Procedure context (situation) =  Performed (qualifier value) , Temporal context (situation) = Current - time specified (qualifier value) }",
-        "_display": {
-          "extension": [
-            {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Hüftsonographischer Vorbefund: nein"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    ]
-  },
-  "subject": {
-    "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
-  },
-  "encounter": {
-    "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
-  },
-  "effectiveDateTime": "2021-03-29",
-  "performer": [
-    {
-      "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
-    }
-  ],
-  "valueCodeableConcept": {
-    "coding": [
-      {
-        "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_MIO_CMR_Graf_Hip_Ultrasound_Classification",
-        "version": "1.1.0",
-        "code": "1ab",
-        "display": "Graf Ia/Ib",
-        "_display": {
-          "extension": [
-            {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Ia/Ib"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    ]
-  },
-  "bodySite": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
-        "code": "362905007",
-        "display": "Entire left hip joint (body structure)",
-        "_display": {
-          "extension": [
-            {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "linke Hüfte"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    ]
-  },
-  "component": [
-    {
-      "code": {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
-            "code": "364501006:{704321009=241503003,246501002=278395004,246514001=259046004,718497002=91685003}",
-            "display": "Hip joint feature (observable entity) : { Characterizes (attribute) = Ultrasound scan of neonatal hip (procedure) , Technique (attribute) = Imaging technique (qualifier value) , Units (attribute) = degrees of arc (qualifier value) , Inherent location (attribute) = Fibrocartilage (body structure) }",
-            "_display": {
-              "extension": [
-                {
-                  "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-                  "extension": [
-                    {
-                      "url": "content",
-                      "valueString": "Beta-Winkel (Grad)"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
+    "resourceType": "Observation",
+    "id": "a8f91108-440e-4002-902f-f16e4bd3f505",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U3_U4_Hip_Screening_Result|1.0.1"
         ]
-      },
-      "valueQuantity": {
-        "value": 53,
-        "unit": "DegreesOfArc",
-        "system": "http://unitsofmeasure.org",
-        "code": "deg"
-      }
     },
-    {
-      "code": {
+    "status": "final",
+    "code": {
         "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
-            "code": "364501006:{704321009=241503003,246501002=278395004,246514001=259046004,718497002=58823008}",
-            "display": "Hip joint feature (observable entity) : { Characterizes (attribute) = Ultrasound scan of neonatal hip (procedure) , Technique (attribute) = Imaging technique (qualifier value) , Units (attribute) = degrees of arc (qualifier value) , Inherent location (attribute) = Structure of acetabular fossa (body structure) }",
-            "_display": {
-              "extension": [
-                {
-                  "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-                  "extension": [
-                    {
-                      "url": "content",
-                      "valueString": "Alpha-Winkel (Grad)"
-                    }
-                  ]
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                "code": "129125009:{363589002=241503003,408730004=398166005,408731000=410584005}",
+                "display": "Procedure with explicit context (situation) : { Associated procedure (attribute) = Ultrasound scan of neonatal hip (procedure) , Procedure context (situation) =  Performed (qualifier value) , Temporal context (situation) = Current - time specified (qualifier value) }",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Hüftsonographischer Vorbefund: nein"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
             }
-          }
         ]
-      },
-      "valueQuantity": {
-        "value": 64,
-        "unit": "DegreesOfArc",
-        "system": "http://unitsofmeasure.org",
-        "code": "deg"
-      }
-    }
-  ]
+    },
+    "subject": {
+        "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
+    },
+    "encounter": {
+        "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
+    },
+    "effectiveDateTime": "2021-03-29",
+    "performer": [
+        {
+            "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
+        }
+    ],
+    "valueCodeableConcept": {
+        "coding": [
+            {
+                "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_MIO_CMR_Graf_Hip_Ultrasound_Classification",
+                "version": "1.1.0",
+                "code": "1ab",
+                "display": "Graf Ia/Ib",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Ia/Ib"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "bodySite": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                "code": "362905007",
+                "display": "Entire left hip joint (body structure)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "linke Hüfte"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "component": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                        "code": "364501006:{704321009=241503003,246501002=278395004,246514001=259046004,718497002=91685003}",
+                        "display": "Hip joint feature (observable entity) : { Characterizes (attribute) = Ultrasound scan of neonatal hip (procedure) , Technique (attribute) = Imaging technique (qualifier value) , Units (attribute) = degrees of arc (qualifier value) , Inherent location (attribute) = Fibrocartilage (body structure) }",
+                        "_display": {
+                            "extension": [
+                                {
+                                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                    "extension": [
+                                        {
+                                            "url": "content",
+                                            "valueString": "Beta-Winkel (Grad)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "valueQuantity": {
+                "value": 53,
+                "unit": "DegreesOfArc",
+                "system": "http://unitsofmeasure.org",
+                "code": "deg"
+            }
+        },
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                        "code": "364501006:{704321009=241503003,246501002=278395004,246514001=259046004,718497002=58823008}",
+                        "display": "Hip joint feature (observable entity) : { Characterizes (attribute) = Ultrasound scan of neonatal hip (procedure) , Technique (attribute) = Imaging technique (qualifier value) , Units (attribute) = degrees of arc (qualifier value) , Inherent location (attribute) = Structure of acetabular fossa (body structure) }",
+                        "_display": {
+                            "extension": [
+                                {
+                                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                    "extension": [
+                                        {
+                                            "url": "content",
+                                            "valueString": "Alpha-Winkel (Grad)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "valueQuantity": {
+                "value": 64,
+                "unit": "DegreesOfArc",
+                "system": "http://unitsofmeasure.org",
+                "code": "deg"
+            }
+        }
+    ]
 }

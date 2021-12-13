@@ -1,43 +1,43 @@
 {
-  "resourceType": "Procedure",
-  "id": "92fec587-abbc-4196-8505-7b2da90a81d6",
-  "meta": {
-    "profile": [
-      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_U2_Consultation|1.0.1"
-    ]
-  },
-  "status": "completed",
-  "code": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
-        "code": "438650006",
-        "display": "Dietary education for breast feeding (procedure)",
-        "_display": {
-          "extension": [
+    "resourceType": "Procedure",
+    "id": "92fec587-abbc-4196-8505-7b2da90a81d6",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_U2_Consultation|1.0.1"
+        ]
+    },
+    "status": "completed",
+    "code": {
+        "coding": [
             {
-              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-              "extension": [
-                {
-                  "url": "content",
-                  "valueString": "Stillen/Ernährung"
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                "code": "438650006",
+                "display": "Dietary education for breast feeding (procedure)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Stillen/Ernährung"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
             }
-          ]
-        }
-      }
-    ]
-  },
-  "subject": {
-    "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
-  },
-  "encounter": {
-    "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
-  },
-  "performedDateTime": "2021-03-09",
-  "asserter": {
-    "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
-  }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
+    },
+    "encounter": {
+        "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
+    },
+    "performedDateTime": "2021-03-09",
+    "asserter": {
+        "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
+    }
 }

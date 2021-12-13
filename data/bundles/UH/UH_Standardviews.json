@@ -406,9 +406,7 @@
                         "type": "both",
                         "city": "Berlin",
                         "country": "Deutschland",
-                        "line": [
-                            "Neue", "Straße"
-                        ]
+                        "line": ["Neue", "Straße"]
                     }
                 ]
             }

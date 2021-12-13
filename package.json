@@ -1,8 +1,14 @@
 {
-    "name": "@kbv/miotestdata",
-    "version": "1.5.0",
-    "description": "Testdata Package for KBV MIOParser and MIOViewer",
     "author": "KBV",
+    "name": "@kbv/miotestdata",
+    "version": "1.5.1",
+    "description": "Testdata Package for KBV MIOParser and MIOViewer",
+    "repository": "github:kassenaerztliche-bundesvereinigung/miotestdata",
+    "homepage": "https://github.com/kassenaerztliche-bundesvereinigung/miotestdata#readme",
+    "bugs": {
+        "url": "https://github.com/kassenaerztliche-bundesvereinigung/miotestdata/issues",
+        "email": "support.mio@kbv.de"
+    },
     "keywords": [
         "mio",
         "fhir",
@@ -16,7 +22,7 @@
         "prettier": "prettier --write ./**/*.json ./**/*.js ./**/*.ts",
         "lint": "eslint ./**/*.json ./**/*.ts",
         "clean": "rimraf ./dist/data",
-        "build": "npm run clean && npm run copy && tsc && npm link",
+        "build": "npm run clean && npm run copy && tsc",
         "copy": "mkdirp ./dist/data && ncp ./data ./dist/data"
     },
     "jest": {

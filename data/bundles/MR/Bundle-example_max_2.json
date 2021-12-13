@@ -123,12 +123,24 @@
                                     ]
                                 },
                                 "entry": [
-                                    {"reference": "urn:uuid:b31afc67-82fd-485a-b019-63079b28241c"},
-                                    {"reference": "urn:uuid:b31afc67-82fd-485a-ap29-63079b28241c"},
-                                    {"reference": "urn:uuid:b31afc67-82fd-485a-ap39-63079b28241c"},
-                                    {"reference": "urn:uuid:b31afc67-82fd-485a-ap49-63079b28241c"},
-                                    {"reference": "urn:uuid:b31afc67-82fd-485a-ap59-63079b28241c"},
-                                    {"reference": "urn:uuid:b31afc67-82fd-485a-ap69-63079b28241c"}
+                                    {
+                                        "reference": "urn:uuid:b31afc67-82fd-485a-b019-63079b28241c"
+                                    },
+                                    {
+                                        "reference": "urn:uuid:b31afc67-82fd-485a-ap29-63079b28241c"
+                                    },
+                                    {
+                                        "reference": "urn:uuid:b31afc67-82fd-485a-ap39-63079b28241c"
+                                    },
+                                    {
+                                        "reference": "urn:uuid:b31afc67-82fd-485a-ap49-63079b28241c"
+                                    },
+                                    {
+                                        "reference": "urn:uuid:b31afc67-82fd-485a-ap59-63079b28241c"
+                                    },
+                                    {
+                                        "reference": "urn:uuid:b31afc67-82fd-485a-ap69-63079b28241c"
+                                    }
                                 ]
                             }
                         ]

@@ -65,7 +65,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:PatientMother"
+                    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
                 },
                 "encounter": {
                     "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
@@ -398,7 +398,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:PatientMother"
+                    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
                 },
                 "encounter": {
                     "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
@@ -482,7 +482,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:PatientMother"
+                    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
                 },
                 "encounter": {
                     "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
@@ -531,7 +531,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:PatientMother"
+                    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
                 },
                 "encounter": {
                     "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
@@ -862,6 +862,8 @@
             }
         },
 
+
+
         {
             "fullUrl": "urn:uuid:Birth-Examination-Delivery-Information",
             "resource": {
@@ -897,7 +899,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:PatientMother"
+                    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
                 },
                 "encounter": {
                     "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
@@ -1022,7 +1024,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:PatientMother"
+                    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
                 },
                 "encounter": {
                     "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
@@ -1071,7 +1073,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:PatientMother"
+                    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
                 },
                 "encounter": {
                     "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
@@ -1098,6 +1100,7 @@
                             {
                                 "reference": "urn:uuid:Laenge-1"
                             },
+
                             {
                                 "reference": "urn:uuid:APGAR-5-TRIPLET-2"
                             },
@@ -1110,6 +1113,7 @@
                             {
                                 "reference": "urn:uuid:Laenge-2"
                             },
+
                             {
                                 "reference": "urn:uuid:APGAR-5-TRIPLET-3"
                             },
@@ -1776,7 +1780,7 @@
                         {
                             "system": "http://snomed.info/sct",
                             "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "364589006",
+                            "code": "27113001",
                             "display": "Birth weight (observable entity)",
                             "_display": {
                                 "extension": [
@@ -1849,7 +1853,7 @@
                         {
                             "system": "http://snomed.info/sct",
                             "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "364589006",
+                            "code": "27113001",
                             "display": "Birth weight (observable entity)",
                             "_display": {
                                 "extension": [
@@ -1922,7 +1926,7 @@
                         {
                             "system": "http://snomed.info/sct",
                             "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "364589006",
+                            "code": "27113001",
                             "display": "Birth weight (observable entity)",
                             "_display": {
                                 "extension": [
@@ -2311,7 +2315,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:PatientMother"
+                    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
                 },
                 "encounter": {
                     "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
@@ -2395,7 +2399,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:PatientMother"
+                    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
                 },
                 "encounter": {
                     "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
@@ -2463,7 +2467,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:PatientMother"
+                    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
                 },
                 "encounter": {
                     "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
@@ -3409,6 +3413,8 @@
             }
         },
 
+
+
         {
             "fullUrl": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17",
             "resource": {
@@ -3427,7 +3433,7 @@
                     "display": "ambulatory"
                 },
                 "subject": {
-                    "reference": "urn:uuid:PatientMother"
+                    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
                 },
                 "participant": [
                     {
@@ -3511,10 +3517,10 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:PatientMother",
+            "fullUrl": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777",
             "resource": {
                 "resourceType": "Patient",
-                "id": "PatientMother",
+                "id": "6a15cff6-3cc1-4bf2-ab66-1cc6316e6777",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Mother|1.0.0"

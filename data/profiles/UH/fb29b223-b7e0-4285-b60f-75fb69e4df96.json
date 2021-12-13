@@ -1,0 +1,52 @@
+{
+  "resourceType": "Procedure",
+  "id": "fb29b223-b7e0-4285-b60f-75fb69e4df96",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_U1_U3_Newborn_Blood_Spot_Screening|1.0.1"
+    ]
+  },
+  "extension": [
+    {
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Executing_Laboratory",
+      "valueReference": {
+        "reference": "urn:uuid:fdfa915b-ea0c-4f92-9a15-11d6bfa04dc2",
+        "display": "Screeninglabor Müller"
+      }
+    }
+  ],
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+        "code": "425758004:246513007=261422002",
+        "display": "Diagnostic blood test (procedure) : Revision status (attribute) = First stage of multistage procedure (qualifier value)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Erstblutabnahme"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
+  },
+  "encounter": {
+    "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
+  },
+  "performedDateTime": "2021-03-02",
+  "asserter": {
+    "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
+  }
+}

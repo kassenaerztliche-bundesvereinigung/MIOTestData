@@ -2,11 +2,11 @@
     "resourceType": "Bundle",
     "id": "f6d996f8-1b4f-4145-8d33-e488fb82a6f5",
     "meta": {
-        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PC_Bundle|1.0.0"]
+        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PC_Bundle|1.0.1"]
     },
     "identifier": {
         "system": "urn:ietf:rfc:3937",
-        "value": "f6d996f8-1b4f-4145-8d33-e488fb82a6f5"
+        "value": "urn:uuid:f6d996f8-1b4f-4145-8d33-e488fb82a6f5"
     },
     "type": "document",
     "timestamp": "2019-12-23T12:30:02Z",
@@ -18,7 +18,7 @@
                 "id": "PCComposition",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PC_Composition_Examination_Participation|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PC_Composition_Examination_Participation|1.0.1"
                     ]
                 },
                 "extension": [
@@ -36,7 +36,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "314845004",
                             "display": "Patient participation status (finding)"
                         }
@@ -64,7 +64,7 @@
                 "id": "PCEncounter",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PC_Encounter|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PC_Encounter|1.0.1"
                     ]
                 },
                 "status": "finished",
@@ -79,7 +79,7 @@
                         "coding": [
                             {
                                 "system": "http://snomed.info/sct",
-                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                 "code": "170107008",
                                 "display": "Child examination - 10 days (procedure)",
                                 "_display": {
@@ -133,7 +133,7 @@
                 "id": "PCPatient",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PC_Patient|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.1"
                     ]
                 },
                 "identifier": [
@@ -142,7 +142,8 @@
                             "coding": [
                                 {
                                     "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
-                                    "code": "kvk"
+                                    "code": "kvk",
+                                    "display": "Krankenversichertenkarte"
                                 }
                             ]
                         },
@@ -176,7 +177,7 @@
                 "id": "CMRPatient",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.1"
                     ]
                 },
                 "identifier": [
@@ -185,7 +186,8 @@
                             "coding": [
                                 {
                                     "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
-                                    "code": "kvk"
+                                    "code": "kvk",
+                                    "display": "Krankenversichertenkarte"
                                 }
                             ]
                         },
@@ -219,7 +221,7 @@
                 "id": "PCPractitioner",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PC_Practitioner|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.1"
                     ]
                 },
                 "identifier": [
@@ -287,7 +289,7 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                     "code": "309343006",
                                     "display": "Physician (occupation)",
                                     "_display": {
@@ -317,7 +319,7 @@
                 "id": "CMRPractitioner",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.1"
                     ]
                 },
                 "identifier": [
@@ -385,7 +387,7 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                     "code": "309343006",
                                     "display": "Physician (occupation)",
                                     "_display": {

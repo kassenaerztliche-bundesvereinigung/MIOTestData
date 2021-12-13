@@ -1,0 +1,55 @@
+{
+  "resourceType": "Procedure",
+  "id": "d912c9c8-05df-4f91-8711-0714c032b326",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_U1_U3_Cystic_Fibrosis_Screening|1.0.1"
+    ]
+  },
+  "extension": [
+    {
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Executing_Laboratory",
+      "valueReference": {
+        "display": "Screeninglabor Müller"
+      }
+    }
+  ],
+  "partOf": [
+    {
+      "reference": "urn:uuid:fb29b223-b7e0-4285-b60f-75fb69e4df96"
+    }
+  ],
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+        "code": "738796001:363702006=171191008",
+        "display": "Collection of dried blood spot specimen (procedure) : Has focus (attribute) = Cystic fibrosis screening (procedure)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Screening auf Mukoviszidose"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
+  },
+  "encounter": {
+    "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
+  },
+  "asserter": {
+    "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
+  }
+}

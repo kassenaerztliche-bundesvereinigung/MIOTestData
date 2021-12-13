@@ -1,0 +1,75 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "d67eba3e-807f-4bb3-968a-7319f7d9e455",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U2_U6_Body_Measures|1.0.1"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+        "code": "248326004",
+        "display": "Body measure (observable entity)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Körpermaße:"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.69",
+        "code": "29275-5",
+        "display": "Body measurements",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Körpermaße:"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
+  },
+  "encounter": {
+    "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
+  },
+  "effectiveDateTime": "2021-03-29",
+  "performer": [
+    {
+      "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
+    }
+  ],
+  "result": [
+    {
+      "reference": "urn:uuid:1e030119-a721-4ad8-a271-3ac7fa1e8dfb"
+    },
+    {
+      "reference": "urn:uuid:fad2040b-f96c-47e9-898b-7a93783ea1a0"
+    },
+    {
+      "reference": "urn:uuid:767cc14f-86a2-4fa7-a82f-5f9a33625853"
+    }
+  ]
+}

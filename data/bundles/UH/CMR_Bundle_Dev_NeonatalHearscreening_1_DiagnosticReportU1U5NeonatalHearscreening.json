@@ -2,7 +2,7 @@
     "resourceType": "Bundle",
     "id": "771578f8-0b76-4197-h34r-183227516e47",
     "meta": {
-        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Bundle|1.0.0"]
+        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Bundle|1.0.1"]
     },
     "identifier": {
         "system": "urn:ietf:rfc:3936",
@@ -18,7 +18,7 @@
                 "id": "337108da-d038-48a5-a40f-7ddcdd7780c2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_Neonatal_Hearscreening|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_Neonatal_Hearscreening|1.0.1"
                     ]
                 },
                 "status": "final",
@@ -26,13 +26,13 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "417491009",
                             "display": "Neonatal hearing test (procedure)"
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.69",
                             "code": "54111-0",
                             "display": "Newborn hearing screening panel"
                         }
@@ -43,7 +43,7 @@
                         "coding": [
                             {
                                 "system": "http://snomed.info/sct",
-                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                 "code": "243788004",
                                 "display": "Child examination (procedure)"
                             }
@@ -82,7 +82,7 @@
                 "id": "8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Encounter|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Encounter|1.0.1"
                     ]
                 },
                 "status": "finished",
@@ -97,7 +97,7 @@
                         "coding": [
                             {
                                 "system": "http://snomed.info/sct",
-                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                 "code": "170263002",
                                 "display": "Child 6 month examination (procedure)",
                                 "_display": {
@@ -151,7 +151,7 @@
                 "id": "5f224fdc-5b2r-4d4e-9a90-389b9ba89843",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_U5_Neonatal_Hearscreening|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_U5_Neonatal_Hearscreening|1.0.1"
                     ]
                 },
                 "status": "final",
@@ -159,7 +159,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "417491009",
                             "_display": {
                                 "extension": [
@@ -206,7 +206,7 @@
                 "id": "5f25gfdc-5b2r-4a4e-9a90-389b9ba89843",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U5_Neonatal_Hearscreening|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U5_Neonatal_Hearscreening|1.0.1"
                     ]
                 },
                 "status": "final",
@@ -214,7 +214,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "252616000:246513007=261422002",
                             "display": "Auditory brainstem electric response audiometry (procedure) : Revision status (attribute) = First stage of multistage procedure (qualifier value)"
                         }
@@ -236,7 +236,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "275727004",
                             "display": "Hearing test normal (finding)"
                         }
@@ -251,7 +251,7 @@
                 "id": "5f31gfdc-5b2r-4a4e-9a90-389b9ba87844",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U5_Counseling_About_Hearscreening|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U5_Counseling_About_Hearscreening|1.0.1"
                     ]
                 },
                 "status": "final",
@@ -259,7 +259,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "165355002",
                             "_display": {
                                 "extension": [
@@ -299,7 +299,7 @@
                 "id": "c946bef-6e3a-4aaf-a8cc-5764ed624ac1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.1"
                     ]
                 },
                 "identifier": [
@@ -308,7 +308,8 @@
                             "coding": [
                                 {
                                     "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
-                                    "code": "kvk"
+                                    "code": "kvk",
+                                    "display": "Krankenversichertenkarte"
                                 }
                             ]
                         },
@@ -342,7 +343,7 @@
                 "id": "685e18e6-be98-4ed4-84ed-fcec6064a25c",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.1"
                     ]
                 },
                 "identifier": [
@@ -404,7 +405,7 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                     "code": "309343006",
                                     "display": "Physician (occupation)",
                                     "_display": {

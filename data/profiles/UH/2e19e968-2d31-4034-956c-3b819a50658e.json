@@ -1,0 +1,70 @@
+{
+  "resourceType": "Observation",
+  "id": "2e19e968-2d31-4034-956c-3b819a50658e",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U9_Body_Height_Measure|1.0.1"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+        "code": "248334005",
+        "display": "Length of body (observable entity)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Körperlänge in cm"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.69",
+        "code": "8302-2",
+        "display": "Body height",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Körperlänge in cm"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
+  },
+  "encounter": {
+    "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
+  },
+  "effectiveDateTime": "2021-03-09",
+  "performer": [
+    {
+      "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
+    }
+  ],
+  "valueQuantity": {
+    "value": 53.1,
+    "unit": "cm",
+    "system": "http://unitsofmeasure.org",
+    "code": "cm"
+  }
+}

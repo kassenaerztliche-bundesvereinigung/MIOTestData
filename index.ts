@@ -3,24 +3,30 @@ import * as fs from "fs";
 // eslint-disable-next-line @typescript-eslint/no-empty-function
 const emptyFunction = () => {};
 
-export function readDir(path: string): string[] {
-    try {
+export function readDir(path: string): string[] | undefined {
+    if (fs.existsSync(path) && fs.lstatSync(path).isDirectory()) {
         return fs.readdirSync(path);
-    } catch (err) {
-        throw new Error(err.toString());
+    } else {
+        console.log("dir: '" + path + "' not found..");
+        return undefined;
     }
 }
 
 export function readFile(path: string): string | undefined {
-    try {
-        if (fs.existsSync(path) && fs.lstatSync(path).isFile()) {
-            return fs.readFileSync(path, "utf8");
-        } else {
-            console.log("file: '" + path + "' not found..");
-            return undefined;
-        }
-    } catch (err) {
-        throw new Error(err.toString());
+    if (fs.existsSync(path) && fs.lstatSync(path).isFile()) {
+        return fs.readFileSync(path, "utf8");
+    } else {
+        console.log("file: '" + path + "' not found..");
+        return undefined;
+    }
+}
+
+export function readFileAsBlob(path: string): Blob | undefined {
+    if (fs.existsSync(path) && fs.lstatSync(path).isFile()) {
+        return new Blob([fs.readFileSync(path)]);
+    } else {
+        console.log("file: '" + path + "' not found..");
+        return undefined;
     }
 }
 
@@ -52,11 +58,14 @@ export function getExamples(
     const rootPath = `${basePath}/data/${type.toLowerCase()}/${mio}${
         valid ? "" : "/error"
     }`;
-    const files = readDir(rootPath).map((file) => `${rootPath}/${file}`);
+    const files = readDir(rootPath);
     const results: string[] = [];
-    files.forEach((file) => {
+    const mappedFiles = files ? files.map((file) => `${rootPath}/${file}`) : [];
+
+    mappedFiles.forEach((file) => {
         if (fs.lstatSync(file).isFile()) results.push(file);
     });
+
     return results;
 }
 
@@ -93,7 +102,14 @@ export function runAll<T extends HasMioString>(
         list.forEach((value) => {
             describe(`Examples ${value.mioString} (${type})`, () => {
                 const bundles = getExamples(value.mioString, type, valid);
-                if (!bundles.length) console.warn("A data folder should not be empty!");
+                if (!bundles.length)
+                    console.warn(
+                        "A data folder should not be empty! " +
+                            value.mioString +
+                            " (" +
+                            type +
+                            ")"
+                    );
                 expect(bundles.length).toBeGreaterThan(0);
                 testFunction(bundles, value);
             });
@@ -149,6 +165,7 @@ export function runAllProfileFiles(
 }
 
 export function runAllProfiles<T extends HasMioString>(
+    name: string,
     testFunction: (file: string[], value: HasMioString) => void,
     valid = true,
     setupFn: () => void = emptyFunction

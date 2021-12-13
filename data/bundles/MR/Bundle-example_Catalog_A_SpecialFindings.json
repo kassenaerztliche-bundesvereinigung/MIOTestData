@@ -2128,7 +2128,7 @@
                         {
                             "system": "http://snomed.info/sct",
                             "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "248334005",
+                            "code": "169886007",
                             "display": "Length of body (observable entity)",
                             "_display": {
                                 "extension": [

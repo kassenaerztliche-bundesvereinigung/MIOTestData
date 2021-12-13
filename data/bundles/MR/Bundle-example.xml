@@ -3322,7 +3322,7 @@
           <coding>
             <system value="http://snomed.info/sct" />
             <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
-            <code value="248334005" />
+            <code value="169886007" />
             <display value="Length of body (observable entity)">
               <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
                 <extension url="content">

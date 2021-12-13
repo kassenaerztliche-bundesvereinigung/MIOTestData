@@ -1,0 +1,584 @@
+{
+    "resourceType": "Bundle",
+    "id": "771578f8-0b76-4197-h34r-383227516e47",
+    "meta": {
+        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Bundle|1.0.1"]
+    },
+    "identifier": {
+        "system": "urn:ietf:rfc:3936",
+        "value": "771578f8-0b76-4197-h34r-383227516e47"
+    },
+    "type": "document",
+    "timestamp": "2019-12-23T12:30:02Z",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:337108da-d038-48a5-a40f-7ddcdd7780c2",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "337108da-d038-48a5-a40f-7ddcdd7780c2",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_Neonatal_Hearscreening|1.0.1"
+                    ]
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "417491009",
+                            "display": "Neonatal hearing test (procedure)"
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.69",
+                            "code": "54111-0",
+                            "display": "Newborn hearing screening panel"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                "code": "243788004",
+                                "display": "Child examination (procedure)"
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+                },
+                "date": "2020-01-02",
+                "author": [
+                    {
+                        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                    }
+                ],
+                "title": "Spezielle Früherkennungsuntersuchungen",
+                "section": [
+                    {
+                        "title": "Neugeborenen-Hörscreening",
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:4f124fdc-5b2r-4d4e-9a90-389b9ba89843"
+                            },
+                            {
+                                "reference": "urn:uuid:5f224fdc-5b2r-4d4e-9a90-389b9ba89843"
+                            },
+                            {
+                                "reference": "urn:uuid:2f024fdc-5b2r-34r4e-9a90-389b9ba89843"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Encounter|1.0.1"
+                    ]
+                },
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "version": "2.0.0",
+                    "code": "AMB",
+                    "display": "ambulatory"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                "code": "170263002",
+                                "display": "Child 6 month examination (procedure)",
+                                "_display": {
+                                    "extension": [
+                                        {
+                                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                            "extension": [
+                                                {
+                                                    "url": "content",
+                                                    "valueString": "U5 6.-7. Lebensmonat"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                                        "version": "2.0.0",
+                                        "code": "PPRF",
+                                        "display": "primary performer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "individual": {
+                            "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2020-07-07"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:4f124fdc-5b2r-4d4e-9a90-389b9ba89843",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "id": "4f124fdc-5b2r-4d4e-9a90-389b9ba89843",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_U5_Neonatal_Hearscreening|1.0.1"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "417491009",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Neugeborenen-Hörscreening"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+                },
+                "effectiveDateTime": "2020-01-02",
+                "performer": [
+                    {
+                        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                    }
+                ],
+                "result": [
+                    {
+                        "reference": "urn:uuid:5f25gfdc-5b2r-4a4e-9a90-389b9ba89843"
+                    },
+                    {
+                        "reference": "urn:uuid:5f31gfdc-5b2r-4a4e-9a90-389b9ba87844"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5f25gfdc-5b2r-4a4e-9a90-389b9ba89843",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "5f25gfdc-5b2r-4a4e-9a90-389b9ba89843",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U5_Neonatal_Hearscreening|1.0.1"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "252616000:246513007=261422002",
+                            "display": "Auditory brainstem electric response audiometry (procedure) : Revision status (attribute) = First stage of multistage procedure (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+                },
+                "effectiveDateTime": "2020-02-12",
+                "performer": [
+                    {
+                        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                    }
+                ],
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "275727004",
+                            "display": "Hearing test normal (finding)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5f31gfdc-5b2r-4a4e-9a90-389b9ba87844",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "5f31gfdc-5b2r-4a4e-9a90-389b9ba87844",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U5_Counseling_About_Hearscreening|1.0.1"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "165355002",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Untersuchungsergebnisse und ggf. erforderliche Therapie mit den Eltern besprochen am:"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+                },
+                "effectiveDateTime": "2020-02-12",
+                "performer": [
+                    {
+                        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                    }
+                ],
+                "valueBoolean": true
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5f224fdc-5b2r-4d4e-9a90-389b9ba89843",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "id": "5f224fdc-5b2r-4d4e-9a90-389b9ba89843",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_U5_Pediatric_Diagnostic_Audiology_Service|1.0.1"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "91005004",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Pädaudiologische Diagnostik"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+                },
+                "effectiveDateTime": "2020-03-10",
+                "performer": [
+                    {
+                        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                    }
+                ],
+                "result": [
+                    {
+                        "reference": "urn:uuid:5f31gfdc-5b2r-4a4e-9a90-389b9ba87841"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5f31gfdc-5b2r-4a4e-9a90-389b9ba87841",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "5f31gfdc-5b2r-4a4e-9a90-389b9ba87841",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U5_Counseling_About_Hearscreening|1.0.1"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "165355002",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Untersuchungsergebnisse und ggf. erforderliche Therapie mit den Eltern besprochen am:"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+                },
+                "effectiveDateTime": "2020-02-12",
+                "performer": [
+                    {
+                        "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                    }
+                ],
+                "valueBoolean": true
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:2f024fdc-5b2r-34r4e-9a90-389b9ba89843",
+            "resource": {
+                "resourceType": "ServiceRequest",
+                "id": "2f024fdc-5b2r-34r4e-9a90-389b9ba89843",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Service_Request_U1_U5_Referral_Pediatric_Audiology_Service|1.0.1"
+                    ]
+                },
+                "status": "active",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "306210008",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Pädaudiologische Diagnostik bei auffälliger Kontroll-AABR veranlasst am:"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd"
+                },
+                "authoredOn": "2020-07-08",
+                "requester": {
+                    "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:c946bef-6e3a-4aaf-a8cc-5764ed624ac1",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "c946bef-6e3a-4aaf-a8cc-5764ed624ac1",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.1"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
+                                    "code": "kvk",
+                                    "display": "Krankenversichertenkarte"
+                                }
+                            ]
+                        },
+                        "system": "http://fhir.de/NamingSystem/gkv/kvk-versichertennummer",
+                        "value": "F123456784"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Neo Natal",
+                        "family": "Natal",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Natal"
+                                }
+                            ]
+                        },
+                        "given": ["Neo"]
+                    }
+                ],
+                "birthDate": "2020-06-22"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "685e18e6-be98-4ed4-84ed-fcec6064a25c",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.1"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "DN"
+                                }
+                            ]
+                        },
+                        "system": "http://fhir.de/NamingSystem/bundesaerztekammer/efn",
+                        "value": "123456789123456"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Rainer Gold",
+                        "family": "Gold",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Gold"
+                                }
+                            ]
+                        },
+                        "given": ["Rainer"]
+                    }
+                ],
+                "address": [
+                    {
+                        "type": "both",
+                        "line": ["Musterstr. 1"],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "1"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Musterstr."
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Darmstadt",
+                        "postalCode": "64283",
+                        "country": "D"
+                    }
+                ],
+                "qualification": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "309343006",
+                                    "display": "Physician (occupation)",
+                                    "_display": {
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                "extension": [
+                                                    {
+                                                        "url": "content",
+                                                        "valueString": "Arzt/ Ärztin"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -4538,8 +4538,8 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "248334005",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "169886007",
                             "display": "Length of body (observable entity)",
                             "_display": {
                                 "extension": [
@@ -4548,7 +4548,7 @@
                                         "extension": [
                                             {
                                                 "url": "content",
-                                                "valueString": "KÃ¶rpergrÃ¶ÃŸe"
+                                                "valueString": "Körpergröße"
                                             }
                                         ]
                                     }

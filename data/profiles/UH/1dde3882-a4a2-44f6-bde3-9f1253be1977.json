@@ -1,0 +1,81 @@
+{
+  "resourceType": "CarePlan",
+  "id": "1dde3882-a4a2-44f6-bde3-9f1253be1977",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Care_Plan_U2_U9_Result|1.0.1"
+    ]
+  },
+  "status": "completed",
+  "intent": "proposal",
+  "subject": {
+    "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
+  },
+  "encounter": {
+    "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
+  },
+  "created": "2021-03-09",
+  "author": {
+    "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
+  },
+  "activity": [
+    {
+      "detail": {
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+              "code": "722448004",
+              "display": "Treatment plan report (record artifact)",
+              "_display": {
+                "extension": [
+                  {
+                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                    "extension": [
+                      {
+                        "url": "content",
+                        "valueString": "weitere Maßnahmen vereinbart:"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "status": "completed",
+        "description": "Bestimmmung direktes / indirektes Bilirubin im Blut, Blutbild, Kontrolluntersuchung, ggf. Phototherapie."
+      }
+    },
+    {
+      "detail": {
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+              "code": "271906008",
+              "display": "Examination finding (observable entity)",
+              "_display": {
+                "extension": [
+                  {
+                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                    "extension": [
+                      {
+                        "url": "content",
+                        "valueString": "Auffälligkeiten zur Beobachtung:"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "status": "completed",
+        "description": "Ikterus: transkutane Bilirubinmessung: 18,8 mg/dl"
+      }
+    }
+  ]
+}

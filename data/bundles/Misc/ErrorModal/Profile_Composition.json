@@ -1,0 +1,48 @@
+{
+    "resourceType": "Composition",
+    "id": "6d92d417-8a0d-42b9-959f-567ab2f4650f",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Composition_Addendum|1.1.0"
+        ]
+    },
+    "status": "final",
+    "type": {
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "code": "11369-6",
+                "display": "History of Immunization Narrative"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+    },
+    "date": "2018-07-01T12:30:02Z",
+    "author": [
+        {
+            "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+        }
+    ],
+    "title": "Impfeintrag-/einträge Nach-/Übertrag",
+    "section": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                        "code": "713404003",
+                        "display": "Vaccination given (situation)"
+                    }
+                ]
+            },
+            "entry": [
+                {
+                    "reference": "urn:uuid:ff258b30-915f-4561-b356-7b30e7a9393a"
+                }
+            ]
+        }
+    ]
+}

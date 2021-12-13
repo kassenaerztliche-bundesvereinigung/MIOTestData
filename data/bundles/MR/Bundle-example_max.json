@@ -68,12 +68,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "date": "2018-07-01T12:30:02Z",
                 "author": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "title": "Mutterpasseintrag",
@@ -82,10 +82,10 @@
                         "title": "Stempelinformationen des Arztes/der Klinik/der mitbetreuenden Hebamme",
                         "entry": [
                             {
-                                "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                                "reference": "urn:uuid:MRPractitioner"
                             },
                             {
-                                "reference": "urn:uuid:f6b2a209-c7b6-4735-80a7-9b8c85aa5fd1"
+                                "reference": "urn:uuid:MROrganization"
                             }
                         ]
                     },
@@ -93,7 +93,7 @@
                         "title": "Termine",
                         "entry": [
                             {
-                                "reference": "urn:uuid:02face36-c294-47c7-923d-2844a744f3b7"
+                                "reference": "urn:uuid:MR_Encounter_Arrival_Maternity_Hospital"
                             }
                         ],
                         "section": [
@@ -124,7 +124,7 @@
                                 },
                                 "entry": [
                                     {
-                                        "reference": "urn:uuid:b31afc67-82fd-485a-b019-63079b28241c"
+                                        "reference": "urn:uuid:Appointment_Pregnancy"
                                     }
                                 ]
                             }
@@ -154,16 +154,16 @@
                         "title": "Anamnese und allgemeine Befunde",
                         "entry": [
                             {
-                                "reference": "urn:uuid:83ffee16-d624-43e4-9671-de55fa73b250"
+                                "reference": "urn:uuid:ObservationAge"
                             },
                             {
-                                "reference": "urn:uuid:9e67bb0c-edf6-458c-a044-d473f792cda4"
+                                "reference": "urn:uuid:Baseline_Weight_Mother"
                             },
                             {
-                                "reference": "urn:uuid:9c401c0b-aef4-4022-8108-d153b27a74f5"
+                                "reference": "urn:uuid:ObservationGravida"
                             },
                             {
-                                "reference": "urn:uuid:f55b393a-3fdb-4a06-a1e0-ec27161530ac"
+                                "reference": "urn:uuid:Observation_Height"
                             },
                             {
                                 "reference": "urn:uuid:bbf9924e-4f3f-4b9b-b929-2b1e68174106"
@@ -176,9 +176,6 @@
                             },
                             {
                                 "reference": "urn:uuid:15db751e-b9ee-482f-997f-ea5ee3d1f569"
-                            },
-                            {
-                                "reference": "urn:uuid:774bd567-efc2-4cd2-82e6-bf009e90e201"
                             }
                         ]
                     },
@@ -680,10 +677,10 @@
                                                 "reference": "urn:uuid:fbb02cfc-e23f-473f-b65d-a09f2aadcecb"
                                             },
                                             {
-                                                "reference": "urn:uuid:83ffee16-d624-43e4-9671-de55fa73b250"
+                                                "reference": "urn:uuid:ObservationAge"
                                             },
                                             {
-                                                "reference": "urn:uuid:9c401c0b-aef4-4022-8108-d153b27a74f5"
+                                                "reference": "urn:uuid:ObservationGravida"
                                             },
                                             {
                                                 "reference": "urn:uuid:bbf9924e-4f3f-4b9b-b929-2b1e68174106"
@@ -749,7 +746,7 @@
                                                         "reference": "urn:uuid:4ada11cc-0051-4053-b99e-d20480381efb"
                                                     },
                                                     {
-                                                        "reference": "urn:uuid:ad97d879-ab43-4f7e-8d41-46f4665f7e3e"
+                                                        "reference": "urn:uuid:Weight_Child"
                                                     },
                                                     {
                                                         "reference": "urn:uuid:cbb92459-b72c-40fb-ab36-151736e62b49"
@@ -954,7 +951,7 @@
                                 "reference": "urn:uuid:9fe8710e-baeb-44d0-a6b0-091533ea7d2c"
                             },
                             {
-                                "reference": "urn:uuid:f6b2a209-c7b6-4735-80a7-9b8c85aa5fd1"
+                                "reference": "urn:uuid:MROrganization"
                             }
                         ]
                     }
@@ -1036,12 +1033,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -1085,22 +1082,22 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
             }
         },
         {
-            "fullUrl": "urn:uuid:83ffee16-d624-43e4-9671-de55fa73b250",
+            "fullUrl": "urn:uuid:ObservationAge",
             "resource": {
                 "resourceType": "Observation",
-                "id": "83ffee16-d624-43e4-9671-de55fa73b250",
+                "id": "ObservationAge",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Age|1.0.0"
@@ -1134,12 +1131,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:02face36-c294-47c7-923d-2844a2p3r50n"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -1188,13 +1185,13 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
-                "performedDateTime": "2020-04-05",
+                "performedDateTime": "2001-04-05",
                 "performer": [
                     {
                         "actor": {
-                            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                            "reference": "urn:uuid:MRPractitioner"
                         }
                     }
                 ],
@@ -1243,12 +1240,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -1311,12 +1308,12 @@
                     "reference": "urn:uuid:MRPatientChild"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -1345,10 +1342,10 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:b31afc67-82fd-485a-b019-63079b28241c",
+            "fullUrl": "urn:uuid:Appointment_Pregnancy",
             "resource": {
                 "resourceType": "Appointment",
-                "id": "b31afc67-82fd-485a-ap19-63079b28241c",
+                "id": "Appointment_Pregnancy",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Appointment_Pregnancy|1.0.0"
@@ -1367,7 +1364,7 @@
                     },
                     {
                         "actor": {
-                            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                            "reference": "urn:uuid:MRPractitioner"
                         },
                         "required": "required",
                         "status": "accepted"
@@ -1376,165 +1373,10 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:b31afc67-82fd-485a-ap29-63079b28241c",
-            "resource": {
-                "resourceType": "Appointment",
-                "id": "b31afc67-82fd-485a-ap29-63079b28241c",
-                "meta": {
-                    "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Appointment_Pregnancy|1.0.0"
-                    ]
-                },
-                "status": "booked",
-                "start": "2020-05-04T09:00:00Z",
-                "end": "2020-05-04T10:00:00Z",
-                "participant": [
-                    {
-                        "actor": {
-                            "reference": "urn:uuid:MRPatientMother"
-                        },
-                        "required": "required",
-                        "status": "accepted"
-                    },
-                    {
-                        "actor": {
-                            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
-                        },
-                        "required": "required",
-                        "status": "accepted"
-                    }
-                ]
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:b31afc67-82fd-485a-ap39-63079b28241c",
-            "resource": {
-                "resourceType": "Appointment",
-                "id": "b31afc67-82fd-485a-ap39-63079b28241c",
-                "meta": {
-                    "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Appointment_Pregnancy|1.0.0"
-                    ]
-                },
-                "status": "booked",
-                "start": "2020-06-04T12:00:00Z",
-                "end": "2020-06-04T12:30:00Z",
-                "participant": [
-                    {
-                        "actor": {
-                            "reference": "urn:uuid:MRPatientMother"
-                        },
-                        "required": "required",
-                        "status": "accepted"
-                    },
-                    {
-                        "actor": {
-                            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
-                        },
-                        "required": "required",
-                        "status": "accepted"
-                    }
-                ]
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:b31afc67-82fd-485a-ap49-63079b28241c",
-            "resource": {
-                "resourceType": "Appointment",
-                "id": "b31afc67-82fd-485a-ap49-63079b28241c",
-                "meta": {
-                    "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Appointment_Pregnancy|1.0.0"
-                    ]
-                },
-                "status": "booked",
-                "start": "2020-07-04T07:00:00Z",
-                "end": "2020-07-04T08:00:00Z",
-                "participant": [
-                    {
-                        "actor": {
-                            "reference": "urn:uuid:MRPatientMother"
-                        },
-                        "required": "required",
-                        "status": "accepted"
-                    },
-                    {
-                        "actor": {
-                            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
-                        },
-                        "required": "required",
-                        "status": "accepted"
-                    }
-                ]
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:b31afc67-82fd-485a-ap59-63079b28241c",
-            "resource": {
-                "resourceType": "Appointment",
-                "id": "b31afc67-82fd-485a-ap59-63079b28241c",
-                "meta": {
-                    "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Appointment_Pregnancy|1.0.0"
-                    ]
-                },
-                "status": "booked",
-                "start": "2020-07-14T09:00:00Z",
-                "end": "2020-07-14T10:00:00Z",
-                "participant": [
-                    {
-                        "actor": {
-                            "reference": "urn:uuid:MRPatientMother"
-                        },
-                        "required": "required",
-                        "status": "accepted"
-                    },
-                    {
-                        "actor": {
-                            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
-                        },
-                        "required": "required",
-                        "status": "accepted"
-                    }
-                ]
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:b31afc67-82fd-485a-ap69-63079b28241c",
-            "resource": {
-                "resourceType": "Appointment",
-                "id": "b31afc67-82fd-485a-ap69-63079b28241c",
-                "meta": {
-                    "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Appointment_Pregnancy|1.0.0"
-                    ]
-                },
-                "status": "booked",
-                "start": "2020-08-12T08:30:00Z",
-                "end": "2020-08-12T09:15:00Z",
-                "participant": [
-                    {
-                        "actor": {
-                            "reference": "urn:uuid:MRPatientMother"
-                        },
-                        "required": "required",
-                        "status": "accepted"
-                    },
-                    {
-                        "actor": {
-                            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
-                        },
-                        "required": "required",
-                        "status": "accepted"
-                    }
-                ]
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:02face36-c294-47c7-923d-2844a744f3b7",
+            "fullUrl": "urn:uuid:MR_Encounter_Arrival_Maternity_Hospital",
             "resource": {
                 "resourceType": "Encounter",
-                "id": "02face36-c294-47c7-923d-2844a744f3b7",
+                "id": "MR_Encounter_Arrival_Maternity_Hospital",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_Arrival_Maternity_Hospital|1.0.0"
@@ -1578,15 +1420,15 @@
                     "start": "2020-01-17T16:00:00+10:00"
                 },
                 "serviceProvider": {
-                    "reference": "urn:uuid:f6b2a209-c7b6-4735-80a7-9b8c85aa5fd1"
+                    "reference": "urn:uuid:MROrganization"
                 }
             }
         },
         {
-            "fullUrl": "urn:uuid:9e67bb0c-edf6-458c-a044-d473f792cda4",
+            "fullUrl": "urn:uuid:Baseline_Weight_Mother",
             "resource": {
                 "resourceType": "Observation",
-                "id": "9e67bb0c-edf6-458c-a044-d473f792cda4",
+                "id": "Baseline_Weight_Mother",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Baseline_Weight_Mother|1.0.0"
@@ -1598,7 +1440,7 @@
                         {
                             "system": "http://snomed.info/sct",
                             "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "400967004",
+                            "code": "27113001",
                             "display": "Baseline weight (observable entity)",
                             "_display": {
                                 "extension": [
@@ -1639,12 +1481,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:02face36-c294-47c7-923d-2844a2p3r50n"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -1693,12 +1535,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -1776,12 +1618,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -1859,12 +1701,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -1942,11 +1784,11 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "assessor": {
-                    "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                    "reference": "urn:uuid:MRPractitioner"
                 },
                 "investigation": [
                     {
@@ -1961,7 +1803,7 @@
                                 "reference": "urn:uuid:4ada11cc-0051-4053-b99e-d20480381efb"
                             },
                             {
-                                "reference": "urn:uuid:ad97d879-ab43-4f7e-8d41-46f4665f7e3e"
+                                "reference": "urn:uuid:Weight_Child"
                             },
                             {
                                 "reference": "urn:uuid:cbb92459-b72c-40fb-ab36-151736e62b49"
@@ -2024,7 +1866,7 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "_effectiveDateTime": {
@@ -2090,7 +1932,7 @@
                     ]
                 },
                 "assessor": {
-                    "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                    "reference": "urn:uuid:MRPractitioner"
                 },
                 "investigation": [
                     {
@@ -2149,12 +1991,12 @@
                     "reference": "urn:uuid:MRPatientChild"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -2232,12 +2074,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "note": [
@@ -2424,12 +2266,12 @@
                     "reference": "urn:uuid:MRPatientChild"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "note": [
@@ -2623,12 +2465,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "component": [
@@ -2775,12 +2617,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -2865,12 +2707,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-09-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueDateTime": "2020-09-02"
@@ -2914,7 +2756,7 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "_effectiveDateTime": {
@@ -2981,7 +2823,7 @@
                 },
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "Unauffälliger Befund. Alles im Normbereich"
@@ -3025,7 +2867,7 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-03",
                 "_effectiveDateTime": {
@@ -3092,7 +2934,7 @@
                 },
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "Wieder ein unauffälliger Befund. Alles im Normbereich"
@@ -3167,12 +3009,12 @@
                     "reference": "urn:uuid:MRPatientChild"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -3216,12 +3058,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -3265,13 +3107,13 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "performedDateTime": "2020-04-05",
                 "performer": [
                     {
                         "actor": {
-                            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                            "reference": "urn:uuid:MRPractitioner"
                         }
                     }
                 ],
@@ -3383,13 +3225,13 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "performedDateTime": "2020-04-06",
                 "performer": [
                     {
                         "actor": {
-                            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                            "reference": "urn:uuid:MRPractitioner"
                         }
                     }
                 ],
@@ -3478,12 +3320,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "note": [
@@ -3531,12 +3373,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-03",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueDateTime": "2020-01-03"
@@ -3580,7 +3422,7 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-04",
                 "_effectiveDateTime": {
@@ -3647,7 +3489,7 @@
                 },
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -3691,12 +3533,12 @@
                     "reference": "urn:uuid:MRPatientChild"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -3725,10 +3567,10 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17",
+            "fullUrl": "urn:uuid:MREncounter",
             "resource": {
                 "resourceType": "Encounter",
-                "id": "e08a4445-d57b-454b-b1c6-560ae8d16c17",
+                "id": "MREncounter",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.0.0"
@@ -3747,7 +3589,7 @@
                 "participant": [
                     {
                         "individual": {
-                            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                            "reference": "urn:uuid:MRPractitioner"
                         }
                     }
                 ],
@@ -3755,47 +3597,7 @@
                     "start": "2020-01-02"
                 },
                 "serviceProvider": {
-                    "reference": "urn:uuid:f6b2a209-c7b6-4735-80a7-9b8c85aa5fd1"
-                }
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:02face36-c294-47c7-923d-2844a2p3r50n",
-            "resource": {
-                "resourceType": "Encounter",
-                "id": "02face36-c294-47c7-923d-2844a2p3r50n",
-                "meta": {
-                    "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.0.0"
-                    ]
-                },
-                "status": "finished",
-                "class": {
-                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-                    "version": "2.0.0",
-                    "code": "AMB",
-                    "display": "ambulatory"
-                },
-                "subject": {
-                    "reference": "urn:uuid:MRPatientMother"
-                },
-                "participant": [
-                    {
-                        "individual": {
-                            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
-                        }
-                    },
-                    {
-                        "individual": {
-                            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9917"
-                        }
-                    }
-                ],
-                "period": {
-                    "start": "2020-01-02"
-                },
-                "serviceProvider": {
-                    "reference": "urn:uuid:f6b2a209-c7b6-4735-80a7-9b8c85aa5fd1"
+                    "reference": "urn:uuid:MROrganization"
                 }
             }
         },
@@ -3836,12 +3638,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -3923,12 +3725,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "dataAbsentReason": {
@@ -3985,12 +3787,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -4021,12 +3823,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true,
@@ -4086,12 +3888,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true,
@@ -4228,11 +4030,11 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "assessor": {
-                    "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                    "reference": "urn:uuid:MRPractitioner"
                 },
                 "investigation": [
                     {
@@ -4309,12 +4111,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true,
@@ -4350,10 +4152,10 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:9c401c0b-aef4-4022-8108-d153b27a74f5",
+            "fullUrl": "urn:uuid:ObservationGravida",
             "resource": {
                 "resourceType": "Observation",
-                "id": "9c401c0b-aef4-4022-8108-d153b27a74f5",
+                "id": "ObservationGravida",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Gravida|1.0.0"
@@ -4387,12 +4189,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:02face36-c294-47c7-923d-2844a2p3r50n"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -4440,12 +4242,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -4508,12 +4310,12 @@
                     "reference": "urn:uuid:MRPatientChild"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -4561,12 +4363,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "Querlage",
@@ -4639,12 +4441,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true,
@@ -4680,10 +4482,10 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:f55b393a-3fdb-4a06-a1e0-ec27161530ac",
+            "fullUrl": "urn:uuid:Observation_Height",
             "resource": {
                 "resourceType": "Observation",
-                "id": "f55b393a-3fdb-4a06-a1e0-ec27161530ac",
+                "id": "Observation_Height",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Height|1.0.0"
@@ -4695,7 +4497,7 @@
                         {
                             "system": "http://snomed.info/sct",
                             "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "248334005",
+                            "code": "169886007",
                             "display": "Length of body (observable entity)",
                             "_display": {
                                 "extension": [
@@ -4736,12 +4538,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -4809,12 +4611,12 @@
                     "reference": "urn:uuid:MRPatientChild"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -4863,12 +4665,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -4899,12 +4701,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -4948,12 +4750,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-11-09",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true,
@@ -5002,12 +4804,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-11-09",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false,
@@ -5043,12 +4845,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-11-09",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false,
@@ -5084,12 +4886,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false,
@@ -5125,12 +4927,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false,
@@ -5166,12 +4968,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false,
@@ -5207,12 +5009,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false,
@@ -5244,12 +5046,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true,
@@ -5285,12 +5087,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true,
@@ -5326,12 +5128,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false,
@@ -5367,12 +5169,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false,
@@ -5408,12 +5210,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false
@@ -5444,12 +5246,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-08",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false
@@ -5480,12 +5282,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-08",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false
@@ -5516,12 +5318,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-08",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false
@@ -5552,12 +5354,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-08",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false
@@ -5588,12 +5390,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-08",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false
@@ -5624,12 +5426,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-08",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false
@@ -5660,12 +5462,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-08",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false
@@ -5696,12 +5498,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-08",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false
@@ -5732,12 +5534,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-08",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false
@@ -5768,12 +5570,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-08",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false
@@ -5804,12 +5606,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-08",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false
@@ -5840,12 +5642,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-08",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false
@@ -5876,12 +5678,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-08",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false
@@ -5912,12 +5714,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-10-08",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false
@@ -5961,7 +5763,7 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "_effectiveDateTime": {
@@ -6027,7 +5829,7 @@
                     ]
                 },
                 "assessor": {
-                    "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                    "reference": "urn:uuid:MRPractitioner"
                 },
                 "investigation": [
                     {
@@ -6168,12 +5970,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -6254,7 +6056,7 @@
                     }
                 ],
                 "serviceProvider": {
-                    "reference": "urn:uuid:f6b2a209-c7b6-4735-80a7-9b8c85aa5fd1"
+                    "reference": "urn:uuid:MROrganization"
                 }
             }
         },
@@ -6328,7 +6130,7 @@
                     }
                 ],
                 "serviceProvider": {
-                    "reference": "urn:uuid:f6b2a209-c7b6-4735-80a7-9b8c85aa5fd1"
+                    "reference": "urn:uuid:MROrganization"
                 }
             }
         },
@@ -6370,12 +6172,12 @@
                     "reference": "urn:uuid:MRPatientChild"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -6419,12 +6221,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -6519,12 +6321,12 @@
                     "reference": "urn:uuid:MRPatientChild"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -6568,12 +6370,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "component": [
@@ -6696,12 +6498,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true,
@@ -6774,12 +6576,12 @@
                     "reference": "urn:uuid:MRPatientChild"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -6823,12 +6625,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -6895,12 +6697,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -6985,12 +6787,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -7019,10 +6821,10 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:f6b2a209-c7b6-4735-80a7-9b8c85aa5fd1",
+            "fullUrl": "urn:uuid:MROrganization",
             "resource": {
                 "resourceType": "Organization",
-                "id": "f6b2a209-c7b6-4735-80a7-9b8c85aa5fd1",
+                "id": "MROrganization",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Organization|1.0.0"
@@ -7126,12 +6928,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "Duffy: Fy(a+b+)"
@@ -7175,12 +6977,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "Weiterführende sonographische Untersuchungen welche bei Vorliegen bestimmter Indikationen angezeigt sein können."
@@ -7224,12 +7026,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:02face36-c294-47c7-923d-2844a2p3r50n"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -7368,12 +7170,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -7475,12 +7277,12 @@
                     "reference": "urn:uuid:MRPatientChild"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -7492,10 +7294,10 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916",
+            "fullUrl": "urn:uuid:MRPractitioner",
             "resource": {
                 "resourceType": "Practitioner",
-                "id": "8ad1ee6c-6164-493a-be52-c43cf49e9916",
+                "id": "MRPractitioner",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Practitioner|1.0.0"
@@ -7720,7 +7522,7 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "_effectiveDateTime": {
@@ -7839,7 +7641,7 @@
                     ]
                 },
                 "assessor": {
-                    "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                    "reference": "urn:uuid:MRPractitioner"
                 },
                 "investigation": [
                     {
@@ -8603,12 +8405,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "component": [
@@ -8774,12 +8576,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:02face36-c294-47c7-923d-2844a2p3r50n"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -8828,12 +8630,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "N-1"
@@ -8877,12 +8679,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "keine"
@@ -8926,12 +8728,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "++"
@@ -8975,12 +8777,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "unauffällig"
@@ -9024,12 +8826,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "unauffällig"
@@ -9073,12 +8875,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "+"
@@ -9122,12 +8924,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "+"
@@ -9171,12 +8973,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "-"
@@ -9220,12 +9022,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "-"
@@ -9269,12 +9071,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "unauffällig"
@@ -9318,12 +9120,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "+",
@@ -9396,12 +9198,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "Beckenendlage",
@@ -9474,12 +9276,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "+",
@@ -9563,7 +9365,7 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-02-02",
                 "_effectiveDateTime": {
@@ -9682,7 +9484,7 @@
                     ]
                 },
                 "assessor": {
-                    "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                    "reference": "urn:uuid:MRPractitioner"
                 },
                 "investigation": [
                     {
@@ -9794,12 +9596,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-02-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "component": [
@@ -9965,12 +9767,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-02-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {
@@ -10019,12 +9821,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-02-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "N+1"
@@ -10068,12 +9870,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-02-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "+"
@@ -10117,12 +9919,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-02-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "++"
@@ -10166,12 +9968,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-02-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "dunkel"
@@ -10215,12 +10017,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-02-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "+"
@@ -10264,12 +10066,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-02-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "-"
@@ -10313,12 +10115,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-02-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "-"
@@ -10362,12 +10164,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-02-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "+"
@@ -10411,12 +10213,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-02-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "unauffällig"
@@ -10460,12 +10262,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-02-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "+",
@@ -10538,12 +10340,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-02-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "Beckenendlage",
@@ -10616,12 +10418,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-02-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueString": "+",
@@ -10695,7 +10497,7 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "_effectiveDateTime": {
@@ -10761,7 +10563,7 @@
                     ]
                 },
                 "assessor": {
-                    "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                    "reference": "urn:uuid:MRPractitioner"
                 },
                 "investigation": [
                     {
@@ -10770,10 +10572,10 @@
                         },
                         "item": [
                             {
-                                "reference": "urn:uuid:83ffee16-d624-43e4-9671-de55fa73b250"
+                                "reference": "urn:uuid:ObservationAge"
                             },
                             {
-                                "reference": "urn:uuid:9c401c0b-aef4-4022-8108-d153b27a74f5"
+                                "reference": "urn:uuid:ObservationGravida"
                             },
                             {
                                 "reference": "urn:uuid:bbf9924e-4f3f-4b9b-b929-2b1e68174106"
@@ -10857,12 +10659,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -10906,12 +10708,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": false,
@@ -10960,12 +10762,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -11009,12 +10811,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:02face36-c294-47c7-923d-2844a2p3r50n"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueDateTime": "2020-01-02",
@@ -11063,12 +10865,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -11112,11 +10914,11 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "assessor": {
-                    "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                    "reference": "urn:uuid:MRPractitioner"
                 },
                 "investigation": [
                     {
@@ -11145,9 +10947,7 @@
                             {
                                 "reference": "urn:uuid:03117f96-6fdc-4d12-b0f7-3c29f235e670"
                             },
-                            {
-                                "reference": "urn:uuid:780c72e9-21cb-456f-b130-93618962fa87"
-                            },
+
                             {
                                 "reference": "urn:uuid:epikrise-2untersuchung-UrinProtein"
                             }
@@ -11199,12 +10999,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
-                "effectiveDateTime": "2020-01-02",
+                "effectiveDateTime": "2020-01-10",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -11249,12 +11049,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -11325,12 +11125,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -11401,12 +11201,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -11477,12 +11277,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -11553,12 +11353,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -11629,12 +11429,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -11705,12 +11505,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -11781,12 +11581,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -11857,12 +11657,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -11933,12 +11733,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -12009,12 +11809,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -12085,12 +11885,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -12161,12 +11961,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -12237,12 +12037,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -12313,12 +12113,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -12389,12 +12189,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -12465,12 +12265,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -12541,12 +12341,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -12617,12 +12417,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -12693,12 +12493,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -12769,12 +12569,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -12845,12 +12645,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -12921,12 +12721,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -12957,51 +12757,6 @@
                         "text": "Zur weiteren Behandlung"
                     }
                 ]
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:07a9ac31-d117-40b6-ade1-4d9830f8a692",
-            "resource": {
-                "resourceType": "Observation",
-                "id": "07a9ac31-d117-40b6-ade1-4d9830f8a692",
-                "meta": {
-                    "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
-                    ]
-                },
-                "status": "final",
-                "code": {
-                    "coding": [
-                        {
-                            "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "118185001"
-                        }
-                    ]
-                },
-                "subject": {
-                    "reference": "urn:uuid:MRPatientMother"
-                },
-                "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
-                },
-                "effectiveDateTime": "2020-01-02",
-                "performer": [
-                    {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
-                    }
-                ],
-                "valueCodeableConcept": {
-                    "coding": [
-                        {
-                            "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "710814002",
-                            "display": "Long-term current use of drug therapy (situation)"
-                        }
-                    ]
-                },
-                "note": []
             }
         },
         {
@@ -13042,12 +12797,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -13118,12 +12873,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -13194,12 +12949,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueCodeableConcept": {
@@ -13308,12 +13063,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-03-11",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true,
@@ -13386,12 +13141,12 @@
                     "reference": "urn:uuid:MRPatientChild"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -13435,12 +13190,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
-                "effectiveDateTime": "2020-01-02",
+                "effectiveDateTime": "2020-01-03",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "note": [
@@ -13494,7 +13249,7 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-05-17",
                 "_effectiveDateTime": {
@@ -13614,7 +13369,7 @@
                 },
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "result": [
@@ -13686,9 +13441,9 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
-                "effectiveDateTime": "2020-01-02",
+                "effectiveDateTime": "2020-01-10",
                 "_effectiveDateTime": {
                     "extension": [
                         {
@@ -13806,7 +13561,7 @@
                 },
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "result": [
@@ -13887,9 +13642,9 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
-                "effectiveDateTime": "2020-01-02",
+                "effectiveDateTime": "2020-01-11",
                 "_effectiveDateTime": {
                     "extension": [
                         {
@@ -13954,7 +13709,7 @@
                 },
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "result": [
@@ -14026,12 +13781,12 @@
                     "reference": "urn:uuid:MRPatientMother"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueBoolean": true
@@ -14039,10 +13794,10 @@
         },
 
         {
-            "fullUrl": "urn:uuid:ad97d879-ab43-4f7e-8d41-46f4665f7e3e",
+            "fullUrl": "urn:uuid:Weight_Child",
             "resource": {
                 "resourceType": "Observation",
-                "id": "ad97d879-ab43-4f7e-8d41-46f4665f7e3e",
+                "id": "Weight_Child",
                 "meta": {
                     "profile": [
                         "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Weight_Child"
@@ -14054,7 +13809,7 @@
                         {
                             "system": "http://snomed.info/sct",
                             "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "364589006",
+                            "code": "27113001",
                             "display": "Birth weight (observable entity)",
                             "_display": {
                                 "extension": [
@@ -14095,12 +13850,12 @@
                     "reference": "urn:uuid:MRPatientChild"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                    "reference": "urn:uuid:MREncounter"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "performer": [
                     {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                        "reference": "urn:uuid:MRPractitioner"
                     }
                 ],
                 "valueQuantity": {

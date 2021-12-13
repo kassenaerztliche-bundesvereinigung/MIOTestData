@@ -1725,7 +1725,7 @@
                 "id": "ff16daaa-fe87-4b31-b96c-99baa3e4e1af",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Edema_of_Newborn|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Edema_Of_Newborn|1.0.0"
                     ]
                 },
                 "status": "final",

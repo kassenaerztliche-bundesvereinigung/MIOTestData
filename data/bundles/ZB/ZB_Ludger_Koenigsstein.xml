@@ -4,7 +4,7 @@
     </meta>
     <identifier>
         <system value="urn:ietf:rfc:3986"/>
-        <value value="0edd23bb-fbba-41e1-a66a-ludger375ef0"/>
+        <value value="0edd23bb-fbba-41e1-a66a-b6fa02375ef0"/>
     </identifier>
     <type value="document"/>
     <timestamp value="2019-12-23T12:30:02Z"/>
@@ -15,12 +15,6 @@
                 <meta>
                     <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Composition|1.1.0"/>
                 </meta>
-                <text>
-                    <status value="extensions"/>
-                    <div>
-                        <div xmlns="http://www.w3.org/1999/xhtml"/>
-                    </div>
-                </text>
                 <status value="final"/>
                 <type>
                     <coding>
@@ -56,12 +50,6 @@
                 <meta>
                     <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Patient|1.1.0"/>
                 </meta>
-                <text>
-                    <status value="extensions"/>
-                    <div>
-                        <div xmlns="http://www.w3.org/1999/xhtml"/>
-                    </div>
-                </text>
                 <identifier>
                     <type>
                         <coding>
@@ -74,8 +62,8 @@
                 </identifier>
                 <name>
                     <use value="official"/>
-                    <text value="Ludger Graf von Königsstein"/>
-                    <family value="Graf von Königsstein">
+                    <text value="Dr. Graf Ludger von Königsstein"/>
+                    <family value="Graf Ludger von Königsstein">
                         <extension url="http://fhir.de/StructureDefinition/humanname-namenszusatz">
                             <valueString value="Graf"/>
                         </extension>
@@ -108,7 +96,7 @@
                     <line value="Mitte"/>
                     <city value="Berlin"/>
                     <postalCode value="10787"/>
-                    <country value="D"/>
+                    <country value="DE"/>
                 </address>
             </Patient>
         </resource>
@@ -121,12 +109,6 @@
                 <meta>
                     <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Organization|1.1.0"/>
                 </meta>
-                <text>
-                    <status value="extensions"/>
-                    <div>
-                        <div xmlns="http://www.w3.org/1999/xhtml"/>
-                    </div>
-                </text>
                 <identifier>
                     <type>
                         <coding>
@@ -151,7 +133,7 @@
                     </line>
                     <city value="Berlin"/>
                     <postalCode value="10787"/>
-                    <country value="D"/>
+                    <country value="DE"/>
                 </address>
             </Organization>
         </resource>
@@ -161,15 +143,8 @@
         <resource>
             <Observation xmlns="http://hl7.org/fhir">
                 <meta>
-                    <profile
-                            value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Observation_Dental_Check_Up|1.1.0"/>
+                    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Observation_Dental_Check_Up|1.1.0"/>
                 </meta>
-                <text>
-                    <status value="extensions"/>
-                    <div>
-                        <div xmlns="http://www.w3.org/1999/xhtml"/>
-                    </div>
-                </text>
                 <status value="final"/>
                 <code>
                     <coding>
@@ -178,7 +153,7 @@
                         <code value="63963009"/>
                         <display value="Dental prophylaxis, adult (procedure)"/>
                     </coding>
-                    <text value="Individualprophylaxe"/>
+                    <text value="Zahnärztliche Untersuchung (Erwachsen)"/>
                 </code>
                 <subject>
                     <reference value="urn:uuid:ba5f36ef-84e9-4a83-852b-e74dac4014ed"/>
@@ -196,12 +171,6 @@
                     <profile
                             value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_ZAEB_Observation_Gapless_Documentation|1.1.0"/>
                 </meta>
-                <text>
-                    <status value="extensions"/>
-                    <div>
-                        <div xmlns="http://www.w3.org/1999/xhtml"/>
-                    </div>
-                </text>
                 <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_ZAEB_Disclaimer">
                     <valueString
                             value="Die Vertragsparteien sind sich einig, dass der Zahnarzt im Nachhinein für eine falsche Jahresangabe nicht haftbar gemacht werden kann, wenn die Krankenkasse bei der Prüfung eines Heil- und Kostenplanes keinen Bonus oder eine andere Bonusstufe feststellt."/>

@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "14ed2b60-e624-4339-90b6-55d10c7c98e6",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Organization|1.0.1"
+    ]
+  },
+  "name": "Praxis für Kinderheilkunde",
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "142/23643754"
+    }
+  ]
+}

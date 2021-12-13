@@ -1,0 +1,46 @@
+{
+  "resourceType": "Observation",
+  "id": "3cb2c5d0-7967-4986-bb32-078445d68831",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Skin|1.0.1"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+        "code": "18165001",
+        "display": "Jaundice (finding)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Ikterus"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
+  },
+  "encounter": {
+    "reference": "urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52"
+  },
+  "effectiveDateTime": "2021-03-09",
+  "performer": [
+    {
+      "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
+    }
+  ],
+  "valueBoolean": true
+}

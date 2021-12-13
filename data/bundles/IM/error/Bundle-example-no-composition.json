@@ -1,6 +1,5 @@
 {
     "resourceType": "Bundle",
-    "id": "001578f8-0min-4add-afd9-d83227516e47",
     "meta": {
         "profile": [
             "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_Vaccination_Bundle_Entry|1.1.0"

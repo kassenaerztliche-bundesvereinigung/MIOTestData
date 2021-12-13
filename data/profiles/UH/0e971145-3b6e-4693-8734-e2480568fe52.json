@@ -1,0 +1,69 @@
+{
+  "resourceType": "Encounter",
+  "id": "0e971145-3b6e-4693-8734-e2480568fe52",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Encounter|1.0.1"
+    ]
+  },
+  "status": "finished",
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "version": "2.0.0",
+    "code": "AMB",
+    "display": "ambulatory"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+          "code": "170107008",
+          "display": "Child examination - 10 days (procedure)",
+          "_display": {
+            "extension": [
+              {
+                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                "extension": [
+                  {
+                    "url": "content",
+                    "valueString": "U2"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
+  },
+  "participant": [
+    {
+      "type": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+              "version": "2.0.0",
+              "code": "PPRF",
+              "display": "primary performer"
+            }
+          ]
+        }
+      ],
+      "individual": {
+        "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
+      }
+    }
+  ],
+  "period": {
+    "start": "2021-09-03"
+  },
+  "serviceProvider": {
+    "reference": "urn:uuid:14ed2b60-e624-4339-90b6-55d10c7c98e6"
+  }
+}

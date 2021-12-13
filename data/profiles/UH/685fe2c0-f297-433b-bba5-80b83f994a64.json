@@ -1,0 +1,54 @@
+{
+  "resourceType": "Appointment",
+  "id": "685fe2c0-f297-433b-bba5-80b83f994a64",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Appointment_Next_Appointment|1.0.1"
+    ]
+  },
+  "status": "proposed",
+  "serviceType": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+          "code": "390840006:42752001=243788004",
+          "display": "Next appointment (finding) : Due to (attribute) = Child examination (procedure)",
+          "_display": {
+            "extension": [
+              {
+                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                "extension": [
+                  {
+                    "url": "content",
+                    "valueString": "Nächste U-Untersuchung am:"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "participant": [
+    {
+      "actor": {
+        "reference": "urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67"
+      },
+      "status": "accepted"
+    },
+    {
+      "actor": {
+        "reference": "urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c"
+      },
+      "status": "accepted"
+    }
+  ],
+  "requestedPeriod": [
+    {
+      "start": "2021-05-01"
+    }
+  ]
+}

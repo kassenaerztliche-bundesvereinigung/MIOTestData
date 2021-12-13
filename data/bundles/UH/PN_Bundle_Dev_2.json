@@ -2,11 +2,11 @@
     "resourceType": "Bundle",
     "id": "e5b6b3eb-3acd-481a-a094-6120341d82be",
     "meta": {
-        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PN_Bundle|1.0.0"]
+        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PN_Bundle|1.0.1"]
     },
     "identifier": {
         "system": "urn:ietf:rfc:3938",
-        "value": "e5b6b3eb-3acd-481a-a094-6120341d82be"
+        "value": "urn:uuid:e5b6b3eb-3acd-481a-a094-6120341d82be"
     },
     "type": "document",
     "timestamp": "2019-12-23T12:30:02Z",
@@ -18,7 +18,7 @@
                 "id": "PNComposition",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PN_Composition_Parental_Notes|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PN_Composition_Parental_Notes|1.0.1"
                     ]
                 },
                 "extension": [
@@ -32,7 +32,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "401141001",
                             "display": "Parental concern about child (finding)"
                         }
@@ -43,7 +43,7 @@
                         "coding": [
                             {
                                 "system": "http://snomed.info/sct",
-                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                 "code": "243788004",
                                 "display": "Child examination (procedure)"
                             }
@@ -81,7 +81,7 @@
                 "id": "PNEncounter",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PN_Encounter|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PN_Encounter|1.0.1"
                     ]
                 },
                 "status": "finished",
@@ -96,7 +96,7 @@
                         "coding": [
                             {
                                 "system": "http://snomed.info/sct",
-                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                 "code": "170107008",
                                 "display": "Child examination - 10 days (procedure)",
                                 "_display": {
@@ -119,25 +119,6 @@
                 "subject": {
                     "reference": "urn:uuid:CMRPatient"
                 },
-                "participant": [
-                    {
-                        "type": [
-                            {
-                                "coding": [
-                                    {
-                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
-                                        "version": "2.0.0",
-                                        "code": "PPRF",
-                                        "display": "primary performer"
-                                    }
-                                ]
-                            }
-                        ],
-                        "individual": {
-                            "reference": "urn:uuid:CMRPractitioner"
-                        }
-                    }
-                ],
                 "period": {
                     "start": "2020-01-02"
                 }
@@ -150,7 +131,7 @@
                 "id": "PNObservationParentalNotes",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PN_Observation_Parental_Notes|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PN_Observation_Parental_Notes|1.0.1"
                     ]
                 },
                 "status": "final",
@@ -158,7 +139,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "401141001",
                             "display": "Parental concern about child (finding)",
                             "_display": {
@@ -194,7 +175,7 @@
                 "id": "PNPatient",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PN_Patient|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.1"
                     ]
                 },
                 "identifier": [
@@ -203,7 +184,8 @@
                             "coding": [
                                 {
                                     "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
-                                    "code": "kvk"
+                                    "code": "kvk",
+                                    "display": "Krankenversichertenkarte"
                                 }
                             ]
                         },
@@ -237,7 +219,7 @@
                 "id": "CMRPatient",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.1"
                     ]
                 },
                 "identifier": [
@@ -246,7 +228,8 @@
                             "coding": [
                                 {
                                     "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
-                                    "code": "kvk"
+                                    "code": "kvk",
+                                    "display": "Krankenversichertenkarte"
                                 }
                             ]
                         },
@@ -280,7 +263,7 @@
                 "id": "CMRPractitioner",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.1"
                     ]
                 },
                 "identifier": [
@@ -348,7 +331,7 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                     "code": "309343006",
                                     "display": "Physician (occupation)",
                                     "_display": {

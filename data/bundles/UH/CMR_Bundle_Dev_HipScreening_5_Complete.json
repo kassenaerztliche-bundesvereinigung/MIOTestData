@@ -2,7 +2,7 @@
     "resourceType": "Bundle",
     "id": "771578f8-0b76-4197-hip1-d83227516e47",
     "meta": {
-        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Bundle|1.0.0"]
+        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Bundle|1.0.1"]
     },
     "identifier": {
         "system": "urn:ietf:rfc:3936",
@@ -18,7 +18,7 @@
                 "id": "337108da-d038-48a5-a40f-7ddcdd7780c2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_Hip_Screening|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_Hip_Screening|1.0.1"
                     ]
                 },
                 "status": "final",
@@ -26,7 +26,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "171241003",
                             "display": "Congenital dislocation of the hip screening (procedure)"
                         }
@@ -37,7 +37,7 @@
                         "coding": [
                             {
                                 "system": "http://snomed.info/sct",
-                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                 "code": "243788004",
                                 "display": "Child examination (procedure)"
                             }
@@ -85,7 +85,7 @@
                 "id": "8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Encounter|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Encounter|1.0.1"
                     ]
                 },
                 "status": "finished",
@@ -100,7 +100,7 @@
                         "coding": [
                             {
                                 "system": "http://snomed.info/sct",
-                                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                 "code": "243788004:370131001=133931009",
                                 "display": "Child examination (procedure) : Recipient category =  Infant (person)",
                                 "_display": {
@@ -157,7 +157,7 @@
                 "id": "5f224fdc-5b2r-4d4e-9a90-389b9ba89843",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U3_U4_Problem_Of_Hip|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U3_U4_Problem_Of_Hip|1.0.1"
                     ]
                 },
                 "status": "final",
@@ -165,7 +165,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "364501006",
                             "_display": {
                                 "extension": [
@@ -205,7 +205,7 @@
                 "id": "5f224fdc-5b2r-4d4e-9a91-389b9ba89843",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U3_U4_Hip_Screening_History|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U3_U4_Hip_Screening_History|1.0.1"
                     ]
                 },
                 "status": "final",
@@ -213,7 +213,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "73573004",
                             "display": "Congenital anomaly of musculoskeletal system (disorder)"
                         }
@@ -241,7 +241,7 @@
                 "id": "5fdi4fdc-5b2r-4d4e-9a90-389b9ba89843",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U3_U4_Hip_Screening|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U3_U4_Hip_Screening|1.0.1"
                     ]
                 },
                 "status": "final",
@@ -249,7 +249,7 @@
                     "coding": [
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.69",
                             "code": "30711-6",
                             "_display": {
                                 "extension": [
@@ -267,7 +267,7 @@
                         },
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "241503003",
                             "_display": {
                                 "extension": [
@@ -311,7 +311,7 @@
                 "id": "4e25ffdc-5b2r-4are-9a90-389b9ba89843",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U3_U4_Hip_Screening_Result|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U3_U4_Hip_Screening_Result|1.0.1"
                     ]
                 },
                 "status": "final",
@@ -319,7 +319,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "129125009:{363589002=241503003,408730004=398166005,408731000=410584005}",
                             "display": "Procedure with explicit context (situation) : { Associated procedure (attribute) = Ultrasound scan of neonatal hip (procedure) , Procedure context (situation) = Not done (qualifier value) , Temporal context (situation) = Past - time unspecified (qualifier value) }"
                         }
@@ -341,7 +341,7 @@
                     "coding": [
                         {
                             "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_MIO_CMR_Graf_Hip_Ultrasound_Classification",
-                            "version": "1.0.0",
+                            "version": "1.0.1",
                             "code": "1ab",
                             "display": "Graf Ia/Ib"
                         }
@@ -351,7 +351,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                             "code": "362906008",
                             "display": "Entire right hip joint (body structure)",
                             "_display": {
@@ -376,7 +376,7 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                     "code": "364501006:{704321009=241503003,246501002=278395004,246514001=259046004,718497002=91685003}",
                                     "display": "Hip joint feature (observable entity) : { Characterizes (attribute) = Ultrasound scan of neonatal hip (procedure) , Technique (attribute) = Imaging technique (qualifier value) , Units (attribute) = degrees of arc (qualifier value) , Inherent location (attribute) = Fibrocartilage (body structure) }",
                                     "_display": {
@@ -407,7 +407,7 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                     "code": "364501006:{704321009=241503003,246501002=278395004,246514001=259046004,718497002=58823008}",
                                     "display": "Hip joint feature (observable entity) : { Characterizes (attribute) = Ultrasound scan of neonatal hip (procedure) , Technique (attribute) = Imaging technique (qualifier value) , Units (attribute) = degrees of arc (qualifier value) , Inherent location (attribute) = Structure of acetabular fossa (body structure) }",
                                     "_display": {
@@ -443,13 +443,13 @@
                 "id": "5f224fdc-5b2r-4d4e-c4r3-389b9ba80843",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Care_Plan_U3_U4_Hip_Screening_Plan|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Care_Plan_U3_U4_Hip_Screening_Plan|1.0.1"
                     ]
                 },
                 "status": "unknown",
                 "intent": "plan",
                 "title": "Weiteres Vorgehen:",
-                "created": "2020-01-02",
+                "created": "2020-01-01",
                 "author": {
                     "reference": "urn:uuid:685e18e6-be98-4ed4-84ed-fcec6064a25c"
                 },
@@ -466,7 +466,7 @@
                                 "coding": [
                                     {
                                         "system": "http://snomed.info/sct",
-                                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                         "code": "440378000:704321009=241502008",
                                         "display": "Referral for (observable entity) : Characterizes (attribute) = Ultrasound scan of hip (procedure)",
                                         "_display": {
@@ -494,7 +494,7 @@
                                 "coding": [
                                     {
                                         "system": "http://snomed.info/sct",
-                                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                         "code": "306228005",
                                         "display": "Referral for diagnostic investigation (procedure)"
                                     }
@@ -509,7 +509,7 @@
                                 "coding": [
                                     {
                                         "system": "http://snomed.info/sct",
-                                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                        "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                         "code": "243796009:{363589002=112731004,408731000=410511007,408730004=410535002,408732007=410604004}",
                                         "display": "Situation with explicit context (situation) : { Associated procedure (attribute) = Reduction of congenital hip dislocation by splint (procedure), Temporal context (attribute) = Current or past (actual) (qualifier value), Procedure context (attribute) = Indicated (qualifier value), Subject relationship context (attribute) = Subject of record (person) }"
                                     }
@@ -528,7 +528,7 @@
                 "id": "c946bef-6e3a-4aaf-a8cc-5764ed624ac1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.1"
                     ]
                 },
                 "identifier": [
@@ -537,7 +537,8 @@
                             "coding": [
                                 {
                                     "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
-                                    "code": "kvk"
+                                    "code": "kvk",
+                                    "display": "Krankenversichertenkarte"
                                 }
                             ]
                         },
@@ -571,7 +572,7 @@
                 "id": "685e18e6-be98-4ed4-84ed-fcec6064a25c",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.1"
                     ]
                 },
                 "identifier": [
@@ -633,7 +634,7 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
                                     "code": "309343006",
                                     "display": "Physician (occupation)",
                                     "_display": {
@@ -663,7 +664,7 @@
                 "id": "8577978c-c942-44de-ac8b-4170c7c67484",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Organization|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Organization|1.0.1"
                     ]
                 },
                 "identifier": [

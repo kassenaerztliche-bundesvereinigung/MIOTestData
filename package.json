@@ -1,6 +1,6 @@
 {
     "name": "@kbv/miotestdata",
-    "version": "1.4.2",
+    "version": "1.5.0",
     "description": "Testdata Package for KBV MIOParser and MIOViewer",
     "author": "KBV",
     "keywords": [

@@ -888,6 +888,9 @@
                 "subject": {
                     "reference": "urn:uuid:VaccinationPatient"
                 },
+                "recorder": {
+                    "reference": "urn:uuid:VaccinationPractitionerrole"
+                },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }

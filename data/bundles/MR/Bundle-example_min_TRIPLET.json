@@ -2,7 +2,7 @@
     "resourceType": "Bundle",
     "id": "4394f9f8-6a0b-min0-i89z-em2adxa0ctri",
     "meta": {
-        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Bundle|1.0.0"]
+        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Bundle|1.1.0"]
     },
     "identifier": {
         "system": "urn:ietf:rfc:3986",
@@ -18,7 +18,7 @@
                 "id": "fe0c905b-6476-4675-8ca9-2c40f56968a8",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Composition|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Composition|1.1.0"
                     ]
                 },
                 "extension": [
@@ -27,7 +27,7 @@
                         "extension": [
                             {
                                 "url": "hinweiseSchwangere",
-                                "valueString": "Schwangerschaft und Geburt sind natürliche Vorgänge und stellen keine Krankheit dar. Manchmal können sie allerdings mit einem erhöhten Risiko für Mutter und Kind belastet sein. Eine sorgfältige Schwangerschaftsbetreuung hilft, einen großen Teil dieser Risiken zu vermeiden oder rechtzeitig zu erkennen, um Gefahren abzuwenden. Voraussetzung dafür ist jedoch Ihre regelmäßige Teilnahme an den Vorsorgeuntersuchungen!Die in Ihrem Mutterpass aufgeführten Untersuchungen dienen der Gesunderhaltung von Mutter und Kind und entsprechen langjähriger geburtshilflicher Erfahrung und modernen medizinischen Erkenntnissen. Dieser Mutterpass enthält die während der Schwangerschaft erhobenen wichtigen Befunde. Er wird Ihnen nach jeder Vorsorgeuntersuchung wieder mitgegeben. Die Angaben im Mutterpass dienen der Information von Arzt und Hebamme sowie Ihrer und Ihres Kindes Sicherheit. Der Mutterpass ist Ihr persönliches Dokument. Sie allein entscheiden darüber, wem er zugänglich gemacht werden soll. Andere (z. B. Arbeitgeber, Behörden) dürfen eine Einsichtnahme nicht verlangen.Bitte: ● Nutzen Sie die Ihnen gebotenen Möglichkeiten, um sich und Ihrem Kind Sicherheit zu verschaffen! ● Vergessen Sie nicht, dieses Heft zu jeder ärztlichen Untersuchung während der Schwangerschaft, zur Entbindung und zur Untersuchung des Kindes mitzubringen! ● Lassen Sie sich helfen, wenn Sie Sorgen haben! ● Beraten Sie sich mit Ihrem Arzt und befolgen Sie seine Ratschläge!"
+                                "valueString": "Schwangerschaft und Geburt sind natürliche Vorgänge und stellen keine Krankheit dar. Manchmal können sie allerdings mit einem erhöhten Risiko für Mutter und Kind belastet sein. Eine sorgfältige Schwangerschaftsbetreuung hilft, einen großen Teil dieser Risiken zu vermeiden oder rechtzeitig zu erkennen, um Gefahren abzuwenden. Voraussetzung dafür ist jedoch Ihre regelmäßige Teilnahme an den Vorsorgeuntersuchungen! Die in Ihrem Mutterpass aufgeführten Untersuchungen dienen der Gesunderhaltung von Mutter und Kind und entsprechen langjähriger geburtshilflicher Erfahrung und modernen medizinischen Erkenntnissen. Dieser Mutterpass enthält die während der Schwangerschaft erhobenen wichtigen Befunde. Er wird Ihnen nach jeder Vorsorgeuntersuchung wieder mitgegeben. Die Angaben im Mutterpass dienen der Information von Arzt und Hebamme sowie Ihrer und Ihres Kindes Sicherheit. Der Mutterpass ist Ihr persönliches Dokument. Sie allein entscheiden darüber, wem er zugänglich gemacht werden soll. Andere (z. B. Arbeitgeber, Behörden) dürfen eine Einsichtnahme nicht verlangen. Bitte: ● Nutzen Sie die Ihnen gebotenen Möglichkeiten, um sich und Ihrem Kind Sicherheit zu verschaffen! ● Vergessen Sie nicht, dieses Heft zu jeder ärztlichen Untersuchung während der Schwangerschaft, zur Entbindung und zur Untersuchung des Kindes mitzubringen! ● Lassen Sie sich helfen, wenn Sie Sorgen haben! ● Beraten Sie sich mit Ihrem Arzt und befolgen Sie seine Ratschläge!"
                             },
                             {
                                 "url": "hinweiseMutter",
@@ -35,7 +35,7 @@
                             },
                             {
                                 "url": "aufbewahrungshinweis",
-                                "valueString": "Während der Schwangerschaft sollten Sie Ihren Mutterpass immer bei sich haben und zu jeder ärztlichen Untersuchung mitbringen,insbesondere auch zur Entbindung. Ihr Mutterpass gehört zu den Dokumenten, die Sie immer sorgfältig aufbewahren sollten."
+                                "valueString": "Während der Schwangerschaft sollten Sie Ihren Mutterpass immer bei sich haben und zu jeder ärztlichen Untersuchung mitbringen, insbesondere auch zur Entbindung. Ihr Mutterpass gehört zu den Dokumenten, die Sie immer sorgfältig aufbewahren sollten."
                             }
                         ]
                     }
@@ -45,7 +45,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "736377005",
                             "display": "Maternity care plan (record artifact)",
                             "_display": {
@@ -90,7 +90,7 @@
                                             "coding": [
                                                 {
                                                     "system": "http://snomed.info/sct",
-                                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                                                     "code": "118215003",
                                                     "display": "Delivery finding (finding)",
                                                     "_display": {
@@ -112,9 +112,6 @@
                                         "entry": [
                                             {
                                                 "reference": "urn:uuid:Birth-Examination-Delivery-Information"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:Externe-Geburt"
                                             }
                                         ],
                                         "section": [
@@ -125,31 +122,10 @@
                                                         "reference": "urn:uuid:Child-Birth-Information-1"
                                                     },
                                                     {
-                                                        "reference": "urn:uuid:TRIPLET-1"
+                                                        "reference": "urn:uuid:Child-Birth-Information-2"
                                                     },
                                                     {
-                                                        "reference": "urn:uuid:TRIPLET-2"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:TRIPLET-3"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:Gewicht-1"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:Gewicht-2"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:Gewicht-3"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:Laenge-1"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:Laenge-2"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:Laenge-3"
+                                                        "reference": "urn:uuid:Child-Birth-Information-3"
                                                     }
                                                 ],
                                                 "section": [
@@ -159,7 +135,7 @@
                                                             "coding": [
                                                                 {
                                                                     "system": "http://snomed.info/sct",
-                                                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                                                                     "code": "249228009",
                                                                     "display": "Total apgar score (observable entity)",
                                                                     "_display": {
@@ -205,75 +181,26 @@
                                     },
                                     {
                                         "title": "Erste Untersuchung nach Entbindung (Wochenbett)",
-                                        "entry": [
-                                            {
-                                                "reference": "urn:uuid:First-Examination-After-Childbirth"
-                                            }
-                                        ],
                                         "section": [
                                             {
                                                 "title": "Angaben zur Mutter",
                                                 "entry": [
                                                     {
-                                                        "reference": "urn:uuid:FirstEx-Puerperium"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:FirstEx-BloodPressure"
+                                                        "reference": "urn:uuid:First-Examination-After-Childbirth-Mother"
                                                     }
                                                 ]
                                             },
                                             {
                                                 "title": "Angaben zum Kind",
-                                                "code": {
-                                                    "coding": [
-                                                        {
-                                                            "system": "http://snomed.info/sct",
-                                                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                                            "code": "118188004",
-                                                            "display": "Finding of neonate (finding)",
-                                                            "_display": {
-                                                                "extension": [
-                                                                    {
-                                                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
-                                                                        "extension": [
-                                                                            {
-                                                                                "url": "content",
-                                                                                "valueString": "Angaben zum Kind"
-                                                                            }
-                                                                        ]
-                                                                    }
-                                                                ]
-                                                            }
-                                                        }
-                                                    ]
-                                                },
                                                 "entry": [
                                                     {
-                                                        "reference": "urn:uuid:TRIPLET-1"
+                                                        "reference": "urn:uuid:First-Examination-After-Childbirth-Child1"
                                                     },
                                                     {
-                                                        "reference": "urn:uuid:TRIPLET-2"
+                                                        "reference": "urn:uuid:First-Examination-After-Childbirth-Child2"
                                                     },
                                                     {
-                                                        "reference": "urn:uuid:TRIPLET-3"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:FirstEx-BloodSerology-1"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:FirstEx-BloodSerology-2"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:FirstEx-BloodSerology-3"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:FirstEx-CoombTest-1"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:FirstEx-CoombTest-2"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:FirstEx-CoombTest-3"
+                                                        "reference": "urn:uuid:First-Examination-After-Childbirth-Child3"
                                                     }
                                                 ]
                                             }
@@ -304,7 +231,7 @@
                                                     "coding": [
                                                         {
                                                             "system": "http://snomed.info/sct",
-                                                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                                                             "code": "118188004",
                                                             "display": "Finding of neonate (finding)",
                                                             "_display": {
@@ -324,15 +251,6 @@
                                                     ]
                                                 },
                                                 "entry": [
-                                                    {
-                                                        "reference": "urn:uuid:TRIPLET-1"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:TRIPLET-2"
-                                                    },
-                                                    {
-                                                        "reference": "urn:uuid:TRIPLET-3"
-                                                    },
                                                     {
                                                         "reference": "urn:uuid:SecondEx-U3Performed-1"
                                                     },
@@ -370,7 +288,7 @@
                 "id": "SecondEx-After-Childbirth",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_Second_Examination_After_Childbirth|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_Second_Examination_After_Childbirth|1.1.0"
                     ]
                 },
                 "status": "completed",
@@ -378,7 +296,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "717810008",
                             "display": "Routine postpartum follow-up (regime/therapy)",
                             "_display": {
@@ -454,7 +372,7 @@
                 "id": "SecondEx-GynecologicalFinding",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Gynecological_Finding_Normal|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Gynecological_Finding_Normal|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -462,9 +380,9 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "404684003:{363714003=83607001,363713009=17621005}",
-                            "display": "Clinical finding (finding):{Interprets (attribute)=Gynecologic examination (procedure),Has interpretation (attribute)=Normal (qualifier value)}",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "1157297002",
+                            "display": "Gynecologic examination normal (finding)",
                             "_display": {
                                 "extension": [
                                     {
@@ -503,7 +421,7 @@
                 "id": "SecondEx-Breastfeeding",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Breastfeeding_Behavior|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Breastfeeding_Behavior|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -511,7 +429,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "33769005",
                             "display": "Breast function (observable entity)",
                             "_display": {
@@ -546,7 +464,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "69840006",
                             "display": "Normal breast feeding (finding)",
                             "_display": {
@@ -574,7 +492,7 @@
                 "id": "SecondEx-U3Performed-1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_U3_Performed|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_U3_Performed|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -582,9 +500,9 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "713020001",
-                            "display": "Child into care medical examination done (situation)",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "444084004",
+                            "display": "Child examination with explicit context (situation)",
                             "_display": {
                                 "extension": [
                                     {
@@ -623,7 +541,7 @@
                 "id": "SecondEx-U3Performed-2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_U3_Performed|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_U3_Performed|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -631,9 +549,9 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "713020001",
-                            "display": "Child into care medical examination done (situation)",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "444084004",
+                            "display": "Child examination with explicit context (situation)",
                             "_display": {
                                 "extension": [
                                     {
@@ -672,7 +590,7 @@
                 "id": "SecondEx-U3Performed-3",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_U3_Performed|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_U3_Performed|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -680,9 +598,9 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "713020001",
-                            "display": "Child into care medical examination done (situation)",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "444084004",
+                            "display": "Child examination with explicit context (situation)",
                             "_display": {
                                 "extension": [
                                     {
@@ -721,7 +639,7 @@
                 "id": "SecondEx-ChildHealthy-1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Child_Is_Healthy|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Child_Is_Healthy|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -729,7 +647,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "170118008",
                             "display": "Child 6 week examination normal (finding)",
                             "_display": {
@@ -770,7 +688,7 @@
                 "id": "SecondEx-ChildHealthy-2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Child_Is_Healthy|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Child_Is_Healthy|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -778,7 +696,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "170118008",
                             "display": "Child 6 week examination normal (finding)",
                             "_display": {
@@ -819,7 +737,7 @@
                 "id": "SecondEx-ChildHealthy-3",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Child_Is_Healthy|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Child_Is_Healthy|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -827,7 +745,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "170118008",
                             "display": "Child 6 week examination normal (finding)",
                             "_display": {
@@ -869,7 +787,7 @@
                 "id": "Birth-Examination-Delivery-Information",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_Birth_Examination_Delivery_Information|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_Birth_Examination_Delivery_Information|1.1.0"
                     ]
                 },
                 "status": "completed",
@@ -877,7 +795,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118215003",
                             "display": "Delivery finding (finding)",
                             "_display": {
@@ -939,7 +857,7 @@
                                                 "coding": [
                                                     {
                                                         "system": "http://snomed.info/sct",
-                                                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                                        "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                                                         "code": "412726003",
                                                         "display": "Length of gestation at birth (observable entity)",
                                                         "_display": {
@@ -994,7 +912,7 @@
                 "id": "Externe-Geburt",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_External_Birth|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_External_Birth|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1002,7 +920,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "60059000",
                             "display": "Hospital admission, infant, for observation, delivered outside of hospital (procedure)",
                             "_display": {
@@ -1043,7 +961,7 @@
                 "id": "Child-Birth-Information-1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_Birth_Examination_Child_Information|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_Birth_Examination_Child_Information|1.1.0"
                     ]
                 },
                 "status": "completed",
@@ -1051,7 +969,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118188004",
                             "display": "Finding of neonate (finding)",
                             "_display": {
@@ -1071,7 +989,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
+                    "reference": "urn:uuid:TRIPLET-1"
                 },
                 "encounter": {
                     "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
@@ -1097,8 +1015,62 @@
                             },
                             {
                                 "reference": "urn:uuid:Laenge-1"
-                            },
-
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:Child-Birth-Information-2",
+            "resource": {
+                "resourceType": "ClinicalImpression",
+                "id": "Child-Birth-Information-2",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_Birth_Examination_Child_Information|1.1.0"
+                    ]
+                },
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "118188004",
+                            "display": "Finding of neonate (finding)",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Angaben zum Kind"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:TRIPLET-2"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                },
+                "effectiveDateTime": "2020-01-02",
+                "assessor": {
+                    "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                },
+                "investigation": [
+                    {
+                        "code": {
+                            "text": "Angaben zum Kind"
+                        },
+                        "item": [
                             {
                                 "reference": "urn:uuid:APGAR-5-TRIPLET-2"
                             },
@@ -1110,8 +1082,62 @@
                             },
                             {
                                 "reference": "urn:uuid:Laenge-2"
-                            },
-
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:Child-Birth-Information-3",
+            "resource": {
+                "resourceType": "ClinicalImpression",
+                "id": "Child-Birth-Information-3",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_Birth_Examination_Child_Information|1.1.0"
+                    ]
+                },
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "118188004",
+                            "display": "Finding of neonate (finding)",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Angaben zum Kind"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:TRIPLET-3"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                },
+                "effectiveDateTime": "2020-01-02",
+                "assessor": {
+                    "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                },
+                "investigation": [
+                    {
+                        "code": {
+                            "text": "Angaben zum Kind"
+                        },
+                        "item": [
                             {
                                 "reference": "urn:uuid:APGAR-5-TRIPLET-3"
                             },
@@ -1134,25 +1160,41 @@
             "resource": {
                 "resourceType": "Patient",
                 "id": "TRIPLET-1",
+                "name": [
+                    {
+                        "use": "temp",
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                "valueCode": "unknown"
+                            }
+                        ]
+                    }
+                ],
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "MR",
+                                    "display": "Medical record number"
+                                }
+                            ]
+                        },
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:child:1234567891"
+                    }
+                ],
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Child|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Child|1.1.0"
                     ]
                 },
                 "extension": [
                     {
                         "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
                         "valueString": "Kind 1 von 3"
-                    }
-                ],
-                "identifier": [
-                    {
-                        "extension": [
-                            {
-                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Child_Number",
-                                "valueInteger": 1
-                            }
-                        ]
                     }
                 ],
                 "gender": "male",
@@ -1167,9 +1209,20 @@
                 "id": "TRIPLET-2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Child|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Child|1.1.0"
                     ]
                 },
+                "name": [
+                    {
+                        "use": "temp",
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                "valueCode": "unknown"
+                            }
+                        ]
+                    }
+                ],
                 "extension": [
                     {
                         "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
@@ -1178,12 +1231,17 @@
                 ],
                 "identifier": [
                     {
-                        "extension": [
-                            {
-                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Child_Number",
-                                "valueInteger": 2
-                            }
-                        ]
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "MR",
+                                    "display": "Medical record number"
+                                }
+                            ]
+                        },
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:child:1234567892"
                     }
                 ],
                 "gender": "male",
@@ -1198,9 +1256,20 @@
                 "id": "TRIPLET-3",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Child|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Child|1.1.0"
                     ]
                 },
+                "name": [
+                    {
+                        "use": "temp",
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                "valueCode": "unknown"
+                            }
+                        ]
+                    }
+                ],
                 "extension": [
                     {
                         "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
@@ -1209,12 +1278,17 @@
                 ],
                 "identifier": [
                     {
-                        "extension": [
-                            {
-                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Child_Number",
-                                "valueInteger": 3
-                            }
-                        ]
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "MR",
+                                    "display": "Medical record number"
+                                }
+                            ]
+                        },
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:child:1234567893"
                     }
                 ],
                 "gender": "female",
@@ -1229,7 +1303,7 @@
                 "id": "APGAR-5-TRIPLET-1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Apgar_Score|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Apgar_Score|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1237,7 +1311,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169909004",
                             "display": "Apgar score at 5 minutes (observable entity)",
                             "_display": {
@@ -1256,7 +1330,7 @@
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.71",
                             "code": "9274-2",
                             "display": "5 minute Apgar Score",
                             "_display": {
@@ -1291,7 +1365,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "77714001",
                             "display": "Apgar score 0 (finding)",
                             "_display": {
@@ -1319,7 +1393,7 @@
                 "id": "APGAR-10-TRIPLET-1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Apgar_Score|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Apgar_Score|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1327,7 +1401,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169922007",
                             "display": "Apgar score at 10 minutes (observable entity)",
                             "_display": {
@@ -1346,7 +1420,7 @@
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.71",
                             "code": "9271-8",
                             "display": "10 minute Apgar Score",
                             "_display": {
@@ -1381,7 +1455,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "49544001",
                             "display": "Apgar score 10 (finding)",
                             "_display": {
@@ -1409,7 +1483,7 @@
                 "id": "APGAR-5-TRIPLET-2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Apgar_Score|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Apgar_Score|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1417,7 +1491,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169909004",
                             "display": "Apgar score at 5 minutes (observable entity)",
                             "_display": {
@@ -1436,7 +1510,7 @@
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.71",
                             "code": "9274-2",
                             "display": "5 minute Apgar Score",
                             "_display": {
@@ -1471,7 +1545,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "77714001",
                             "display": "Apgar score 0 (finding)",
                             "_display": {
@@ -1499,7 +1573,7 @@
                 "id": "APGAR-10-TRIPLET-2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Apgar_Score|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Apgar_Score|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1507,7 +1581,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169922007",
                             "display": "Apgar score at 10 minutes (observable entity)",
                             "_display": {
@@ -1526,7 +1600,7 @@
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.71",
                             "code": "9271-8",
                             "display": "10 minute Apgar Score",
                             "_display": {
@@ -1561,7 +1635,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "49544001",
                             "display": "Apgar score 10 (finding)",
                             "_display": {
@@ -1589,7 +1663,7 @@
                 "id": "APGAR-5-TRIPLET-3",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Apgar_Score|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Apgar_Score|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1597,7 +1671,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169909004",
                             "display": "Apgar score at 5 minutes (observable entity)",
                             "_display": {
@@ -1616,7 +1690,7 @@
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.71",
                             "code": "9274-2",
                             "display": "5 minute Apgar Score",
                             "_display": {
@@ -1651,7 +1725,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "77714001",
                             "display": "Apgar score 0 (finding)",
                             "_display": {
@@ -1679,7 +1753,7 @@
                 "id": "APGAR-10-TRIPLET-3",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Apgar_Score|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Apgar_Score|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1687,7 +1761,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169922007",
                             "display": "Apgar score at 10 minutes (observable entity)",
                             "_display": {
@@ -1706,7 +1780,7 @@
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.71",
                             "code": "9271-8",
                             "display": "10 minute Apgar Score",
                             "_display": {
@@ -1741,7 +1815,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "49544001",
                             "display": "Apgar score 10 (finding)",
                             "_display": {
@@ -1769,7 +1843,7 @@
                 "id": "Gewicht-1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Weight_Child"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Weight_Child|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1777,8 +1851,8 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "27113001",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "364589006",
                             "display": "Birth weight (observable entity)",
                             "_display": {
                                 "extension": [
@@ -1796,7 +1870,7 @@
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.71",
                             "code": "8339-4",
                             "display": "Birth weight Measured",
                             "_display": {
@@ -1842,7 +1916,7 @@
                 "id": "Gewicht-2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Weight_Child"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Weight_Child|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1850,8 +1924,8 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "27113001",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "364589006",
                             "display": "Birth weight (observable entity)",
                             "_display": {
                                 "extension": [
@@ -1869,7 +1943,7 @@
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.71",
                             "code": "8339-4",
                             "display": "Birth weight Measured",
                             "_display": {
@@ -1915,7 +1989,7 @@
                 "id": "Gewicht-3",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Weight_Child"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Weight_Child|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1923,8 +1997,8 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "27113001",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "364589006",
                             "display": "Birth weight (observable entity)",
                             "_display": {
                                 "extension": [
@@ -1942,7 +2016,7 @@
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.71",
                             "code": "8339-4",
                             "display": "Birth weight Measured",
                             "_display": {
@@ -1988,7 +2062,7 @@
                 "id": "Laenge-1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Birth_Height|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Birth_Height|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1996,7 +2070,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169886007",
                             "display": "Birth length (observable entity)",
                             "_display": {
@@ -2015,7 +2089,7 @@
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.71",
                             "code": "89269-5",
                             "display": "Body height Measured --at birth",
                             "_display": {
@@ -2061,7 +2135,7 @@
                 "id": "Laenge-2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Birth_Height|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Birth_Height|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -2069,7 +2143,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169886007",
                             "display": "Birth length (observable entity)",
                             "_display": {
@@ -2088,7 +2162,7 @@
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.71",
                             "code": "89269-5",
                             "display": "Body height Measured --at birth",
                             "_display": {
@@ -2134,7 +2208,7 @@
                 "id": "Laenge-3",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Birth_Height|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Birth_Height|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -2142,7 +2216,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169886007",
                             "display": "Birth length (observable entity)",
                             "_display": {
@@ -2161,7 +2235,7 @@
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.71",
                             "code": "89269-5",
                             "display": "Body height Measured --at birth",
                             "_display": {
@@ -2202,13 +2276,13 @@
         },
 
         {
-            "fullUrl": "urn:uuid:First-Examination-After-Childbirth",
+            "fullUrl": "urn:uuid:First-Examination-After-Childbirth-Mother",
             "resource": {
                 "resourceType": "ClinicalImpression",
-                "id": "First-Examination-After-Childbirth",
+                "id": "First-Examination-After-Childbirth-Mother",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_First_Examination_After_Childbirth|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_First_Examination_After_Childbirth_Mother|1.1.0"
                     ]
                 },
                 "extension": [
@@ -2228,9 +2302,9 @@
                                             "coding": [
                                                 {
                                                     "system": "http://snomed.info/sct",
-                                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                                    "code": "243796009:{363589002=37729005,408732007=67822003}",
-                                                    "display": "Situation with explicit context (situation) : { Associated procedure (attribute) = Patient transfer, in-hospital (procedure) , Subject relationship context (attribute) = Child (person) }",
+                                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                                    "code": "107724000",
+                                                    "display": "Patient transfer (procedure)",
                                                     "_display": {
                                                         "extension": [
                                                             {
@@ -2263,7 +2337,7 @@
                                             "coding": [
                                                 {
                                                     "system": "http://snomed.info/sct",
-                                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                                                     "code": "243796009:{363589002=308283009,246090004=102506008}",
                                                     "display": "Situation with explicit context (situation) : { Associated procedure (attribute) = Discharge from hospital (procedure) , Associated finding (attribute) = Well child (finding) }",
                                                     "_display": {
@@ -2293,7 +2367,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "133906008",
                             "display": "Postpartum care (regime/therapy)",
                             "_display": {
@@ -2333,21 +2407,432 @@
                             },
                             {
                                 "reference": "urn:uuid:FirstEx-BloodPressure"
+                            }
+                        ]
+                    }
+                ],
+                "note": [
+                    {
+                        "text": "Erste Schwangerschaft"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:First-Examination-After-Childbirth-Child1",
+            "resource": {
+                "resourceType": "ClinicalImpression",
+                "id": "First-Examination-After-Childbirth-Child1",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_First_Examination_After_Childbirth_Child|1.1.0"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Date",
+                        "extension": [
+                            {
+                                "url": "verlegung",
+                                "extension": [
+                                    {
+                                        "url": "datum",
+                                        "valueDateTime": "2020-01-02"
+                                    },
+                                    {
+                                        "url": "kode",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "system": "http://snomed.info/sct",
+                                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                                    "code": "107724000",
+                                                    "display": "Patient transfer (procedure)",
+                                                    "_display": {
+                                                        "extension": [
+                                                            {
+                                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                                "extension": [
+                                                                    {
+                                                                        "url": "content",
+                                                                        "valueString": "Kind verlegt am"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
                             },
+                            {
+                                "url": "entlassung",
+                                "extension": [
+                                    {
+                                        "url": "datum",
+                                        "valueDateTime": "2020-01-02"
+                                    },
+                                    {
+                                        "url": "kode",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "system": "http://snomed.info/sct",
+                                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                                    "code": "243796009:{363589002=308283009,246090004=102506008}",
+                                                    "display": "Situation with explicit context (situation) : { Associated procedure (attribute) = Discharge from hospital (procedure) , Associated finding (attribute) = Well child (finding) }",
+                                                    "_display": {
+                                                        "extension": [
+                                                            {
+                                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                                "extension": [
+                                                                    {
+                                                                        "url": "content",
+                                                                        "valueString": "Kind unauffällig entlassen am"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "133906008:363702006=118188004",
+                            "display": "Postpartum care (regime/therapy)",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Wochenbett"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:TRIPLET-1"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                },
+                "effectiveDateTime": "2003-01-02",
+                "assessor": {
+                    "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                },
+                "investigation": [
+                    {
+                        "code": {
+                            "text": "Untersuchungen zur ersten Untersuchung nach Entbindung / Wochenbett"
+                        },
+                        "item": [
                             {
                                 "reference": "urn:uuid:FirstEx-BloodSerology-1"
                             },
                             {
+                                "reference": "urn:uuid:FirstEx-CoombTest-1"
+                            }
+                        ]
+                    }
+                ],
+                "note": [
+                    {
+                        "text": "Erste Schwangerschaft"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:First-Examination-After-Childbirth-Child2",
+            "resource": {
+                "resourceType": "ClinicalImpression",
+                "id": "First-Examination-After-Childbirth-Child2",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_First_Examination_After_Childbirth_Child|1.1.0"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Date",
+                        "extension": [
+                            {
+                                "url": "verlegung",
+                                "extension": [
+                                    {
+                                        "url": "datum",
+                                        "valueDateTime": "2020-01-02"
+                                    },
+                                    {
+                                        "url": "kode",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "system": "http://snomed.info/sct",
+                                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                                    "code": "107724000",
+                                                    "display": "Patient transfer (procedure)",
+                                                    "_display": {
+                                                        "extension": [
+                                                            {
+                                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                                "extension": [
+                                                                    {
+                                                                        "url": "content",
+                                                                        "valueString": "Kind verlegt am"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "entlassung",
+                                "extension": [
+                                    {
+                                        "url": "datum",
+                                        "valueDateTime": "2020-01-02"
+                                    },
+                                    {
+                                        "url": "kode",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "system": "http://snomed.info/sct",
+                                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                                    "code": "243796009:{363589002=308283009,246090004=102506008}",
+                                                    "display": "Situation with explicit context (situation) : { Associated procedure (attribute) = Discharge from hospital (procedure) , Associated finding (attribute) = Well child (finding) }",
+                                                    "_display": {
+                                                        "extension": [
+                                                            {
+                                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                                "extension": [
+                                                                    {
+                                                                        "url": "content",
+                                                                        "valueString": "Kind unauffällig entlassen am"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "133906008:363702006=118188004",
+                            "display": "Postpartum care (regime/therapy)",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Wochenbett"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:TRIPLET-2"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                },
+                "effectiveDateTime": "2003-01-02",
+                "assessor": {
+                    "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                },
+                "investigation": [
+                    {
+                        "code": {
+                            "text": "Untersuchungen zur ersten Untersuchung nach Entbindung / Wochenbett"
+                        },
+                        "item": [
+                            {
                                 "reference": "urn:uuid:FirstEx-BloodSerology-2"
                             },
                             {
-                                "reference": "urn:uuid:FirstEx-BloodSerology-3"
-                            },
-                            {
-                                "reference": "urn:uuid:FirstEx-CoombTest-1"
-                            },
-                            {
                                 "reference": "urn:uuid:FirstEx-CoombTest-2"
+                            }
+                        ]
+                    }
+                ],
+                "note": [
+                    {
+                        "text": "Erste Schwangerschaft"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:First-Examination-After-Childbirth-Child3",
+            "resource": {
+                "resourceType": "ClinicalImpression",
+                "id": "First-Examination-After-Childbirth-Child3",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_First_Examination_After_Childbirth_Child|1.1.0"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Date",
+                        "extension": [
+                            {
+                                "url": "verlegung",
+                                "extension": [
+                                    {
+                                        "url": "datum",
+                                        "valueDateTime": "2020-01-02"
+                                    },
+                                    {
+                                        "url": "kode",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "system": "http://snomed.info/sct",
+                                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                                    "code": "107724000",
+                                                    "display": "Patient transfer (procedure)",
+                                                    "_display": {
+                                                        "extension": [
+                                                            {
+                                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                                "extension": [
+                                                                    {
+                                                                        "url": "content",
+                                                                        "valueString": "Kind verlegt am"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "entlassung",
+                                "extension": [
+                                    {
+                                        "url": "datum",
+                                        "valueDateTime": "2020-01-02"
+                                    },
+                                    {
+                                        "url": "kode",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "system": "http://snomed.info/sct",
+                                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                                    "code": "243796009:{363589002=308283009,246090004=102506008}",
+                                                    "display": "Situation with explicit context (situation) : { Associated procedure (attribute) = Discharge from hospital (procedure) , Associated finding (attribute) = Well child (finding) }",
+                                                    "_display": {
+                                                        "extension": [
+                                                            {
+                                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                                "extension": [
+                                                                    {
+                                                                        "url": "content",
+                                                                        "valueString": "Kind unauffällig entlassen am"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "133906008:363702006=118188004",
+                            "display": "Postpartum care (regime/therapy)",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Wochenbett"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:TRIPLET-3"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+                },
+                "effectiveDateTime": "2003-01-02",
+                "assessor": {
+                    "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+                },
+                "investigation": [
+                    {
+                        "code": {
+                            "text": "Untersuchungen zur ersten Untersuchung nach Entbindung / Wochenbett"
+                        },
+                        "item": [
+                            {
+                                "reference": "urn:uuid:FirstEx-BloodSerology-3"
                             },
                             {
                                 "reference": "urn:uuid:FirstEx-CoombTest-3"
@@ -2362,6 +2847,7 @@
                 ]
             }
         },
+
         {
             "fullUrl": "urn:uuid:FirstEx-Puerperium",
             "resource": {
@@ -2369,7 +2855,7 @@
                 "id": "FirstEx-Puerperium",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Puerperium_Normal|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Puerperium_Normal|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -2377,7 +2863,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169784003",
                             "display": "Postnatal examination normal (finding)",
                             "_display": {
@@ -2418,7 +2904,7 @@
                 "id": "FirstEx-BloodPressur",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Blood_Pressure|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Blood_Pressure|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -2426,7 +2912,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20200131",
                             "code": "75367002",
                             "display": "Blood pressure (observable entity)",
                             "_display": {
@@ -2445,7 +2931,7 @@
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.69",
                             "code": "85354-9",
                             "display": "Blood pressure panel with all children optional",
                             "_display": {
@@ -2482,7 +2968,7 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200131",
                                     "code": "271649006",
                                     "display": "Systolic blood pressure (observable entity)",
                                     "_display": {
@@ -2492,7 +2978,7 @@
                                                 "extension": [
                                                     {
                                                         "url": "content",
-                                                        "valueString": "Systolischer Blutdruckwert"
+                                                        "valueString": "systolischer Blutdruck"
                                                     }
                                                 ]
                                             }
@@ -2501,7 +2987,7 @@
                                 },
                                 {
                                     "system": "http://loinc.org",
-                                    "version": "2.68",
+                                    "version": "2.69",
                                     "code": "8480-6",
                                     "display": "Systolic blood pressure",
                                     "_display": {
@@ -2511,7 +2997,7 @@
                                                 "extension": [
                                                     {
                                                         "url": "content",
-                                                        "valueString": "Systolischer Blutdruckwert"
+                                                        "valueString": "systolischer Blutdruck"
                                                     }
                                                 ]
                                             }
@@ -2519,11 +3005,11 @@
                                     }
                                 }
                             ],
-                            "text": "Systolischer Blutdruckwert"
+                            "text": "systolisch"
                         },
                         "valueQuantity": {
                             "value": 107,
-                            "unit": "mmHg",
+                            "unit": "mm Hg",
                             "system": "http://unitsofmeasure.org",
                             "code": "mm[Hg]"
                         }
@@ -2533,7 +3019,7 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20200131",
                                     "code": "271650006",
                                     "display": "Diastolic blood pressure (observable entity)",
                                     "_display": {
@@ -2543,7 +3029,7 @@
                                                 "extension": [
                                                     {
                                                         "url": "content",
-                                                        "valueString": "Diastolischer Blutdruckwert"
+                                                        "valueString": "diastolischer Blutdruck"
                                                     }
                                                 ]
                                             }
@@ -2552,7 +3038,7 @@
                                 },
                                 {
                                     "system": "http://loinc.org",
-                                    "version": "2.68",
+                                    "version": "2.69",
                                     "code": "8462-4",
                                     "display": "Diastolic blood pressure",
                                     "_display": {
@@ -2562,7 +3048,7 @@
                                                 "extension": [
                                                     {
                                                         "url": "content",
-                                                        "valueString": "Diastolischer Blutdruckwert"
+                                                        "valueString": "diastolischer Blutdruck"
                                                     }
                                                 ]
                                             }
@@ -2570,11 +3056,11 @@
                                     }
                                 }
                             ],
-                            "text": "Diastolischer Blutdruckwert"
+                            "text": "diastolisch"
                         },
                         "valueQuantity": {
                             "value": 60,
-                            "unit": "mmHg",
+                            "unit": "mm Hg",
                             "system": "http://unitsofmeasure.org",
                             "code": "mm[Hg]"
                         }
@@ -2589,7 +3075,7 @@
                 "id": "FirstEx-BloodSerology-1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Blood_Group_Serology_Child|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Blood_Group_Serology_Child|1.1.0"
                     ]
                 },
                 "extension": [
@@ -2598,19 +3084,13 @@
                         "valueString": "Diese Eintragungen entbinden den behandelnden Arzt nicht von seiner Sorgfaltspflicht (z.B. Kreuzprobe)."
                     }
                 ],
-                "identifier": [
-                    {
-                        "system": "http://testsystem.de/NamingSystem/test/test-10",
-                        "value": "1234567890"
-                    }
-                ],
                 "status": "final",
                 "code": {
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "365636006",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "365638007+118188004",
                             "display": "Finding of blood group (finding)",
                             "_display": {
                                 "extension": [
@@ -2640,20 +3120,15 @@
                         "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
                     }
                 ],
-                "note": [
-                    {
-                        "text": "Blutgruppenzugehörigkeit"
-                    }
-                ],
                 "component": [
                     {
                         "code": {
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                    "code": "363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,704318007=410656007,246093002=106202009",
-                                    "display": "Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property type (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in ABO blood group system (substance)",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                    "code": "363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,370130000=410656007,246093002=106202009",
+                                    "display": "Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in ABO blood group system (substance)",
                                     "_display": {
                                         "extension": [
                                             {
@@ -2670,7 +3145,7 @@
                                 },
                                 {
                                     "system": "http://loinc.org",
-                                    "version": "2.68",
+                                    "version": "2.71",
                                     "code": "883-9",
                                     "display": "ABO group [Type] in Blood",
                                     "_display": {
@@ -2694,7 +3169,7 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                                     "code": "112144000",
                                     "display": "Blood group A (finding)",
                                     "_display": {
@@ -2720,9 +3195,9 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                    "code": "363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,704318007=410656007,246093002=16951006",
-                                    "display": "Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property type (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in Rh blood group system (substance)",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                    "code": "363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,370130000=410656007,246093002=16951006",
+                                    "display": "Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in Rh blood group system (substance)",
                                     "_display": {
                                         "extension": [
                                             {
@@ -2739,7 +3214,7 @@
                                 },
                                 {
                                     "system": "http://loinc.org",
-                                    "version": "2.68",
+                                    "version": "2.71",
                                     "code": "10331-7",
                                     "display": "Rh [Type] in Blood",
                                     "_display": {
@@ -2763,7 +3238,7 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                                     "code": "165747007",
                                     "display": "RhD positive (finding)",
                                     "_display": {
@@ -2794,7 +3269,7 @@
                 "id": "FirstEx-BloodSerology-2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Blood_Group_Serology_Child|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Blood_Group_Serology_Child|1.1.0"
                     ]
                 },
                 "extension": [
@@ -2803,19 +3278,13 @@
                         "valueString": "Diese Eintragungen entbinden den behandelnden Arzt nicht von seiner Sorgfaltspflicht (z.B. Kreuzprobe)."
                     }
                 ],
-                "identifier": [
-                    {
-                        "system": "http://testsystem.de/NamingSystem/test/test-10",
-                        "value": "1234567890"
-                    }
-                ],
                 "status": "final",
                 "code": {
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "365636006",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "365638007+118188004",
                             "display": "Finding of blood group (finding)",
                             "_display": {
                                 "extension": [
@@ -2845,20 +3314,15 @@
                         "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
                     }
                 ],
-                "note": [
-                    {
-                        "text": "Blutgruppenzugehörigkeit"
-                    }
-                ],
                 "component": [
                     {
                         "code": {
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                    "code": "363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,704318007=410656007,246093002=106202009",
-                                    "display": "Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property type (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in ABO blood group system (substance)",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                    "code": "363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,370130000=410656007,246093002=106202009",
+                                    "display": "Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in ABO blood group system (substance)",
                                     "_display": {
                                         "extension": [
                                             {
@@ -2875,7 +3339,7 @@
                                 },
                                 {
                                     "system": "http://loinc.org",
-                                    "version": "2.68",
+                                    "version": "2.71",
                                     "code": "883-9",
                                     "display": "ABO group [Type] in Blood",
                                     "_display": {
@@ -2899,7 +3363,7 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                                     "code": "112144000",
                                     "display": "Blood group A (finding)",
                                     "_display": {
@@ -2925,9 +3389,9 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                    "code": "363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,704318007=410656007,246093002=16951006",
-                                    "display": "Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property type (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in Rh blood group system (substance)",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                    "code": "363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,370130000=410656007,246093002=16951006",
+                                    "display": "Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in Rh blood group system (substance)",
                                     "_display": {
                                         "extension": [
                                             {
@@ -2944,7 +3408,7 @@
                                 },
                                 {
                                     "system": "http://loinc.org",
-                                    "version": "2.68",
+                                    "version": "2.71",
                                     "code": "10331-7",
                                     "display": "Rh [Type] in Blood",
                                     "_display": {
@@ -2968,7 +3432,7 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                                     "code": "165747007",
                                     "display": "RhD positive (finding)",
                                     "_display": {
@@ -2999,7 +3463,7 @@
                 "id": "FirstEx-BloodSerology-3",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Blood_Group_Serology_Child|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Blood_Group_Serology_Child|1.1.0"
                     ]
                 },
                 "extension": [
@@ -3008,19 +3472,13 @@
                         "valueString": "Diese Eintragungen entbinden den behandelnden Arzt nicht von seiner Sorgfaltspflicht (z.B. Kreuzprobe)."
                     }
                 ],
-                "identifier": [
-                    {
-                        "system": "http://testsystem.de/NamingSystem/test/test-10",
-                        "value": "1234567890"
-                    }
-                ],
                 "status": "final",
                 "code": {
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "365636006",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "365638007+118188004",
                             "display": "Finding of blood group (finding)",
                             "_display": {
                                 "extension": [
@@ -3050,20 +3508,15 @@
                         "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
                     }
                 ],
-                "note": [
-                    {
-                        "text": "Blutgruppenzugehörigkeit"
-                    }
-                ],
                 "component": [
                     {
                         "code": {
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                    "code": "363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,704318007=410656007,246093002=106202009",
-                                    "display": "Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property type (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in ABO blood group system (substance)",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                    "code": "363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,370130000=410656007,246093002=106202009",
+                                    "display": "Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in ABO blood group system (substance)",
                                     "_display": {
                                         "extension": [
                                             {
@@ -3080,7 +3533,7 @@
                                 },
                                 {
                                     "system": "http://loinc.org",
-                                    "version": "2.68",
+                                    "version": "2.71",
                                     "code": "883-9",
                                     "display": "ABO group [Type] in Blood",
                                     "_display": {
@@ -3104,7 +3557,7 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                                     "code": "112144000",
                                     "display": "Blood group A (finding)",
                                     "_display": {
@@ -3130,9 +3583,9 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                    "code": "363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,704318007=410656007,246093002=16951006",
-                                    "display": "Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property type (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in Rh blood group system (substance)",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                    "code": "363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,370130000=410656007,246093002=16951006",
+                                    "display": "Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in Rh blood group system (substance)",
                                     "_display": {
                                         "extension": [
                                             {
@@ -3149,7 +3602,7 @@
                                 },
                                 {
                                     "system": "http://loinc.org",
-                                    "version": "2.68",
+                                    "version": "2.71",
                                     "code": "10331-7",
                                     "display": "Rh [Type] in Blood",
                                     "_display": {
@@ -3173,7 +3626,7 @@
                             "coding": [
                                 {
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                                     "code": "165747007",
                                     "display": "RhD positive (finding)",
                                     "_display": {
@@ -3204,7 +3657,7 @@
                 "id": "FirstEx-CoombTest-1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Direct_Coombstest|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Direct_Coombstest|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -3212,7 +3665,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "77020008",
                             "display": "Direct Coombs test (procedure)",
                             "_display": {
@@ -3247,7 +3700,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "165773002",
                             "display": "Direct Coombs test positive (finding)",
                             "_display": {
@@ -3275,7 +3728,7 @@
                 "id": "FirstEx-CoombTest-2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Direct_Coombstest|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Direct_Coombstest|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -3283,7 +3736,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "77020008",
                             "display": "Direct Coombs test (procedure)",
                             "_display": {
@@ -3318,7 +3771,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "165773002",
                             "display": "Direct Coombs test positive (finding)",
                             "_display": {
@@ -3346,7 +3799,7 @@
                 "id": "FirstEx-CoombTest-3",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Direct_Coombstest|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Direct_Coombstest|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -3354,7 +3807,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "77020008",
                             "display": "Direct Coombs test (procedure)",
                             "_display": {
@@ -3389,7 +3842,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "165773002",
                             "display": "Direct Coombs test positive (finding)",
                             "_display": {
@@ -3418,7 +3871,7 @@
                 "id": "e08a4445-d57b-454b-b1c6-560ae8d16c17",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.1.0"
                     ]
                 },
                 "status": "finished",
@@ -3453,7 +3906,7 @@
                 "id": "f6b2a209-c7b6-4735-80a7-9b8c85aa5fd1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Organization|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Organization|1.1.0"
                     ]
                 },
                 "extension": [
@@ -3468,7 +3921,8 @@
                             "coding": [
                                 {
                                     "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-                                    "code": "XX"
+                                    "code": "XX",
+                                    "display": "Organisations-ID"
                                 }
                             ]
                         },
@@ -3519,7 +3973,7 @@
                 "id": "6a15cff6-3cc1-4bf2-ab66-1cc6316e6777",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Mother|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Mother|1.1.0"
                     ]
                 },
                 "identifier": [
@@ -3528,7 +3982,8 @@
                             "coding": [
                                 {
                                     "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
-                                    "code": "GKV"
+                                    "code": "GKV",
+                                    "display": "Gesetzliche Krankenversicherung"
                                 }
                             ]
                         },
@@ -3599,7 +4054,7 @@
                 "id": "8ad1ee6c-6164-493a-be52-c43cf49e9916",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Practitioner|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Practitioner|1.1.0"
                     ]
                 },
                 "extension": [
@@ -3614,7 +4069,8 @@
                             "coding": [
                                 {
                                     "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-                                    "code": "LANR"
+                                    "code": "LANR",
+                                    "display": "Lifelong physician number"
                                 }
                             ]
                         },

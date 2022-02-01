@@ -15,7 +15,7 @@
     "timestamp": "2019-12-23T12:30:02Z",
     "entry": [
         {
-            "fullUrl": "Composition:urn:uuid:6d92d417-8a0d-42b9-959f-567ab2f4650f",
+            "fullUrl": "Composition/6d92d417-8a0d-42b9-959f-567ab2f4650f",
             "resource": {
                 "resourceType": "Composition",
                 "id": "6d92d417-8a0d-42b9-959f-567ab2f4650f",
@@ -35,12 +35,12 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "date": "2018-07-01T12:30:02Z",
                 "author": [
                     {
-                        "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                        "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                     }
                 ],
                 "title": "Impfeintrag-/einträge Nach-/Übertrag",
@@ -58,7 +58,7 @@
                         },
                         "entry": [
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-0"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-0"
                             },
                             {
                                 "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-1"
@@ -198,7 +198,7 @@
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-0",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-0",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-0",
@@ -245,7 +245,10 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
+                },
+                "recorder": {
+                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -299,7 +302,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -353,7 +356,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -407,7 +410,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -461,7 +464,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -515,7 +518,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -569,7 +572,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -623,7 +626,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -677,7 +680,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -731,7 +734,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -785,7 +788,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -839,7 +842,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -893,7 +896,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -947,7 +950,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1001,7 +1004,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1055,7 +1058,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1109,7 +1112,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1163,7 +1166,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1217,7 +1220,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1271,7 +1274,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1325,7 +1328,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1379,7 +1382,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1433,7 +1436,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1487,7 +1490,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1541,7 +1544,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1595,7 +1598,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1649,7 +1652,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1703,7 +1706,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1757,7 +1760,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1811,7 +1814,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1865,7 +1868,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1919,7 +1922,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -1973,7 +1976,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -2027,7 +2030,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -2081,7 +2084,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -2135,7 +2138,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -2189,7 +2192,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -2243,7 +2246,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -2297,7 +2300,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -2351,7 +2354,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -2405,7 +2408,7 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
@@ -2459,14 +2462,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Patient:urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811",
+            "fullUrl": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811",
             "resource": {
                 "resourceType": "Patient",
                 "id": "9774f67f-a238-4daf-b4e6-679deeef3811",
@@ -2538,7 +2541,7 @@
             }
         },
         {
-            "fullUrl": "Practitioner:urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
+            "fullUrl": "Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
@@ -2610,7 +2613,7 @@
             }
         },
         {
-            "fullUrl": "PractitionerRole:urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
+            "fullUrl": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
             "resource": {
                 "resourceType": "PractitionerRole",
                 "id": "a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
@@ -2620,15 +2623,15 @@
                     ]
                 },
                 "practitioner": {
-                    "reference": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
+                    "reference": "Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
                 },
                 "organization": {
-                    "reference": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b"
+                    "reference": "Organization/cf042e44-086a-4d51-9c77-172f9a972e3b"
                 }
             }
         },
         {
-            "fullUrl": "Organization:urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b",
+            "fullUrl": "Organization/cf042e44-086a-4d51-9c77-172f9a972e3b",
             "resource": {
                 "resourceType": "Organization",
                 "id": "cf042e44-086a-4d51-9c77-172f9a972e3b",
@@ -2689,7 +2692,7 @@
                 },
                 "target": [
                     {
-                        "reference": "urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-0"
+                        "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-0"
                     }
                 ],
                 "recorded": "2019-12-23T08:39:24+10:00",

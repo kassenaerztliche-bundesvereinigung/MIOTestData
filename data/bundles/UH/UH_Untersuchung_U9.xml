@@ -10,7 +10,7 @@
   <type value="document" />
   <timestamp value="2020-07-13T10:54:00Z" />
   <entry>
-    <fullUrl value="urn:uuid:f5f9a659-ac59-4c07-b041-58203081cdf6" />
+    <fullUrl value="http://test.local/fhir/Composition/f5f9a659-ac59-4c07-b041-58203081cdf6" />
     <resource>
       <Composition xmlns="http://hl7.org/fhir">
         <id value="f5f9a659-ac59-4c07-b041-58203081cdf6" />
@@ -38,17 +38,16 @@
           </coding>
         </category>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <date value="2020-07-07" />
         <author>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </author>
         <title value="U9" />
-        <!-- U9 - Aktuelle Anamnese des Kindes -->
         <section>
           <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
             <valueString value="Zutreffendes bitte ankreuzen!" />
@@ -69,7 +68,6 @@
             </div>
           </text>
         </section>
-        <!-- U9 - Sozialanamnese -->
         <section>
           <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
             <valueString value="Zutreffendes bitte ankreuzen!" />
@@ -90,7 +88,6 @@
             </div>
           </text>
         </section>
-        <!-- U9 - Untersuchung -->
         <section>
           <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
             <valueString value="Nur Auffälligkeiten ankreuzen!" />
@@ -111,10 +108,9 @@
             </div>
           </text>
           <entry>
-            <reference value="urn:uuid:ecc113b6-b496-4011-a811-38976523be38" />
+            <reference value="DiagnosticReport/ecc113b6-b496-4011-a811-38976523be38" />
           </entry>
         </section>
-        <!-- Beratung -->
         <section>
           <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
             <valueString value="Bei erweitertem Beratungsbedarf bitte ankreuzen!" />
@@ -138,19 +134,18 @@
             </div>
           </text>
           <entry>
-            <reference value="urn:uuid:0d7c59cc-f618-4665-a6e6-c6d43892481b" />
+            <reference value="Procedure/0d7c59cc-f618-4665-a6e6-c6d43892481b" />
           </entry>
           <entry>
-            <reference value="urn:uuid:83db1a03-dc34-46de-a095-ab8751029842" />
+            <reference value="Procedure/83db1a03-dc34-46de-a095-ab8751029842" />
           </entry>
           <entry>
-            <reference value="urn:uuid:3d22dd12-37b9-4852-a4cd-f11392429be1" />
+            <reference value="Procedure/3d22dd12-37b9-4852-a4cd-f11392429be1" />
           </entry>
           <entry>
-            <reference value="urn:uuid:92122018-fbf2-4106-a71b-11a9b22c7719" />
+            <reference value="Procedure/92122018-fbf2-4106-a71b-11a9b22c7719" />
           </entry>
         </section>
-        <!-- Ergebnisse -->
         <section>
           <title value="Ergebnisse" />
           <code>
@@ -167,33 +162,26 @@
               <p>Ergebnisse</p>
             </div>
           </text>
-          <!-- No Abnormality Detected -->
           <entry>
-            <reference value="urn:uuid:b0e9ca94-2eda-42ac-bf63-c6a5c5adc5d2" />
+            <reference value="Observation/b0e9ca94-2eda-42ac-bf63-c6a5c5adc5d2" />
           </entry>
-          <!-- Age Appropriate Development -->
           <entry>
-            <reference value="urn:uuid:1623a07b-69ce-4128-8314-3756cbeb9b18" />
+            <reference value="Observation/1623a07b-69ce-4128-8314-3756cbeb9b18" />
           </entry>
-          <!-- Body Measures -->
           <entry>
-            <reference value="urn:uuid:c6355471-8fc8-4505-a540-840cd0ad5237" />
+            <reference value="DiagnosticReport/c6355471-8fc8-4505-a540-840cd0ad5237" />
           </entry>
-          <!-- Care Plan -->
           <entry>
-            <reference value="urn:uuid:4fdec8d5-f064-4f07-84a6-fb1fe782add5" />
+            <reference value="CarePlan/4fdec8d5-f064-4f07-84a6-fb1fe782add5" />
           </entry>
-          <!-- Dental Referral -->
           <entry>
-            <reference value="urn:uuid:337e75a4-f32c-4730-8839-ac3f79a3ffff" />
+            <reference value="ServiceRequest/337e75a4-f32c-4730-8839-ac3f79a3ffff" />
           </entry>
-          <!-- Observation Comments -->
           <entry>
-            <reference value="urn:uuid:18865878-8b13-4f06-8a31-ee55f5ce36de" />
+            <reference value="Observation/18865878-8b13-4f06-8a31-ee55f5ce36de" />
           </entry>
-          <!-- Next Immunization Appointment -->
           <entry>
-            <reference value="urn:uuid:5e888a54-c7df-4e76-8cc4-e1c3eecb15a2" />
+            <reference value="Appointment/5e888a54-c7df-4e76-8cc4-e1c3eecb15a2" />
           </entry>
           <section>
             <title value="Prüfung, Aufklärung und ggf. Veranlassung der Durchführung von:" />
@@ -205,13 +193,11 @@
                 <display value="Treatment plan report (record artifact)" />
               </coding>
             </code>
-            <!-- Status der Immunisierung -->
             <entry>
-              <reference value="urn:uuid:60548512-c957-4a47-b832-578ea8938975" />
+              <reference value="Observation/60548512-c957-4a47-b832-578ea8938975" />
             </entry>
           </section>
         </section>
-        <!-- Orientierende Beurteilung der Entwicklung-->
         <section>
           <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
             <valueString value="Nur ankreuzen, wenn die Items NICHT erfüllt werden!" />
@@ -239,7 +225,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/5e888a54-c7df-4e76-8cc4-e1c3eecb15a2" />
+    <fullUrl value="http://test.local/fhir/Appointment/5e888a54-c7df-4e76-8cc4-e1c3eecb15a2" />
     <resource>
       <Appointment>
         <id value="5e888a54-c7df-4e76-8cc4-e1c3eecb15a2" />
@@ -261,17 +247,15 @@
             </display>
           </coding>
         </serviceType>
-        <!-- Patient -->
         <participant>
           <actor>
-            <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+            <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
           </actor>
           <status value="accepted" />
         </participant>
-        <!-- Practitioner -->
         <participant>
           <actor>
-            <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+            <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
           </actor>
           <status value="accepted" />
         </participant>
@@ -282,7 +266,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/4fdec8d5-f064-4f07-84a6-fb1fe782add5" />
+    <fullUrl value="http://test.local/fhir/CarePlan/4fdec8d5-f064-4f07-84a6-fb1fe782add5" />
     <resource>
       <CarePlan>
         <id value="4fdec8d5-f064-4f07-84a6-fb1fe782add5" />
@@ -292,14 +276,14 @@
         <status value="completed" />
         <intent value="proposal" />
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <created value="2020-07-07" />
         <author>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </author>
         <activity>
           <detail>
@@ -345,7 +329,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/c6355471-8fc8-4505-a540-840cd0ad5237" />
+    <fullUrl value="http://test.local/fhir/DiagnosticReport/c6355471-8fc8-4505-a540-840cd0ad5237" />
     <resource>
       <DiagnosticReport>
         <id value="c6355471-8fc8-4505-a540-840cd0ad5237" />
@@ -380,26 +364,26 @@
           </coding>
         </code>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <effectiveDateTime value="2020-07-07" />
         <performer>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </performer>
         <result>
-          <reference value="urn:uuid:e2f36313-bfc2-47d5-8145-ffff53a1ec95" />
+          <reference value="Observation/e2f36313-bfc2-47d5-8145-ffff53a1ec95" />
         </result>
         <result>
-          <reference value="urn:uuid:5a912ac0-00a2-42e5-ac6f-1f2e245e738b" />
+          <reference value="Observation/5a912ac0-00a2-42e5-ac6f-1f2e245e738b" />
         </result>
       </DiagnosticReport>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/ecc113b6-b496-4011-a811-38976523be38" />
+    <fullUrl value="http://test.local/fhir/DiagnosticReport/ecc113b6-b496-4011-a811-38976523be38" />
     <resource>
       <DiagnosticReport>
         <id value="ecc113b6-b496-4011-a811-38976523be38" />
@@ -422,23 +406,23 @@
           </coding>
         </code>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <effectiveDateTime value="2020-07-07" />
         <performer>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </performer>
         <result>
-          <reference value="urn:uuid:2015c80d-47d2-470a-9356-e6a895ab5c97" />
+          <reference value="Observation/2015c80d-47d2-470a-9356-e6a895ab5c97" />
         </result>
       </DiagnosticReport>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+    <fullUrl value="http://test.local/fhir/Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
     <resource>
       <Encounter>
         <id value="8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
@@ -467,7 +451,7 @@
           </coding>
         </type>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <participant>
           <type>
@@ -479,7 +463,7 @@
             </coding>
           </type>
           <individual>
-            <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+            <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
           </individual>
         </participant>
         <period>
@@ -489,7 +473,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/18865878-8b13-4f06-8a31-ee55f5ce36de" />
+    <fullUrl value="http://test.local/fhir/Observation/18865878-8b13-4f06-8a31-ee55f5ce36de" />
     <resource>
       <Observation>
         <id value="18865878-8b13-4f06-8a31-ee55f5ce36de" />
@@ -512,21 +496,21 @@
           </coding>
         </code>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <effectiveDateTime value="2020-07-07" />
         <performer>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </performer>
         <valueString value="Auffrischung für nächste Woche vereinbart" />
       </Observation>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/e2f36313-bfc2-47d5-8145-ffff53a1ec95" />
+    <fullUrl value="http://test.local/fhir/Observation/e2f36313-bfc2-47d5-8145-ffff53a1ec95" />
     <resource>
       <Observation>
         <id value="e2f36313-bfc2-47d5-8145-ffff53a1ec95" />
@@ -561,14 +545,14 @@
           </coding>
         </code>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <effectiveDateTime value="2020-07-07" />
         <performer>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </performer>
         <valueQuantity>
           <value value="110" />
@@ -580,7 +564,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/b0e9ca94-2eda-42ac-bf63-c6a5c5adc5d2" />
+    <fullUrl value="http://test.local/fhir/Observation/b0e9ca94-2eda-42ac-bf63-c6a5c5adc5d2" />
     <resource>
       <Observation>
         <id value="b0e9ca94-2eda-42ac-bf63-c6a5c5adc5d2" />
@@ -603,21 +587,21 @@
           </coding>
         </code>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <effectiveDateTime value="2020-07-07" />
         <performer>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </performer>
         <valueBoolean value="true" />
       </Observation>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/1623a07b-69ce-4128-8314-3756cbeb9b18" />
+    <fullUrl value="http://test.local/fhir/Observation/1623a07b-69ce-4128-8314-3756cbeb9b18" />
     <resource>
       <Observation>
         <id value="1623a07b-69ce-4128-8314-3756cbeb9b18" />
@@ -640,14 +624,14 @@
           </coding>
         </code>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <effectiveDateTime value="2020-07-07" />
         <performer>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </performer>
         <valueCodeableConcept>
           <coding>
@@ -667,7 +651,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/60548512-c957-4a47-b832-578ea8938975" />
+    <fullUrl value="http://test.local/fhir/Observation/60548512-c957-4a47-b832-578ea8938975" />
     <resource>
       <Observation>
         <id value="60548512-c957-4a47-b832-578ea8938975" />
@@ -690,14 +674,14 @@
           </coding>
         </code>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <effectiveDateTime value="2020-07-07" />
         <performer>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </performer>
         <valueBoolean value="false" />
         <component>
@@ -721,7 +705,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/5a912ac0-00a2-42e5-ac6f-1f2e245e738b" />
+    <fullUrl value="http://test.local/fhir/Observation/5a912ac0-00a2-42e5-ac6f-1f2e245e738b" />
     <resource>
       <Observation>
         <id value="5a912ac0-00a2-42e5-ac6f-1f2e245e738b" />
@@ -756,14 +740,14 @@
           </coding>
         </code>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <effectiveDateTime value="2020-07-07" />
         <performer>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </performer>
         <valueQuantity>
           <value value="23" />
@@ -775,7 +759,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/2015c80d-47d2-470a-9356-e6a895ab5c97" />
+    <fullUrl value="http://test.local/fhir/Observation/2015c80d-47d2-470a-9356-e6a895ab5c97" />
     <resource>
       <Observation>
         <id value="2015c80d-47d2-470a-9356-e6a895ab5c97" />
@@ -798,14 +782,14 @@
           </coding>
         </code>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <effectiveDateTime value="2020-07-07" />
         <performer>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </performer>
         <valueBoolean value="true" />
       </Observation>
@@ -838,7 +822,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/3e6825d8-a88e-48d8-8a4b-97014beae651" />
+    <fullUrl value="http://test.local/fhir/Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
     <resource>
       <Patient>
         <id value="3e6825d8-a88e-48d8-8a4b-97014beae651" />
@@ -871,7 +855,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+    <fullUrl value="http://test.local/fhir/Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
     <resource>
       <Practitioner>
         <id value="e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
@@ -907,7 +891,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/92122018-fbf2-4106-a71b-11a9b22c7719" />
+    <fullUrl value="http://test.local/fhir/Procedure/92122018-fbf2-4106-a71b-11a9b22c7719" />
     <resource>
       <Procedure>
         <id value="92122018-fbf2-4106-a71b-11a9b22c7719" />
@@ -930,14 +914,14 @@
           </coding>
         </code>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <performedDateTime value="2020-07-07" />
         <asserter>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </asserter>
         <note>
           <text value="Testnotiz" />
@@ -946,7 +930,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/3d22dd12-37b9-4852-a4cd-f11392429be1" />
+    <fullUrl value="http://test.local/fhir/Procedure/3d22dd12-37b9-4852-a4cd-f11392429be1" />
     <resource>
       <Procedure>
         <id value="3d22dd12-37b9-4852-a4cd-f11392429be1" />
@@ -969,20 +953,20 @@
           </coding>
         </code>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <performedDateTime value="2020-07-07" />
         <asserter>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </asserter>
       </Procedure>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/83db1a03-dc34-46de-a095-ab8751029842" />
+    <fullUrl value="http://test.local/fhir/Procedure/83db1a03-dc34-46de-a095-ab8751029842" />
     <resource>
       <Procedure>
         <id value="83db1a03-dc34-46de-a095-ab8751029842" />
@@ -1005,20 +989,20 @@
           </coding>
         </code>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <performedDateTime value="2020-07-07" />
         <asserter>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </asserter>
       </Procedure>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/0d7c59cc-f618-4665-a6e6-c6d43892481b" />
+    <fullUrl value="http://test.local/fhir/Procedure/0d7c59cc-f618-4665-a6e6-c6d43892481b" />
     <resource>
       <Procedure>
         <id value="0d7c59cc-f618-4665-a6e6-c6d43892481b" />
@@ -1041,20 +1025,20 @@
           </coding>
         </code>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <performedDateTime value="2020-07-07" />
         <asserter>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </asserter>
       </Procedure>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://test.local/fhir/337e75a4-f32c-4730-8839-ac3f79a3ffff" />
+    <fullUrl value="http://test.local/fhir/ServiceRequest/337e75a4-f32c-4730-8839-ac3f79a3ffff" />
     <resource>
       <ServiceRequest>
         <id value="337e75a4-f32c-4730-8839-ac3f79a3ffff" />
@@ -1078,14 +1062,14 @@
           </coding>
         </code>
         <subject>
-          <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+          <reference value="Patient/3e6825d8-a88e-48d8-8a4b-97014beae651" />
         </subject>
         <encounter>
-          <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+          <reference value="Encounter/8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
         </encounter>
         <authoredOn value="2020-07-08" />
         <requester>
-          <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+          <reference value="Practitioner/e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
         </requester>
       </ServiceRequest>
     </resource>

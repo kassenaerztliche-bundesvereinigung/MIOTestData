@@ -2,7 +2,7 @@
     "resourceType": "Bundle",
     "id": "4394f9f8-6a0b-u1tr-4sou-em2adxa0c762",
     "meta": {
-        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Bundle|1.0.0"]
+        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Bundle|1.1.0"]
     },
     "identifier": {
         "system": "urn:ietf:rfc:3986",
@@ -18,7 +18,7 @@
                 "id": "fe0c905b-6476-4675-8ca9-2c40f56968a8",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Composition|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Composition|1.1.0"
                     ]
                 },
                 "extension": [
@@ -27,7 +27,7 @@
                         "extension": [
                             {
                                 "url": "hinweiseSchwangere",
-                                "valueString": "Schwangerschaft und Geburt sind natürliche Vorgänge und stellen keine Krankheit dar. Manchmal können sie allerdings mit einem erhöhten Risiko für Mutter und Kind belastet sein. Eine sorgfältige Schwangerschaftsbetreuung hilft, einen großen Teil dieser Risiken zu vermeiden oder rechtzeitig zu erkennen, um Gefahren abzuwenden. Voraussetzung dafür ist jedoch Ihre regelmäßige Teilnahme an den Vorsorgeuntersuchungen!Die in Ihrem Mutterpass aufgeführten Untersuchungen dienen der Gesunderhaltung von Mutter und Kind und entsprechen langjähriger geburtshilflicher Erfahrung und modernen medizinischen Erkenntnissen. Dieser Mutterpass enthält die während der Schwangerschaft erhobenen wichtigen Befunde. Er wird Ihnen nach jeder Vorsorgeuntersuchung wieder mitgegeben. Die Angaben im Mutterpass dienen der Information von Arzt und Hebamme sowie Ihrer und Ihres Kindes Sicherheit. Der Mutterpass ist Ihr persönliches Dokument. Sie allein entscheiden darüber, wem er zugänglich gemacht werden soll. Andere (z. B. Arbeitgeber, Behörden) dürfen eine Einsichtnahme nicht verlangen.Bitte: ● Nutzen Sie die Ihnen gebotenen Möglichkeiten, um sich und Ihrem Kind Sicherheit zu verschaffen! ● Vergessen Sie nicht, dieses Heft zu jeder ärztlichen Untersuchung während der Schwangerschaft, zur Entbindung und zur Untersuchung des Kindes mitzubringen! ● Lassen Sie sich helfen, wenn Sie Sorgen haben! ● Beraten Sie sich mit Ihrem Arzt und befolgen Sie seine Ratschläge!"
+                                "valueString": "Schwangerschaft und Geburt sind natürliche Vorgänge und stellen keine Krankheit dar. Manchmal können sie allerdings mit einem erhöhten Risiko für Mutter und Kind belastet sein. Eine sorgfältige Schwangerschaftsbetreuung hilft, einen großen Teil dieser Risiken zu vermeiden oder rechtzeitig zu erkennen, um Gefahren abzuwenden. Voraussetzung dafür ist jedoch Ihre regelmäßige Teilnahme an den Vorsorgeuntersuchungen! Die in Ihrem Mutterpass aufgeführten Untersuchungen dienen der Gesunderhaltung von Mutter und Kind und entsprechen langjähriger geburtshilflicher Erfahrung und modernen medizinischen Erkenntnissen. Dieser Mutterpass enthält die während der Schwangerschaft erhobenen wichtigen Befunde. Er wird Ihnen nach jeder Vorsorgeuntersuchung wieder mitgegeben. Die Angaben im Mutterpass dienen der Information von Arzt und Hebamme sowie Ihrer und Ihres Kindes Sicherheit. Der Mutterpass ist Ihr persönliches Dokument. Sie allein entscheiden darüber, wem er zugänglich gemacht werden soll. Andere (z. B. Arbeitgeber, Behörden) dürfen eine Einsichtnahme nicht verlangen. Bitte: ● Nutzen Sie die Ihnen gebotenen Möglichkeiten, um sich und Ihrem Kind Sicherheit zu verschaffen! ● Vergessen Sie nicht, dieses Heft zu jeder ärztlichen Untersuchung während der Schwangerschaft, zur Entbindung und zur Untersuchung des Kindes mitzubringen! ● Lassen Sie sich helfen, wenn Sie Sorgen haben! ● Beraten Sie sich mit Ihrem Arzt und befolgen Sie seine Ratschläge!"
                             },
                             {
                                 "url": "hinweiseMutter",
@@ -35,7 +35,7 @@
                             },
                             {
                                 "url": "aufbewahrungshinweis",
-                                "valueString": "Während der Schwangerschaft sollten Sie Ihren Mutterpass immer bei sich haben und zu jeder ärztlichen Untersuchung mitbringen,insbesondere auch zur Entbindung. Ihr Mutterpass gehört zu den Dokumenten, die Sie immer sorgfältig aufbewahren sollten."
+                                "valueString": "Während der Schwangerschaft sollten Sie Ihren Mutterpass immer bei sich haben und zu jeder ärztlichen Untersuchung mitbringen, insbesondere auch zur Entbindung. Ihr Mutterpass gehört zu den Dokumenten, die Sie immer sorgfältig aufbewahren sollten."
                             }
                         ]
                     }
@@ -45,7 +45,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "736377005",
                             "display": "Maternity care plan (record artifact)",
                             "_display": {
@@ -99,31 +99,7 @@
                                         "title": "I. Screening",
                                         "entry": [
                                             {
-                                                "reference": "urn:uuid:de41f5f5-c037-4147-8279-5cr33n1ng1ab"
-                                            },
-                                            {
                                                 "reference": "urn:uuid:de41f5f5-c037-4147-8279-5cr33n1ng1a2"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:ae28091d-d60a-u1tr-89d2-7d4113a56000"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:ae28091d-d60a-u1tr-89d2-7d4113a56001"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:ae28091d-d60a-u1tr-89d2-7d4113a56002"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:ae28091d-d60a-u1tr-89d2-7d4113a56003"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:ae28091d-d60a-u1tr-89d2-7d4113a56004"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:ae28091d-d60a-u1tr-89d2-7d4113a56005"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:ae28091d-d60a-u1tr-89d2-7d4113a56006"
                                             }
                                         ]
                                     },
@@ -132,39 +108,6 @@
                                         "entry": [
                                             {
                                                 "reference": "urn:uuid:3a1efbc9-440e-4c5b-b115-5cr33n1ng2ab"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:3a1efbc9-440e-4c5b-b115-5cr33n1ng2a2"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:3a1efbc9-440e-4c5b-b115-5cr33n1ng2a3"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b2"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b3"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b4"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b5"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b6"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b7"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b8"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b9"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd0072310"
                                             }
                                         ]
                                     },
@@ -173,33 +116,6 @@
                                         "entry": [
                                             {
                                                 "reference": "urn:uuid:de41f5f5-c037-4147-8279-5cr33n1ng3a2"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-5cr33n1ng300"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-5cr33n1ng301"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-5cr33n1ng302"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-5cr33n1ng303"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-5cr33n1ng304"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-5cr33n1ng305"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-5cr33n1ng306"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-5cr33n1ng307"
-                                            },
-                                            {
-                                                "reference": "urn:uuid:32714176-5f88-492e-a874-5cr33n1ng308"
                                             }
                                         ]
                                     },
@@ -209,7 +125,7 @@
                                             "coding": [
                                                 {
                                                     "system": "http://snomed.info/sct",
-                                                    "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                                    "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                                                     "code": "169220006",
                                                     "display": "Ultrasound obstetric scan requested (situation)",
                                                     "_display": {
@@ -248,7 +164,7 @@
                 "id": "cbb5f893-12df-4d22-928a-8fd3aeff0449",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Date_Of_Conception|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Date_Of_Conception|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -256,7 +172,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "248986005",
                             "display": "Estimated date of conception (observable entity)",
                             "_display": {
@@ -298,7 +214,7 @@
                 "id": "e08a4445-d57b-454b-b1c6-560ae8d16c17",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.1.0"
                     ]
                 },
                 "status": "finished",
@@ -333,7 +249,7 @@
                 "id": "f6b2a209-c7b6-4735-80a7-9b8c85aa5fd1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Organization|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Organization|1.1.0"
                     ]
                 },
                 "extension": [
@@ -348,7 +264,8 @@
                             "coding": [
                                 {
                                     "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-                                    "code": "XX"
+                                    "code": "XX",
+                                    "display": "Organisations-ID"
                                 }
                             ]
                         },
@@ -399,7 +316,7 @@
                 "id": "6a15cff6-3cc1-4bf2-ab66-1cc6316e6777",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Mother|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Mother|1.1.0"
                     ]
                 },
                 "identifier": [
@@ -408,7 +325,8 @@
                             "coding": [
                                 {
                                     "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
-                                    "code": "GKV"
+                                    "code": "GKV",
+                                    "display": "Gesetzliche Krankenversicherung"
                                 }
                             ]
                         },
@@ -473,7 +391,7 @@
                 "id": "8ad1ee6c-6164-493a-be52-c43cf49e9916",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Practitioner|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Practitioner|1.1.0"
                     ]
                 },
                 "extension": [
@@ -488,7 +406,8 @@
                             "coding": [
                                 {
                                     "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-                                    "code": "LANR"
+                                    "code": "LANR",
+                                    "display": "Lifelong physician number"
                                 }
                             ]
                         },
@@ -550,7 +469,7 @@
                 "id": "1a7a5267-fa73-438d-b18c-302421bf3afb",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Other_Ultrasound_Studies|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Other_Ultrasound_Studies|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -558,7 +477,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "89343007"
                         }
                     ]
@@ -586,7 +505,7 @@
                 "id": "3nc0unt1-c037-4147-8279-5cr33n1ng1ab",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.1.0"
                     ]
                 },
                 "status": "finished",
@@ -621,7 +540,7 @@
                 "id": "de41f5f5-c037-4147-8279-5cr33n1ng1ab",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_DiagnosticReport_Ultrasound_I|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_DiagnosticReport_Ultrasound_I|1.1.0"
                     ]
                 },
                 "extension": [
@@ -635,7 +554,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "446522006",
                             "_display": {
                                 "extension": [
@@ -696,9 +615,9 @@
                                                 "coding": [
                                                     {
                                                         "system": "http://snomed.info/sct",
-                                                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                                        "code": "57036006",
-                                                        "display": "Fetal gestational age (observable entity)",
+                                                        "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                                        "code": "1156738004",
+                                                        "display": "Fetal gestational age in weeks and days (observable entity)",
                                                         "_display": {
                                                             "extension": [
                                                                 {
@@ -759,7 +678,7 @@
                 "id": "ae28091d-d60a-u1tr-89d2-7d4113a56000",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Pregnancy_Information|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Pregnancy_Information|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -767,7 +686,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "459167000"
                         }
                     ]
@@ -794,7 +713,7 @@
                 "id": "ae28091d-d60a-u1tr-89d2-7d4113a56001",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_General_Information|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_General_Information|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -802,9 +721,9 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "277766008",
-                            "display": "Awareness of heart beat (finding)",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "249045009",
+                            "display": "Fetal heart sounds present (finding)",
                             "_display": {
                                 "extension": [
                                     {
@@ -844,7 +763,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)",
                             "_display": {
@@ -872,7 +791,7 @@
                 "id": "ae28091d-d60a-u1tr-89d2-7d4113a56002",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Biometrics_I|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Biometrics_I|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -880,9 +799,9 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "248326004:704325000=70847004",
-                            "display": "Body measure (observable entity) : Relative to (attribute) = Structure of amnion (body structure)",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "1156895008",
+                            "display": "Diameter of amniotic sac (observable entity)",
                             "_display": {
                                 "extension": [
                                     {
@@ -927,7 +846,7 @@
                                 }
                             ],
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)",
                             "_display": {
@@ -955,7 +874,7 @@
                 "id": "ae28091d-d60a-u1tr-89d2-7d4113a56003",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Percentile|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Percentile|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -963,9 +882,9 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "363787002:370130000=118583003",
-                            "display": "Observable entity (observable entity) : Property (attribute) = Percentile (property) (qualifier value)",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "1157309008",
+                            "display": "Percentile of fetal growth (observable entity)",
                             "_display": {
                                 "extension": [
                                     {
@@ -1010,7 +929,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)",
                             "_display": {
@@ -1043,7 +962,7 @@
                 "id": "ae28091d-d60a-u1tr-89d2-7d4113a56004",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Timely_Development|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Timely_Development|1.1.0"
                     ]
                 },
                 "extension": [
@@ -1056,9 +975,9 @@
                                     "coding": [
                                         {
                                             "system": "http://snomed.info/sct",
-                                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                            "code": "129125009:408730004=410525008",
-                                            "display": "Procedure with explicit context (situation) : Procedure context (attribute) = Needed (qualifier value)",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                            "code": "1157303009",
+                                            "display": "Requires follow-up (finding)",
                                             "_display": {
                                                 "extension": [
                                                     {
@@ -1088,7 +1007,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169663003",
                             "display": "Antenatal ultrasound scan normal and appropriate for dates (finding)",
                             "_display": {
@@ -1130,7 +1049,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)",
                             "_display": {
@@ -1158,7 +1077,7 @@
                 "id": "ae28091d-d60a-u1tr-89d2-7d4113a56005",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Abnormalities|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Abnormalities|1.1.0"
                     ]
                 },
                 "extension": [
@@ -1171,8 +1090,8 @@
                                     "coding": [
                                         {
                                             "system": "http://snomed.info/sct",
-                                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                            "code": "129125009:408730004=410525008",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                            "code": "1157303009",
                                             "display": "Procedure with explicit context (situation):Procedure context (attribute)=Needed (qualifier value)",
                                             "_display": {
                                                 "extension": [
@@ -1203,7 +1122,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169222003:363714003=446522006",
                             "display": "Ultrasound obstetric scan abnormal (finding):Interprets (attribute)=Ultrasonography in first trimester (procedure)",
                             "_display": {
@@ -1244,7 +1163,7 @@
                 "id": "ae28091d-d60a-u1tr-89d2-7d4113a56006",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Consultation_Initiated|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Consultation_Initiated|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1252,7 +1171,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "171338009",
                             "display": "Special examination arranged (finding)",
                             "_display": {
@@ -1294,7 +1213,7 @@
                 "id": "de41f5f5-c037-4147-8279-5cr33n1ng1a2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_DiagnosticReport_Ultrasound_I|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_DiagnosticReport_Ultrasound_I|1.1.0"
                     ]
                 },
                 "extension": [
@@ -1308,7 +1227,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "446522006",
                             "display": "Ultrasonography in first trimester (procedure)"
                         }
@@ -1357,9 +1276,9 @@
                                                 "coding": [
                                                     {
                                                         "system": "http://snomed.info/sct",
-                                                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                                        "code": "57036006",
-                                                        "display": "Fetal gestational age (observable entity)",
+                                                        "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                                        "code": "1156738004",
+                                                        "display": "Fetal gestational age in weeks and days (observable entity)",
                                                         "_display": {
                                                             "extension": [
                                                                 {
@@ -1410,8 +1329,8 @@
                                                 "coding": [
                                                     {
                                                         "system": "http://snomed.info/sct",
-                                                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                                        "code": "57036006:246501002=278395004",
+                                                        "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                                        "code": "1157308000",
                                                         "display": "Fetal gestational age (observable entity):Technique (attribute)= Imaging technique (qualifier value)",
                                                         "_display": {
                                                             "extension": [
@@ -1441,7 +1360,29 @@
                         "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
                     }
                 ],
-                "result": []
+                "result": [
+                    {
+                        "reference": "urn:uuid:ae28091d-d60a-u1tr-89d2-7d4113a56000"
+                    },
+                    {
+                        "reference": "urn:uuid:ae28091d-d60a-u1tr-89d2-7d4113a56001"
+                    },
+                    {
+                        "reference": "urn:uuid:ae28091d-d60a-u1tr-89d2-7d4113a56002"
+                    },
+                    {
+                        "reference": "urn:uuid:ae28091d-d60a-u1tr-89d2-7d4113a56003"
+                    },
+                    {
+                        "reference": "urn:uuid:ae28091d-d60a-u1tr-89d2-7d4113a56004"
+                    },
+                    {
+                        "reference": "urn:uuid:ae28091d-d60a-u1tr-89d2-7d4113a56005"
+                    },
+                    {
+                        "reference": "urn:uuid:ae28091d-d60a-u1tr-89d2-7d4113a56006"
+                    }
+                ]
             }
         },
 
@@ -1452,7 +1393,7 @@
                 "id": "3nc0unt2-c037-4147-8279-5cr33n1ng1ab",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.1.0"
                     ]
                 },
                 "status": "finished",
@@ -1487,7 +1428,7 @@
                 "id": "3a1efbc9-440e-4c5b-b115-5cr33n1ng2ab",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_DiagnosticReport_Ultrasound_II|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_DiagnosticReport_Ultrasound_II|1.1.0"
                     ]
                 },
                 "extension": [
@@ -1501,7 +1442,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169670003"
                         }
                     ]
@@ -1521,7 +1462,35 @@
                         "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
                     }
                 ],
-                "result": []
+                "result": [
+                    {
+                        "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b2"
+                    },
+                    {
+                        "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b3"
+                    },
+                    {
+                        "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b4"
+                    },
+                    {
+                        "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b5"
+                    },
+                    {
+                        "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b6"
+                    },
+                    {
+                        "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b7"
+                    },
+                    {
+                        "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b8"
+                    },
+                    {
+                        "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b9"
+                    },
+                    {
+                        "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd0072310"
+                    }
+                ]
             }
         },
         {
@@ -1531,7 +1500,7 @@
                 "id": "3a1efbc9-440e-4c5b-b115-5cr33n1ng2a2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_DiagnosticReport_Ultrasound_II|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_DiagnosticReport_Ultrasound_II|1.1.0"
                     ]
                 },
                 "extension": [
@@ -1545,7 +1514,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169670003",
                             "display": "Antenatal ultrasound scan at 17-22 weeks (procedure)",
                             "_display": {
@@ -1607,8 +1576,8 @@
                                                 "coding": [
                                                     {
                                                         "system": "http://snomed.info/sct",
-                                                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                                        "code": "57036006"
+                                                        "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                                        "code": "1156738004"
                                                     }
                                                 ]
                                             }
@@ -1663,7 +1632,7 @@
                 "id": "32714176-5f88-492e-a874-9ebdd00723b2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Singleton_Pregnancy|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Singleton_Pregnancy|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1671,7 +1640,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "237244005",
                             "_display": {
                                 "extension": [
@@ -1711,7 +1680,7 @@
                 "id": "32714176-5f88-492e-a874-9ebdd00723b3",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Heart_Action|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Heart_Action|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1719,8 +1688,8 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "277766008"
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "249045009"
                         }
                     ]
                 },
@@ -1746,7 +1715,7 @@
                 "id": "32714176-5f88-492e-a874-9ebdd00723b4",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Localisation_Placenta|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Localisation_Placenta|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1754,7 +1723,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169952004",
                             "_display": {
                                 "extension": [
@@ -1788,8 +1757,8 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "169954003",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "169952004:260245000=17621005",
                             "display": "Placenta normal O/E (finding)"
                         }
                     ]
@@ -1798,7 +1767,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)",
                             "_display": {
@@ -1826,7 +1795,7 @@
                 "id": "32714176-5f88-492e-a874-9ebdd00723b5",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Biometrics_II|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Biometrics_II|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1834,7 +1803,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "281688001",
                             "display": "Biparietal diameter (observable entity)",
                             "_display": {
@@ -1881,7 +1850,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)",
                             "_display": {
@@ -1909,7 +1878,7 @@
                 "id": "32714176-5f88-492e-a874-9ebdd00723b6",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Percentile|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Percentile|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1917,9 +1886,9 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "363787002:370130000=118583003",
-                            "display": "Observable entity (observable entity) : Property (attribute) = Percentile (property) (qualifier value)",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "1157309008",
+                            "display": "Percentile of fetal growth (observable entity)",
                             "_display": {
                                 "extension": [
                                     {
@@ -1964,7 +1933,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)",
                             "_display": {
@@ -1997,7 +1966,7 @@
                 "id": "32714176-5f88-492e-a874-9ebdd00723b7",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Morphology|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Morphology|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -2005,7 +1974,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "62991000119101",
                             "display": "Fetal abdominal wall defect (disorder)",
                             "_display": {
@@ -2047,7 +2016,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)",
                             "_display": {
@@ -2075,7 +2044,7 @@
                 "id": "32714176-5f88-492e-a874-9ebdd00723b8",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Timely_Development|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Timely_Development|1.1.0"
                     ]
                 },
                 "extension": [
@@ -2088,9 +2057,9 @@
                                     "coding": [
                                         {
                                             "system": "http://snomed.info/sct",
-                                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                            "code": "129125009:408730004=410525008",
-                                            "display": "Procedure with explicit context (situation) : Procedure context (attribute) = Needed (qualifier value)",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                            "code": "1157303009",
+                                            "display": "Requires follow-up (finding)",
                                             "_display": {
                                                 "extension": [
                                                     {
@@ -2120,7 +2089,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169663003",
                             "display": "Antenatal ultrasound scan normal and appropriate for dates (finding)",
                             "_display": {
@@ -2162,7 +2131,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)",
                             "_display": {
@@ -2190,7 +2159,7 @@
                 "id": "32714176-5f88-492e-a874-9ebdd00723b9",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Findings_Required_Control|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Findings_Required_Control|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -2198,7 +2167,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "107651007:47429007=168083008",
                             "display": "Quantity finding (finding) : Associated with (attribute) = Amniotic fluid examination (procedure)"
                         }
@@ -2227,7 +2196,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)"
                         }
@@ -2242,7 +2211,7 @@
                 "id": "32714176-5f88-492e-a874-9ebdd0072310",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Consultation_Initiated|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Consultation_Initiated|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -2250,7 +2219,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "171338009",
                             "display": "Special examination arranged (finding)",
                             "_display": {
@@ -2284,53 +2253,6 @@
                 "valueBoolean": true
             }
         },
-
-        {
-            "fullUrl": "urn:uuid:3a1efbc9-440e-4c5b-b115-5cr33n1ng2a3",
-            "resource": {
-                "resourceType": "DiagnosticReport",
-                "id": "3a1efbc9-440e-4c5b-b115-5cr33n1ng2a3",
-                "meta": {
-                    "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_DiagnosticReport_Ultrasound_II|1.0.0"
-                    ]
-                },
-                "extension": [
-                    {
-                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
-                        "valueString": "Ergänzende Informationen"
-                    }
-                ],
-                "status": "final",
-                "code": {
-                    "coding": [
-                        {
-                            "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "169670003",
-                            "display": "Antenatal ultrasound scan at 17-22 weeks (procedure)"
-                        }
-                    ]
-                },
-                "subject": {
-                    "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
-                },
-                "encounter": {
-                    "reference": "urn:uuid:3nc0unt2-c037-4147-8279-5cr33n1ng1ab"
-                },
-                "effectiveDateTime": "2020-06-01",
-                "_effectiveDateTime": {
-                    "extension": []
-                },
-                "performer": [
-                    {
-                        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
-                    }
-                ],
-                "result": []
-            }
-        },
-
         {
             "fullUrl": "urn:uuid:3nc0unt3-c037-4147-8279-5cr33n1ng1ab",
             "resource": {
@@ -2338,7 +2260,7 @@
                 "id": "3nc0unt3-c037-4147-8279-5cr33n1ng1ab",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.1.0"
                     ]
                 },
                 "status": "finished",
@@ -2373,7 +2295,7 @@
                 "id": "de41f5f5-c037-4147-8279-5cr33n1ng3a2",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_DiagnosticReport_Ultrasound_III|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_DiagnosticReport_Ultrasound_III|1.1.0"
                     ]
                 },
                 "extension": [
@@ -2387,7 +2309,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "446353007",
                             "display": "Ultrasonography in third trimester (procedure)",
                             "_display": {
@@ -2449,9 +2371,9 @@
                                                 "coding": [
                                                     {
                                                         "system": "http://snomed.info/sct",
-                                                        "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                                        "code": "57036006",
-                                                        "display": "Fetal gestational age (observable entity)",
+                                                        "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                                        "code": "1156738004",
+                                                        "display": "Fetal gestational age in weeks and days (observable entity)",
                                                         "_display": {
                                                             "extension": [
                                                                 {
@@ -2518,7 +2440,7 @@
                 "id": "32714176-5f88-492e-a874-5cr33n1ng300",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Singleton_Pregnancy|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Singleton_Pregnancy|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -2526,7 +2448,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "237244005",
                             "_display": {
                                 "extension": [
@@ -2566,7 +2488,7 @@
                 "id": "32714176-5f88-492e-a874-5cr33n1ng301",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Heart_Action|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Heart_Action|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -2574,9 +2496,9 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "277766008",
-                            "display": "Awareness of heart beat (finding)",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "249045009",
+                            "display": "Fetal heart sounds present (finding)",
                             "_display": {
                                 "extension": [
                                     {
@@ -2616,7 +2538,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)",
                             "_display": {
@@ -2644,7 +2566,7 @@
                 "id": "32714176-5f88-492e-a874-5cr33n1ng302",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Localisation_Placenta|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Localisation_Placenta|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -2652,7 +2574,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169952004",
                             "display": "Placental finding (finding)",
                             "_display": {
@@ -2687,8 +2609,8 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "169954003",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "169952004:260245000=17621005",
                             "display": "Placenta normal O/E (finding)",
                             "_display": {
                                 "extension": [
@@ -2716,7 +2638,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)",
                             "_display": {
@@ -2744,7 +2666,7 @@
                 "id": "32714176-5f88-492e-a874-5cr33n1ng303",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Child_Position|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Child_Position|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -2752,7 +2674,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364607000",
                             "display": "Position of fetus (observable entity)",
                             "_display": {
@@ -2794,7 +2716,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)",
                             "_display": {
@@ -2822,7 +2744,7 @@
                 "id": "32714176-5f88-492e-a874-5cr33n1ng304",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Biometrics_III|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Biometrics_III|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -2830,7 +2752,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "281688001",
                             "display": "Biparietal diameter (observable entity)",
                             "_display": {
@@ -2877,7 +2799,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)",
                             "_display": {
@@ -2905,7 +2827,7 @@
                 "id": "32714176-5f88-492e-a874-5cr33n1ng305",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Percentile|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Percentile|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -2913,9 +2835,9 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "363787002:370130000=118583003",
-                            "display": "Observable entity (observable entity) : Property (attribute) = Percentile (property) (qualifier value)",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "1157309008",
+                            "display": "Percentile of fetal growth (observable entity)",
                             "_display": {
                                 "extension": [
                                     {
@@ -2960,7 +2882,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)",
                             "_display": {
@@ -2993,7 +2915,7 @@
                 "id": "32714176-5f88-492e-a874-5cr33n1ng306",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Timely_Development|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Timely_Development|1.1.0"
                     ]
                 },
                 "extension": [
@@ -3006,9 +2928,9 @@
                                     "coding": [
                                         {
                                             "system": "http://snomed.info/sct",
-                                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                                            "code": "129125009:408730004=410525008",
-                                            "display": "Procedure with explicit context (situation) : Procedure context (attribute) = Needed (qualifier value)",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                                            "code": "1157303009",
+                                            "display": "Requires follow-up (finding)",
                                             "_display": {
                                                 "extension": [
                                                     {
@@ -3038,7 +2960,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "169663003",
                             "display": "Antenatal ultrasound scan normal and appropriate for dates (finding)",
                             "_display": {
@@ -3080,7 +3002,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)",
                             "_display": {
@@ -3108,7 +3030,7 @@
                 "id": "32714176-5f88-492e-a874-5cr33n1ng307",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Findings_Required_Control|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Findings_Required_Control|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -3116,7 +3038,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "107651007:47429007=168083008",
                             "display": "Quantity finding (finding) : Associated with (attribute) = Amniotic fluid examination (procedure)"
                         }
@@ -3145,7 +3067,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364599001",
                             "display": "Fetal observable (observable entity)"
                         }
@@ -3160,7 +3082,7 @@
                 "id": "32714176-5f88-492e-a874-5cr33n1ng308",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Consultation_Initiated|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Consultation_Initiated|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -3168,7 +3090,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "171338009",
                             "display": "Special examination arranged (finding)",
                             "_display": {

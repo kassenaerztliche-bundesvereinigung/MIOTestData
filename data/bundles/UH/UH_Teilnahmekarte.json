@@ -12,7 +12,7 @@
     "timestamp": "2019-12-23T12:30:02Z",
     "entry": [
         {
-            "fullUrl": "http://test.local/fhir/b452f730-1925-406c-a331-71c614201204",
+            "fullUrl": "http://test.local/fhir/Composition/b452f730-1925-406c-a331-71c614201204",
             "resource": {
                 "resourceType": "Composition",
                 "id": "b452f730-1925-406c-a331-71c614201204",
@@ -43,10 +43,10 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:04ad3612-60a7-4303-aa8a-82860106a1ab"
+                    "reference": "Patient/04ad3612-60a7-4303-aa8a-82860106a1ab"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:ff734d2b-b1a3-4f54-8dde-9bef7f978701"
+                    "reference": "Encounter/ff734d2b-b1a3-4f54-8dde-9bef7f978701"
                 },
                 "date": "2020-01-02",
                 "author": [
@@ -58,7 +58,7 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:ff734d2b-b1a3-4f54-8dde-9bef7f978701",
+            "fullUrl": "http://test.local/fhir/Encounter/ff734d2b-b1a3-4f54-8dde-9bef7f978701",
             "resource": {
                 "resourceType": "Encounter",
                 "id": "ff734d2b-b1a3-4f54-8dde-9bef7f978701",
@@ -100,7 +100,7 @@
                     }
                 ],
                 "subject": {
-                    "reference": "urn:uuid:04ad3612-60a1-4303-cmra-82860106a1ab"
+                    "reference": "Patient/04ad3612-60a1-4303-cmra-82860106a1ab"
                 },
                 "participant": [
                     {
@@ -270,7 +270,7 @@
             }
         },
         {
-            "fullUrl": "http://test.local/fhir/04ad3612-60a7-4303-aa8a-82860106a1ab",
+            "fullUrl": "http://test.local/fhir/Patient/04ad3612-60a7-4303-aa8a-82860106a1ab",
             "resource": {
                 "resourceType": "Patient",
                 "id": "04ad3612-60a7-4303-aa8a-82860106a1ab",
@@ -314,7 +314,7 @@
             }
         },
         {
-            "fullUrl": "http://test.local/fhir/04ad3612-60a1-4303-cmra-82860106a1ab",
+            "fullUrl": "http://test.local/fhir/Patient/04ad3612-60a1-4303-cmra-82860106a1ab",
             "resource": {
                 "resourceType": "Patient",
                 "id": "04ad3612-60a1-4303-cmra-82860106a1ab",

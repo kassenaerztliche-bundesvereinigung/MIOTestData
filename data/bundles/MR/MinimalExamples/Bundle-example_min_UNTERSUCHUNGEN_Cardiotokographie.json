@@ -2,7 +2,7 @@
     "resourceType": "Bundle",
     "id": "4394f9f8-6a0b-min0-i89z-em2adxa0c762",
     "meta": {
-        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Bundle|1.0.0"]
+        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Bundle|1.1.0"]
     },
     "identifier": {
         "system": "urn:ietf:rfc:3986",
@@ -18,7 +18,7 @@
                 "id": "fe0c905b-6476-4675-8ca9-2c40f56968a8",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Composition|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Composition|1.1.0"
                     ]
                 },
                 "extension": [
@@ -27,7 +27,7 @@
                         "extension": [
                             {
                                 "url": "hinweiseSchwangere",
-                                "valueString": "Schwangerschaft und Geburt sind natürliche Vorgänge und stellen keine Krankheit dar. Manchmal können sie allerdings mit einem erhöhten Risiko für Mutter und Kind belastet sein. Eine sorgfältige Schwangerschaftsbetreuung hilft, einen großen Teil dieser Risiken zu vermeiden oder rechtzeitig zu erkennen, um Gefahren abzuwenden. Voraussetzung dafür ist jedoch Ihre regelmäßige Teilnahme an den Vorsorgeuntersuchungen!Die in Ihrem Mutterpass aufgeführten Untersuchungen dienen der Gesunderhaltung von Mutter und Kind und entsprechen langjähriger geburtshilflicher Erfahrung und modernen medizinischen Erkenntnissen. Dieser Mutterpass enthält die während der Schwangerschaft erhobenen wichtigen Befunde. Er wird Ihnen nach jeder Vorsorgeuntersuchung wieder mitgegeben. Die Angaben im Mutterpass dienen der Information von Arzt und Hebamme sowie Ihrer und Ihres Kindes Sicherheit. Der Mutterpass ist Ihr persönliches Dokument. Sie allein entscheiden darüber, wem er zugänglich gemacht werden soll. Andere (z. B. Arbeitgeber, Behörden) dürfen eine Einsichtnahme nicht verlangen.Bitte: ● Nutzen Sie die Ihnen gebotenen Möglichkeiten, um sich und Ihrem Kind Sicherheit zu verschaffen! ● Vergessen Sie nicht, dieses Heft zu jeder ärztlichen Untersuchung während der Schwangerschaft, zur Entbindung und zur Untersuchung des Kindes mitzubringen! ● Lassen Sie sich helfen, wenn Sie Sorgen haben! ● Beraten Sie sich mit Ihrem Arzt und befolgen Sie seine Ratschläge!"
+                                "valueString": "Schwangerschaft und Geburt sind natürliche Vorgänge und stellen keine Krankheit dar. Manchmal können sie allerdings mit einem erhöhten Risiko für Mutter und Kind belastet sein. Eine sorgfältige Schwangerschaftsbetreuung hilft, einen großen Teil dieser Risiken zu vermeiden oder rechtzeitig zu erkennen, um Gefahren abzuwenden. Voraussetzung dafür ist jedoch Ihre regelmäßige Teilnahme an den Vorsorgeuntersuchungen! Die in Ihrem Mutterpass aufgeführten Untersuchungen dienen der Gesunderhaltung von Mutter und Kind und entsprechen langjähriger geburtshilflicher Erfahrung und modernen medizinischen Erkenntnissen. Dieser Mutterpass enthält die während der Schwangerschaft erhobenen wichtigen Befunde. Er wird Ihnen nach jeder Vorsorgeuntersuchung wieder mitgegeben. Die Angaben im Mutterpass dienen der Information von Arzt und Hebamme sowie Ihrer und Ihres Kindes Sicherheit. Der Mutterpass ist Ihr persönliches Dokument. Sie allein entscheiden darüber, wem er zugänglich gemacht werden soll. Andere (z. B. Arbeitgeber, Behörden) dürfen eine Einsichtnahme nicht verlangen. Bitte: ● Nutzen Sie die Ihnen gebotenen Möglichkeiten, um sich und Ihrem Kind Sicherheit zu verschaffen! ● Vergessen Sie nicht, dieses Heft zu jeder ärztlichen Untersuchung während der Schwangerschaft, zur Entbindung und zur Untersuchung des Kindes mitzubringen! ● Lassen Sie sich helfen, wenn Sie Sorgen haben! ● Beraten Sie sich mit Ihrem Arzt und befolgen Sie seine Ratschläge!"
                             },
                             {
                                 "url": "hinweiseMutter",
@@ -35,7 +35,7 @@
                             },
                             {
                                 "url": "aufbewahrungshinweis",
-                                "valueString": "Während der Schwangerschaft sollten Sie Ihren Mutterpass immer bei sich haben und zu jeder ärztlichen Untersuchung mitbringen,insbesondere auch zur Entbindung. Ihr Mutterpass gehört zu den Dokumenten, die Sie immer sorgfältig aufbewahren sollten."
+                                "valueString": "Während der Schwangerschaft sollten Sie Ihren Mutterpass immer bei sich haben und zu jeder ärztlichen Untersuchung mitbringen, insbesondere auch zur Entbindung. Ihr Mutterpass gehört zu den Dokumenten, die Sie immer sorgfältig aufbewahren sollten."
                             }
                         ]
                     }
@@ -45,7 +45,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "736377005",
                             "display": "Maternity care plan (record artifact)",
                             "_display": {
@@ -82,7 +82,7 @@
                         "title": "Untersuchungen",
                         "section": [
                             {
-                                "title": "Cardiotokographie",
+                                "title": "Cardiotokografie",
                                 "entry": [
                                     {
                                         "reference": "urn:uuid:c462e3a3-5d35-42c2-9312-1e35e45ce83e"
@@ -101,7 +101,7 @@
                 "id": "e08a4445-d57b-454b-b1c6-560ae8d16c17",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.1.0"
                     ]
                 },
                 "status": "finished",
@@ -136,7 +136,7 @@
                 "id": "f6b2a209-c7b6-4735-80a7-9b8c85aa5fd1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Organization|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Organization|1.1.0"
                     ]
                 },
                 "extension": [
@@ -151,7 +151,8 @@
                             "coding": [
                                 {
                                     "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-                                    "code": "XX"
+                                    "code": "XX",
+                                    "display": "Organisations-ID"
                                 }
                             ]
                         },
@@ -202,7 +203,7 @@
                 "id": "6a15cff6-3cc1-4bf2-ab66-1cc6316e6777",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Mother|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Mother|1.1.0"
                     ]
                 },
                 "identifier": [
@@ -211,7 +212,8 @@
                             "coding": [
                                 {
                                     "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
-                                    "code": "GKV"
+                                    "code": "GKV",
+                                    "display": "Gesetzliche Krankenversicherung"
                                 }
                             ]
                         },
@@ -287,7 +289,7 @@
                 "id": "c462e3a3-5d35-42c2-9312-1e35e45ce83e",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Cardiotocography|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Cardiotocography|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -295,7 +297,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "364363007",
                             "display": "Cardiotochogram feature (observable entity)",
                             "_display": {
@@ -305,7 +307,7 @@
                                         "extension": [
                                             {
                                                 "url": "content",
-                                                "valueString": "Cardiototokographie"
+                                                "valueString": "Cardiotokografie"
                                             }
                                         ]
                                     }
@@ -331,7 +333,7 @@
                 "id": "8ad1ee6c-6164-493a-be52-c43cf49e9916",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Practitioner|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Practitioner|1.1.0"
                     ]
                 },
                 "extension": [
@@ -346,7 +348,8 @@
                             "coding": [
                                 {
                                     "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-                                    "code": "LANR"
+                                    "code": "LANR",
+                                    "display": "Lifelong physician number"
                                 }
                             ]
                         },

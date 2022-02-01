@@ -2,7 +2,7 @@
     "resourceType": "Bundle",
     "id": "4394f9f8-6a0b-spec-find-em2adxa0c762",
     "meta": {
-        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Bundle|1.0.0"]
+        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Bundle|1.1.0"]
     },
     "identifier": {
         "system": "urn:ietf:rfc:3986",
@@ -18,7 +18,7 @@
                 "id": "fe0c905b-6476-4675-8ca9-2c40f56968a8",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Composition|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Composition|1.1.0"
                     ]
                 },
                 "extension": [
@@ -27,7 +27,7 @@
                         "extension": [
                             {
                                 "url": "hinweiseSchwangere",
-                                "valueString": "Schwangerschaft und Geburt sind natürliche Vorgänge und stellen keine Krankheit dar. Manchmal können sie allerdings mit einem erhöhten Risiko für Mutter und Kind belastet sein. Eine sorgfältige Schwangerschaftsbetreuung hilft, einen großen Teil dieser Risiken zu vermeiden oder rechtzeitig zu erkennen, um Gefahren abzuwenden. Voraussetzung dafür ist jedoch Ihre regelmäßige Teilnahme an den Vorsorgeuntersuchungen!Die in Ihrem Mutterpass aufgeführten Untersuchungen dienen der Gesunderhaltung von Mutter und Kind und entsprechen langjähriger geburtshilflicher Erfahrung und modernen medizinischen Erkenntnissen. Dieser Mutterpass enthält die während der Schwangerschaft erhobenen wichtigen Befunde. Er wird Ihnen nach jeder Vorsorgeuntersuchung wieder mitgegeben. Die Angaben im Mutterpass dienen der Information von Arzt und Hebamme sowie Ihrer und Ihres Kindes Sicherheit. Der Mutterpass ist Ihr persönliches Dokument. Sie allein entscheiden darüber, wem er zugänglich gemacht werden soll. Andere (z. B. Arbeitgeber, Behörden) dürfen eine Einsichtnahme nicht verlangen.Bitte: ● Nutzen Sie die Ihnen gebotenen Möglichkeiten, um sich und Ihrem Kind Sicherheit zu verschaffen! ● Vergessen Sie nicht, dieses Heft zu jeder ärztlichen Untersuchung während der Schwangerschaft, zur Entbindung und zur Untersuchung des Kindes mitzubringen! ● Lassen Sie sich helfen, wenn Sie Sorgen haben! ● Beraten Sie sich mit Ihrem Arzt und befolgen Sie seine Ratschläge!"
+                                "valueString": "Schwangerschaft und Geburt sind natürliche Vorgänge und stellen keine Krankheit dar. Manchmal können sie allerdings mit einem erhöhten Risiko für Mutter und Kind belastet sein. Eine sorgfältige Schwangerschaftsbetreuung hilft, einen großen Teil dieser Risiken zu vermeiden oder rechtzeitig zu erkennen, um Gefahren abzuwenden. Voraussetzung dafür ist jedoch Ihre regelmäßige Teilnahme an den Vorsorgeuntersuchungen! Die in Ihrem Mutterpass aufgeführten Untersuchungen dienen der Gesunderhaltung von Mutter und Kind und entsprechen langjähriger geburtshilflicher Erfahrung und modernen medizinischen Erkenntnissen. Dieser Mutterpass enthält die während der Schwangerschaft erhobenen wichtigen Befunde. Er wird Ihnen nach jeder Vorsorgeuntersuchung wieder mitgegeben. Die Angaben im Mutterpass dienen der Information von Arzt und Hebamme sowie Ihrer und Ihres Kindes Sicherheit. Der Mutterpass ist Ihr persönliches Dokument. Sie allein entscheiden darüber, wem er zugänglich gemacht werden soll. Andere (z. B. Arbeitgeber, Behörden) dürfen eine Einsichtnahme nicht verlangen. Bitte: ● Nutzen Sie die Ihnen gebotenen Möglichkeiten, um sich und Ihrem Kind Sicherheit zu verschaffen! ● Vergessen Sie nicht, dieses Heft zu jeder ärztlichen Untersuchung während der Schwangerschaft, zur Entbindung und zur Untersuchung des Kindes mitzubringen! ● Lassen Sie sich helfen, wenn Sie Sorgen haben! ● Beraten Sie sich mit Ihrem Arzt und befolgen Sie seine Ratschläge!"
                             },
                             {
                                 "url": "hinweiseMutter",
@@ -35,7 +35,7 @@
                             },
                             {
                                 "url": "aufbewahrungshinweis",
-                                "valueString": "Während der Schwangerschaft sollten Sie Ihren Mutterpass immer bei sich haben und zu jeder ärztlichen Untersuchung mitbringen,insbesondere auch zur Entbindung. Ihr Mutterpass gehört zu den Dokumenten, die Sie immer sorgfältig aufbewahren sollten."
+                                "valueString": "Während der Schwangerschaft sollten Sie Ihren Mutterpass immer bei sich haben und zu jeder ärztlichen Untersuchung mitbringen, insbesondere auch zur Entbindung. Ihr Mutterpass gehört zu den Dokumenten, die Sie immer sorgfältig aufbewahren sollten."
                             }
                         ]
                     }
@@ -45,7 +45,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "736377005",
                             "display": "Maternity care plan (record artifact)",
                             "_display": {
@@ -186,7 +186,7 @@
                                     "coding": [
                                         {
                                             "system": "http://snomed.info/sct",
-                                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                                             "code": "113076002",
                                             "display": "Glucose tolerance test (procedure)",
                                             "_display": {
@@ -205,7 +205,7 @@
                                         },
                                         {
                                             "system": "http://loinc.org",
-                                            "version": "2.68",
+                                            "version": "2.71",
                                             "code": "21004-7",
                                             "display": "Glucose tolerance [Interpretation] in Serum or Plasma",
                                             "_display": {
@@ -245,7 +245,7 @@
                 "id": "e08a4445-d57b-454b-b1c6-560ae8d16c17",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.1.0"
                     ]
                 },
                 "status": "finished",
@@ -280,7 +280,7 @@
                 "id": "173f97ca-0c97-4529-8b30-42acf1453e61",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_oGTT_Diagnosistest|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_oGTT_Diagnosistest|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -288,8 +288,8 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "386053000:{363702006=271062006,363702006=442260000,363702006=49167009}",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "699731004",
                             "display": "Evaluation procedure (procedure) : {Has focus (attribute) = Fasting blood glucose measurement (procedure), Has focus (attribute) = Measurement of glucose 1 hour after glucose challenge for glucose tolerance test (procedure), Has focus (attribute) = Measurement of glucose 2 hours after glucose challenge for glucose tolerance test (procedure)}",
                             "_display": {
                                 "extension": [
@@ -307,7 +307,7 @@
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.71",
                             "code": "81324-6",
                             "display": "Glucose tolerance 2 hours gestational panel - Serum or Plasma",
                             "_display": {
@@ -342,8 +342,8 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
-                            "code": "166926006",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                            "code": "1156100006",
                             "display": "Glucose tolerance test normal (finding)",
                             "_display": {
                                 "extension": [
@@ -370,7 +370,7 @@
                 "id": "e2617e3d-18de-4cdf-bcec-d3b2eb6fad5b",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_oGTT_Pretest|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_oGTT_Pretest|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -378,7 +378,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "442260000",
                             "display": "Measurement of glucose 1 hour after glucose challenge for glucose tolerance test (procedure)",
                             "_display": {
@@ -397,7 +397,7 @@
                         },
                         {
                             "system": "http://loinc.org",
-                            "version": "2.68",
+                            "version": "2.71",
                             "code": "1551-1",
                             "display": "Glucose [Mass/volume] in Serum or Plasma --pre 50 g lactose PO",
                             "_display": {
@@ -432,7 +432,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "404684003:{363714003=442260000,363713009=394844007}",
                             "display": "Clinical finding (finding) : {Interprets (attribute) = Measurement of glucose 1 hour after glucose challenge for glucose tolerance test (procedure), Has interpretation (attribute) = Outside reference range (qualifier value)}",
                             "_display": {
@@ -460,7 +460,7 @@
                 "id": "f6b2a209-c7b6-4735-80a7-9b8c85aa5fd1",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Organization|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Organization|1.1.0"
                     ]
                 },
                 "extension": [
@@ -475,7 +475,8 @@
                             "coding": [
                                 {
                                     "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-                                    "code": "XX"
+                                    "code": "XX",
+                                    "display": "Organisations-ID"
                                 }
                             ]
                         },
@@ -526,7 +527,7 @@
                 "id": "6a15cff6-3cc1-4bf2-ab66-1cc6316e6777",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Mother|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Mother|1.1.0"
                     ]
                 },
                 "identifier": [
@@ -535,7 +536,8 @@
                             "coding": [
                                 {
                                     "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
-                                    "code": "GKV"
+                                    "code": "GKV",
+                                    "display": "Gesetzliche Krankenversicherung"
                                 }
                             ]
                         },
@@ -611,7 +613,7 @@
                 "id": "8ad1ee6c-6164-493a-be52-c43cf49e9916",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Practitioner|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Practitioner|1.1.0"
                     ]
                 },
                 "extension": [
@@ -626,7 +628,8 @@
                             "coding": [
                                 {
                                     "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-                                    "code": "LANR"
+                                    "code": "LANR",
+                                    "display": "Lifelong physician number"
                                 }
                             ]
                         },
@@ -688,7 +691,7 @@
                 "id": "15db751e-b9ee-482f-997f-ea5ee3d1f569",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Previous_Pregnancy|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Previous_Pregnancy|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -696,7 +699,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "127362006"
                         }
                     ]
@@ -713,7 +716,7 @@
                         "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
                     }
                 ],
-                "valueDateTime": "2020-01-02",
+                "valueDateTime": "2020",
                 "note": [
                     {
                         "text": "Anmerkung erste Schwangerschaft"
@@ -728,7 +731,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a691",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -736,7 +739,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001",
                             "display": "Finding related to pregnancy (finding)",
                             "_display": {
@@ -771,7 +774,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "27624003",
                             "display": "Chronic disease (disorder)",
                             "_display": {
@@ -804,7 +807,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a692",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -812,7 +815,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -833,7 +836,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "710814002",
                             "display": "Long-term current use of drug therapy (situation)"
                         }
@@ -849,7 +852,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a693",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -857,7 +860,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -878,7 +881,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "66214007"
                         }
                     ]
@@ -893,7 +896,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a694",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -901,7 +904,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -922,7 +925,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "271596009"
                         }
                     ]
@@ -937,7 +940,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a695",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -945,7 +948,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -966,7 +969,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "161152002"
                         }
                     ]
@@ -980,7 +983,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a696",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -988,7 +991,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1009,7 +1012,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "723665008"
                         }
                     ]
@@ -1023,7 +1026,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a697",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1031,7 +1034,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1052,7 +1055,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "427139004"
                         }
                     ]
@@ -1066,7 +1069,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a698",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1074,7 +1077,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1095,7 +1098,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "36813001"
                         }
                     ]
@@ -1109,7 +1112,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a699",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1117,7 +1120,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1138,7 +1141,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "16356006"
                         }
                     ]
@@ -1152,7 +1155,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a600",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1160,7 +1163,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1181,7 +1184,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "86203003"
                         }
                     ]
@@ -1195,7 +1198,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a601",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1203,7 +1206,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1224,7 +1227,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "59566000"
                         }
                     ]
@@ -1238,7 +1241,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a602",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1246,7 +1249,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1267,7 +1270,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "237238006"
                         }
                     ]
@@ -1281,7 +1284,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a603",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1289,7 +1292,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1310,7 +1313,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "237292005"
                         }
                     ]
@@ -1324,7 +1327,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a604",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1332,7 +1335,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1353,7 +1356,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "17382005"
                         }
                     ]
@@ -1367,7 +1370,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a605",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1375,7 +1378,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1396,7 +1399,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "6383007"
                         }
                     ]
@@ -1410,7 +1413,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a606",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1418,7 +1421,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1439,7 +1442,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "199246003"
                         }
                     ]
@@ -1453,7 +1456,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a607",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1461,7 +1464,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1482,7 +1485,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "307534009"
                         }
                     ]
@@ -1496,7 +1499,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a608",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1504,7 +1507,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1525,7 +1528,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "165775009"
                         }
                     ]
@@ -1539,7 +1542,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a609",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1547,7 +1550,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1568,7 +1571,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "47200007:418775008=312404004"
                         }
                     ]
@@ -1582,7 +1585,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a610",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1590,7 +1593,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1611,7 +1614,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "82771000119102"
                         }
                     ]
@@ -1625,7 +1628,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a611",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1633,7 +1636,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1654,7 +1657,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "29738008"
                         }
                     ]
@@ -1668,7 +1671,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a612",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1676,7 +1679,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1697,7 +1700,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "698632006:263502005=371924009"
                         }
                     ]
@@ -1711,7 +1714,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a613",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1719,7 +1722,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1740,7 +1743,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "45007003"
                         }
                     ]
@@ -1754,7 +1757,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a614",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1762,7 +1765,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1783,7 +1786,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "11687002"
                         }
                     ]
@@ -1797,7 +1800,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a615",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1805,7 +1808,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1826,7 +1829,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "289365005"
                         }
                     ]
@@ -1840,7 +1843,7 @@
                 "id": "07a9ac31-d117-40b6-ade1-4d9830f8a616",
                 "meta": {
                     "profile": [
-                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.0.0"
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Special_Findings|1.1.0"
                     ]
                 },
                 "status": "final",
@@ -1848,7 +1851,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]
@@ -1869,7 +1872,7 @@
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210731",
                             "code": "118185001"
                         }
                     ]

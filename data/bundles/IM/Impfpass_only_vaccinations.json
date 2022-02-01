@@ -15,7 +15,7 @@
     "timestamp": "2019-12-23T12:30:02Z",
     "entry": [
         {
-            "fullUrl": "Composition:urn:uuid:6d92d417-8a0d-42b9-959f-567ab2f4650f",
+            "fullUrl": "Composition/6d92d417-8a0d-42b9-959f-567ab2f4650f",
             "resource": {
                 "resourceType": "Composition",
                 "id": "6d92d417-8a0d-42b9-959f-567ab2f4650f",
@@ -35,12 +35,12 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "date": "2018-07-01T12:30:02Z",
                 "author": [
                     {
-                        "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                        "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                     }
                 ],
                 "title": "Impfeintrag-/einträge Nach-/Übertrag",
@@ -58,94 +58,94 @@
                         },
                         "entry": [
                             {
-                                "reference": "urn:uuid:immuniz-0"
+                                "reference": "Immunization/immuniz-0"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-1"
+                                "reference": "Immunization/immuniz-1"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-2"
+                                "reference": "Immunization/immuniz-2"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-3"
+                                "reference": "Immunization/immuniz-3"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-4"
+                                "reference": "Immunization/immuniz-4"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-5"
+                                "reference": "Immunization/immuniz-5"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-6"
+                                "reference": "Immunization/immuniz-6"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-7"
+                                "reference": "Immunization/immuniz-7"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-8"
+                                "reference": "Immunization/immuniz-8"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-9"
+                                "reference": "Immunization/immuniz-9"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-10"
+                                "reference": "Immunization/immuniz-10"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-11"
+                                "reference": "Immunization/immuniz-11"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-12"
+                                "reference": "Immunization/immuniz-12"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-13"
+                                "reference": "Immunization/immuniz-13"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-14"
+                                "reference": "Immunization/immuniz-14"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-15"
+                                "reference": "Immunization/immuniz-15"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-16"
+                                "reference": "Immunization/immuniz-16"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-17"
+                                "reference": "Immunization/immuniz-17"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-18"
+                                "reference": "Immunization/immuniz-18"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-19"
+                                "reference": "Immunization/immuniz-19"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-20"
+                                "reference": "Immunization/immuniz-20"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-21"
+                                "reference": "Immunization/immuniz-21"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-22"
+                                "reference": "Immunization/immuniz-22"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-23"
+                                "reference": "Immunization/immuniz-23"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-24"
+                                "reference": "Immunization/immuniz-24"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-25"
+                                "reference": "Immunization/immuniz-25"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-26"
+                                "reference": "Immunization/immuniz-26"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-27"
+                                "reference": "Immunization/immuniz-27"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-28"
+                                "reference": "Immunization/immuniz-28"
                             },
                             {
-                                "reference": "urn:uuid:immuniz-29"
+                                "reference": "Immunization/immuniz-29"
                             }
                         ]
                     }
@@ -153,7 +153,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-0",
+            "fullUrl": "Immunization/immuniz-0",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-0",
@@ -196,7 +196,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -218,14 +218,15 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
                     }
                 ],
                 "status": "completed",
-                "vaccineCode": {
+                "vaccineCode":
+                {
                     "coding": [
                         {
                             "system": "http://snomed.info/sct",
@@ -249,7 +250,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -293,7 +294,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-1",
+            "fullUrl": "Immunization/immuniz-1",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-1",
@@ -336,7 +337,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -358,7 +359,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -389,7 +390,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -433,7 +434,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-2",
+            "fullUrl": "Immunization/immuniz-2",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-2",
@@ -476,7 +477,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -498,7 +499,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -529,7 +530,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -573,7 +574,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-3",
+            "fullUrl": "Immunization/immuniz-3",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-3",
@@ -616,7 +617,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -638,7 +639,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -669,7 +670,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -713,7 +714,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-4",
+            "fullUrl": "Immunization/immuniz-4",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-4",
@@ -756,7 +757,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -778,7 +779,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -809,7 +810,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -853,7 +854,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-5",
+            "fullUrl": "Immunization/immuniz-5",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-5",
@@ -896,7 +897,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -918,7 +919,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -949,7 +950,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -993,7 +994,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-6",
+            "fullUrl": "Immunization/immuniz-6",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-6",
@@ -1036,7 +1037,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -1058,7 +1059,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -1089,7 +1090,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -1133,7 +1134,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-7",
+            "fullUrl": "Immunization/immuniz-7",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-7",
@@ -1176,7 +1177,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -1198,7 +1199,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -1229,7 +1230,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -1273,7 +1274,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-8",
+            "fullUrl": "Immunization/immuniz-8",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-8",
@@ -1316,7 +1317,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -1338,7 +1339,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -1369,7 +1370,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -1413,7 +1414,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-9",
+            "fullUrl": "Immunization/immuniz-9",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-9",
@@ -1456,7 +1457,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -1478,7 +1479,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -1509,7 +1510,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -1554,7 +1555,7 @@
         },
 
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-10",
+            "fullUrl": "Immunization/immuniz-10",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-10",
@@ -1597,7 +1598,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -1619,7 +1620,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -1650,7 +1651,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -1694,7 +1695,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-11",
+            "fullUrl": "Immunization/immuniz-11",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-11",
@@ -1737,7 +1738,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -1759,7 +1760,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -1790,7 +1791,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -1834,7 +1835,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-12",
+            "fullUrl": "Immunization/immuniz-12",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-12",
@@ -1877,7 +1878,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -1899,7 +1900,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -1930,7 +1931,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -1974,7 +1975,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-13",
+            "fullUrl": "Immunization/immuniz-13",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-13",
@@ -2017,7 +2018,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2039,7 +2040,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2070,7 +2071,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -2114,7 +2115,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-14",
+            "fullUrl": "Immunization/immuniz-14",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-14",
@@ -2157,7 +2158,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2179,7 +2180,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2210,7 +2211,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -2254,7 +2255,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-15",
+            "fullUrl": "Immunization/immuniz-15",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-15",
@@ -2297,7 +2298,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2319,7 +2320,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2350,7 +2351,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -2394,7 +2395,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-16",
+            "fullUrl": "Immunization/immuniz-16",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-16",
@@ -2437,7 +2438,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2459,7 +2460,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2490,7 +2491,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -2534,7 +2535,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-17",
+            "fullUrl": "Immunization/immuniz-17",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-17",
@@ -2577,7 +2578,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2599,7 +2600,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2630,7 +2631,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -2674,7 +2675,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-18",
+            "fullUrl": "Immunization/immuniz-18",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-18",
@@ -2717,7 +2718,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2739,7 +2740,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2770,7 +2771,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -2814,7 +2815,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-19",
+            "fullUrl": "Immunization/immuniz-19",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-19",
@@ -2857,7 +2858,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2879,7 +2880,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2910,7 +2911,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -2955,7 +2956,7 @@
         },
 
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-20",
+            "fullUrl": "Immunization/immuniz-20",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-20",
@@ -2998,7 +2999,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -3020,7 +3021,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -3051,7 +3052,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -3095,7 +3096,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-21",
+            "fullUrl": "Immunization/immuniz-21",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-21",
@@ -3138,7 +3139,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -3160,7 +3161,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -3191,7 +3192,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -3235,7 +3236,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-22",
+            "fullUrl": "Immunization/immuniz-22",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-22",
@@ -3278,7 +3279,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -3300,7 +3301,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -3331,7 +3332,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -3375,7 +3376,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-23",
+            "fullUrl": "Immunization/immuniz-23",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-23",
@@ -3418,7 +3419,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -3440,7 +3441,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -3471,7 +3472,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -3515,7 +3516,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-24",
+            "fullUrl": "Immunization/immuniz-24",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-24",
@@ -3558,7 +3559,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -3580,7 +3581,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -3611,7 +3612,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -3655,7 +3656,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-25",
+            "fullUrl": "Immunization/immuniz-25",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-25",
@@ -3698,7 +3699,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -3720,7 +3721,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -3751,7 +3752,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -3795,7 +3796,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-26",
+            "fullUrl": "Immunization/immuniz-26",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-26",
@@ -3838,7 +3839,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -3860,7 +3861,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -3891,7 +3892,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -3935,7 +3936,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-27",
+            "fullUrl": "Immunization/immuniz-27",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-27",
@@ -3978,7 +3979,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -4000,7 +4001,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -4031,7 +4032,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -4075,7 +4076,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-28",
+            "fullUrl": "Immunization/immuniz-28",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-28",
@@ -4118,7 +4119,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -4140,7 +4141,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -4171,7 +4172,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -4215,7 +4216,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-29",
+            "fullUrl": "Immunization/immuniz-29",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-29",
@@ -4258,7 +4259,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -4280,7 +4281,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -4311,7 +4312,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -4355,7 +4356,7 @@
             }
         },
         {
-            "fullUrl": "Patient:urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811",
+            "fullUrl": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811",
             "resource": {
                 "resourceType": "Patient",
                 "id": "9774f67f-a238-4daf-b4e6-679deeef3811",
@@ -4427,7 +4428,7 @@
             }
         },
         {
-            "fullUrl": "Practitioner:urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
+            "fullUrl": "Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
@@ -4499,7 +4500,7 @@
             }
         },
         {
-            "fullUrl": "Practitioner:urn:uuid:0eecc686-434d-4b8a-9009-4242377e0db6",
+            "fullUrl": "Practitioner/0eecc686-434d-4b8a-9009-4242377e0db6",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "0eecc686-434d-4b8a-9009-4242377e0db6",
@@ -4551,7 +4552,7 @@
             }
         },
         {
-            "fullUrl": "PractitionerRole:urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
+            "fullUrl": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
             "resource": {
                 "resourceType": "PractitionerRole",
                 "id": "a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
@@ -4561,15 +4562,15 @@
                     ]
                 },
                 "practitioner": {
-                    "reference": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
+                    "reference": "Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
                 },
                 "organization": {
-                    "reference": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b"
+                    "reference": "Organization/cf042e44-086a-4d51-9c77-172f9a972e3b"
                 }
             }
         },
         {
-            "fullUrl": "Organization:urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b",
+            "fullUrl": "Organization/cf042e44-086a-4d51-9c77-172f9a972e3b",
             "resource": {
                 "resourceType": "Organization",
                 "id": "cf042e44-086a-4d51-9c77-172f9a972e3b",

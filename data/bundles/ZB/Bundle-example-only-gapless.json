@@ -39,12 +39,12 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:ba5f36ef-84e9-4a83-852b-e74dac4014ed"
+                    "reference": "Patient/ba5f36ef-84e9-4a83-852b-e74dac4014ed"
                 },
                 "date": "2018-07-01T12:30:02Z",
                 "author": [
                     {
-                        "reference": "d6259485-ec02-43a9-a476-dc1b7baa05bf"
+                        "reference": "urn:uuid:d6259485-ec02-43a9-a476-dc1b7baa05bf"
                     }
                 ],
                 "title": "Bonushefteintrag",
@@ -52,7 +52,7 @@
                     {
                         "entry": [
                             {
-                                "reference": "urn:uuid:2071b7f6-6574-46c1-b3a9-e4ef8a93500e"
+                                "reference": "Observation/2071b7f6-6574-46c1-b3a9-e4ef8a93500e"
                             }
                         ]
                     }
@@ -148,7 +148,7 @@
             }
         },
         {
-            "fullUrl": "http://pvs.praxis-topp-gluecklich.local/fhir/Organization/d6259485-ec02-43a9-a476-dc1b7baa05bf",
+            "fullUrl": "urn:uuid:d6259485-ec02-43a9-a476-dc1b7baa05bf",
             "resource": {
                 "resourceType": "Organization",
                 "id": "d6259485-ec02-43a9-a476-dc1b7baa05bf",
@@ -227,7 +227,7 @@
                     "text": "Datum, seit dem eine lückenlose Dokumentation in dem Papier-Zahnbonusheft nachweislich vorliegt."
                 },
                 "subject": {
-                    "reference": "urn:uuid:ba5f36ef-84e9-4a83-852b-e74dac4014ed"
+                    "reference": "Patient/ba5f36ef-84e9-4a83-852b-e74dac4014ed"
                 },
                 "valueDateTime": "2015-01-02"
             }

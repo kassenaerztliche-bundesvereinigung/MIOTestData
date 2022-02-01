@@ -15,7 +15,7 @@
     "timestamp": "2019-12-23T12:30:02Z",
     "entry": [
         {
-            "fullUrl": "Composition:urn:uuid:6d92d417-8a0d-42b9-959f-567ab2f4650f",
+            "fullUrl": "Composition/6d92d417-8a0d-42b9-959f-567ab2f4650f",
             "resource": {
                 "resourceType": "Composition",
                 "id": "6d92d417-8a0d-42b9-959f-567ab2f4650f",
@@ -35,12 +35,12 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "date": "2018-07-01T12:30:02Z",
                 "author": [
                     {
-                        "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                        "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                     }
                 ],
                 "title": "Impfeintrag-/einträge Nach-/Übertrag",
@@ -58,88 +58,88 @@
                         },
                         "entry": [
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-0"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-0"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-1"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-1"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-2"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-2"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-3"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-3"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-4"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-4"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-5"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-5"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-6"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-6"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-7"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-7"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-8"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-8"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-9"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-9"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-10"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-10"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-11"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-11"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-12"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-12"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-13"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-13"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-14"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-14"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-15"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-15"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-16"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-16"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-17"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-17"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-18"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-18"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-19"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-19"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-20"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-20"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-21"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-21"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-22"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-22"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-23"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-23"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-24"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-24"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-25"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-25"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-26"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-26"
                             },
                             {
-                                "reference": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-27"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-27"
                             }
                         ]
                     }
@@ -147,7 +147,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-0",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-0",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-0",
@@ -179,7 +179,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "issued": "1983-10-02T11:32:20+10:00",
                 "interpretation": [
@@ -203,7 +203,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-1",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-1",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-1",
@@ -235,7 +235,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "issued": "1983-10-02T11:32:20+10:00",
                 "interpretation": [
@@ -259,7 +259,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-2",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-2",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-2",
@@ -291,7 +291,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "issued": "1983-10-02T11:32:20+10:00",
                 "interpretation": [
@@ -315,7 +315,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-3",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-3",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-3",
@@ -347,7 +347,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "issued": "1983-10-02T11:32:20+10:00",
                 "interpretation": [
@@ -371,7 +371,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-4",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-4",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-4",
@@ -403,7 +403,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "issued": "1983-10-02T11:32:20+10:00",
                 "interpretation": [
@@ -427,7 +427,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-5",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-5",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-5",
@@ -459,7 +459,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "issued": "1983-10-02T11:32:20+10:00",
                 "interpretation": [
@@ -483,7 +483,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-6",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-6",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-6",
@@ -515,7 +515,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "issued": "1983-10-02T11:32:20+10:00",
                 "interpretation": [
@@ -539,7 +539,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-7",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-7",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-7",
@@ -571,7 +571,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "issued": "1983-10-02T11:32:20+10:00",
                 "interpretation": [
@@ -595,7 +595,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-8",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-8",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-8",
@@ -627,7 +627,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "issued": "1983-10-02T11:32:20+10:00",
                 "interpretation": [
@@ -651,7 +651,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-9",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-9",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-9",
@@ -683,7 +683,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "issued": "1983-10-02T11:32:20+10:00",
                 "interpretation": [
@@ -707,7 +707,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-10",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-10",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-10",
@@ -739,7 +739,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "issued": "1983-10-02T11:32:20+10:00",
                 "interpretation": [
@@ -763,7 +763,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-11",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-11",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-11",
@@ -795,7 +795,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -820,7 +820,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-12",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-12",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-12",
@@ -852,7 +852,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -877,7 +877,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-13",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-13",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-13",
@@ -909,7 +909,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -934,7 +934,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-14",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-14",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-14",
@@ -966,7 +966,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -991,7 +991,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-15",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-15",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-15",
@@ -1023,7 +1023,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -1048,7 +1048,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-16",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-16",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-16",
@@ -1080,7 +1080,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -1105,7 +1105,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-17",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-17",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-17",
@@ -1137,7 +1137,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -1162,7 +1162,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-18",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-18",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-18",
@@ -1194,7 +1194,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -1219,7 +1219,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-19",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-19",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-19",
@@ -1251,7 +1251,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -1276,7 +1276,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-20",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-20",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-20",
@@ -1308,7 +1308,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -1333,7 +1333,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-21",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-21",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-21",
@@ -1365,7 +1365,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -1390,7 +1390,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-22",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-22",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-22",
@@ -1422,7 +1422,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -1447,7 +1447,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-23",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-23",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-23",
@@ -1479,7 +1479,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -1504,7 +1504,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-24",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-24",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-24",
@@ -1536,7 +1536,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -1561,7 +1561,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-25",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-25",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-25",
@@ -1593,7 +1593,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -1618,7 +1618,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-26",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-26",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-26",
@@ -1650,7 +1650,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -1675,7 +1675,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-27",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-27",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222-27",
@@ -1707,7 +1707,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
 
                 "issued": "1983-10-02T11:32:20+10:00",
@@ -1732,7 +1732,7 @@
             }
         },
         {
-            "fullUrl": "Patient:urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811",
+            "fullUrl": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811",
             "resource": {
                 "resourceType": "Patient",
                 "id": "9774f67f-a238-4daf-b4e6-679deeef3811",
@@ -1804,7 +1804,7 @@
             }
         },
         {
-            "fullUrl": "Practitioner:urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
+            "fullUrl": "Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
@@ -1876,7 +1876,7 @@
             }
         },
         {
-            "fullUrl": "PractitionerRole:urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
+            "fullUrl": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
             "resource": {
                 "resourceType": "PractitionerRole",
                 "id": "a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
@@ -1886,15 +1886,15 @@
                     ]
                 },
                 "practitioner": {
-                    "reference": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
+                    "reference": "Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
                 },
                 "organization": {
-                    "reference": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b"
+                    "reference": "Organization/cf042e44-086a-4d51-9c77-172f9a972e3b"
                 }
             }
         },
         {
-            "fullUrl": "Organization:urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b",
+            "fullUrl": "Organization/cf042e44-086a-4d51-9c77-172f9a972e3b",
             "resource": {
                 "resourceType": "Organization",
                 "id": "cf042e44-086a-4d51-9c77-172f9a972e3b",

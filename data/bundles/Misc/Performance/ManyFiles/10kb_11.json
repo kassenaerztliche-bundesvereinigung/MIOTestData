@@ -15,7 +15,7 @@
     "timestamp": "2019-12-23T12:30:02Z",
     "entry": [
         {
-            "fullUrl": "Composition:urn:uuid:6d92d417-8a0d-42b9-959f-567ab2f4650f",
+            "fullUrl": "urn:uuid:6d92d417-8a0d-42b9-959f-567ab2f4650f",
             "resource": {
                 "resourceType": "Composition",
                 "id": "6d92d417-8a0d-42b9-959f-567ab2f4650f",
@@ -65,7 +65,7 @@
                             {
                                 "entry": [
                                     {
-                                        "reference": "Provenance:urn:uuid:a2108e08-32ca-4f22-985c-6f0279f5c89c"
+                                        "reference": "urn:uuid:a2108e08-32ca-4f22-985c-6f0279f5c89c"
                                     }
                                 ]
                             }
@@ -75,7 +75,7 @@
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d",
+            "fullUrl": "urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d",
@@ -129,7 +129,7 @@
             }
         },
         {
-            "fullUrl": "Patient:urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811",
+            "fullUrl": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811",
             "resource": {
                 "resourceType": "Patient",
                 "id": "9774f67f-a238-4daf-b4e6-679deeef3811",
@@ -201,7 +201,7 @@
             }
         },
         {
-            "fullUrl": "Practitioner:urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
+            "fullUrl": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
@@ -273,7 +273,7 @@
             }
         },
         {
-            "fullUrl": "PractitionerRole:urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
+            "fullUrl": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
             "resource": {
                 "resourceType": "PractitionerRole",
                 "id": "a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
@@ -291,7 +291,7 @@
             }
         },
         {
-            "fullUrl": "Organization:urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b",
+            "fullUrl": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b",
             "resource": {
                 "resourceType": "Organization",
                 "id": "cf042e44-086a-4d51-9c77-172f9a972e3b",
@@ -341,7 +341,7 @@
             }
         },
         {
-            "fullUrl": "Provenance:urn:uuid:a2108e08-32ca-4f22-985c-6f0279f5c89c",
+            "fullUrl": "urn:uuid:a2108e08-32ca-4f22-985c-6f0279f5c89c",
             "resource": {
                 "resourceType": "Provenance",
                 "id": "a2108e08-32ca-4f22-985c-6f0279f5c89c",
@@ -352,7 +352,7 @@
                 },
                 "target": [
                     {
-                        "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d"
+                        "reference": "urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d"
                     }
                 ],
                 "recorded": "2019-12-23T08:39:24+10:00",

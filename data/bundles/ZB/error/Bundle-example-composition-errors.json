@@ -216,7 +216,7 @@
                     "text": "Individualprophylaxe"
                 },
                 "subject": {
-                    "reference": "urn:uuid:ba5f36ef-84e9-4a83-852b-e74dac4014ed"
+                    "reference": "Patient/ba5f36ef-84e9-4a83-852b-e74dac4014ed"
                 },
                 "effectiveDateTime": "2020-01-02",
                 "valueBoolean": true
@@ -243,7 +243,7 @@
                     "text": "Datum, seit dem eine lückenlose Dokumentation in dem Papier-Zahnbonusheft nachweislich vorliegt."
                 },
                 "subject": {
-                    "reference": "urn:uuid:ba5f36ef-84e9-4a83-852b-e74dac4014ed"
+                    "reference": "Patient/ba5f36ef-84e9-4a83-852b-e74dac4014ed"
                 },
                 "valueDateTime": "2015-01-02"
             }

@@ -12,7 +12,7 @@
     "timestamp": "2019-12-23T12:30:02Z",
     "entry": [
         {
-            "fullUrl": "http://test.local/fhir/PNComposition",
+            "fullUrl": "http://test.local/fhir/Composition/PNComposition",
             "resource": {
                 "resourceType": "Composition",
                 "id": "PNComposition",
@@ -54,7 +54,7 @@
                     "reference": "urn:uuid:PNPatient"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:PNEncounter"
+                    "reference": "Encounter/PNEncounter"
                 },
                 "date": "2020-01-01",
                 "author": [
@@ -67,7 +67,7 @@
                     {
                         "entry": [
                             {
-                                "reference": "urn:uuid:PNObservationParentalNotes"
+                                "reference": "Observation/PNObservationParentalNotes"
                             }
                         ]
                     }
@@ -75,7 +75,7 @@
             }
         },
         {
-            "fullUrl": "http://test.local/fhir/PNEncounter",
+            "fullUrl": "http://test.local/fhir/Encounter/PNEncounter",
             "resource": {
                 "resourceType": "Encounter",
                 "id": "PNEncounter",
@@ -125,7 +125,7 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:PNObservationParentalNotes",
+            "fullUrl": "http://test.local/fhir/Observation/PNObservationParentalNotes",
             "resource": {
                 "resourceType": "Observation",
                 "id": "PNObservationParentalNotes",
@@ -162,7 +162,7 @@
                     "reference": "urn:uuid:PNPatient"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:PNEncounter"
+                    "reference": "Encounter/PNEncounter"
                 },
                 "effectiveDateTime": "2020-12-30",
                 "valueString": "Das Kind fällt ständig hin. Wirklich ständig! Das ist sehr ärgerlich."

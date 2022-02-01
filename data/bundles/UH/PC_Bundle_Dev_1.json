@@ -12,7 +12,7 @@
     "timestamp": "2019-12-23T12:30:02Z",
     "entry": [
         {
-            "fullUrl": "http://test.local/fhir/PCComposition",
+            "fullUrl": "http://test.local/fhir/Composition/PCComposition",
             "resource": {
                 "resourceType": "Composition",
                 "id": "PCComposition",
@@ -43,22 +43,22 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:PCPatient"
+                    "reference": "Patient/PCPatient"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:PCEncounter"
+                    "reference": "Encounter/PCEncounter"
                 },
                 "date": "2020-01-02",
                 "author": [
                     {
-                        "reference": "urn:uuid:PCPractitioner"
+                        "reference": "Practitioner/PCPractitioner"
                     }
                 ],
                 "title": "Teilnahmekarte"
             }
         },
         {
-            "fullUrl": "http://test.local/fhir/PCEncounter",
+            "fullUrl": "http://test.local/fhir/Encounter/PCEncounter",
             "resource": {
                 "resourceType": "Encounter",
                 "id": "PCEncounter",
@@ -100,7 +100,7 @@
                     }
                 ],
                 "subject": {
-                    "reference": "urn:uuid:CMRPatient"
+                    "reference": "Patient/CMRPatient"
                 },
                 "participant": [
                     {
@@ -117,7 +117,7 @@
                             }
                         ],
                         "individual": {
-                            "reference": "urn:uuid:CMRPractitioner"
+                            "reference": "Practitioner/CMRPractitioner"
                         }
                     }
                 ],
@@ -127,7 +127,7 @@
             }
         },
         {
-            "fullUrl": "http://test.local/fhir/PCPatient",
+            "fullUrl": "http://test.local/fhir/Patient/PCPatient",
             "resource": {
                 "resourceType": "Patient",
                 "id": "PCPatient",
@@ -171,7 +171,7 @@
             }
         },
         {
-            "fullUrl": "http://test.local/fhir/CMRPatient",
+            "fullUrl": "http://test.local/fhir/Patient/CMRPatient",
             "resource": {
                 "resourceType": "Patient",
                 "id": "CMRPatient",
@@ -215,7 +215,7 @@
             }
         },
         {
-            "fullUrl": "http://test.local/fhir/PCPractitioner",
+            "fullUrl": "http://test.local/fhir/Practitioner/PCPractitioner",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "PCPractitioner",
@@ -313,7 +313,7 @@
             }
         },
         {
-            "fullUrl": "http://test.local/fhir/CMRPractitioner",
+            "fullUrl": "http://test.local/fhir/Practitioner/CMRPractitioner",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "CMRPractitioner",

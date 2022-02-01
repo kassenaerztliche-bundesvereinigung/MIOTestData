@@ -1,0 +1,114 @@
+{
+  "resourceType": "ClinicalImpression",
+  "id": "6e83f5d1-7031-4d48-a3ff-f4da7dcd2a4d",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_Birth_Examination_Delivery_Information|1.1.0"
+    ]
+  },
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+        "code": "118215003",
+        "display": "Delivery finding (finding)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Abschluss-Untersuchung/Epikrise-Geburt"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:0dafbded-fb9c-479e-9c18-9f9b835b80f2"
+  },
+  "encounter": {
+    "reference": "urn:uuid:13e37fe2-cf83-4ae2-bc31-cec96160baee"
+  },
+  "effectiveDateTime": "2022-05-01",
+  "_effectiveDateTime": {
+    "extension": [
+      {
+        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Pregnancy_Week_And_Day",
+        "extension": [
+          {
+            "url": "schwangerschaftszeitpunkt",
+            "extension": [
+              {
+                "url": "schwangerschaftswoche",
+                "valueQuantity": {
+                  "value": 39,
+                  "unit": "Wochen",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "wk"
+                }
+              },
+              {
+                "url": "ergaenzendeTage",
+                "valueQuantity": {
+                  "value": 2,
+                  "unit": "Tage",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "d"
+                }
+              },
+              {
+                "url": "korrektur",
+                "valueBoolean": false
+              },
+              {
+                "url": "kode",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                      "code": "412726003",
+                      "display": "Length of gestation at birth (observable entity)",
+                      "_display": {
+                        "extension": [
+                          {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                              {
+                                "url": "content",
+                                "valueString": "Schwangerschaftswoche+Tage"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "investigation": [
+    {
+      "code": {
+        "text": "Angaben zur Entbindung"
+      },
+      "item": [
+        {
+          "reference": "urn:uuid:5f2ffb4e-8abc-4053-b460-b4e2844fce37"
+        }
+      ]
+    }
+  ]
+}

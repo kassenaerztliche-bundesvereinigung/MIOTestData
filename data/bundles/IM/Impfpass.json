@@ -15,7 +15,7 @@
     "timestamp": "2019-12-23T12:30:02Z",
     "entry": [
         {
-            "fullUrl": "Composition:urn:uuid:6d92d417-8a0d-42b9-959f-567ab2f4650f",
+            "fullUrl": "Composition/6d92d417-8a0d-42b9-959f-567ab2f4650f",
             "resource": {
                 "resourceType": "Composition",
                 "id": "6d92d417-8a0d-42b9-959f-567ab2f4650f",
@@ -35,12 +35,12 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "date": "2018-07-01T12:30:02Z",
                 "author": [
                     {
-                        "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                        "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                     }
                 ],
                 "title": "Impfeintrag-/einträge Nach-/Übertrag",
@@ -58,13 +58,13 @@
                         },
                         "entry": [
                             {
-                                "reference": "urn:uuid:ff258b30-915f-4561-b356-7b30e7a9393a"
+                                "reference": "Immunization/ff258b30-915f-4561-b356-7b30e7a9393a"
                             },
                             {
-                                "reference": "urn:uuid:2d2a0ad2-1d69-44fa-82a4-28c55635857b"
+                                "reference": "Immunization/2d2a0ad2-1d69-44fa-82a4-28c55635857b"
                             },
                             {
-                                "reference": "urn:uuid:2d2a0ad2-1d60-44fa-82a4-28c55635857a"
+                                "reference": "Immunization/2d2a0ad2-1d60-44fa-82a4-28c55635857a"
                             }
                         ]
                     },
@@ -81,10 +81,10 @@
                         },
                         "entry": [
                             {
-                                "reference": "urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2f1f9c222"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2f1f9c222"
                             },
                             {
-                                "reference": "urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222"
+                                "reference": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222"
                             }
                         ]
                     },
@@ -101,7 +101,7 @@
                         },
                         "entry": [
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d"
                             }
                         ],
                         "section": [
@@ -118,7 +118,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:ff258b30-915f-4561-b356-7b30e7a9393a",
+            "fullUrl": "Immunization/ff258b30-915f-4561-b356-7b30e7a9393a",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "ff258b30-915f-4561-b356-7b30e7a9393a",
@@ -161,7 +161,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2"
+                                    "reference": "PractitionerRole/2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2"
                                 }
                             }
                         ]
@@ -183,7 +183,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -208,7 +208,7 @@
                     "text": "Pestimpfstoff"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "2019-12-23T12:30:02Z",
                 "lotNumber": "J07BX1892",
@@ -242,7 +242,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:2d2a0ad2-1d69-44fa-82a4-28c55635857b",
+            "fullUrl": "Immunization/2d2a0ad2-1d69-44fa-82a4-28c55635857b",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "2d2a0ad2-1d69-44fa-82a4-28c55635857b",
@@ -285,7 +285,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -307,7 +307,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -338,7 +338,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,
@@ -382,7 +382,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:2d2a0ad2-1d60-44fa-82a4-28c55635857a",
+            "fullUrl": "Immunization/2d2a0ad2-1d60-44fa-82a4-28c55635857a",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "2d2a0ad2-1d60-44fa-82a4-28c55635857a",
@@ -425,7 +425,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -447,7 +447,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -478,7 +478,7 @@
                     "text": "Gelbfieberimpfstoff"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "2002-01-19T13:33:33Z",
                 "primarySource": true,
@@ -522,7 +522,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2f1f9c222",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2f1f9c222",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2f1f9c222",
@@ -554,7 +554,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "issued": "2019-12-23T08:39:24+10:00",
                 "interpretation": [
@@ -578,7 +578,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222",
+            "fullUrl": "Observation/2f66c2df-1df9-43cf-bf2a-6da2e1a9c222",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222",
@@ -610,7 +610,7 @@
                     "text": "Varizellen Antikörpernachweis"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "issued": "1983-10-02T11:32:20+10:00",
                 "interpretation": [
@@ -634,7 +634,7 @@
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d",
@@ -681,14 +681,17 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
-                "recordedDate": "2001-10-02T06:47:12Z"
+                "recordedDate": "2001-10-02T06:47:12Z",
+                "recorder": {
+                    "reference": "PractitionerRole/2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2"
+                }
             }
         },
         {
-            "fullUrl": "Patient:urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811",
+            "fullUrl": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811",
             "resource": {
                 "resourceType": "Patient",
                 "id": "9774f67f-a238-4daf-b4e6-679deeef3811",
@@ -760,7 +763,7 @@
             }
         },
         {
-            "fullUrl": "Practitioner:urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
+            "fullUrl": "Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
@@ -832,7 +835,7 @@
             }
         },
         {
-            "fullUrl": "PractitionerRole:urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
+            "fullUrl": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
             "resource": {
                 "resourceType": "PractitionerRole",
                 "id": "a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
@@ -842,15 +845,15 @@
                     ]
                 },
                 "practitioner": {
-                    "reference": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
+                    "reference": "Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
                 },
                 "organization": {
-                    "reference": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b"
+                    "reference": "Organization/cf042e44-086a-4d51-9c77-172f9a972e3b"
                 }
             }
         },
         {
-            "fullUrl": "PractitionerRole:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2",
+            "fullUrl": "PractitionerRole/2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2",
             "resource": {
                 "resourceType": "PractitionerRole",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2",
@@ -860,15 +863,15 @@
                     ]
                 },
                 "practitioner": {
-                    "reference": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
+                    "reference": "Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
                 },
                 "organization": {
-                    "reference": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b"
+                    "reference": "Organization/cf042e44-086a-4d51-9c77-172f9a972e3b"
                 }
             }
         },
         {
-            "fullUrl": "Organization:urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b",
+            "fullUrl": "Organization/cf042e44-086a-4d51-9c77-172f9a972e3b",
             "resource": {
                 "resourceType": "Organization",
                 "id": "cf042e44-086a-4d51-9c77-172f9a972e3b",
@@ -929,7 +932,7 @@
                 },
                 "target": [
                     {
-                        "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d"
+                        "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d"
                     }
                 ],
                 "recorded": "2019-12-23T08:39:24+10:00",

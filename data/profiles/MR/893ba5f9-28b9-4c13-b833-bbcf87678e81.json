@@ -1,0 +1,87 @@
+{
+  "resourceType": "Observation",
+  "id": "893ba5f9-28b9-4c13-b833-bbcf87678e81",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Apgar_Score|1.1.0"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+        "code": "169922007",
+        "display": "Apgar score at 10 minutes (observable entity)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Apgar zum Zeitpunkt 10 Min. nach Geburt"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.71",
+        "code": "9271-8",
+        "display": "10 minute Apgar Score",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Apgar zum Zeitpunkt 10 Min. nach Geburt"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:d6ed8917-0956-4f5c-b131-fdf05781223d"
+  },
+  "encounter": {
+    "reference": "urn:uuid:13e37fe2-cf83-4ae2-bc31-cec96160baee"
+  },
+  "effectiveDateTime": "2022-05-01",
+  "performer": [
+    {
+      "reference": "urn:uuid:0d20fdb0-624d-4899-a8fe-dedeb50ca17d"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+        "code": "49544001",
+        "display": "Apgar score 10 (finding)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Apgar 10"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

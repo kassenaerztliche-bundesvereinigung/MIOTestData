@@ -1,0 +1,44 @@
+{
+  "resourceType": "Patient",
+  "id": "d6ed8917-0956-4f5c-b131-fdf05781223d",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Child|1.1.0"
+    ]
+  },
+  "extension": [
+    {
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
+      "valueString": "Kind 1 von 2"
+    }
+  ],
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical record number"
+          }
+        ]
+      },
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:uuid:c1f7a112-c0ff-4049-b1c7-d6b79b87e8ef"
+    }
+  ],
+  "name": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+          "valueCode": "unknown"
+        }
+      ],
+      "use": "temp"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "2022-05-01",
+  "deceasedBoolean": false
+}

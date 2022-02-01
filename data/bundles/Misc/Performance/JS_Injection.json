@@ -15,7 +15,7 @@
     "timestamp": "2019-12-23T12:30:02Z",
     "entry": [
         {
-            "fullUrl": "Composition:urn:uuid:6d92d417-8a0d-42b9-959f-567ab2f4650f",
+            "fullUrl": "urn:uuid:6d92d417-8a0d-42b9-959f-567ab2f4650f",
             "resource": {
                 "resourceType": "Composition",
                 "id": "6d92d417-8a0d-42b9-959f-567ab2f4650f",
@@ -66,7 +66,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:ff258b30-915f-4561-b356-7b30e7a9393a",
+            "fullUrl": "urn:uuid:ff258b30-915f-4561-b356-7b30e7a9393a",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "ff258b30-915f-4561-b356-7b30e7a9393a",
@@ -132,7 +132,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:2d2a0ad2-1d69-44fa-82a4-28c55635857b",
+            "fullUrl": "urn:uuid:2d2a0ad2-1d69-44fa-82a4-28c55635857b",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "2d2a0ad2-1d69-44fa-82a4-28c55635857b",
@@ -272,7 +272,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:2d2a0ad2-1d60-44fa-82a4-28c55635857a",
+            "fullUrl": "urn:uuid:2d2a0ad2-1d60-44fa-82a4-28c55635857a",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "2d2a0ad2-1d60-44fa-82a4-28c55635857a",
@@ -412,7 +412,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2f1f9c222",
+            "fullUrl": "urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2f1f9c222",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2f1f9c222",
@@ -468,7 +468,7 @@
             }
         },
         {
-            "fullUrl": "Observation:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222",
+            "fullUrl": "urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2e1a9c222",
             "resource": {
                 "resourceType": "Observation",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2e1a9c222",
@@ -524,7 +524,7 @@
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d",
+            "fullUrl": "urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d",
@@ -578,7 +578,7 @@
             }
         },
         {
-            "fullUrl": "Patient:urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811",
+            "fullUrl": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811",
             "resource": {
                 "resourceType": "Patient",
                 "id": "9774f67f-a238-4daf-b4e6-679deeef3811",
@@ -650,7 +650,7 @@
             }
         },
         {
-            "fullUrl": "Practitioner:urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
+            "fullUrl": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
@@ -722,7 +722,7 @@
             }
         },
         {
-            "fullUrl": "Practitioner:urn:uuid:0eecc686-434d-4b8a-9009-4242377e0db6",
+            "fullUrl": "urn:uuid:0eecc686-434d-4b8a-9009-4242377e0db6",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "0eecc686-434d-4b8a-9009-4242377e0db6",
@@ -788,7 +788,7 @@
             }
         },
         {
-            "fullUrl": "PractitionerRole:urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
+            "fullUrl": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
             "resource": {
                 "resourceType": "PractitionerRole",
                 "id": "a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
@@ -806,7 +806,7 @@
             }
         },
         {
-            "fullUrl": "PractitionerRole:urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2",
+            "fullUrl": "urn:uuid:2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2",
             "resource": {
                 "resourceType": "PractitionerRole",
                 "id": "2f66c2df-1df9-43cf-bf2a-6da2a1a9c9e2",
@@ -824,7 +824,7 @@
             }
         },
         {
-            "fullUrl": "Organization:urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b",
+            "fullUrl": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b",
             "resource": {
                 "resourceType": "Organization",
                 "id": "cf042e44-086a-4d51-9c77-172f9a972e3b",
@@ -874,7 +874,7 @@
             }
         },
         {
-            "fullUrl": "Provenance:urn:uuid:a2108e08-32ca-4f22-985c-6f0279f5c89c",
+            "fullUrl": "urn:uuid:a2108e08-32ca-4f22-985c-6f0279f5c89c",
             "resource": {
                 "resourceType": "Provenance",
                 "id": "a2108e08-32ca-4f22-985c-6f0279f5c89c",

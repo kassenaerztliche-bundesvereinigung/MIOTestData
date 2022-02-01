@@ -1,7 +1,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
   <id value="f3927caa-e371-40b9-9541-c9f620aa268d" />
   <meta>
-    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Bundle|1.0.0" />
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Bundle|1.1.0" />
   </meta>
   <identifier>
     <system value="urn:ietf:rfc:3986" />
@@ -15,23 +15,23 @@
       <Composition xmlns="http://hl7.org/fhir">
         <id value="ccaf37f0-4fa5-41c9-a9d6-d3c83c7eda0b" />
         <meta>
-          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Composition|1.0.0" />
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Composition|1.1.0" />
         </meta>
         <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Comments">
           <extension url="hinweiseSchwangere">
-            <valueString value="Schwangerschaft und Geburt sind natürliche Vorgänge und stellen keine Krankheit dar. Manchmal können sie allerdings mit einem erhöhten Risiko für Mutter und Kind belastet sein. Eine sorgfältige Schwangerschaftsbetreuung hilft, einen großen Teil dieser Risiken zu vermeiden oder rechtzeitig zu erkennen, um Gefahren abzuwenden. Voraussetzung dafür ist jedoch Ihre regelmäßige Teilnahme an den Vorsorgeuntersuchungen!Die in Ihrem Mutterpass aufgeführten Untersuchungen dienen der Gesunderhaltung von Mutter und Kind und entsprechen langjähriger geburtshilflicher Erfahrung und modernen medizinischen Erkenntnissen. Dieser Mutterpass enthält die während der Schwangerschaft erhobenen wichtigen Befunde. Er wird Ihnen nach jeder Vorsorgeuntersuchung wieder mitgegeben. Die Angaben im Mutterpass dienen der Information von Arzt und Hebamme sowie Ihrer und Ihres Kindes Sicherheit. Der Mutterpass ist Ihr persönliches Dokument. Sie allein entscheiden darüber, wem er zugänglich gemacht werden soll. Andere (z. B. Arbeitgeber, Behörden) dürfen eine Einsichtnahme nicht verlangen.Bitte: ● Nutzen Sie die Ihnen gebotenen Möglichkeiten, um sich und Ihrem Kind Sicherheit zu verschaffen! ● Vergessen Sie nicht, dieses Heft zu jeder ärztlichen Untersuchung während der Schwangerschaft, zur Entbindung und zur Untersuchung des Kindes mitzubringen! ● Lassen Sie sich helfen, wenn Sie Sorgen haben! ● Beraten Sie sich mit Ihrem Arzt und befolgen Sie seine Ratschläge!" />
+            <valueString value="Schwangerschaft und Geburt sind natürliche Vorgänge und stellen keine Krankheit dar. Manchmal können sie allerdings mit einem erhöhten Risiko für Mutter und Kind belastet sein. Eine sorgfältige Schwangerschaftsbetreuung hilft, einen großen Teil dieser Risiken zu vermeiden oder rechtzeitig zu erkennen, um Gefahren abzuwenden. Voraussetzung dafür ist jedoch Ihre regelmäßige Teilnahme an den Vorsorgeuntersuchungen! Die in Ihrem Mutterpass aufgeführten Untersuchungen dienen der Gesunderhaltung von Mutter und Kind und entsprechen langjähriger geburtshilflicher Erfahrung und modernen medizinischen Erkenntnissen. Dieser Mutterpass enthält die während der Schwangerschaft erhobenen wichtigen Befunde. Er wird Ihnen nach jeder Vorsorgeuntersuchung wieder mitgegeben. Die Angaben im Mutterpass dienen der Information von Arzt und Hebamme sowie Ihrer und Ihres Kindes Sicherheit. Der Mutterpass ist Ihr persönliches Dokument. Sie allein entscheiden darüber, wem er zugänglich gemacht werden soll. Andere (z. B. Arbeitgeber, Behörden) dürfen eine Einsichtnahme nicht verlangen. Bitte: ● Nutzen Sie die Ihnen gebotenen Möglichkeiten, um sich und Ihrem Kind Sicherheit zu verschaffen! ● Vergessen Sie nicht, dieses Heft zu jeder ärztlichen Untersuchung während der Schwangerschaft, zur Entbindung und zur Untersuchung des Kindes mitzubringen! ● Lassen Sie sich helfen, wenn Sie Sorgen haben! ● Beraten Sie sich mit Ihrem Arzt und befolgen Sie seine Ratschläge!" />
           </extension>
           <extension url="hinweiseMutter">
             <valueString value="Nach Schwangerschaft und Geburt beginnt für Sie zwar wieder der Alltag mit neuen Aufgaben, beachten Sie aber bitte Folgendes: ● Gehen Sie etwa 6–8 Wochen nach der Entbindung zur Nachuntersuchung ● Nutzen Sie alle Kinder-Früherkennungsuntersuchungen (U2 – U9) beim Kinder- oder Hausarzt" />
           </extension>
           <extension url="aufbewahrungshinweis">
-            <valueString value="Während der Schwangerschaft sollten Sie Ihren Mutterpass immer bei sich haben und zu jeder ärztlichen Untersuchung mitbringen,insbesondere auch zur Entbindung. Ihr Mutterpass gehört zu den Dokumenten, die Sie immer sorgfältig aufbewahren sollten." />
+            <valueString value="Während der Schwangerschaft sollten Sie Ihren Mutterpass immer bei sich haben und zu jeder ärztlichen Untersuchung mitbringen, insbesondere auch zur Entbindung. Ihr Mutterpass gehört zu den Dokumenten, die Sie immer sorgfältig aufbewahren sollten." />
           </extension>
         </extension>
         <type>
           <coding>
             <system value="http://snomed.info/sct" />
-            <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
+            <version value="http://snomed.info/sct/900000000000207008/version/20210731" />
             <code value="736377005" />
             <display value="Maternity care plan (record artifact)">
               <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
@@ -81,7 +81,7 @@
               <code>
                 <coding>
                   <system value="http://snomed.info/sct" />
-                  <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
+                  <version value="http://snomed.info/sct/900000000000207008/version/20210731" />
                   <code value="404684003:363714003=108252007" />
                   <display value="Clinical finding (finding) : Interprets (attribute) = Laboratory procedure (procedure)">
                     <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
@@ -108,13 +108,13 @@
       <Observation xmlns="http://hl7.org/fhir">
         <id value="ee821471-d1c9-444d-b226-7ae8347e2f26" />
         <meta>
-          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Age|1.0.0" />
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Age|1.1.0" />
         </meta>
         <status value="final" />
         <code>
           <coding>
             <system value="http://snomed.info/sct" />
-            <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
+            <version value="http://snomed.info/sct/900000000000207008/version/20210731" />
             <code value="424144002" />
             <display value="Current chronological age (observable entity)">
               <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
@@ -150,7 +150,7 @@
       <Observation xmlns="http://hl7.org/fhir">
         <id value="c5724565-6a5c-417f-940b-5ba1178c54a3" />
         <meta>
-          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Blood_Group_Serology|1.0.0" />
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Blood_Group_Serology|1.1.0" />
         </meta>
         <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment">
           <valueString value="Diese Eintragungen entbinden den behandelnden Arzt nicht von seiner Sorgfaltspflicht (z.B. Kreuzprobe)." />
@@ -159,7 +159,7 @@
         <code>
           <coding>
             <system value="http://snomed.info/sct" />
-            <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
+            <version value="http://snomed.info/sct/900000000000207008/version/20210731" />
             <code value="365636006" />
             <display value="Finding of blood group (finding)">
               <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
@@ -184,9 +184,9 @@
           <code>
             <coding>
               <system value="http://snomed.info/sct" />
-              <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
-              <code value="363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,704318007=410656007,246093002=106202009" />
-              <display value="Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property type (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in ABO blood group system (substance)">
+              <version value="http://snomed.info/sct/900000000000207008/version/20210731" />
+              <code value="363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,118598001=410656007,246093002=106202009" />
+              <display value="Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in ABO blood group system (substance)">
                 <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
                   <extension url="content">
                     <valueString value="AB0-System" />
@@ -196,7 +196,7 @@
             </coding>
             <coding>
               <system value="http://loinc.org" />
-              <version value="2.68" />
+              <version value="2.71" />
               <code value="883-9" />
               <display value="ABO group [Type] in Blood">
                 <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
@@ -211,7 +211,7 @@
           <valueCodeableConcept>
             <coding>
               <system value="http://snomed.info/sct" />
-              <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
+              <version value="http://snomed.info/sct/900000000000207008/version/20210731" />
               <code value="165743006" />
               <display value="Blood group AB (finding)">
                 <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
@@ -227,9 +227,9 @@
           <code>
             <coding>
               <system value="http://snomed.info/sct" />
-              <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
-              <code value="363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,704318007=410656007,246093002=16951006" />
-              <display value="Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property type (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in Rh blood group system (substance)">
+              <version value="http://snomed.info/sct/900000000000207008/version/20210731" />
+              <code value="363787002:704319004=87612001,704327008=119297000,370134009=123029007,370132008=117362005,118598001=410656007,246093002=16951006" />
+              <display value="Observable entity (observable entity) : Inheres in (attribute) = Blood (substance) , Direct site (attribute) = Blood specimen (specimen) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Nominal value (qualifier value) , Property (attribute) = Type (property) (qualifier value) , Component (attribute) = Antigen in Rh blood group system (substance)">
                 <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
                   <extension url="content">
                     <valueString value="Rhesus-System" />
@@ -239,7 +239,7 @@
             </coding>
             <coding>
               <system value="http://loinc.org" />
-              <version value="2.68" />
+              <version value="2.71" />
               <code value="10331-7" />
               <display value="Rh [Type] in Blood">
                 <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
@@ -254,7 +254,7 @@
           <valueCodeableConcept>
             <coding>
               <system value="http://snomed.info/sct" />
-              <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
+              <version value="http://snomed.info/sct/900000000000207008/version/20210731" />
               <code value="165747007" />
               <display value="RhD positive (finding)">
                 <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
@@ -275,7 +275,7 @@
       <Encounter xmlns="http://hl7.org/fhir">
         <id value="b7a1460a-b530-4c77-9369-1c4886d74759" />
         <meta>
-          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.0.0" />
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Encounter_General|1.1.0" />
         </meta>
         <status value="finished" />
         <class>
@@ -304,7 +304,7 @@
       <Observation xmlns="http://hl7.org/fhir">
         <id value="1e7076db-ac4c-45dc-9e66-973ad7c99fdf" />
         <meta>
-          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Examination|1.0.0" />
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Examination|1.1.0" />
         </meta>
         <identifier>
           <system value="https://test.test/testsystem/test01" />
@@ -314,9 +314,9 @@
         <code>
           <coding>
             <system value="http://snomed.info/sct" />
-            <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
-            <code value="363787002:246093002=120737006,704318007=118590008,370134009=123029007,370132008=30766002,704319004=50863008,704327008=119364003" />
-            <display value="Observable entity (observable entity) : Component (attribute) = Rubella virus antibody (substance) , Property type (attribute) = Dilution factor expressed as titer (property) (qualifier value) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Quantitative (qualifier value) , Inheres in (attribute) = Blood group antibody (substance) , Direct site (attribute) = Serum specimen (specimen)">
+            <version value="http://snomed.info/sct/900000000000207008/version/20210731" />
+            <code value="363787002:246093002=120737006,370130000=118590008,370134009=123029007,370132008=30766002,704319004=50863008,704327008=119364003" />
+            <display value="Observable entity (observable entity) : Component (attribute) = Rubella virus antibody (substance) , Property (attribute) = Dilution factor expressed as titer (property) (qualifier value) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Quantitative (qualifier value) , Inheres in (attribute) = Blood group antibody (substance) , Direct site (attribute) = Serum specimen (specimen)">
               <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
                 <extension url="content">
                   <valueString value="Röteln Virus Antikörper im Serum, Titer" />
@@ -326,7 +326,7 @@
           </coding>
           <coding>
             <system value="http://loinc.org" />
-            <version value="2.68" />
+            <version value="2.71" />
             <code value="22497-2" />
             <display value="Rubella virus Ab [Titer] in Serum">
               <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
@@ -356,7 +356,7 @@
         <interpretation>
           <coding>
             <system value="http://snomed.info/sct" />
-            <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
+            <version value="http://snomed.info/sct/900000000000207008/version/20210731" />
             <code value="278968001" />
             <display value="Rubella immune (finding)">
               <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
@@ -376,13 +376,13 @@
       <Observation xmlns="http://hl7.org/fhir">
         <id value="b78ea80f-53d3-45e6-bd3f-22e0ac8a53b0" />
         <meta>
-          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Gravida|1.0.0" />
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Gravida|1.1.0" />
         </meta>
         <status value="final" />
         <code>
           <coding>
             <system value="http://snomed.info/sct" />
-            <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
+            <version value="http://snomed.info/sct/900000000000207008/version/20210731" />
             <code value="161732006" />
             <display value="Gravida (observable entity)">
               <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
@@ -417,13 +417,13 @@
       <Observation xmlns="http://hl7.org/fhir">
         <id value="46b7a92c-4385-456f-b230-cff16fda2b2a" />
         <meta>
-          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Para|1.0.0" />
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Para|1.1.0" />
         </meta>
         <status value="final" />
         <code>
           <coding>
             <system value="http://snomed.info/sct" />
-            <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
+            <version value="http://snomed.info/sct/900000000000207008/version/20210731" />
             <code value="364325004" />
             <display value="Parity (observable entity)">
               <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
@@ -458,13 +458,14 @@
       <Patient xmlns="http://hl7.org/fhir">
         <id value="eed581f6-6830-4ca2-9e17-8b3aba3b82fb" />
         <meta>
-          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Mother|1.0.0" />
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Mother|1.1.0" />
         </meta>
         <identifier>
           <type>
             <coding>
               <system value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
               <code value="GKV" />
+              <display value="Gesetzliche Krankenversicherung" />
             </coding>
           </type>
           <system value="http://fhir.de/NamingSystem/gkv/kvid-10" />
@@ -494,13 +495,14 @@
       <Practitioner xmlns="http://hl7.org/fhir">
         <id value="b9cfa843-3b07-4b02-80f9-3370e3f9563e" />
         <meta>
-          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Practitioner|1.0.0" />
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Practitioner|1.1.0" />
         </meta>
         <identifier>
           <type>
             <coding>
               <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
               <code value="LANR" />
+              <display value="Lifelong physician number" />
             </coding>
           </type>
           <system value="https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR" />

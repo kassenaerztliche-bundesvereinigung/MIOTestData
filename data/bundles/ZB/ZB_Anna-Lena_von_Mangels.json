@@ -37,12 +37,12 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679d00000000"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679d00000000"
                 },
                 "date": "2020-01-01T12:30:02Z",
                 "author": [
                     {
-                        "reference": "d6259485-ec02-43a9-a476-dc1b7baa05bf"
+                        "reference": "Organization/d6259485-ec02-43a9-a476-dc1b7baa05bf"
                     }
                 ],
                 "title": "Bonushefteintrag",
@@ -50,7 +50,7 @@
                     {
                         "entry": [
                             {
-                                "reference": "urn:uuid:321c66be-ea2e-3000-9e3d-b6f2326f2dcf"
+                                "reference": "Observation/321c66be-ea2e-3000-9e3d-b6f2326f2dcf"
                             }
                         ]
                     }
@@ -232,7 +232,7 @@
                     "text": "Individualprophylaxe"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679d00000000"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679d00000000"
                 },
                 "effectiveDateTime": "2019-09-02",
                 "valueBoolean": true

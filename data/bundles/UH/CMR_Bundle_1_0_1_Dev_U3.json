@@ -2875,7 +2875,7 @@
                 "participant": [
                     {
                         "actor": {
-                            "reference": "CMRPractitioner"
+                            "reference": "urn:uuid:CMRPractitioner"
                         },
                         "status": "accepted"
                     }
@@ -2926,7 +2926,7 @@
                 "participant": [
                     {
                         "actor": {
-                            "reference": "CMRPatient"
+                            "reference": "urn:uuid:CMRPatient"
                         },
                         "status": "accepted"
                     }

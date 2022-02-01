@@ -12,7 +12,7 @@
     "timestamp": "2019-12-23T12:30:02Z",
     "entry": [
         {
-            "fullUrl": "http://test.local/fhir/PNComposition",
+            "fullUrl": "http://test.local/fhir/Composition/PNComposition",
             "resource": {
                 "resourceType": "Composition",
                 "id": "PNComposition",
@@ -51,10 +51,10 @@
                     }
                 ],
                 "subject": {
-                    "reference": "urn:uuid:PNPatient"
+                    "reference": "Patient/PNPatient"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:PNEncounter"
+                    "reference": "Encounter/PNEncounter"
                 },
                 "date": "2020-01-02",
                 "author": [
@@ -67,7 +67,7 @@
                     {
                         "entry": [
                             {
-                                "reference": "urn:uuid:PNObservationParentalNotes"
+                                "reference": "Observation/PNObservationParentalNotes"
                             }
                         ]
                     }
@@ -75,7 +75,7 @@
             }
         },
         {
-            "fullUrl": "http://test.local/fhir/PNEncounter",
+            "fullUrl": "http://test.local/fhir/Encounter/PNEncounter",
             "resource": {
                 "resourceType": "Encounter",
                 "id": "PNEncounter",
@@ -104,7 +104,7 @@
                     }
                 ],
                 "subject": {
-                    "reference": "urn:uuid:CMRPatient"
+                    "reference": "Patient/CMRPatient"
                 },
                 "period": {
                     "start": "2021-03-26"
@@ -112,7 +112,7 @@
             }
         },
         {
-            "fullUrl": "http://test.local/fhir/PNObservationParentalNotes",
+            "fullUrl": "http://test.local/fhir/Observation/PNObservationParentalNotes",
             "resource": {
                 "resourceType": "Observation",
                 "id": "PNObservationParentalNotes",
@@ -146,17 +146,17 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:PNPatient"
+                    "reference": "Patient/PNPatient"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:PNEncounter"
+                    "reference": "Encounter/PNEncounter"
                 },
                 "effectiveDateTime": "2021-03-24",
                 "valueString": "Das Kind fällt ständig hin."
             }
         },
         {
-            "fullUrl": "http://test.local/fhir/PNPatient",
+            "fullUrl": "http://test.local/fhir/Patient/PNPatient",
             "resource": {
                 "resourceType": "Patient",
                 "id": "PNPatient",
@@ -200,7 +200,7 @@
             }
         },
         {
-            "fullUrl": "http://test.local/fhir/CMRPatient",
+            "fullUrl": "http://test.local/fhir/Patient/CMRPatient",
             "resource": {
                 "resourceType": "Patient",
                 "id": "CMRPatient",
@@ -244,7 +244,7 @@
             }
         },
         {
-            "fullUrl": "http://test.local/fhir/CMRPractitioner",
+            "fullUrl": "http://test.local/fhir/Practitioner/CMRPractitioner",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "CMRPractitioner",

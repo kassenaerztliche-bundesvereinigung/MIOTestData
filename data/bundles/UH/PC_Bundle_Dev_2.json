@@ -12,7 +12,7 @@
     "timestamp": "1987-05-12T12:30:02Z",
     "entry": [
         {
-            "fullUrl": "http://test.local/fhir/PCComposition",
+            "fullUrl": "http://test.local/fhir/Composition/PCComposition",
             "resource": {
                 "resourceType": "Composition",
                 "id": "PCComposition",
@@ -43,10 +43,10 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:PCPatient"
+                    "reference": "Patient/PCPatient"
                 },
                 "encounter": {
-                    "reference": "urn:uuid:PCEncounter"
+                    "reference": "Encounter/PCEncounter"
                 },
                 "date": "1987-05-11",
                 "author": [
@@ -61,7 +61,7 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:PCEncounter",
+            "fullUrl": "http://test.local/fhir/Encounter/PCEncounter",
             "resource": {
                 "resourceType": "Encounter",
                 "id": "PCEncounter",
@@ -90,7 +90,7 @@
                     }
                 ],
                 "subject": {
-                    "reference": "urn:uuid:CMRPatient"
+                    "reference": "Patient/CMRPatient"
                 },
                 "participant": [
                     {
@@ -120,7 +120,7 @@
             }
         },
         {
-            "fullUrl": "http://test.local/fhir/PCPatient",
+            "fullUrl": "http://test.local/fhir/Patient/PCPatient",
             "resource": {
                 "resourceType": "Patient",
                 "id": "PCPatient",
@@ -156,7 +156,7 @@
             }
         },
         {
-            "fullUrl": "http://test.local/fhir/CMRPatient",
+            "fullUrl": "http://test.local/fhir/Patient/CMRPatient",
             "resource": {
                 "resourceType": "Patient",
                 "id": "CMRPatient",

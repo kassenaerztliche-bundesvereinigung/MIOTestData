@@ -53,4 +53,9 @@ $ npm install --save-dev @kbv/miotestdata
 
 ## Mitwirken
 Fehler in den Beispielen können über die [GitHub Issues](https://github.com/kassenaerztliche-bundesvereinigung/MIOTestData/issues) Seite gemeldet werden.
-Über GitHub oder die Mail-Adresse support.mio@kbv.de können Fragen gestellt werden. 
+Über GitHub oder die Mail-Adresse support.mio@kbv.de können Fragen gestellt werden.
+
+### Lizenz
+
+Diese Software ist unter der Apache-2.0 Lizenz lizensiert worden - siehe <a href="./LICENSE">LICENSE</a> Datei für mehr Details.
+(c) 2020 - 2022 Kassenärztliche Bundesvereinigung KdöR

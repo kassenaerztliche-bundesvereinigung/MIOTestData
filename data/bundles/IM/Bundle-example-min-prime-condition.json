@@ -118,6 +118,9 @@
                 "subject": {
                     "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
+                "recorder": {
+                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                },
                 "recordedDate": "2020-05-23T12:30:02Z"
             }
         },

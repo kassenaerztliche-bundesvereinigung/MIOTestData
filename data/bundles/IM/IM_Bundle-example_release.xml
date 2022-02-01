@@ -393,6 +393,9 @@
                 <subject>
                     <reference value="urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"/>
                 </subject>
+                <recorder>
+                    <reference value="urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"/>
+                </recorder>
                 <onsetString>
                     <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_Vaccination_Age_Groups">
                         <valueCodeableConcept>

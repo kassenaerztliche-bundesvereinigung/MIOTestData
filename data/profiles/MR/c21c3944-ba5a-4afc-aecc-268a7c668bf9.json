@@ -1,0 +1,68 @@
+{
+  "resourceType": "Observation",
+  "id": "c21c3944-ba5a-4afc-aecc-268a7c668bf9",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Birth_Mode|1.1.0"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+        "code": "364336006",
+        "display": "Pattern of delivery (observable entity)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Geburtsmodus"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:cc62c1af-17ed-4285-81d4-c432d6959f5c"
+  },
+  "encounter": {
+    "reference": "urn:uuid:13e37fe2-cf83-4ae2-bc31-cec96160baee"
+  },
+  "effectiveDateTime": "2022-05-01",
+  "performer": [
+    {
+      "reference": "urn:uuid:0d20fdb0-624d-4899-a8fe-dedeb50ca17d"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+        "code": "177184002",
+        "display": "Normal delivery procedure (procedure)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Spontangeburt"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

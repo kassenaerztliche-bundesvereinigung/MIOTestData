@@ -1,0 +1,50 @@
+{
+  "resourceType": "Observation",
+  "id": "19055c48-4042-416b-b61e-b9dbd3076091",
+  "meta": {
+    "profile": [
+      "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Gravida|1.1.0"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+        "code": "161732006",
+        "display": "Gravida (observable entity)",
+        "_display": {
+          "extension": [
+            {
+              "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+              "extension": [
+                {
+                  "url": "content",
+                  "valueString": "Gravida"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:0dafbded-fb9c-479e-9c18-9f9b835b80f2"
+  },
+  "encounter": {
+    "reference": "urn:uuid:13e37fe2-cf83-4ae2-bc31-cec96160baee"
+  },
+  "effectiveDateTime": "2022-05-02",
+  "performer": [
+    {
+      "reference": "urn:uuid:0d20fdb0-624d-4899-a8fe-dedeb50ca17d"
+    }
+  ],
+  "valueQuantity": {
+    "value": 2,
+    "system": "http://unitsofmeasure.org",
+    "code": "1"
+  }
+}

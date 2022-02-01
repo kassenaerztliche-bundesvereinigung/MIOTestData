@@ -15,7 +15,7 @@
     "timestamp": "2019-12-23T12:30:02Z",
     "entry": [
         {
-            "fullUrl": "Composition:urn:uuid:6d92d417-8a0d-42b9-959f-567ab2f4650f",
+            "fullUrl": "Composition/6d92d417-8a0d-42b9-959f-567ab2f4650f",
             "resource": {
                 "resourceType": "Composition",
                 "id": "6d92d417-8a0d-42b9-959f-567ab2f4650f",
@@ -35,12 +35,12 @@
                     ]
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "date": "2018-07-01T12:30:02Z",
                 "author": [
                     {
-                        "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                        "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                     }
                 ],
                 "title": "Impfeintrag-/einträge Nach-/Übertrag",
@@ -58,137 +58,137 @@
                         },
                         "entry": [
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-0"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-0"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-1"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-1"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-2"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-2"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-3"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-3"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-4"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-4"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-5"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-5"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-6"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-6"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-7"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-7"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-8"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-8"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-9"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-9"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-10"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-10"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-11"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-11"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-12"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-12"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-13"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-13"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-14"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-14"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-15"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-15"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-16"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-16"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-17"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-17"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-18"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-18"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-19"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-19"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-20"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-20"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-21"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-21"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-22"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-22"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-23"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-23"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-24"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-24"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-25"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-25"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-26"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-26"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-27"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-27"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-28"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-28"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-29"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-29"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-30"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-30"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-31"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-31"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-32"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-32"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-33"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-33"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-34"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-34"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-35"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-35"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-36"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-36"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-37"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-37"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-38"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-38"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-39"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-39"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-40"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-40"
                             },
                             {
-                                "reference": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-41"
+                                "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-41"
                             }
                         ],
                         "section": [
                             {
                                 "entry": [
                                     {
-                                        "reference": "Provenance:urn:uuid:a2108e08-32ca-4f22-985c-6f0279f5c89c"
+                                        "reference": "Provenance/a2108e08-32ca-4f22-985c-6f0279f5c89c"
                                     }
                                 ]
                             }
@@ -198,7 +198,7 @@
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-0",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-0",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-0",
@@ -245,14 +245,17 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
+                },
+                "recorder": {
+                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-1",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-1",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-1",
@@ -299,14 +302,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-2",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-2",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-2",
@@ -353,14 +356,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-3",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-3",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-3",
@@ -407,14 +410,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-4",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-4",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-4",
@@ -461,14 +464,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-5",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-5",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-5",
@@ -515,14 +518,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-6",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-6",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-6",
@@ -569,14 +572,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-7",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-7",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-7",
@@ -623,14 +626,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-8",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-8",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-8",
@@ -677,14 +680,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-9",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-9",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-9",
@@ -731,14 +734,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-10",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-10",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-10",
@@ -785,14 +788,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-11",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-11",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-11",
@@ -839,14 +842,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-12",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-12",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-12",
@@ -893,14 +896,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-13",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-13",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-13",
@@ -947,14 +950,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-14",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-14",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-14",
@@ -1001,14 +1004,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-15",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-15",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-15",
@@ -1055,14 +1058,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-16",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-16",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-16",
@@ -1109,14 +1112,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-17",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-17",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-17",
@@ -1163,14 +1166,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-18",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-18",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-18",
@@ -1217,14 +1220,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-19",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-19",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-19",
@@ -1271,14 +1274,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-20",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-20",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-20",
@@ -1325,14 +1328,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-21",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-21",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-21",
@@ -1379,14 +1382,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-22",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-22",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-22",
@@ -1433,14 +1436,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-23",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-23",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-23",
@@ -1487,14 +1490,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-24",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-24",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-24",
@@ -1541,14 +1544,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-25",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-25",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-25",
@@ -1595,14 +1598,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-26",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-26",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-26",
@@ -1649,14 +1652,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-27",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-27",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-27",
@@ -1703,14 +1706,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-28",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-28",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-28",
@@ -1757,14 +1760,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-29",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-29",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-29",
@@ -1811,14 +1814,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-30",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-30",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-30",
@@ -1865,14 +1868,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-31",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-31",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-31",
@@ -1919,14 +1922,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-32",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-32",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-32",
@@ -1973,14 +1976,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-33",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-33",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-33",
@@ -2027,14 +2030,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-34",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-34",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-34",
@@ -2081,14 +2084,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-35",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-35",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-35",
@@ -2135,14 +2138,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-36",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-36",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-36",
@@ -2189,14 +2192,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-37",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-37",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-37",
@@ -2243,14 +2246,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-38",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-38",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-38",
@@ -2297,14 +2300,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-39",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-39",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-39",
@@ -2351,14 +2354,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-40",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-40",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-40",
@@ -2405,14 +2408,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Condition:urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-41",
+            "fullUrl": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-41",
             "resource": {
                 "resourceType": "Condition",
                 "id": "156c96ec-02ca-4770-94e9-b11d2237513d-41",
@@ -2459,14 +2462,14 @@
                     "text": "Pertussis/Keuchhusten"
                 },
                 "subject": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "onsetString": "Ältere Person/ Senioren (Mit Beginn des 65. Lebensjahres)",
                 "recordedDate": "2001-10-02T06:47:12Z"
             }
         },
         {
-            "fullUrl": "Patient:urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811",
+            "fullUrl": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811",
             "resource": {
                 "resourceType": "Patient",
                 "id": "9774f67f-a238-4daf-b4e6-679deeef3811",
@@ -2538,7 +2541,7 @@
             }
         },
         {
-            "fullUrl": "Practitioner:urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
+            "fullUrl": "Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "20597e0e-cb2a-45b3-95f0-dc3dbdb617c3",
@@ -2610,7 +2613,7 @@
             }
         },
         {
-            "fullUrl": "PractitionerRole:urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
+            "fullUrl": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
             "resource": {
                 "resourceType": "PractitionerRole",
                 "id": "a24c9cd2-c55e-4859-8d41-db419fc9f6b1",
@@ -2620,15 +2623,15 @@
                     ]
                 },
                 "practitioner": {
-                    "reference": "urn:uuid:20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
+                    "reference": "Practitioner/20597e0e-cb2a-45b3-95f0-dc3dbdb617c3"
                 },
                 "organization": {
-                    "reference": "urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b"
+                    "reference": "Organization/cf042e44-086a-4d51-9c77-172f9a972e3b"
                 }
             }
         },
         {
-            "fullUrl": "Organization:urn:uuid:cf042e44-086a-4d51-9c77-172f9a972e3b",
+            "fullUrl": "Organization/cf042e44-086a-4d51-9c77-172f9a972e3b",
             "resource": {
                 "resourceType": "Organization",
                 "id": "cf042e44-086a-4d51-9c77-172f9a972e3b",
@@ -2678,7 +2681,7 @@
             }
         },
         {
-            "fullUrl": "Provenance:urn:uuid:a2108e08-32ca-4f22-985c-6f0279f5c89c",
+            "fullUrl": "Provenance/a2108e08-32ca-4f22-985c-6f0279f5c89c",
             "resource": {
                 "resourceType": "Provenance",
                 "id": "a2108e08-32ca-4f22-985c-6f0279f5c89c",
@@ -2689,7 +2692,7 @@
                 },
                 "target": [
                     {
-                        "reference": "urn:uuid:156c96ec-02ca-4770-94e9-b11d2237513d-0"
+                        "reference": "Condition/156c96ec-02ca-4770-94e9-b11d2237513d-0"
                     }
                 ],
                 "recorded": "2019-12-23T08:39:24+10:00",
@@ -2722,7 +2725,7 @@
             }
         },
         {
-            "fullUrl": "Immunization:urn:uuid:immuniz-0",
+            "fullUrl": "Immunization/immuniz-0",
             "resource": {
                 "resourceType": "Immunization",
                 "id": "immuniz-0",
@@ -2765,7 +2768,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2787,7 +2790,7 @@
                             {
                                 "url": "party",
                                 "valueReference": {
-                                    "reference": "urn:uuid:a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
+                                    "reference": "PractitionerRole/a24c9cd2-c55e-4859-8d41-db419fc9f6b1"
                                 }
                             }
                         ]
@@ -2818,7 +2821,7 @@
                     "text": "Gelbfieberimpfstoff, STAMARIL Trockensubstanz mit Lösungsmittel"
                 },
                 "patient": {
-                    "reference": "urn:uuid:9774f67f-a238-4daf-b4e6-679deeef3811"
+                    "reference": "Patient/9774f67f-a238-4daf-b4e6-679deeef3811"
                 },
                 "occurrenceDateTime": "1992-07-16T12:30:02Z",
                 "primarySource": true,

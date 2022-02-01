@@ -1,7 +1,7 @@
 {
     "author": "KBV",
     "name": "@kbv/miotestdata",
-    "version": "1.6.0",
+    "version": "1.6.1",
     "description": "Testdata Package for KBV MIOParser and MIOViewer",
     "repository": "github:kassenaerztliche-bundesvereinigung/miotestdata",
     "homepage": "https://github.com/kassenaerztliche-bundesvereinigung/miotestdata#readme",
@@ -21,9 +21,7 @@
     "scripts": {
         "prettier": "prettier --write ./**/*.json ./**/*.js ./**/*.ts",
         "lint": "eslint ./**/*.json ./**/*.ts",
-        "clean": "rimraf ./dist/data",
-        "build": "npm run clean && npm run copy && tsc && npm link",
-        "copy": "mkdirp ./dist/data && ncp ./data ./dist/data"
+        "build": "tsc && npm link"
     },
     "jest": {
         "verbose": true,

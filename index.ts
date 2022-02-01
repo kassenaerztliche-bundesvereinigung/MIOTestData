@@ -77,7 +77,7 @@ export function getExamples(
     valid = true
 ): string[] {
     const rootPath = `${basePath}/data/${type.toLowerCase()}/${mio}${
-        valid ? "" : "/error"
+        valid ? "" : "/Error"
     }`;
     const files = readDir(rootPath);
     const results: string[] = [];

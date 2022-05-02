@@ -1,0 +1,168 @@
+{
+    "resourceType": "Observation",
+    "id": "17989fa3-0351-4add-ba79-41b597375cbb",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Blood_Pressure|1.1.0"
+        ]
+    },
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200131",
+                "code": "75367002",
+                "display": "Blood pressure (observable entity)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Blutdruck"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "system": "http://loinc.org",
+                "version": "2.69",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Blutdruck"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:b77d9c1d-75e9-4413-8261-56b6b8e8e108"
+    },
+    "encounter": {
+        "reference": "urn:uuid:496fe932-4902-44b1-8a3a-616e998853de"
+    },
+    "effectiveDateTime": "2021-02-02",
+    "performer": [
+        {
+            "reference": "urn:uuid:2fa35655-b46e-4baf-8cea-e795eef7e22f"
+        }
+    ],
+    "component": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200131",
+                        "code": "271649006",
+                        "display": "Systolic blood pressure (observable entity)",
+                        "_display": {
+                            "extension": [
+                                {
+                                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                    "extension": [
+                                        {
+                                            "url": "content",
+                                            "valueString": "systolischer Blutdruck"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "system": "http://loinc.org",
+                        "version": "2.69",
+                        "code": "8480-6",
+                        "display": "Systolic blood pressure",
+                        "_display": {
+                            "extension": [
+                                {
+                                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                    "extension": [
+                                        {
+                                            "url": "content",
+                                            "valueString": "systolischer Blutdruck"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "text": "systolisch"
+            },
+            "valueQuantity": {
+                "value": 107,
+                "unit": "mm Hg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+            }
+        },
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20200131",
+                        "code": "271650006",
+                        "display": "Diastolic blood pressure (observable entity)",
+                        "_display": {
+                            "extension": [
+                                {
+                                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                    "extension": [
+                                        {
+                                            "url": "content",
+                                            "valueString": "diastolischer Blutdruck"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "system": "http://loinc.org",
+                        "version": "2.69",
+                        "code": "8462-4",
+                        "display": "Diastolic blood pressure",
+                        "_display": {
+                            "extension": [
+                                {
+                                    "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                    "extension": [
+                                        {
+                                            "url": "content",
+                                            "valueString": "diastolischer Blutdruck"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "text": "diastolisch"
+            },
+            "valueQuantity": {
+                "value": 60,
+                "unit": "mm Hg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+            }
+        }
+    ]
+}

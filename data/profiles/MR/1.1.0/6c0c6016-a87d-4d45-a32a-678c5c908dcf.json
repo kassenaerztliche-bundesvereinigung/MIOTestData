@@ -1,0 +1,70 @@
+{
+    "resourceType": "Observation",
+    "id": "6c0c6016-a87d-4d45-a32a-678c5c908dcf",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Birth_Height|1.1.0"
+        ]
+    },
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                "code": "169886007",
+                "display": "Birth length (observable entity)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Körperlänge"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "system": "http://loinc.org",
+                "version": "2.71",
+                "code": "89269-5",
+                "display": "Body height Measured --at birth",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Körperlänge"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:d6ed8917-0956-4f5c-b131-fdf05781223d"
+    },
+    "encounter": {
+        "reference": "urn:uuid:13e37fe2-cf83-4ae2-bc31-cec96160baee"
+    },
+    "effectiveDateTime": "2022-05-01",
+    "performer": [
+        {
+            "reference": "urn:uuid:0d20fdb0-624d-4899-a8fe-dedeb50ca17d"
+        }
+    ],
+    "valueQuantity": {
+        "value": 54,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+    }
+}

@@ -21,16 +21,18 @@ data
 │   └───MR
 │   └───UH
 │   └───... (Ordner für jedes MIO)
-│       └─── Error (Fehlerdokumente für das spezifische MIO) 
-│       │   example.json
-│       │   ...
+│       └─── Version des MIOs (z.b. 1.0.0) 
+│           └─── Error (Fehlerdokumente für das spezifische MIO) 
+│           │   example.json
+│           │   ...
 │   
 └───profiles
     │   └───IM 
     │   └───... (Ordner für jedes MIO)
-    │       └─── Error (Fehlerprofile für das spezifische MIO)
-    │       | profileExample.json
-    │       | ... 
+    │       └─── Version des MIOs (z.b. 1.0.0) 
+    │           └─── Error (Fehlerdokumente für das spezifische MIO) 
+    │           │   example.json
+    │           │   ...
 ```
 
 ## Setup

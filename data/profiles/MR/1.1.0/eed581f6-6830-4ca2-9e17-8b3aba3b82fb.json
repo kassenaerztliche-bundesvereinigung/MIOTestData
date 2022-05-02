@@ -1,0 +1,47 @@
+{
+    "resourceType": "Patient",
+    "id": "eed581f6-6830-4ca2-9e17-8b3aba3b82fb",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Patient_Mother|1.1.0"
+        ]
+    },
+    "identifier": [
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                        "code": "GKV",
+                        "display": "Gesetzliche Krankenversicherung"
+                    }
+                ]
+            },
+            "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
+            "value": "A094897682"
+        }
+    ],
+    "name": [
+        {
+            "use": "official",
+            "family": "Mustermann",
+            "_family": {
+                "extension": [
+                    {
+                        "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                        "valueString": "Mustermann"
+                    }
+                ]
+            },
+            "given": ["Marin"]
+        }
+    ],
+    "birthDate": "1990-05-01",
+    "address": [
+        {
+            "type": "both",
+            "city": "Berlin",
+            "country": "D"
+        }
+    ]
+}

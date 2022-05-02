@@ -1,0 +1,70 @@
+{
+    "resourceType": "Observation",
+    "id": "ad97d879-ab43-4f7e-8d41-46f4665f7e3e",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Weight_Child"
+        ]
+    },
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "364589006",
+                "display": "Birth weight (observable entity)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Körpergewicht"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "system": "http://loinc.org",
+                "version": "2.68",
+                "code": "8339-4",
+                "display": "Birth weight Measured",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Körpergewicht"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:a876fde5-c428-4c65-90f0-d3416113c0b4"
+    },
+    "encounter": {
+        "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+    },
+    "effectiveDateTime": "2020-01-02",
+    "performer": [
+        {
+            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+        }
+    ],
+    "valueQuantity": {
+        "value": 3900,
+        "unit": "g",
+        "system": "http://unitsofmeasure.org",
+        "code": "g"
+    }
+}

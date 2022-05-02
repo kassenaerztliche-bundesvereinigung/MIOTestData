@@ -1,0 +1,195 @@
+{
+    "resourceType": "DiagnosticReport",
+    "id": "3a1efbc9-440e-4c5b-b115-0f04c21de4c8",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_DiagnosticReport_Ultrasound_II|1.0.0"
+        ]
+    },
+    "extension": [
+        {
+            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
+            "valueString": "Ergänzende Informationen"
+        }
+    ],
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "169670003",
+                "display": "Antenatal ultrasound scan at 17-22 weeks (procedure)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "II. Screening"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
+    },
+    "encounter": {
+        "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+    },
+    "effectiveDateTime": "2020-01-02",
+    "_effectiveDateTime": {
+        "extension": [
+            {
+                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_MR_Pregnancy_Week_And_Day",
+                "extension": [
+                    {
+                        "url": "schwangerschaftszeitpunkt",
+                        "extension": [
+                            {
+                                "url": "schwangerschaftswoche",
+                                "valueQuantity": {
+                                    "value": 6,
+                                    "unit": "Wochen",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "wk"
+                                }
+                            },
+                            {
+                                "url": "ergaenzendeTage",
+                                "valueQuantity": {
+                                    "value": 3,
+                                    "unit": "Tage",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "d"
+                                }
+                            },
+                            {
+                                "url": "korrektur",
+                                "valueBoolean": false
+                            },
+                            {
+                                "url": "kode",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                            "code": "57036006",
+                                            "display": "Fetal gestational age (observable entity)",
+                                            "_display": {
+                                                "extension": [
+                                                    {
+                                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                        "extension": [
+                                                            {
+                                                                "url": "content",
+                                                                "valueString": "Schwangerschaftswoche+Tage"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "url": "schwangerschaftszeitpunktKorrigiert",
+                        "extension": [
+                            {
+                                "url": "schwangerschaftswocheKorrigiert",
+                                "valueQuantity": {
+                                    "value": 6,
+                                    "unit": "Wochen",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "wk"
+                                }
+                            },
+                            {
+                                "url": "ergaenzendeTageKorrigiert",
+                                "valueQuantity": {
+                                    "value": 3,
+                                    "unit": "Tage",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "d"
+                                }
+                            },
+                            {
+                                "url": "korrekturKorrigiert",
+                                "valueBoolean": true
+                            },
+                            {
+                                "url": "kodeKorrigiert",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                                            "code": "57036006:246501002=278395004",
+                                            "display": "Fetal gestational age (observable entity):Technique (attribute)= Imaging technique (qualifier value)",
+                                            "_display": {
+                                                "extension": [
+                                                    {
+                                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                        "extension": [
+                                                            {
+                                                                "url": "content",
+                                                                "valueString": "Schwangerschaftswoche+Tage (korrigiert)"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "performer": [
+        {
+            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+        }
+    ],
+    "result": [
+        {
+            "reference": "urn:uuid:32714176-5f88-492e-a874-9ebdd00723b2"
+        },
+        {
+            "reference": "urn:uuid:f060cf8e-d3f2-4317-87b7-dbef7ba8f24c"
+        },
+        {
+            "reference": "urn:uuid:36f76a09-6ee9-4272-aaf7-7deb5daa4068"
+        },
+        {
+            "reference": "urn:uuid:7df74f2c-b8d6-47c7-abc7-f6112e7a862e"
+        },
+        {
+            "reference": "urn:uuid:765d38ee-3a0f-4980-9de6-5ca47570482c"
+        },
+        {
+            "reference": "urn:uuid:079afd90-7c23-4c03-841e-01a93b6ea2c5"
+        },
+        {
+            "reference": "urn:uuid:0c574820-977e-433f-ba14-8f762cd8bb5c"
+        },
+        {
+            "reference": "urn:uuid:8afdb8cf-ec91-42e1-a089-e20d81e8479a"
+        },
+        {
+            "reference": "urn:uuid:82174aa3-f3b8-4ac6-827e-c7a21bbc377c"
+        }
+    ]
+}

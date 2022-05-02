@@ -1,0 +1,84 @@
+{
+    "resourceType": "Observation",
+    "id": "46098e78-fbb5-430d-bc9c-358d01b04eb4",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_Examination|1.0.0"
+        ]
+    },
+    "identifier": [
+        {
+            "system": "https://test.test/testsystem/test01",
+            "value": "1234567890"
+        }
+    ],
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "363787002:246093002=120723002,370134009=123029007,370132008=117363000,704319004=50863008,704318007=705057003,704327008=119364003",
+                "display": "Observable entity (observable entity) : Component (attribute) = Treponema pallidum antibody (substance) , Time aspect (attribute) = Single point in time (qualifier value) , Scale type (attribute) = Ordinal value (qualifier value) , Inheres in (attribute) = Plasma (substance) , Property type (attribute) = Presence (property) (qualifier value) , Direct site (attribute) = Serum specimen (specimen)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Laboruntersuchung (LSR)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "system": "http://loinc.org",
+                "version": "2.68",
+                "code": "22587-0",
+                "display": "Treponema pallidum Ab [Presence] in Serum",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Laboruntersuchung (LSR)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
+    },
+    "encounter": {
+        "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+    },
+    "effectiveDateTime": "2020-01-02",
+    "performer": [
+        {
+            "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+        }
+    ],
+    "dataAbsentReason": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+                "code": "masked",
+                "display": "Masked"
+            }
+        ]
+    },
+    "note": [
+        {
+            "text": "Masked"
+        }
+    ]
+}

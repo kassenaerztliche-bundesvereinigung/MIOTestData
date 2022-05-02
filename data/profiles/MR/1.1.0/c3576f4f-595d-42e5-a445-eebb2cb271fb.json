@@ -1,0 +1,70 @@
+{
+    "resourceType": "Observation",
+    "id": "c3576f4f-595d-42e5-a445-eebb2cb271fb",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Observation_pH_Value_Umbilical_Artery|1.1.0"
+        ]
+    },
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                "code": "363787002:370134009=123029007,704319004=12499000,246093002=89177007,370130000=702700007,370132008=30766002,704327008=703430008",
+                "display": "Observable entity (observable entity) : Time aspect (attribute) = Single point in time (qualifier value) , Inheres in (attribute) = Cord blood (substance) , Component (attribute) = Proton (substance) , Property (attribute) = Logarithmic substance concentration (property) (qualifier value) , Scale type (attribute) = Quantitative (qualifier value) , Direct site (attribute) = Arterial cord blood specimen (specimen)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "pH-Wert (Nabelarterie)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "system": "http://loinc.org",
+                "version": "2.71",
+                "code": "28646-8",
+                "display": "pH of Arterial cord blood",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "pH-Wert (Nabelarterie)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:cc62c1af-17ed-4285-81d4-c432d6959f5c"
+    },
+    "encounter": {
+        "reference": "urn:uuid:13e37fe2-cf83-4ae2-bc31-cec96160baee"
+    },
+    "effectiveDateTime": "2022-05-01",
+    "performer": [
+        {
+            "reference": "urn:uuid:0d20fdb0-624d-4899-a8fe-dedeb50ca17d"
+        }
+    ],
+    "valueQuantity": {
+        "value": 7.4,
+        "unit": "(pH)",
+        "system": "http://unitsofmeasure.org",
+        "code": "[pH]"
+    }
+}

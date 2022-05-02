@@ -74,11 +74,15 @@ export type DefinitionType = "Bundles" | "Profiles";
 export function getExamples(
     mio: mioString,
     type: DefinitionType,
-    valid = true
+    valid = true,
+    version: string
 ): string[] {
-    const rootPath = `${basePath}/data/${type.toLowerCase()}/${mio}${
-        valid ? "" : "/Error"
+    const rootPath = `${basePath}/data/${type.toLowerCase()}/${mio}/${version}${
+        valid ? "" : `/Error`
     }`;
+
+    if (!valid) console.log(rootPath);
+
     const files = readDir(rootPath);
     const results: string[] = [];
     const mappedFiles = files ? files.map((file) => `${rootPath}/${file}`) : [];
@@ -122,17 +126,32 @@ export function runAll<T extends HasMioString>(
     describe(name, () => {
         list.forEach((value) => {
             describe(`Examples ${value.mioString} (${type})`, () => {
-                const bundles = getExamples(value.mioString, type, valid);
-                if (!bundles.length)
-                    console.warn(
-                        "A data folder should not be empty! " +
-                            value.mioString +
-                            " (" +
-                            type +
-                            ")"
-                    );
-                expect(bundles.length).toBeGreaterThan(0);
-                testFunction(bundles, value);
+                const mioPath = `${basePath}/data/${type.toLowerCase()}/${
+                    value.mioString
+                }`;
+
+                const versions = fs.readdirSync(mioPath);
+
+                versions.forEach((version) => {
+                    describe(`Version ${version}`, () => {
+                        const bundles = getExamples(
+                            value.mioString,
+                            type,
+                            valid,
+                            version
+                        );
+                        if (!bundles.length)
+                            console.warn(
+                                "A data folder should not be empty! " +
+                                    value.mioString +
+                                    " (" +
+                                    type +
+                                    ")"
+                            );
+                        expect(bundles.length).toBeGreaterThan(0);
+                        testFunction(bundles, value);
+                    });
+                });
             });
         });
     });

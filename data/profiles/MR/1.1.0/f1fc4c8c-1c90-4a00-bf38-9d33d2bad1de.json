@@ -1,0 +1,76 @@
+{
+    "resourceType": "ClinicalImpression",
+    "id": "f1fc4c8c-1c90-4a00-bf38-9d33d2bad1de",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_Birth_Examination_Child_Information|1.1.0"
+        ]
+    },
+    "status": "completed",
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20210731",
+                "code": "118188004",
+                "display": "Finding of neonate (finding)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Angaben zum Kind"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:0dafbded-fb9c-479e-9c18-9f9b835b80f2"
+    },
+    "encounter": {
+        "reference": "urn:uuid:13e37fe2-cf83-4ae2-bc31-cec96160baee"
+    },
+    "effectiveDateTime": "2022-05-01",
+    "investigation": [
+        {
+            "code": {
+                "text": "Angaben zum Kind"
+            },
+            "item": [
+                {
+                    "reference": "urn:uuid:a9a1a688-d39d-4dc3-9a8e-605ae03dbd18"
+                },
+                {
+                    "reference": "urn:uuid:315a2186-225a-41e6-89ce-eaa15371068b"
+                },
+                {
+                    "reference": "urn:uuid:67cb2d3c-bb08-46b9-a5b3-7f40f1529461"
+                },
+                {
+                    "reference": "urn:uuid:f19df241-1439-4570-a56c-d8a31b121470"
+                },
+                {
+                    "reference": "urn:uuid:beff21cd-5b4c-41ad-8fd7-971b9b088e62"
+                },
+                {
+                    "reference": "urn:uuid:cfda7594-6c71-4910-a7d7-2e4d676a2f2d"
+                },
+                {
+                    "reference": "urn:uuid:c21c3944-ba5a-4afc-aecc-268a7c668bf9"
+                },
+                {
+                    "reference": "urn:uuid:c9a728d7-e0a7-4461-87e6-7ad1f2c153a3"
+                },
+                {
+                    "reference": "urn:uuid:c3576f4f-595d-42e5-a445-eebb2cb271fb"
+                }
+            ]
+        }
+    ]
+}

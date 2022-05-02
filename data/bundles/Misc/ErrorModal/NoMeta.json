@@ -1,8 +1,7 @@
 {
     "resourceType": "Bundle",
     "id": "001578f8-0b76-4197-afd9-ludger7516e47",
-    "meta": {
-    },
+    "meta": {},
     "identifier": {
         "system": "urn:ietf:rfc:3986",
         "value": "001578f8-0b76-4197-afd9-ludger7516e47"

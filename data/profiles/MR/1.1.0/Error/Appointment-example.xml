@@ -1,0 +1,23 @@
+<Appointment xmlns="http://hl7.org/fhir">
+  <id value="b31afc67-82fd-485a-b0c9-63079b28241c" />
+  <meta>
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_Appointment_Pregnancy|1.0.0" />
+  </meta>
+  <status value="booked" />
+  <start value="2020-04-04" />
+  <end value="2020-04-04T10:00:00Z" />
+  <participant>
+    <actor>
+      <reference value="urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777" />
+    </actor>
+    <required value="required" />
+    <status value="accept" />
+  </participant>
+  <participant>
+    <actor>
+      <reference value="urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916" />
+    </actor>
+    <required value="required" />
+    <status value="accepted" />
+  </participant>
+</Appointment>

@@ -1,0 +1,79 @@
+{
+    "resourceType": "ClinicalImpression",
+    "id": "e726cab3-b56b-4037-ba0f-09f4cc3d3990",
+    "meta": {
+        "profile": [
+            "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_MR_ClinicalImpression_Birth_Examination_Child_Information|1.0.0"
+        ]
+    },
+    "status": "completed",
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20200731",
+                "code": "118188004",
+                "display": "Finding of neonate (finding)",
+                "_display": {
+                    "extension": [
+                        {
+                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                            "extension": [
+                                {
+                                    "url": "content",
+                                    "valueString": "Angaben zum Kind"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "subject": {
+        "reference": "urn:uuid:6a15cff6-3cc1-4bf2-ab66-1cc6316e6777"
+    },
+    "encounter": {
+        "reference": "urn:uuid:e08a4445-d57b-454b-b1c6-560ae8d16c17"
+    },
+    "effectiveDateTime": "2020-01-02",
+    "assessor": {
+        "reference": "urn:uuid:8ad1ee6c-6164-493a-be52-c43cf49e9916"
+    },
+    "investigation": [
+        {
+            "code": {
+                "text": "Angaben zum Kind"
+            },
+            "item": [
+                {
+                    "reference": "urn:uuid:9c53fb1f-2467-436d-a40b-1a67a0be5ac9"
+                },
+                {
+                    "reference": "urn:uuid:4ada11cc-0051-4053-b99e-d20480381efb"
+                },
+                {
+                    "reference": "urn:uuid:2d53bdba-8f48-499a-a9a1-05a5243fc8d0"
+                },
+                {
+                    "reference": "urn:uuid:ad97d879-ab43-4f7e-8d41-46f4665f7e3e"
+                },
+                {
+                    "reference": "urn:uuid:cbb92459-b72c-40fb-ab36-151736e62b49"
+                },
+                {
+                    "reference": "urn:uuid:9454e18f-fb27-4b98-96af-5640421f1524"
+                },
+                {
+                    "reference": "urn:uuid:60f7f523-634a-42a8-adfb-ac7686291c1f"
+                },
+                {
+                    "reference": "urn:uuid:40340cfc-3cc1-4a7b-a9a2-f3efe4273e7c"
+                },
+                {
+                    "reference": "urn:uuid:c7976c33-d796-4a21-a0a5-4a0c8319d6ae"
+                }
+            ]
+        }
+    ]
+}

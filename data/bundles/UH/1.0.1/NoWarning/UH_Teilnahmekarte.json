@@ -16,9 +16,9 @@
             "resource": {
                 "resourceType": "Composition",
                 "id": "b452f730-1925-406c-a331-71c614201204",
-                "text" : {
-                    "status" : "generated",
-                    "div" : "text"
+                "text": {
+                    "status": "generated",
+                    "div": "text"
                 },
                 "meta": {
                     "profile": [
@@ -66,9 +66,9 @@
             "resource": {
                 "resourceType": "Encounter",
                 "id": "ff734d2b-b1a3-4f54-8dde-9bef7f978701",
-                "text" : {
-                    "status" : "generated",
-                    "div" : "text"
+                "text": {
+                    "status": "generated",
+                    "div": "text"
                 },
                 "meta": {
                     "profile": [
@@ -142,9 +142,9 @@
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "685e18e6-be98-4ed4-84ed-fcec6064a25c",
-                "text" : {
-                    "status" : "generated",
-                    "div" : "text"
+                "text": {
+                    "status": "generated",
+                    "div": "text"
                 },
                 "meta": {
                     "profile": [
@@ -244,9 +244,9 @@
             "resource": {
                 "resourceType": "Organization",
                 "id": "8577978c-c942-44de-pc8b-4170c7c67484",
-                "text" : {
-                    "status" : "generated",
-                    "div" : "text"
+                "text": {
+                    "status": "generated",
+                    "div": "text"
                 },
                 "meta": {
                     "profile": [
@@ -290,9 +290,9 @@
             "resource": {
                 "resourceType": "Patient",
                 "id": "04ad3612-60a7-4303-aa8a-82860106a1ab",
-                "text" : {
-                    "status" : "generated",
-                    "div" : "text"
+                "text": {
+                    "status": "generated",
+                    "div": "text"
                 },
                 "meta": {
                     "profile": [
@@ -338,9 +338,9 @@
             "resource": {
                 "resourceType": "Patient",
                 "id": "04ad3612-60a1-4303-cmra-82860106a1ab",
-                "text" : {
-                    "status" : "generated",
-                    "div" : "text"
+                "text": {
+                    "status": "generated",
+                    "div": "text"
                 },
                 "meta": {
                     "profile": [

@@ -62,9 +62,20 @@ export function readJSONFile(path: string): Record<string, unknown> | undefined 
     }
 }
 
-export type mioString = "IM" | "ZB" | "MR" | "UH";
-const mioStrings: mioString[] = ["IM", "ZB", "MR", "UH"];
-export { mioStrings };
+export type MIO = "IM" | "ZB" | "MR" | "UH";
+const MIOs: MIO[] = ["IM", "ZB", "MR", "UH"];
+export { MIOs };
+
+export type MIOType = {
+    mio: MIO;
+};
+
+const BasicList: MIOType[] = [];
+MIOs.forEach((mio) => {
+    BasicList.push({ mio });
+});
+
+export { BasicList };
 
 const basePath: string = path.resolve("./node_modules/@kbv/miotestdata");
 process.stdout.write("Base path: " + basePath);
@@ -72,16 +83,14 @@ process.stdout.write("Base path: " + basePath);
 export type DefinitionType = "Bundles" | "Profiles";
 
 export function getExamples(
-    mio: mioString,
+    mio: MIO,
+    version: string,
     type: DefinitionType,
-    valid = true,
-    version: string
+    valid = true
 ): string[] {
     const rootPath = `${basePath}/data/${type.toLowerCase()}/${mio}/${version}${
-        valid ? "" : `/Error`
+        valid ? "" : "/Error"
     }`;
-
-    if (!valid) console.log(rootPath);
 
     const files = readDir(rootPath);
     const results: string[] = [];
@@ -101,23 +110,10 @@ export function getExample(
     return readFile(rootPath + filePath);
 }
 
-export type HasMioString = {
-    mioString: mioString;
-};
-
-const BasicList: HasMioString[] = [];
-mioStrings.forEach((str) => {
-    BasicList.push({
-        mioString: str
-    });
-});
-
-export { BasicList };
-
-export function runAll<T extends HasMioString>(
+export function runAll<T extends MIOType>(
     name: string,
     list: T[],
-    testFunction: (bundles: string[], value: T) => void,
+    testFunction: (bundles: string[], value: T, version?: string) => void,
     type: DefinitionType,
     valid = true,
     setupFn: () => void = emptyFunction
@@ -125,31 +121,26 @@ export function runAll<T extends HasMioString>(
     setupFn();
     describe(name, () => {
         list.forEach((value) => {
-            describe(`Examples ${value.mioString} (${type})`, () => {
-                const mioPath = `${basePath}/data/${type.toLowerCase()}/${
-                    value.mioString
-                }`;
+            describe(`Examples ${value.mio} (${type})`, () => {
+                const mioPath = `${basePath}/data/${type.toLowerCase()}/${value.mio}`;
 
                 const versions = fs.readdirSync(mioPath);
 
                 versions.forEach((version) => {
                     describe(`Version ${version}`, () => {
-                        const bundles = getExamples(
-                            value.mioString,
-                            type,
-                            valid,
-                            version
-                        );
+                        const bundles = getExamples(value.mio, version, type, valid);
                         if (!bundles.length)
                             console.warn(
                                 "A data folder should not be empty! " +
-                                    value.mioString +
+                                    value.mio +
+                                    "|" +
+                                    version +
                                     " (" +
                                     type +
                                     ")"
                             );
                         expect(bundles.length).toBeGreaterThan(0);
-                        testFunction(bundles, value);
+                        testFunction(bundles, value, version);
                     });
                 });
             });
@@ -157,10 +148,10 @@ export function runAll<T extends HasMioString>(
     });
 }
 
-export function runAllFiles<T extends HasMioString>(
+export function runAllFiles<T extends MIOType>(
     name: string,
     list: T[],
-    testFunction: (bundles: string, value: T) => void,
+    testFunction: (bundles: string, value: T, version?: string) => void,
     type: DefinitionType,
     valid = true,
     setupFn: () => void = emptyFunction
@@ -168,8 +159,8 @@ export function runAllFiles<T extends HasMioString>(
     runAll<T>(
         name,
         list,
-        (bundles, value) => {
-            bundles.forEach((file) => testFunction(file, value));
+        (bundles, value, version) => {
+            bundles.forEach((file) => testFunction(file, value, version));
         },
         type,
         valid,
@@ -179,7 +170,7 @@ export function runAllFiles<T extends HasMioString>(
 
 export function runAllBundleFiles(
     name: string,
-    testFunction: (file: string, value: HasMioString) => void,
+    testFunction: (file: string, value: MIOType, version?: string) => void,
     valid = true,
     setupFn: () => void = emptyFunction
 ): void {
@@ -188,7 +179,7 @@ export function runAllBundleFiles(
 
 export function runAllBundles(
     name: string,
-    testFunction: (file: string[], value: HasMioString) => void,
+    testFunction: (file: string[], value: MIOType, version?: string) => void,
     valid = true,
     setupFn: () => void = emptyFunction
 ): void {
@@ -197,16 +188,16 @@ export function runAllBundles(
 
 export function runAllProfileFiles(
     name: string,
-    testFunction: (file: string, value: HasMioString) => void,
+    testFunction: (file: string, value: MIOType, version?: string) => void,
     valid = true,
     setupFn: () => void = emptyFunction
 ): void {
     runAllFiles(name, BasicList, testFunction, "Profiles", valid, setupFn);
 }
 
-export function runAllProfiles<T extends HasMioString>(
+export function runAllProfiles<T extends MIOType>(
     name: string,
-    testFunction: (file: string[], value: HasMioString) => void,
+    testFunction: (file: string[], value: MIOType, version?: string) => void,
     valid = true,
     setupFn: () => void = emptyFunction
 ): void {

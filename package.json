@@ -1,7 +1,7 @@
 {
     "author": "KBV",
     "name": "@kbv/miotestdata",
-    "version": "1.7.1",
+    "version": "1.8.0",
     "description": "Testdata Package for KBV MIOParser and MIOViewer",
     "repository": "github:kassenaerztliche-bundesvereinigung/miotestdata",
     "homepage": "https://github.com/kassenaerztliche-bundesvereinigung/miotestdata#readme",
@@ -29,6 +29,7 @@
     },
     "devDependencies": {
         "@types/jest": "^27.0.2",
+        "@types/lodash": "^4.14.182",
         "@types/node": "^16.11.6",
         "@typescript-eslint/eslint-plugin": "^5.2.0",
         "@typescript-eslint/parser": "^5.2.0",
@@ -38,6 +39,7 @@
         "jest": "^27.3.1",
         "prettier": "^2.4.1",
         "ts-jest": "^27.0.7",
+        "ts-node": "^10.9.1",
         "typescript": "^4.4.4"
     }
 }

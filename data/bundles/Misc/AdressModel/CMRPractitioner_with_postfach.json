@@ -1,0 +1,3346 @@
+{
+    "meta": {
+        "profile": ["https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Bundle|1.0.1"]
+    },
+    "identifier": {
+        "system": "urn:ietf:rfc:3936",
+        "value": "8c5974f4-c431-4764-a411-7dea8b40f8fc"
+    },
+    "type": "document",
+    "timestamp": "2021-04-20T08:39:01.974Z",
+    "resourceType": "Bundle",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:CMRCompositionU1",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_U1|1.0.1"
+                    ]
+                },
+                "resourceType": "Composition",
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "170099002",
+                            "display": "Child examination - birth (procedure)"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                "code": "243788004",
+                                "display": "Child examination (procedure)"
+                            }
+                        ]
+                    }
+                ],
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "date": "3000",
+                "author": [
+                    { "reference": "urn:uuid:CMRPractitioner" },
+                    { "reference": "urn:uuid:CMRPractitioner" }
+                ],
+                "title": "U1",
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>"
+                },
+                "extension": [
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
+                        "valueString": "Liebe Eltern, herzlichen Glückwunsch zur Geburt Ihres Babys! Gerade in den ersten Lebensjahren macht Ihr Kind sehr viele Entwicklungsschritte. Um eventuell vorliegende Erkrankungen und Entwicklungsverzögerungen frühzeitig erkennen und entsprechend handeln zu können, gibt es regelmäßige Untersuchungen. Diese sind ein wichtiger Teil der Gesundheitsvorsorge für Ihr Kind. Die Kosten werden von der gesetzlichen Krankenversicherung übernommen. Innerhalb der ersten sechs Lebensjahre untersucht die Ärztin oder der Arzt, ob sich Ihr Kind gesund und altersgemäß entwickelt. Die Ergebnisse jeder Untersuchung werden Ihnen erläutert. Darüber hinaus werden Sie über Schutzimpfungen informiert, die zugleich mit den Untersuchungen erfolgen können. Sie haben bei sämtlichen Untersuchungen die Gelegenheit, die Entwicklung Ihres Kindes mit der Ärztin oder dem Arzt zu besprechen und Fragen zu stellen, etwa zu Themen wie Ernährung oder Unfallvermeidung. Zudem erhalten Sie im Rahmen der einzelnen Untersuchungen von der Ärztin oder dem Arzt Informationen zu regionalen Unterstützungsangeboten (wie z. B. Eltern-Kind-Angebote, Frühe Hilfen, Familienhebammen, -paten, öffentlicher Gesundheitsdienst). Für alle Untersuchungen sind bestimmte Zeiträume vorgegeben. Dass Sie diese kennen und einhalten, ist besonders wichtig, da manche Liebe Eltern, herzlichen Glückwunsch zur Geburt Ihres Babys! Bitte beachten Sie, dass es sich bei dem Gelben Heft um eine vertrauliche Information handelt. Keine Institution (z. B. Kita, Schule, Jugendamt) darf eine Einsichtnahme verlangen. Sie entscheiden, wem Sie den Einblick gewähren. Die herausnehmbare Teilnahmekarte ist als Beleg für die Wahrnehmung der Untersuchungen ausreichend. Erkrankungen nur in einer bestimmten Altersspanne rechtzeitig erkannt und behandelt werden können (z. B. Stoffwechselstörungen oder Fehlstellungen der Hüfte). Auch bei Frühgeborenen, also Kindern, die vor der 37+0 Schwangerschaftswoche geboren werden, sollen die Untersuchungszeiträume dringend eingehalten werden. In solchen Fällen wird der frühe Geburtstermin bei der Interpretation der Ergebnisse berücksichtigt. Bitte nutzen Sie das Angebot der Untersuchungen! Sie geben sich und Ihrem Kind die Chance, dass gesundheitliche Probleme oder Auffälligkeiten rechtzeitig erkannt und behandelt werden können. Wir wünschen Ihrem Kind und Ihnen alles Gute! Gemeinsamer Bundesausschuss, Berlin* | Der Gemeinsame Bundesausschuss (G-BA) wird gebildet von der Kassenärztlichen und der Kassenzahnärztlichen Bundesvereinigung, der Deutschen Krankenhausgesellschaft e.V. und dem Spitzenverband der gesetzlichen Krankenversicherung. Der G-BA legt in Richtlinien fest, welche Leistungen der medizinischen Versorgung von der gesetzlichen Krankenversicherung übernommen werden. Das Gelbe Heft ist eine Anlage der Kinder-Richtlinie des G-BA. Weitere Informationen finden Sie auf den Internetseiten des G-BA unter www.g-ba.de."
+                    },
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
+                        "valueString": "U1 Elterninformation zur Neugeborenen-Erstuntersuchung Unmittelbar nach der Geburt findet die erste Untersuchung Ihres Babys statt. Die Ärztin oder der Arzt oder die Hebamme oder der Entbindungspfleger vergewissern sich, dass Ihr Baby die Geburt gut überstanden hat. Es geht bei der U1 vor allem darum, sofort behandlungsbedürftige Zustände und äußerliche Fehlbildungen zu erkennen. So können notwendige Sofortmaßnahmen eingeleitet und Komplikationen vermieden werden. Das wird untersucht: • Mit dem sogenannten Apgar-Wert werden die Hautfarbe des Babys, der Herzschlag, die Reflexe, die Muskelspannung und die Atmung geprüft. Dieser Wert wird nach fünf und nochmals nach zehn Minuten ermittelt. • Um sicher zu sein, dass Ihr Neugeborenes während der Geburt ausreichend mit Sauerstoff versorgt worden ist, wird der Nabelschnur Blut entnommen und dessen pH-Wert (Säuregrad) bestimmt. • Es wird nach äußerlich erkennbaren Fehlbildungen geschaut. Ihr Baby wird gemessen und gewogen und es erhält nach Rücksprache mit Ihnen Vitamin K, um inneren Blutungen vorzubeugen. Zur Ernährung Ihres Kindes (Stillen oder andere Ernährungsformen) werden Sie fachkundig beraten und können während der gesamten Stillzeit und bei Ernährungsproblemen auf Hilfe zurückgreifen. In den kommenden drei Tagen werden Ihnen für Ihr Baby weitere wichtige Untersuchungen empfohlen. Diese sollen eine rechtzeitige Behandlung der jeweiligen Erkrankungen ermöglichen. Der Test auf kritische angeborene Herzfehler sollte nach der 24. bis zur 48. Lebensstunde Ihres Babys durchgeführt werden. Die Tests auf angeborene Stoffwechselstörungen und Mukoviszidose aus einigen Tropfen Blut Ihres Babys sollten zwischen der 36. und 72. Lebensstunde erfolgen. Der Hörtest für Neugeborene sollte bis zur 72. Lebensstunde vorgenommen werden. Zu diesen Untersuchungen erhalten Sie jeweils ein ausführliches Informationsblatt. Die nächste Untersuchung soll vom 3. bis zum 10. Lebenstag (U2) vorgenommen werden."
+                    }
+                ],
+                "section": [
+                    {
+                        "title": "Schwangerschaftsanamnese",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "160427003",
+                                    "display": "Family history with explicit context pertaining to mother (situation)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "extension": [
+                            {
+                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                                "valueString": "Zutreffendes bitte ankreuzen!"
+                            }
+                        ],
+                        "entry": [
+                            { "reference": "urn:uuid:CMRObservationU1U3PregnancyHistory" }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Geburtsanamnese",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "364319003",
+                                    "display": "Pregnancy, childbirth / puerperium observable (observable entity)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "extension": [
+                            {
+                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                                "valueString": "Zutreffendes bitte ankreuzen!"
+                            }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        },
+                        "section": [
+                            {
+                                "title": "Geschlecht",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                            "code": "263495000",
+                                            "display": "Gender (observable entity)"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "urn:uuid:CMRObservationU1U3GenderBirthHistory"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Soweit vorhanden, Befunde einer pränatalen Diagnostik:",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                            "code": "313199003",
+                                            "display": "Antenatal screening finding (observable entity)"
+                                        },
+                                        {
+                                            "system": "http://loinc.org",
+                                            "version": "2.69",
+                                            "code": "57078-8",
+                                            "display": "Antenatal testing and surveillance Narrative"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "urn:uuid:CMRObservationU1U3PrenatalFinding"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Base excess",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                            "code": "363787002:370134009=123029007,704319004=12499000,118598001=118556004,370132008=30766002,704327008=703430008,246093002=68615006,246501002=723208001",
+                                            "display": "Observable entity (observable entity) : Time aspect (attribute) = Single point in time (qualifier value) , Inheres in (attribute) = Cord blood (substance) , Property (attribute) = Substance concentration (property) (qualifier value) , Scale type (attribute) = Quantitative (qualifier value) , Direct site (attribute) = Arterial cord blood specimen (specimen) , Component (attribute) = Bicarbonate (substance) , Technique (attribute) = Base excess calculation technique (qualifier value)"
+                                        },
+                                        {
+                                            "system": "http://loinc.org",
+                                            "version": "2.69",
+                                            "code": "28638-5",
+                                            "display": "Base excess in Arterial cord blood by calculation"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "urn:uuid:CMRObservationU1U3BaseExcess"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "pH-Wert (Nabelarterie)",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                            "code": "363787002:370134009=123029007,704319004=12499000,246093002=89177007,704318007=702700007,370132008=30766002,704327008=703430008",
+                                            "display": "Observable entity (observable entity) : Time aspect (attribute) = Single point in time (qualifier value) , Inheres in (attribute) = Cord blood (substance) , Component (attribute) = Proton (substance) , Property type (attribute) = Logarithmic substance concentration (property) (qualifier value) , Scale type (attribute) = Quantitative (qualifier value) , Direct site (attribute) = Arterial cord blood specimen (specimen)"
+                                        },
+                                        {
+                                            "system": "http://loinc.org",
+                                            "version": "2.69",
+                                            "code": "28646-8",
+                                            "display": "pH of Arterial cord blood"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    { "reference": "urn:uuid:CMRObservationU1U3pHValue" }
+                                ]
+                            },
+                            {
+                                "title": "Kindslage",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                            "code": "364607000",
+                                            "display": "Position of fetus (observable entity)"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "urn:uuid:CMRObservationU1U3FoetalPosition"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Geburtsmodus",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                            "code": "394698008",
+                                            "display": "Birth history (situation)"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "urn:uuid:CMRObservationU1U3Birthmode"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Geburtsdatum",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                            "code": "184099003+397836004",
+                                            "display": "Date of birth (observable entity) + Time of delivery (observable entity)"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "urn:uuid:CMRObservationU1U3DateTimeofBirth"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "SSW (Wochen+Tage)",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                            "code": "412726003",
+                                            "display": "Length of gestation at birth (observable entity)"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "urn:uuid:CMRObservationU1U3LengthGestationAtBirth"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Familienanamnese",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "422432008",
+                                    "display": "Family history section (record artifact)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "extension": [
+                            {
+                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction",
+                                "valueString": "Zutreffendes bitte ankreuzen!"
+                            },
+                            {
+                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note",
+                                "valueString": "(u.a. behandlungsbedürftige Hyperbilirubinämie bei einem vorausgegangenen Kind)"
+                            }
+                        ],
+                        "entry": [
+                            { "reference": "urn:uuid:CMRObservationU1FamilyHistory" }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Körperliche Untersuchung",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "425044008",
+                                    "display": "Physical exam section (record artifact)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportU1EdemaOfNewborn"
+                            },
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportU1NeonatalJaundice"
+                            },
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportU1BirthTraumaofFetus"
+                            },
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportU1CongenitalMalformation"
+                            },
+                            { "reference": "urn:uuid:CMRDiagnosticReportU1TermInfant" },
+                            { "reference": "urn:uuid:CMRDiagnosticReportU1ApgarScore" },
+                            { "reference": "urn:uuid:CMRDiagnosticReportU1BirthLength" },
+                            { "reference": "urn:uuid:CMRDiagnosticReportU1BirthWeight" }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Sonstiges",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "129125009:363589002=386359008",
+                                    "display": "Procedure with explicit context (situation) : Associated procedure (attribute) =  Administration of drug or medicament via oral route (procedure)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:CMRMedicationStatementVitamineKProphylaxis"
+                            }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Pulsoxymetrie-Screening (Messung am Fuß)",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "252465000:405813007=56459004",
+                                    "display": "Pulse oximetry (procedure) : Procedure site - Direct (attribute) = Foot structure (body structure)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportU1U3PulseOxymetry"
+                            },
+                            {
+                                "reference": "urn:uuid:CMRServiceRequestU1U3PulseOxymetryClarification"
+                            }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Neugeborenen-Hörscreening",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "252957005",
+                                    "display": "Children's hearing test (procedure)"
+                                },
+                                {
+                                    "system": "http://loinc.org",
+                                    "version": "2.69",
+                                    "code": "54111-0",
+                                    "display": "Newborn hearing screening panel"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportU1U5NeonatalHearscreening"
+                            },
+                            {
+                                "reference": "urn:uuid:CMRServiceRequestU1U5ReferralPediatricAudiologyService"
+                            },
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportU1U5PediatricDiagnosticAudiologyService"
+                            }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Erweitertes Neugeborenen-Screening",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "738796001:363702006=428447008",
+                                    "display": "Collection of dried blood spot specimen (procedure) : Has focus (attribute) = Newborn blood spot screening (procedure)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:CMRProcedureU1U3NewbornBloodSpotScreening"
+                            }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Screening auf Mukoviszidose",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "738796001:363702006=171191008",
+                                    "display": "Collection of dried blood spot specimen (procedure) : Has focus (attribute) = Cystic fibrosis screening (procedure)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:CMRProcedureU1U3CysticFibrosisScreening"
+                            }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Bitte bringen Sie Ihr Kind zur Untersuchung:",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "185353001",
+                                    "display": "Appointment date (finding)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "entry": [
+                            { "reference": "urn:uuid:CMRAppointmentParticipationPeriod" },
+                            { "reference": "urn:uuid:CMRAppointmentParticipationPeriod" },
+                            { "reference": "urn:uuid:CMRAppointmentParticipationPeriod" },
+                            { "reference": "urn:uuid:CMRAppointmentParticipationPeriod" },
+                            { "reference": "urn:uuid:CMRAppointmentParticipationPeriod" },
+                            { "reference": "urn:uuid:CMRAppointmentParticipationPeriod" },
+                            { "reference": "urn:uuid:CMRAppointmentParticipationPeriod" },
+                            { "reference": "urn:uuid:CMRAppointmentParticipationPeriod" },
+                            { "reference": "urn:uuid:CMRAppointmentParticipationPeriod" }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Perzentilkurven",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "129822005",
+                                    "display": "Childhood growth AND/OR development finding (finding)"
+                                }
+                            ]
+                        },
+                        "text": { "status": "generated", "div": "<div></div>" },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:CMRDiagnosticReportPercentileValues"
+                            }
+                        ],
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "version": "4.0.1",
+                                    "code": "closed",
+                                    "display": "Closed"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRPatient",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.1"
+                    ]
+                },
+                "resourceType": "Patient",
+                "name": [
+                    {
+                        "use": "official",
+                        "given": ["Richard"],
+                        "text": "Richard Kohn",
+                        "family": "Kohn"
+                    },
+                    {
+                        "use": "maiden",
+                        "text": "Graf Habil. Popovic",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Popovic"
+                                },
+                                {
+                                    "url": "http://fhir.de/StructureDefinition/humanname-namenszusatz",
+                                    "valueString": "Habil."
+                                },
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix",
+                                    "valueString": "Graf"
+                                }
+                            ],
+                            "value": "53a0c94a-8955-43a5-a96b-de57821fb018"
+                        },
+                        "family": "Graf Habil. Popovic"
+                    }
+                ],
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>"
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "MR",
+                                    "version": "Amet amet aute pariatur occaecat cillum.",
+                                    "display": "Nisi proident.",
+                                    "userSelected": false
+                                }
+                            ],
+                            "text": "Aliquip fugiat non fugiat."
+                        },
+                        "system": "https://test.system",
+                        "value": "2ededaca-a7a5-43b0-af32-926ff652ad4f",
+                        "period": {
+                            "start": "8870-09-30T03:48:60.479013756591439739022331312642743741617160255851234758734919735684944610175327324254672974+00:05",
+                            "end": "1000"
+                        }
+                    },
+                    {
+                        "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
+                        "value": "e11c3bf2-17de-4529-bf1e-d36a6ad1828d",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                                    "code": "GKV",
+                                    "version": "Magna do.",
+                                    "display": "Est est voluptate reprehenderit.",
+                                    "userSelected": false
+                                }
+                            ],
+                            "text": "Labore aliquip ipsum proident magna do."
+                        },
+                        "period": {
+                            "start": "3000",
+                            "end": "4000"
+                        }
+                    },
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://fhir.de/CodeSystem/identifier-type-de-basis",
+                                    "code": "PKV",
+                                    "version": "Consequat enim officia officia ut.",
+                                    "display": "Enim Lorem cupidatat enim nulla.",
+                                    "userSelected": true
+                                }
+                            ],
+                            "text": "Nulla commodo incididunt enim aute."
+                        },
+                        "value": "cc5a5955-e478-4a83-8f94-95f000c01fd5",
+                        "assigner": {
+                            "display": "Nostrud voluptate.",
+                            "reference": "urn:uuid:Organization",
+                            "identifier": {
+                                "system": "http://fhir.de/NamingSystem/arge-ik/iknr",
+                                "value": "e4b7a871-f437-43e4-8bcd-f36622b52fc2",
+                                "use": "secondary",
+                                "period": {
+                                    "start": "3000",
+                                    "end": "7600"
+                                }
+                            }
+                        },
+                        "system": "=^#,$MLry%_eOG?7VH%laiDQy7Djh",
+                        "period": {
+                            "start": "5000",
+                            "end": "7800-09-16T04:18:60.809986146039386660633002759682751119976442152035621901452601Z"
+                        }
+                    },
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
+                                    "code": "kvk",
+                                    "version": "Consequat est anim nisi.",
+                                    "display": "Krankenversichertenkarte",
+                                    "userSelected": true
+                                }
+                            ],
+                            "text": "Proident quis."
+                        },
+                        "system": "http://fhir.de/NamingSystem/gkv/kvk-versichertennummer",
+                        "value": "23eca3e1-72f7-473c-8b3f-fc5519bb4ad5",
+                        "period": {
+                            "start": "4600-05",
+                            "end": "8700"
+                        }
+                    }
+                ],
+                "birthDate": "1888-02-27"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:Organization",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Organization|1.0.1"
+                    ]
+                },
+                "resourceType": "Organization",
+                "extension": [
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
+                        "valueString": "Excepteur proident reprehenderit ut exercitation."
+                    }
+                ],
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "XX",
+                                    "version": "Consectetur laborum fugiat.",
+                                    "display": "Esse velit veniam ex aute.",
+                                    "userSelected": false
+                                }
+                            ],
+                            "text": "Reprehenderit adipisicing nisi velit pariatur sint."
+                        },
+                        "system": "http://fhir.de/NamingSystem/arge-ik/iknr",
+                        "value": "29d232ac-bf42-4da3-821d-b372b2575212",
+                        "use": "official",
+                        "period": {
+                            "start": "3300-04",
+                            "end": "5200-12"
+                        }
+                    },
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "BSNR",
+                                    "version": "Duis ullamco.",
+                                    "display": "Non velit ex.",
+                                    "userSelected": false
+                                }
+                            ],
+                            "text": "Elit ut."
+                        },
+                        "system": "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_BSNR",
+                        "value": "5a79df35-1050-48ff-9b63-22d896d5a01f",
+                        "use": "official",
+                        "period": {}
+                    }
+                ],
+                "name": "Praxis BSC",
+                "telecom": [{ "system": "pager", "value": "5474902010" }],
+                "address": [
+                    {
+                        "type": "both",
+                        "city": "Berlin",
+                        "country": "Deutschland",
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct",
+                                "valueString": "Lottenburch"
+                            }
+                        ],
+                        "use": "home",
+                        "text": "Olympischer Platz 3",
+                        "line": ["Olympischer Platz 3", "14053 Berlin"],
+                        "state": "Berlin",
+                        "postalCode": "14053"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMREncounter",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Encounter|1.0.1"
+                    ]
+                },
+                "resourceType": "Encounter",
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "version": "2.0.0",
+                    "code": "AMB",
+                    "display": "ambulatory"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "[|(19n-=v9F$ZCN:xP!TY`Pm#5V",
+                                "version": "Ea ullamco nostrud aliqua.",
+                                "code": "129822005",
+                                "_display": {
+                                    "extension": [
+                                        {
+                                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                            "extension": [
+                                                {
+                                                    "url": "content",
+                                                    "valueString": "Id nostrud proident."
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "value": "8ed70ece-3cec-4de5-9399-45a689a1ee60"
+                                },
+                                "display": "Non sint aute exercitation esse."
+                            }
+                        ]
+                    }
+                ],
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                                        "version": "2.0.0",
+                                        "code": "PPRF",
+                                        "display": "primary performer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "individual": { "reference": "urn:uuid:CMRPractitioner" }
+                    }
+                ],
+                "period": { "start": "2020-01-12" },
+                "serviceProvider": { "reference": "urn:uuid:Organization" }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRPractitioner",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.1"
+                    ]
+                },
+                "resourceType": "Practitioner",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR",
+                        "value": "65570cc5-b4d7-4dcb-bf7c-e6615ddc94ba",
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "LANR",
+                                    "version": "Anim laborum aute laborum esse magna.",
+                                    "display": "Ea enim qui nulla.",
+                                    "userSelected": true
+                                }
+                            ],
+                            "text": "Magna voluptate id."
+                        },
+                        "period": {
+                            "start": "5086-05-12",
+                            "end": "1500-11-09"
+                        }
+                    },
+                    {
+                        "system": "http://fhir.de/NamingSystem/bundesaerztekammer/efn",
+                        "value": "bd0cb9e5-67cc-4fd4-affa-9b4285c672d7",
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "DN",
+                                    "version": "Anim dolore.",
+                                    "display": "Adipisicing ipsum ad reprehenderit elit anim.",
+                                    "userSelected": true
+                                }
+                            ],
+                            "text": "Nulla eiusmod irure aliquip."
+                        },
+                        "period": {
+                            "start": "2000-11-26",
+                            "end": "4879-10-30"
+                        }
+                    },
+                    {
+                        "system": "http://fhir.de/NamingSystem/arge-ik/iknr",
+                        "value": "35b64f2e-7a3e-444a-b47c-ab1e7dc9875b",
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "XX",
+                                    "version": "Elit veniam consectetur non fugiat labore.",
+                                    "display": "Eu eu officia nostrud et.",
+                                    "userSelected": true
+                                }
+                            ],
+                            "text": "Qui officia."
+                        },
+                        "period": {
+                            "start": "0100",
+                            "end": "5000"
+                        }
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "given": ["Lothar"],
+                        "text": "Lothar Groß",
+                        "family": "Groß"
+                    }
+                ],
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>"
+                },
+                "extension": [
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
+                        "valueString": "Der erste seiner Art"
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "5474902010",
+                        "use": "work"
+                    }
+                ],
+                "address": [
+                    {
+                        "type": "postal",
+                        "city": "Berlin",
+                        "country": "Deutschland",
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct",
+                                "valueString": "Prenzlberch"
+                            }
+                        ],
+                        "use": "home",
+                        "text": "Plumpe, Behmstraße 31, 13357 Berlin",
+                        "line": ["Behmstraße 31", "13357 Berlin"],
+                        "state": "Berlin",
+                        "postalCode": "13357"
+                    }
+                ],
+                "qualification": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_Practitioner_Speciality_German",
+                                    "version": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_Practitioner_Speciality_German",
+                                    "code": "309343006",
+                                    "_display": {
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                "extension": [
+                                                    {
+                                                        "url": "content",
+                                                        "valueString": "Arzt/ Ärztin"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "display": "Physician (occupation)"
+                                }
+                            ]
+                        },
+                        "period": {
+                            "start": "5360-12-27T03:24:60.751001068030932043255797924317287303339287275790957969318Z",
+                            "end": "5800"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1U3PregnancyHistory",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_Pregnancy_History|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_Pregnancy_History_German",
+                            "version": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_Pregnancy_History_German",
+                            "code": "721151003",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Gestationsdiabetes"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "display": "Maternal history of gestational diabetes (situation)"
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-02-03",
+                "valueBoolean": true,
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1U3GenderBirthHistory",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_Gender_Birth_History|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "263495000",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Geschlecht"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "b1665db2-a19a-4f11-9de0-d7d6788bc766"
+                            }
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-11-30",
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_Gender_Birth_German",
+                            "version": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_Gender_Birth_German",
+                            "code": "703118005",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            { "url": "content", "valueString": "W" }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "display": "Feminine gender (finding)"
+                        }
+                    ]
+                },
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1U3PrenatalFinding",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_Prenatal_Finding|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "313199003",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Soweit vorhanden, Befunde einer pränatalen Diagnostik:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "ce5a3313-79a7-4f37-96f3-7aa928ee1177"
+                            },
+                            "display": "Aliqua culpa eiusmod cupidatat."
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.69",
+                            "code": "57078-8",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Soweit vorhanden, Befunde einer pränatalen Diagnostik:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "53bc8f6b-e231-487d-928c-3a28c2a591a1"
+                            },
+                            "display": "Nulla proident consequat reprehenderit do."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-10-24",
+                "valueString": "Nix jefunden",
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1U3BaseExcess",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_Base_Excess|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.69",
+                            "code": "28638-5",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Base excess"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "e345f215-208d-4e89-87f1-e913ac1ef5ec"
+                            },
+                            "display": "Tempor ex."
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "363787002:370134009=123029007,704319004=12499000,118598001=118556004,370132008=30766002,704327008=703430008,246093002=68615006,246501002=723208001",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Base excess"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "12415c1f-1321-4a4d-8163-78acc473eb6f"
+                            },
+                            "display": "Ipsum sunt culpa qui commodo consectetur."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-08-04T03:21:25+14:00",
+                "valueQuantity": {
+                    "value": "-2.5",
+                    "unit": "meq/L",
+                    "system": "https://fhir.kbv.de/ValueSet/KBV_VS_MIO_CMR_Base_Excess_Unit",
+                    "code": "meq/L"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1U3pHValue",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_pH_Value|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.69",
+                            "code": "28646-8",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "pH-Wert (Nabelarterie)"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "4ed03417-0b15-41f7-92e4-c391de9c84f8"
+                            },
+                            "display": "Dolor quis amet do."
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "363787002:370134009=123029007,704319004=12499000,246093002=89177007,704318007=702700007,370132008=30766002,704327008=703430008",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "pH-Wert (Nabelarterie)"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "b26a3db1-c9ab-4afb-a5df-017ac670eb03"
+                            },
+                            "display": "Dolore culpa tempor deserunt."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-05-20",
+                "valueQuantity": {
+                    "value": "7.3",
+                    "unit": "(pH)",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "[pH]"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1U3FoetalPosition",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_Foetal_Position|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_Foetal_Position_German",
+                            "version": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_Foetal_Position_German",
+                            "code": "394698008:246090004=70028003",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Schädellage"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "display": "Birth history (situation) : Associated finding (attribute) = Vertex presentation (finding)"
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-11-08",
+                "valueBoolean": true,
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1U3Birthmode",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_Birthmode|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_U1_U3_Birthmode_German",
+                            "version": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_U1_U3_Birthmode_German",
+                            "code": "395683001",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            { "url": "content", "valueString": "Spontan" }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "display": "Born by normal vaginal delivery (situation)"
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-02-06",
+                "valueBoolean": true,
+                "text": {
+                    "status": "generated",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1U3DateTimeofBirth",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_Date_Time_of_Birth|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "184099003+397836004",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Geburtsdatum und Uhrzeit"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "6e8d08b9-ba5b-4a96-9283-97b35be38fa8"
+                            },
+                            "display": "Fugiat magna."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-09-01",
+                "valueDateTime": "2020-01-01T19:12:53+01:00",
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1U3LengthGestationAtBirth",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_Length_Gestation_At_Birth|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "412726003",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "SSW (Wochen + Tage)"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "4b76d15f-da19-46cf-ac0c-6506db27d517"
+                            },
+                            "display": "Anim ea adipisicing aliquip."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-01-02",
+                "component": [
+                    {
+                        "code": { "text": "schwangerschaftswochen" },
+                        "valueQuantity": {
+                            "value": "40",
+                            "unit": "Week",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "wk"
+                        }
+                    },
+                    {
+                        "code": { "text": "schwangerschaftstage" },
+                        "valueQuantity": {
+                            "value": "5",
+                            "unit": "Day",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "d"
+                        }
+                    }
+                ],
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1FamilyHistory",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Family_History|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "422432008",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Familienanamnese: (u. a. behandlungsbedürftige Hyperbilirubinämie bei einem vorausgegangenen Kind)"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "44a1570e-642b-455d-b955-2cf7b22e97f4"
+                            },
+                            "display": "Ullamco duis sit."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2800-11-31T22:44:17Z",
+                "valueString": "Vornehme Familie aus der Grafschaft Schwittau",
+                "text": {
+                    "status": "generated",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU1EdemaOfNewborn",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_Edema_Of_Newborn|1.0.1"
+                    ]
+                },
+                "resourceType": "DiagnosticReport",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "78913002",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            { "url": "content", "valueString": "Ödeme" }
+                                        ]
+                                    }
+                                ],
+                                "value": "c707c4ff-d59f-4784-9215-ba3f60736806"
+                            },
+                            "display": "Nostrud do reprehenderit nisi id."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-02-14",
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [{ "reference": "urn:uuid:CMRObservationU1EdemaOfNewborn" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1EdemaOfNewborn",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Edema_Of_Newborn|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "78913002",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            { "url": "content", "valueString": "Ödeme" }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-01-03",
+                "valueBoolean": true,
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU1NeonatalJaundice",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_Neonatal_Jaundice|1.0.1"
+                    ]
+                },
+                "resourceType": "DiagnosticReport",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "387712008",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Gelbsucht"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-01-08",
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [{ "reference": "urn:uuid:CMRObservationU1NeonatalJaundice" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1NeonatalJaundice",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Neonatal_Jaundice|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "387712008",
+                            "display": "Gelbsucht"
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-02-01",
+                "valueBoolean": true,
+                "text": {
+                    "status": "generated",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU1BirthTraumaofFetus",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_Birth_Trauma_Of_Fetus|1.0.1"
+                    ]
+                },
+                "resourceType": "DiagnosticReport",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "56110009",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Traumata:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "4d8b855b-83c3-45bd-88cf-07781178a506"
+                            },
+                            "display": "Ut culpa aliqua est."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-01-04",
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [{ "reference": "urn:uuid:CMRObservationU1BirthTraumaOfFetus" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1BirthTraumaOfFetus",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Birth_Trauma_Of_Fetus|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "56110009",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Traumata:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "8a4aa980-7710-4afe-94a0-8fe5a716f518"
+                            },
+                            "display": "Excepteur officia ullamco proident."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-05-01",
+                "valueString": "Leichte Blutungen",
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU1CongenitalMalformation",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_Congenital_Malformation|1.0.1"
+                    ]
+                },
+                "resourceType": "DiagnosticReport",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "276654001",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Fehlbildungen:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "0e253ba3-d95a-42b8-a592-d7c1cb1fa23a"
+                            },
+                            "display": "Incididunt pariatur aliquip."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-04-02",
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [
+                    { "reference": "urn:uuid:CMRObservationU1CongenitalMalformation" }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1CongenitalMalformation",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Congenital_Malformation|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "276654001",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Fehlbildungen:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "fa02c91c-062a-4b5f-bed9-9ba94e0d71b1"
+                            },
+                            "display": "Non fugiat cillum."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-04-08",
+                "valueString": "Da fehlt ein Finger",
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU1TermInfant",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_Term_Infant|1.0.1"
+                    ]
+                },
+                "resourceType": "DiagnosticReport",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "364739001",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Reifezeichen:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "63e30038-2c82-4cbf-91fa-345c673c6f55"
+                            },
+                            "display": "Deserunt sit reprehenderit tempor."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-02-02",
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [{ "reference": "urn:uuid:CMRObservationU1TermInfant" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1TermInfant",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Term_Infant|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "364739001",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Reifezeichen:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "e1d733f6-6945-49e5-8ad1-a733d1407abf"
+                            },
+                            "display": "Exercitation duis veniam aliqua."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-05-02",
+                "valueString": "Kopf, Augen, Hände, Füße... alles da",
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU1ApgarScore",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_Apgar_Score|1.0.1"
+                    ]
+                },
+                "resourceType": "DiagnosticReport",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "249228009",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Apgar-Wert"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "da1dc98e-5949-40a7-ac35-9ecddb151504"
+                            },
+                            "display": "Nisi minim."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-03-08",
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [{ "reference": "urn:uuid:CMRObservationU1ApgarScore" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1ApgarScore",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Apgar_Score|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "1.0.1",
+                            "code": "169909004",
+                            "display": "Apgar score at 5 minutes (observable entity)"
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "Reprehenderit ex ullamco.",
+                            "code": "9274-2",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": " (Apgar zum Zeitpunkt 5 Min. nach Geburt)"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "31d24e0e-bbdc-475e-8360-74a53fcd8b96"
+                            }
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-05-07",
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Apgar_Score_Value_German",
+                            "version": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Apgar_Score_Value_German",
+                            "code": "77714001",
+                            "display": "Apgar score 0 (finding)"
+                        }
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU1BirthLength",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_Birth_Length|1.0.1"
+                    ]
+                },
+                "resourceType": "DiagnosticReport",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "169886007",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körperlänge in cm"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "e16a1d55-c187-4f09-99e4-dfec356f0b65"
+                            },
+                            "display": "Est occaecat."
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.69",
+                            "code": "89269-5",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körperlänge in cm"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "3bee91a1-9c7e-426f-97d5-9d24177a2d5d"
+                            },
+                            "display": "Culpa amet laborum sint est ipsum."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-05-06",
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [{ "reference": "urn:uuid:CMRObservationU1BirthLength" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1BirthLength",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Birth_Length|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "169886007",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körperlänge in cm"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "0a278598-eb12-4462-8126-b114a115ece4"
+                            },
+                            "display": "Officia minim reprehenderit."
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.69",
+                            "code": "89269-5",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körperlänge in cm"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "c4dee383-f7f2-4b0f-adde-098526513d86"
+                            },
+                            "display": "Cupidatat officia aliqua."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-12-10T21:25:40Z",
+                "valueQuantity": {
+                    "value": "52",
+                    "unit": "cm",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "cm"
+                },
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU1BirthWeight",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_Birth_Weight|1.0.1"
+                    ]
+                },
+                "resourceType": "DiagnosticReport",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "364589006",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körpergewicht in g"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "0b33231a-1d06-4af7-88a0-429c225468e4"
+                            },
+                            "display": "Nisi non laborum eiusmod nisi tempor."
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.69",
+                            "code": "8339-4",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körpergewicht in g"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "f2ea97ff-d435-4f92-b0fb-4cb8786c4742"
+                            },
+                            "display": "Eiusmod occaecat aliqua sit."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-06-01",
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [{ "reference": "urn:uuid:CMRObservationU1BirthWeight" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1BirthWeight",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_Birth_Weight|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "364589006",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körpergewicht in g"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "ef73fd31-680c-48e4-964e-b8d1150c027e"
+                            },
+                            "display": "Et aliquip mollit."
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.69",
+                            "code": "8339-4",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Körpergewicht in g"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "a21386d4-6cca-42fd-8673-7ae8aeda569f"
+                            },
+                            "display": "Cillum aliquip minim adipisicing."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-06-01",
+                "valueQuantity": {
+                    "value": "3825",
+                    "unit": "g",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g"
+                },
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRMedicationStatementVitamineKProphylaxis",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Medication_Statement_Vitamine_K_Prophylaxis|1.0.1"
+                    ]
+                },
+                "resourceType": "MedicationStatement",
+                "status": "not-taken",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "66656000",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Vitamin-K"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "3faf3fb5-0708-49bb-b16c-1b0e1235166b"
+                            },
+                            "display": "Cupidatat incididunt adipisicing est."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "context": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-03-05",
+                "dosage": [
+                    {
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "26643006",
+                                    "_display": {
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                                "extension": [
+                                                    {
+                                                        "url": "content",
+                                                        "valueString": "oral"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "value": "bad34bbe-ad7c-4b1d-b1c4-4b6865b9a169"
+                                    },
+                                    "display": "Nostrud quis elit voluptate deserunt."
+                                }
+                            ]
+                        },
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "value": 2,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU1U3PulseOxymetry",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_U3_Pulse_Oxymetry|1.0.1"
+                    ]
+                },
+                "resourceType": "DiagnosticReport",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "252465000",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Pulsoxymetrie-Screening (Messung am Fuß)"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "5363d8eb-2b8e-4bc4-a58a-d5e4a43ab5be"
+                            },
+                            "display": "Nostrud velit voluptate qui cupidatat in."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-04-03",
+                "text": {
+                    "status": "generated",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [
+                    {
+                        "reference": "urn:uuid:CMRObservationU1U3PulseOxymetryMeasurement"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1U3PulseOxymetryMeasurement",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U3_Pulse_Oxymetry_Measurement|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_Pulse_Oxymetry_Screening_Measurement_Type_German",
+                            "version": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_Pulse_Oxymetry_Screening_Measurement_Type_German",
+                            "code": "250554003:363703001=399455000",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Erstmessung"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "display": "Measurement of oxygen saturation at periphery (procedure) : Has intent (attribute) = Primary procedure (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-05-09T23:53:60-14:00",
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "system": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_U1_U3_Pulse_Oxymetry_Measurement_German",
+                                "version": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_U1_U3_Pulse_Oxymetry_Measurement_German",
+                                "code": "449171008",
+                                "_display": {
+                                    "extension": [
+                                        {
+                                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                            "extension": [
+                                                {
+                                                    "url": "content",
+                                                    "valueString": "auffällig"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "display": "Oxygen saturation below reference range (finding)"
+                            }
+                        ]
+                    }
+                ],
+                "text": {
+                    "status": "generated",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "valueQuantity": {
+                    "value": "85",
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRServiceRequestU1U3PulseOxymetryClarification",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Service_Request_U1_U3_Pulse_Oxymetry_Clarification|1.0.1"
+                    ]
+                },
+                "resourceType": "ServiceRequest",
+                "status": "active",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "417311009",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Abklärung veranlasst"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "cc823a29-414c-4c58-84c7-51e8b75b613e"
+                            },
+                            "display": "Labore dolore veniam adipisicing dolore."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "authoredOn": "2019-09-03",
+                "reasonReference": [
+                    { "reference": "urn:uuid:CMRObservationU1U3PulseOxymetryMeasurement" }
+                ],
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>"
+                },
+                "requester": { "reference": "urn:uuid:CMRPractitioner" }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU1U5NeonatalHearscreening",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_U5_Neonatal_Hearscreening|1.0.1"
+                    ]
+                },
+                "resourceType": "DiagnosticReport",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "417491009",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Neugeborenen-Hörscreening"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "b6fc6703-3e24-47c2-aa27-a2b1ad39be2a"
+                            },
+                            "display": "Excepteur veniam anim Lorem."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-02-15",
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [
+                    {
+                        "reference": "urn:uuid:CMRObservationU1U5NeonatalHearscreening1"
+                    },
+                    {
+                        "reference": "urn:uuid:CMRObservationU1U5NeonatalHearscreening2"
+                    },
+                    {
+                        "reference": "urn:uuid:CMRObservationU1U5CounselingAboutHearscreening"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1U5NeonatalHearscreening1",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U5_Neonatal_Hearscreening|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_Hearscreening_Method_German",
+                            "version": "1.0.1",
+                            "code": "446077009",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Erstuntersuchung mittels TEOAE, in der Regel in den ersten 3 Lebenstagen"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "display": "Automated otoacoustic emission test (procedure)"
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "6500-06-26",
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_Hearscreening_Result_German",
+                            "version": "1.0.1",
+                            "code": "275727004",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Hörbefund unauffällig beidseits"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "display": "Hearing test normal (finding)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1U5NeonatalHearscreening2",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U5_Neonatal_Hearscreening|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "cancelled",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_Hearscreening_Method_German",
+                            "version": "1.0.1",
+                            "code": "446077009",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Erstuntersuchung mittels TEOAE, in der Regel in den ersten 3 Lebenstagen"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "display": "Automated otoacoustic emission test (procedure)"
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-06-26",
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "dataAbsentReason": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "183948000:363589002=417491009",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Eltern wünschen keine Untersuchung"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "7afb1dd4-d072-4d3f-93b7-315c4418ef95"
+                            },
+                            "display": "Ipsum ex ullamco incididunt."
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1U5CounselingAboutHearscreening",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U5_Counseling_About_Hearscreening|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "165355002",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Untersuchungsergebnisse und ggf. erforderliche Therapie mit den Eltern besprochen am:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "0781cc66-824d-45b7-bb9f-13dca3775511"
+                            },
+                            "display": "Qui id anim."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-04-28",
+                "valueBoolean": true,
+                "text": {
+                    "status": "generated",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRServiceRequestU1U5ReferralPediatricAudiologyService",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Service_Request_U1_U5_Referral_Pediatric_Audiology_Service|1.0.1"
+                    ]
+                },
+                "resourceType": "ServiceRequest",
+                "status": "completed",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "306210008",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Pädaudiologische Diagnostik bei auffälliger Kontroll-AABR veranlasst am:"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "f71fe06c-63d2-413f-bb9e-5334e63ccbdd"
+                            },
+                            "display": "Anim velit exercitation ad mollit commodo."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "authoredOn": "2020-01-09",
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>"
+                },
+                "requester": { "reference": "urn:uuid:CMRPractitioner" }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportU1U5PediatricDiagnosticAudiologyService",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U1_U5_Pediatric_Diagnostic_Audiology_Service|1.0.1"
+                    ]
+                },
+                "resourceType": "DiagnosticReport",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "91005004",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Pädaudiologische Diagnostik"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "7fe5a45d-c1fd-45a1-9d37-66374adca9e8"
+                            },
+                            "display": "In quis dolore magna."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-01-19",
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [
+                    {
+                        "reference": "urn:uuid:CMRObservationU1U5PediatricDiagnosticAudiologyService"
+                    },
+                    {
+                        "reference": "urn:uuid:CMRObservationU1U5CounselingAboutHearscreening"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationU1U5PediatricDiagnosticAudiologyService",
+            "resource": {
+                "resourceType": "Observation",
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U1_U5_Pediatric_Diagnostic_Audiology_Service|1.0.1"
+                    ]
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "306210008",
+                            "display": "Lorem ea dolor est aliqua dolore."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "5000"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRProcedureU1U3NewbornBloodSpotScreening",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_U1_U3_Newborn_Blood_Spot_Screening|1.0.1"
+                    ]
+                },
+                "resourceType": "Procedure",
+                "status": "not-done",
+                "statusReason": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "183948000:363589002=428447008"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_CMR_Newborn_Blood_Spot_Screening_Type_German",
+                            "version": "1.0.1",
+                            "code": "425758004:246513007=261422002",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Erstblutabnahme"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "display": "Diagnostic blood test (procedure) : Revision status (attribute) = First stage of multistage procedure (qualifier value)"
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>"
+                },
+                "extension": [
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Executing_Laboratory",
+                        "valueReference": {
+                            "display": "Cillum pariatur eu."
+                        }
+                    },
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Early_Collection_Of_Blood",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                    "code": "738796001:363702006=395507008",
+                                    "display": "Collection of dried blood spot specimen (procedure) : Has focus (attribute) = Premature infant (finding)"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "asserter": { "reference": "urn:uuid:CMRPractitioner" }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRProcedureU1U3CysticFibrosisScreening",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_U1_U3_Cystic_Fibrosis_Screening|1.0.1"
+                    ]
+                },
+                "resourceType": "Procedure",
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "738796001:363702006=171191008",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Screening auf Mukoviszidose"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "842c8431-8068-4beb-b446-04f1f52dc6f5"
+                            },
+                            "display": "Esse minim."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "performedDateTime": "2020-04-06T08:39:01.974Z",
+                "asserter": { "reference": "urn:uuid:CMRPractitioner" },
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>"
+                },
+                "extension": [
+                    {
+                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Executing_Laboratory",
+                        "valueReference": {
+                            "display": "Schirm-Labs",
+                            "reference": "urn:uuid:Organization"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRAppointmentParticipationPeriod",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Appointment_Participation_Period|1.0.1"
+                    ]
+                },
+                "resourceType": "Appointment",
+                "status": "proposed",
+                "serviceCategory": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                                "code": "243788004",
+                                "display": "Child examination (procedure)"
+                            }
+                        ]
+                    }
+                ],
+                "serviceType": [
+                    {
+                        "coding": [
+                            {
+                                "system": "https://fhir.kbv.de/ConceptMap/KBV_CM_MIO_PC_PN_Examination_Number_German",
+                                "version": "1.0.1",
+                                "code": "170107008",
+                                "_display": {
+                                    "extension": [
+                                        {
+                                            "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                            "extension": [
+                                                {
+                                                    "url": "content",
+                                                    "valueString": "U2 3.-10. Lebenstag"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "display": "Child examination - 10 days (procedure)"
+                            }
+                        ]
+                    }
+                ],
+                "participant": [
+                    {
+                        "actor": { "reference": "urn:uuid:CMRPatient" },
+                        "status": "accepted"
+                    }
+                ],
+                "requestedPeriod": [
+                    {
+                        "start": "2020-01-04",
+                        "end": "2020-04-05"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRDiagnosticReportPercentileValues",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_Percentile_Values|1.0.1"
+                    ]
+                },
+                "resourceType": "DiagnosticReport",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "129822005",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Perzentilkurven"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "cdbd60a3-60e2-48f1-b585-1d09909c3936"
+                            },
+                            "display": "Non dolore."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-01-17",
+                "text": {
+                    "status": "extensions",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "result": [{ "reference": "urn:uuid:CMRObservationPercentileValues" }]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationPercentileValues",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_Percentile_Values|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "1.0.1",
+                            "code": "363812007:370130000=415068004",
+                            "display": "Head circumference (observable entity) : Property (attribute) = Percentile value (qualifier value)"
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "1.0.1",
+                            "code": "8289-1",
+                            "display": "Head Occipital-frontal circumference Percentile"
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-06-01",
+                "valueQuantity": {
+                    "value": "58",
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                },
+                "text": {
+                    "status": "empty",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }],
+                "note": [
+                    {
+                        "text": "SCALARMarkdownType",
+                        "authorString": "Dezent drübber",
+                        "time": "1000"
+                    }
+                ],
+                "derivedFrom": [
+                    { "reference": "urn:uuid:CMRObservationHeadCircumference" }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:CMRObservationHeadCircumference",
+            "resource": {
+                "meta": {
+                    "profile": [
+                        "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_Head_Circumference|1.0.1"
+                    ]
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20210131",
+                            "code": "363812007",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Kopfumfang in cm"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "e7e4c328-db71-472c-b0e7-ea051e7dd298"
+                            },
+                            "display": "Qui do occaecat."
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "version": "2.69",
+                            "code": "9843-4",
+                            "_display": {
+                                "extension": [
+                                    {
+                                        "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+                                        "extension": [
+                                            {
+                                                "url": "content",
+                                                "valueString": "Kopfumfang in cm"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "value": "bd44d302-a118-40fa-961d-a5e88486a0cc"
+                            },
+                            "display": "Ullamco duis magna amet."
+                        }
+                    ]
+                },
+                "subject": { "reference": "urn:uuid:CMRPatient" },
+                "encounter": { "reference": "urn:uuid:CMREncounter" },
+                "effectiveDateTime": "2020-05-06",
+                "valueQuantity": {
+                    "value": "35.1",
+                    "unit": "cm",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "cm"
+                },
+                "text": {
+                    "status": "additional",
+                    "div": "<div></div>"
+                },
+                "performer": [{ "reference": "urn:uuid:CMRPractitioner" }]
+            }
+        }
+    ]
+}

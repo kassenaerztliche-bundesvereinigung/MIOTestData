@@ -1,7 +1,7 @@
 {
     "author": "KBV",
     "name": "@kbv/miotestdata",
-    "version": "1.8.0",
+    "version": "1.8.1",
     "description": "Testdata Package for KBV MIOParser and MIOViewer",
     "repository": "github:kassenaerztliche-bundesvereinigung/miotestdata",
     "homepage": "https://github.com/kassenaerztliche-bundesvereinigung/miotestdata#readme",

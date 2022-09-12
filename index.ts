@@ -62,8 +62,8 @@ export function readJSONFile(path: string): Record<string, unknown> | undefined 
     }
 }
 
-export type MIO = "IM" | "ZB" | "MR" | "UH";
-const MIOs: MIO[] = ["IM", "ZB", "MR", "UH"];
+export type MIO = "IM" | "ZB" | "MR" | "UH" | "PKA";
+const MIOs: MIO[] = ["IM", "ZB", "MR", "UH", "PKA"];
 export { MIOs };
 
 export type MIOType = {
